@@ -1,14 +1,14 @@
  /** @type {import('next-sitemap').IConfig} */
 module.exports = {
-  siteUrl: 'https://http://localhost:3001/',
+  siteUrl: 'https://apartmani-becici.vercel.app',
   generateRobotsTxt: true,
   alternateRefs: [
     {
-      href: 'https://http://localhost:3001//en',
+      href: 'https://apartmani-becici.vercel.app/en',
       hreflang: 'en',
     },
     {
-      href: 'https://http://localhost:3001//sr',
+      href: 'https://apartmani-becici.vercel.app/sr',
       hreflang: 'sr',
     },
   ],
