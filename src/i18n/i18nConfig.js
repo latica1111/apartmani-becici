@@ -7,4 +7,4 @@ export const i18nConfig = {
   export const locales = ['en', 'sr'];
 export const defaultLocale = 'en';
 export const localeDetection = false;
-export const localePath = './public/locales';
+export const localePath = './data/locales';
