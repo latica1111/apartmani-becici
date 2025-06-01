@@ -1,5 +1,5 @@
-import apartmentsEn from './data/locales/en/apartments-description.json' assert { type: 'json' };
-import apartmentsSr from './data/locales/sr/apartments-description.json' assert { type: 'json' };
+import apartmentsEn from './data/locales/en/apartments-description.json';
+import apartmentsSr from './data/locales/sr/apartments-description.json';
 export default {
   siteUrl: 'https://apartmani-becici.vercel.app',
   generateRobotsTxt: true,
