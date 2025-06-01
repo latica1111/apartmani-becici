@@ -1,0 +1,311 @@
+{
+ "allFacilitiesWithIcons" :
+  [
+    {
+      "key": "kitchen",
+      "labelKey": "facilities.kitchen",
+      "icon": "iconKitchen"
+    },
+    {
+      "key": "privateBathroom",
+      "labelKey": "facilities.privateBathroom",
+      "icon": "iconBathroom"
+    },
+    {
+        "key": "bedroom",
+        "labelKey": "facilities.bedroom",
+        "icon": "iconBedroom"
+      },
+  
+
+    {
+      "key": "balcony",
+      "labelKey": "facilities.balcony",
+      "icon": "iconBalcony"
+    },
+    {
+      "key": "gardenView",
+      "labelKey": "facilities.gardenView",
+      "icon": "iconGardenView"
+    },
+   
+    {
+        "key": "mountainView",
+        "labelKey": "facilities.mountainView",
+        "icon": "iconMountainView"
+      },
+
+      {
+        "key": "innerCourtyardView",
+        "labelKey": "facilities.innerCourtyardView",
+        "icon": ""
+      },
+      {
+        "key": "seaView",
+        "labelKey": "facilities.seaView",
+        "icon": "iconSeaView"
+      },
+      {
+        "key": "airConditioning",
+        "labelKey": "facilities.airConditioning",
+        "icon": "iconAirConditioning"
+      },
+      {
+        "key": "TV",
+        "labelKey": "facilities.TV",
+        "icon": "iconTv"
+      },
+      {
+        "key": "flatTV",
+        "labelKey": "facilities.TV",
+        "icon": "iconTv"
+      },
+      {
+        "key": "freeWiFi",
+        "labelKey": "facilities.freeWiFi",
+        "icon": "iconFreeWifi"
+      },
+      {
+        "key": "freeParking",
+        "labelKey": "facilities.freeParking",
+        "icon": "iconFreeParking"
+      },
+
+      {
+        "key": "safe",
+        "labelKey": "facilities.safe",
+        "icon": "iconSafe"
+      },
+      {
+        "key": "doubleBed",
+        "labelKey": "facilities.doubleBed",
+        "icon": "iconDoubleBed"
+      },
+      {
+        "key": "singleBed",
+        "labelKey": "facilities.singleBed",
+        "icon": "iconSingleBed"
+      },
+
+      {
+        "key": "sofaBed",
+        "labelKey": "facilities.sofaBed",
+        "icon": "iconCouch"
+      },
+      {
+        "key": "pullOutArmchair",
+        "labelKey": "facilities.pullOutArmchair",
+        "icon": ""
+      },
+      {
+        "key": "babyCrib",
+        "labelKey": "facilities.babyCrib",
+        "icon": "iconBabyCrib"
+      },
+      {
+        "key": "highChair",
+        "labelKey": "facilities.highChair",
+        "icon": "iconBabyChair"
+      },
+      {
+        "key": "fridge",
+        "labelKey": "facilities.fridge",
+        "icon": "iconFridge"
+      },
+      {
+        "key": "stove",
+        "labelKey": "facilities.stove",
+        "icon": "iconCooker"
+      },
+      {
+        "key": "cookingUtensils",
+        "labelKey": "facilities.cookingUtensils",
+        "icon": "iconCookingUtensils"
+      },
+      {
+        "key": "cutlery",
+        "labelKey": "facilities.cutlery",
+        "icon": "iconCutlery"
+      },
+      {
+        "key": "electricKettle",
+        "labelKey": "facilities.electricKettle",
+        "icon": "iconKettle"
+      },
+      {
+        "key": "diningTable",
+        "labelKey": "facilities.diningTable",
+        "icon": "iconDiningTable"
+      },
+      {
+        "key": "oven",
+        "labelKey": "facilities.oven",
+        "icon": "iconOven"
+      },
+      {
+        "key": "microwave",
+        "labelKey": "facilities.microwave",
+        "icon": "iconMicrowave"
+      },
+      {
+        "key": "bathtub",
+        "labelKey": "facilities.bathtub",
+        "icon": "iconBathTub"
+      },
+      {
+        "key": "towels",
+        "labelKey": "facilities.towels",
+        "icon": ""
+      },
+      {
+        "key": "toiletPaper",
+        "labelKey": "facilities.toiletPaper",
+        "icon": ""
+      },
+      {
+        "key": "shower",
+        "labelKey": "facilities.shower",
+        "icon": ""
+      },
+      {
+        "key": "bedding",
+        "labelKey": "facilities.bedding",
+        "icon": "iconSheets"
+      },
+      {
+        "key": "wardrobe",
+        "labelKey": "facilities.wardrobe",
+        "icon": "iconWardrobe"
+      },
+      {
+        "key": "nightstand",
+        "labelKey": "facilities.nightstand",
+        "icon": ""
+      },
+      {
+        "key": "outdoorDiningArea",
+        "labelKey": "facilities.bedding",
+        "icon": ""
+      },
+      {
+        "key": "clothesDryer",
+        "labelKey": "facilities.clothesDryer",
+        "icon": ""
+      },
+      {
+        "key": "sunLoungers",
+        "labelKey": "facilities.sunLoungers",
+        "icon": "iconSunLounger"
+      },
+      {
+        "key": "hairdryer",
+        "labelKey": "facilities.hairdryer",
+        "icon": "iconHairdryer"
+      },
+      {
+        "key": "cleaningProducts",
+        "labelKey": "facilities.cleaningProducts",
+        "icon": "iconCleaningDetergents"
+      },
+      {
+        "key": "ironingFacilities",
+        "labelKey": "facilities.ironingFacilities",
+        "icon": "iconIron"
+      },
+      {
+        "key": "beachNearby",
+        "labelKey": "facilities.beachNearby",
+        "icon": "iconBeachNearby"
+      },
+      {
+        "key": "familyRooms",
+        "labelKey": "facilities.familyRooms",
+        "icon": "iconFamilyRooms"
+      },
+      {
+        "key": "playground",
+        "labelKey": "facilities.playground",
+        "icon": "iconNearby"
+      },
+      {
+        "key": "nearby",
+        "labelKey": "facilities.nearby",
+        "icon": "iconNearby"
+      },
+    
+      {
+        "key": "nearestAirports",
+        "labelKey": "facilities.nearestAirports",
+        "icon": "iconNearestAirports"
+      },
+      {
+        "key": "restaurantsNearby",
+        "labelKey": "facilities.restaurantsNearby",
+        "icon": "iconRestaurantsNearby"
+      },
+      {
+        "key": "publicTransport",
+        "labelKey": "facilities.publicTransport",
+        "icon": "iconPublicTransport"
+      },
+      {
+        "key": "attractions",
+        "labelKey": "facilities.attractions",
+        "icon": "iconAttractions"
+      },
+      {
+        "key": "additionalHouseRules",
+        "labelKey": "facilities.additionalHouseRules",
+        "icon": "iconAdditionalHouseRules"
+      },
+      {
+        "key": "events",
+        "labelKey": "facilities.events",
+        "icon": "iconEvents"
+      },
+      {
+        "key": "petsAllowed",
+        "labelKey": "facilities.petsAllowed",
+        "icon": "iconPetsAllowed"
+      },
+      {
+        "key": "quietHours",
+        "labelKey": "facilities.quietHours",
+        "icon": "iconQuietHours"
+      },
+      {
+        "key": "cashOnly",
+        "labelKey": "facilities.cashOnly",
+        "icon": "iconCashOnly"
+      },
+      {
+        "key": "childrenAndBeds",
+        "labelKey": "facilities.childrenAndBeds",
+        "icon": "iconChildrenAndBeds"
+      },
+      {
+        "key": "checkin",
+        "labelKey": "facilities.checkin",
+        "icon": "iconCheckin"
+      },
+      {
+        "key": "checkout",
+        "labelKey": "facilities.checkout",
+        "icon": "iconCheckout"
+      },
+      {
+        "key": "cancellation",
+        "labelKey": "facilities.cancellation",
+        "icon": "iconCancellation"
+      }
+
+
+      
+      
+      
+
+
+
+
+  ]
+}
