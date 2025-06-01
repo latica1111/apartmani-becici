@@ -38,7 +38,7 @@ export async function generateMetadata({ params }) {
 }
 // Funkcija za učitavanje prevoda
 async function loadTranslations(locale) {
-  const filePath = path.join(process.cwd(), 'public', 'locales', locale, 'home.json');
+  const filePath = path.join(process.cwd(), 'data', 'locales', locale, 'home.json');
   console.log("Loading translations from:", filePath); // Log koji prikazuje putanju fajla
 
   try {
