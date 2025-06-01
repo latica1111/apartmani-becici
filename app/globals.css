@@ -9465,7 +9465,7 @@ margin-bottom:.75rem;
   margin-right: .5rem;
 }
 .footer-socials .icon-wrapper {
-  display: flex;align-items: center;justify-content: start;
+  display: flex;align-items: center;justify-content: flex-start;
 }
 .footer-socials .description{
   margin-bottom: 1rem;
@@ -9858,7 +9858,7 @@ gap:0;
   padding-bottom:4px;
 }
 .language-switcher-inner{
- justify-content: end;
+ justify-content: flex-end;
 }
 .navbar-brand{
   --navbar-brand-font-size:1.25rem;
@@ -10037,7 +10037,7 @@ width:60%;
     .place-distance{
       min-width:46px;
       display:inline-flex;
-      justify-content: end;
+      justify-content: flex-end;
     }
 }
 .apartment-list-sm-btn{
@@ -10257,7 +10257,7 @@ height: 36px;font-size: 12px;
   padding: 36px 16px !important;
 }
 .language-switcher-inner {
-        justify-content: end;
+        justify-content: flex-end;
     }
     .reviews-container{
       background: none !important;
