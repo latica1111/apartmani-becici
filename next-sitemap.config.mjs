@@ -1,5 +1,16 @@
-import apartmentsEn from './data/locales/en/apartments-description.json';
-import apartmentsSr from './data/locales/sr/apartments-description.json';
+
+import fs from 'fs';
+import path from 'path';
+
+const apartmentsEn = JSON.parse(
+  fs.readFileSync(path.join(process.cwd(), 'public', 'locales', 'en', 'apartments-description.json'), 'utf8')
+);
+
+const apartmentsSr = JSON.parse(
+  fs.readFileSync(path.join(process.cwd(), 'public', 'locales', 'sr', 'apartments-description.json'), 'utf8')
+);
+
+
 export default {
   siteUrl: 'https://apartmani-becici.vercel.app',
   generateRobotsTxt: true,
