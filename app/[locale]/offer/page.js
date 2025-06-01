@@ -1,5 +1,5 @@
-import apartmentsDataEn from '@/data/locales/en/apartments-description.json';
-import apartmentsDataSr from '@/data/locales/sr/apartments-description.json';
+import apartmentsDataEn from '@/src/i18n/locales/en/apartments-description.json';
+import apartmentsDataSr from '@/src/i18n/locales/sr/apartments-description.json';
 import Link from 'next/link';
 import PhotoCarousel from '@/components/PhotoCarousel';
 import HeroImage from '@/components/HeroImage';

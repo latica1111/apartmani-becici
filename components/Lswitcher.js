@@ -3,8 +3,8 @@
 import { usePathname, useRouter } from 'next/navigation';
 import { useLocale } from 'next-intl';
 
-import apartmentsDataEn from '@/data/locales/en/apartments-description.json';
-import apartmentsDataSr from '@/data/locales/sr/apartments-description.json';
+import apartmentsDataEn from '@/src/i18n/locales/en/apartments-description.json';
+import apartmentsDataSr from '@/src/i18n/locales/sr/apartments-description.json';
 
 export default function LanguageSwitcher() {
   const pathname = usePathname();
