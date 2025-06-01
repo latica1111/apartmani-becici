@@ -12,7 +12,7 @@ const withNextIntl = createNextIntlPlugin({
 // Define your custom nextConfig
 const nextConfig = {
   reactStrictMode: false,
-
+  output: 'standalone', // pomaže next-sitemap-u da nađe rute
 
   experimental: {
     turbo: {

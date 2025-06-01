@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://http://localhost:3001/
+Host: https://apartmani-becici.vercel.app
 
 # Sitemaps
-Sitemap: https://http://localhost:3001/sitemap.xml
+Sitemap: https://apartmani-becici.vercel.app/sitemap.xml
