@@ -10,13 +10,14 @@ export default getRequestConfig(async ({ requestLocale }) => {
     ? requested
     : routing.defaultLocale;
 
-  const basePath = path.join(process.cwd(), 'public', 'locales', locale);
+  const basePath = path.join(process.cwd(), 'data', 'locales', locale);
 
   const filenames = [
     'home.json',
     'apartments-description.json',
     'facilities.json',
-    'meta.json'
+    'meta.json',
+    'navigation.json'
   ];
 
   const messages = await Promise.all(
