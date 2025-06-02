@@ -1,0 +1,54 @@
+{
+"kitchen" :"Kitchen",
+"privateBathroom":"Private bathroom",
+"bedroom":"Bedroom",
+"balcony":"Balcony" ,
+"gardenView" :"Garden view",
+"mountainView":"Mountain view",
+"innerCourtyardView":"Inner courtyard view", 
+"seaView":"Sea view",
+"airConditioning":"Air conditioning" ,
+"TV":"TV with cable channels" , 
+"flatTV": "Flat TV with cable channels",
+"freeWiFi":"Free Wifi" ,
+"safe":"Safe",
+"freeParking":"Free parking" ,
+
+"doubleBed" :"Double bed",
+"singleBed" :"Single bed",
+"sofaBed":"Sofa bed", 
+"pullOutArmchair":"Pull-out armchair", 
+"babyCrib" :"Baby crib",
+"highChair":"Baby highchair",
+
+"fridge":"Fridge", 
+"stove":"Stove",  
+"cookingUtensils":"Cooking utensils" ,
+"cutlery":"Cutlery", 
+"electricKettle":"Electric kettle", 
+"diningTable" :"Dining table", 
+"oven":"Oven" ,
+"microwave":"Microwave",
+
+
+"bathtub":"Bathtub" ,
+"towels":"Towels" ,
+"toiletPaper":"Toilet paper",
+"shower":"Shower",
+
+"bedding":"Linen", 
+"wardrobe":"Wardrobe", 
+"nightstand" : "Nightstand",
+
+"outdoorDiningArea":"Outdoor dining area" , 
+"clothesDryer":"Clothes dryer",
+"sunLoungers":"Sun loungers",
+"hairdryer":"Hairdryer" ,
+"cleaningProducts":"Cleaning products" ,
+"ironingFacilities" :"Ironing facilities"
+
+
+
+
+
+ }
