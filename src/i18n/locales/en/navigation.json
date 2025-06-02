@@ -1,0 +1,11 @@
+{
+    "home":{"label":"Home", "href":"/"},
+    "offer":{"label":"Offer", "href":"/offer"},
+    "apartments": {"label":"Apartments", "href":"/offer/apartments"},
+    "studios":{"label": "Studios", "href":"/offer/studios"},
+    "rooms": {"label":"Rooms", "href":"/offer/rooms"},
+    "contact": {"label":"Contact", "href":"/contact-us"},
+    "about": {"label":"About Us", "href":"/about-us"},
+     "houseRules" :{"label":"House rules", "href":"/house-rules"}
+  }
+  
