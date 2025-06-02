@@ -3,11 +3,11 @@ import fs from 'fs';
 import path from 'path';
 
 const apartmentsEn = JSON.parse(
-  fs.readFileSync(path.join(process.cwd(), 'public', 'locales', 'en', 'apartments-description.json'), 'utf8')
+  fs.readFileSync(path.join(process.cwd(), 'src','i18n', 'locales', 'en', 'apartments-description.json'), 'utf8')
 );
 
 const apartmentsSr = JSON.parse(
-  fs.readFileSync(path.join(process.cwd(), 'public', 'locales', 'sr', 'apartments-description.json'), 'utf8')
+  fs.readFileSync(path.join(process.cwd(), 'src','i18n', 'locales', 'sr', 'apartments-description.json'), 'utf8')
 );
 
 

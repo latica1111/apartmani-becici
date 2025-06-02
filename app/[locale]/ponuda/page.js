@@ -1,5 +1,5 @@
- import apartmentsDataEn from './public/locales/en/apartments-description.json';
- import apartmentsDataSr from './public/locales/sr/apartments-description.json';
+ import apartmentsDataEn from './src/i18n/locales/en/apartments-description.json';
+ import apartmentsDataSr from './src/i18n/locales/sr/apartments-description.json';
  import Link from 'next/link';
  import PhotoCarousel from '@/components/PhotoCarousel';
 import Breadcrumbs from '@/components/Breadcrumbs';
