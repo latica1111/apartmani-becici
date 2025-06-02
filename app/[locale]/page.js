@@ -17,7 +17,7 @@ export async function generateStaticParams() {
 
 export async function generateMetadata({ params }) {
   const t = await getMetaTranslation(params.locale);
-  const meta = t.home;
+  const meta = t.meta.home;
 
   return {
     title: meta.title,

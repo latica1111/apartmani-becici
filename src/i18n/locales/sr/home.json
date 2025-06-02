@@ -549,7 +549,100 @@
     ],
     "proof": "Oni koji su oslobođeni plaćanja takse moraju priložiti dokaz (npr. člansku kartu, potvrdu škole, ljekarski uput itd.)"
   }
-}
+},
+"navigation" :{
+    "home":{"label":"Pocetna", "href":"/"},
+    "offer":{"label":"Ponuda", "href":"/ponuda"},
+    "apartments": {"label":"Apartmani", "href":"/ponuda/apartmani"},
+    "studios":{"label": "Studiji", "href":"/ponuda/studiji"},
+    "rooms": {"label":"Sobe", "href":"/ponuda/sobe"},
+    "contact": {"label":"Kontakt", "href":"/kontakt"},
+    "about": {"label":"O nama", "href":"/o-nama"},
+    "houseRules" :{"label":"Kucni red", "href":"/kucni-red"}
+  }
+  ,
+"meta" :{ 
+  "home": {
+    "title": "Izdavanje apartmana i soba u Bečićima – Smeštaj blizu plaže",
+    "description": "Rezervišite apartmane, studije i sobe u Bečićima za 2 do 5 osoba. Savršen smeštaj na primorju, blizu plaže, sa parkingom, igralištem i porodičnom atmosferom.",
+    "keywords": "smeštaj Bečići, apartmani Bečići, sobe Bečići, studiji Bečići, izdavanje smeštaja Bečići, letovanje Bečići, blizu plaže, apartmani na moru, porodični smeštaj Crna Gora",
+    "ogTitle": "Smeštaj u Bečićima – Apartmani, sobe i studiji blizu plaže",
+    "ogDescription": "Pronađite idealan smeštaj za odmor u Bečićima – apartmani, sobe i studiji za 2–5 osoba. Uživajte u blizini plaže, parkingu i igralištu.",
+    "ogLocale": "sr_RS",
+    "ogUrl": "https://yourdomain.com/sr",
+    "twitterTitle": "Bečići smeštaj blizu plaže – Apartmani i sobe",
+    "twitterDescription": "Letovanje u Bečićima? Rezervišite apartman, sobu ili studio uz more! Porodičan smeštaj sa parkingom i igralištem."
+  },
+  "about": {
+    "title": "O Nama – Vaši Domaćini u Bečićima",
+    "description": "Saznajte više o našem porodičnom smeštaju u Bečićima. Prijateljski domaćini, čiste i prostrane sobe blizu mora.",
+    "keywords": "o nama Bečići, porodični smeštaj, odmor na moru"
+  },
+  "contact": {
+    "title": "Kontaktirajte Nas – Rezervišite Svoj Boravak",
+    "description": "Kontaktirajte nas kako biste rezervisali sobu ili apartman u Bečićima. Rado ćemo odgovoriti na vaša pitanja.",
+    "keywords": "kontakt Bečići, rezervacija apartmana, odmor sa porodicom"
+  },
+  "offer": {
+    "title": "Naša Ponuda – Sobe, Studiji i Apartmani",
+    "description": "Izaberite između udobnih soba, studija i potpuno opremljenih apartmana u Bečićima. Za 2 do 5 osoba, savršeno za leto na moru.",
+    "keywords": "sobe Bečići, letnji smeštaj, apartmani Crna Gora"
+  }
+},
+"facilities" : {
+    "kitchen" :"Kuhinja",
+    "privateBathroom":"Sopstveno kupatilo",
+    "bedroom":"Spavaca soba",
+    "balcony":"Terasa" ,
+    "gardenView" :"Pogled na vrt",
+    "mountainView":"Pogled na planinu",
+    "innerCourtyardView":"Pogled na dvoriste", 
+    "seaView":"Pogled na more",
+    "airConditioning":"Klima-uredjaj" ,
+    "TV":"TV sa kablovskim kanalima" , 
+    "flatTV": "Flat TV sa kablovskim kanalima",
+    "freeWiFi":"Besplatan wifi" ,
+    "safe":"Sef",
+    "freeParking":"Besplatan parking" ,
+    
+    "doubleBed" :"Francuski lezaj",
+    "singleBed" :"Krevet za jednu osobu",
+    "sofaBed":"Kauc na razvlačenje", 
+    "pullOutArmchair":"Fotelja na razvlačenje", 
+    "babyCrib" :"Djeciji krevetac",
+    "highChair":"Stolica za hranjenje",
+    
+    "fridge":"Frizider", 
+    "stove":"Ploca za kuvanje",  
+    "cookingUtensils":"Pribor za kuvanje" ,
+    "cutlery":"Pribor za jelo", 
+    "electricKettle":"Elektricno kuvalo", 
+    "diningTable" :"Sto za rucavanje", 
+    "oven":"Rerna" ,
+    "microwave":"Mikrotalasna pecnica",
+    
+    
+    "bathtub":"Kada" ,
+    "towels":"Peskiri" ,
+    "toiletPaper":"Toalet papir",
+    "shower":"Tus kabina",
+    
+    "bedding":"Posteljina", 
+    "wardrobe":"Orman", 
+    "nightstand" : "Nocni stocic",
+    
+    "outdoorDiningArea":"Prostor za sjedenje" , 
+    "clothesDryer":"Susilica za ves",
+    "sunLoungers":"Lezaljke za suncanje",
+    "hairdryer":"Fen" ,
+    "cleaningProducts":"Sredstva za ciscenje" ,
+    "ironingFacilities" :"Pribor za peglanje"
+    
+    
+    
+    
+    
+     }
 
     
     
