@@ -594,11 +594,11 @@
       {"id"   : "", "photoURL"  :"/images/3_person_apartment_2terraces_4th_floor/balcony-1-mountain-view.jpg", "photoAlt"  :"", "photoPosition"  :"", "order": 4},
       {"id"   : "", "photoURL"  :"/images/3_person_apartment_2terraces_4th_floor/balcony-1-view.jpg", "photoAlt"  :"", "photoPosition"  :"", "order": 5},
       {"id"   : "", "photoURL"  :"/images/3_person_apartment_2terraces_4th_floor/kitchen-elements.jpg", "photoAlt"  :"", "photoPosition"  :"", "order": 6},
-     
+
       {"id"   : "", "photoURL"  :"/images/3_person_apartment_2terraces_4th_floor/balcony-2.jpg", "photoAlt"  :"", "photoPosition"  :"", "order": 8},
       {"id"   : "", "photoURL"  :"/images/3_person_apartment_2terraces_4th_floor/bathroom.jpg", "photoAlt"  :"", "photoPosition"  :"", "order": 9},
-      {"id"   : "", "photoURL"  :"/images/3_person_apartment_2terraces_4th_floor/balcony-2.jpg", "photoAlt"  :"", "photoPosition"  :"", "order": 8}
-      
+      {"id"   : "", "photoURL"  :"/images/3_person_apartment_2terraces_4th_floor/balcony-2.jpg", "photoAlt"  :"", "photoPosition"  :"", "order": 8},
+             {"id"   : "", "photoURL"  :"/images/3_person_apartment_2terraces_4th_floor/view.jpg", "photoAlt"  :"", "photoPosition"  :"", "order": 10}
       
        ],
     "shortDescription"  :"",
