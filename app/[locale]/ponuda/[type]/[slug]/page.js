@@ -346,7 +346,7 @@ const [activeSection, setActiveSection] = useState('overview');
                 transition: 'all 0.3s ease-in-out',
         }}
         onMouseEnter={(e) => {
-          e.currentTarget.style.transform = 'scale(1.05)';
+          e.currentTarget.style.transform = 'scale(1)';
           e.currentTarget.style.filter = 'brightness(0.8)';
         }}
         onMouseLeave={(e) => {
