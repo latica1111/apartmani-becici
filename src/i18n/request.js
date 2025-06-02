@@ -15,9 +15,9 @@ export default getRequestConfig(async ({ requestLocale }) => {
   const filenames = [
     'home.json',
     'apartments-description.json',
+      'meta.json',
     'facilities.json',
-    'meta.json',
-    'navigation.json'
+  'navigation.json'
   ];
 
  const messages = [];
