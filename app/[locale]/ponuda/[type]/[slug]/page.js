@@ -3,8 +3,8 @@ import Breadcrumbs from '@/components/Breadcrumbs';
 import { useState, useEffect } from 'react';
 import { useParams } from 'next/navigation';
 import { useTranslations, useLocale } from 'next-intl';
-import apartmentsDataEn from '#/i18n/locales/en/apartments-description.json';
-import apartmentsDataSr from '#/i18n/locales/sr/apartments-description.json';
+import apartmentsDataEn from './public/locales/en/apartments-description.json';
+import apartmentsDataSr from './public/locales/sr/apartments-description.json';
 
 import Link from 'next/link';
 import {
