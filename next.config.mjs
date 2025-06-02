@@ -6,13 +6,13 @@ const withNextIntl = createNextIntlPlugin({
   defaultLocale: 'en',            // Podrazumevani jezik
   localePrefix: 'as-needed',      // 'as-needed' = /sr za srpski, / za engleski
   pathnames: {},                  // Možeš definisati rute po jezicima ako želiš
-  requestModule: './src/i18n/request.js' // Opcionalno ako koristiš custom request.js
+  requestModule: './public/request.js' // Opcionalno ako koristiš custom request.js
 });
 
 // Define your custom nextConfig
 const nextConfig = {
   reactStrictMode: false,
-  output: 'standalone', // pomaže next-sitemap-u da nađe rute
+ 
 
   experimental: {
     turbo: {

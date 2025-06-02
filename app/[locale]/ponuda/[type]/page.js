@@ -2,8 +2,8 @@
 import PhotoCarousel from '@/components/PhotoCarousel';
 import Breadcrumbs from '@/components/Breadcrumbs';
 import HeroImage from '@/components/HeroImage';
-import apartmentsDataEn from '@/src/i18n/locales/en/apartments-description.json';
-import apartmentsDataSr from '@/src/i18n/locales/sr/apartments-description.json';
+import apartmentsDataEn from './public/locales/en/apartments-description.json';
+import apartmentsDataSr from './public/locales/sr/apartments-description.json';
 import Link from 'next/link';
 import { iconTotalGuests, iconApartmentSize, iconBeds, iconFreeParkingRectangle, iconBabyCrib, iconFamilyRooms, iconSeaView, iconKitchen,iconBathroom,iconMountainView ,iconBudgetFriendly} from '@/components/Icons';
 export default function OfferTypePage({ params }) {

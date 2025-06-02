@@ -22,7 +22,7 @@ export default getRequestConfig(async ({ requestLocale }) => {
 
   const messages = await Promise.all(
   filenames.map(async (filename) => {
-    const fileModule = await import(`@/src/i18n/locales/${locale}/${filename}`);
+    const fileModule = await import(`./public/locales/${locale}/${filename}`);
     return fileModule.default;
   })
 );
