@@ -8,7 +8,7 @@
    const renderContent = (content) => {
      if (Array.isArray(content)) {
        return (
-         <ul className="list-disc pl-5 space-y-1">
+         <ul className="">
            {content.map((item, i) => (
              <li key={i}>{item}</li>
            ))}
@@ -47,11 +47,11 @@
   
      <main className=" mx-auto container-fluid py-4 useful-info-wrapper">
        <Breadcrumbs />
-       <h2 className="text-3xl font-bold useful-info-heading">{t('heading')}</h2>
+       <h2 className="font-bold useful-info-heading">{t('heading')}</h2>
  
        {/* Getting There */}
  <section>
-   <h4 className="text-2xl font-semibold subheading">{t('gettingThere.sectionHeading')}</h4>
+   <h4 className=" font-semibold subheading">{t('gettingThere.sectionHeading')}</h4>
  
    {/* General info kao <p> */}
   
@@ -65,7 +65,7 @@
  
    {/* Airplane */}
    <div className="mt-4">
-     <h3 className="text-xl font-medium">{t('gettingThere.airplane.label')}</h3>
+     <h3 className=" font-medium">{t('gettingThere.airplane.label')}</h3>
      {/* Prvi kao paragraf, ostali kao lista */}
      <p>{t.raw('gettingThere.airplane.items')[0]}</p>
      {renderContent(t.raw('gettingThere.airplane.items').slice(1))}
@@ -73,21 +73,21 @@
  
    {/* Bus */}
    <div className="mt-4">
-     <h3 className="text-xl font-medium">{t('gettingThere.bus.label')}</h3>
+     <h3 className=" font-medium">{t('gettingThere.bus.label')}</h3>
      <p>{t.raw('gettingThere.bus.items')[0]}</p>
     
    </div>
  
    {/* Railway */}
    <div className="mt-4">
-     <h3 className="text-xl font-medium">{t('gettingThere.railway.label')}</h3>
+     <h3 className=" font-medium">{t('gettingThere.railway.label')}</h3>
      <p>{t.raw('gettingThere.railway.items')[0]}</p>
     
    </div>
  
    {/* Car */}
    <div className="mt-4">
-     <h3 className="text-xl font-medium">{t('gettingThere.car.label')}</h3>
+     <h3 className="font-medium">{t('gettingThere.car.label')}</h3>
      <p>{t('gettingThere.car.description')}</p>
      {/* Roads kao lista */}
      {renderContent(t.raw('gettingThere.car.roads'))}
@@ -100,11 +100,11 @@
  
  {/* Public Transportation */}
  <section>
-   <h4 className="text-2xl font-semibold subheading mt-4 ">{t('publicTransportation.heading')}</h4>
+   <h4 className=" font-semibold subheading mt-4 ">{t('publicTransportation.heading')}</h4>
  
    {/* Local Bus */}
    <div className="">
-     <h3 className="text-xl font-medium">{t('publicTransportation.localBus.title')}</h3>
+     <h3 className="font-medium">{t('publicTransportation.localBus.title')}</h3>
      <p>{t('publicTransportation.localBus.description')}</p>
     
   <h3 className="">{t('publicTransportation.localBus.linesHeading')}</h3>
@@ -117,14 +117,14 @@
  
    {/* Taxi */}
    <div className="mt-4">
-     <h3 className="text-xl font-medium">{t('publicTransportation.localTaxi.title')}</h3>
+     <h3 className=" font-medium">{t('publicTransportation.localTaxi.title')}</h3>
      <p>{t('publicTransportation.localTaxi.description')}</p>
      {renderContent(t.raw('publicTransportation.localTaxi.companies'))}
    </div>
  </section>
    {/* Tourist Tax */}
    <section>
-         <h2 className="text-2xl font-semibold subheading">{t('registrationFee.title')}</h2>
+         <h2 className=" font-semibold subheading">{t('registrationFee.title')}</h2>
  <p>{t.raw('registrationFee.notes')[0]}</p>
  <p>{t.raw('registrationFee.notes')[1]}</p>
  <p>{t.raw('registrationFee.notes')[2]}</p>

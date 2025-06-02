@@ -2,7 +2,7 @@
 
 import React from 'react';
 import { useTranslations } from 'next-intl';
-import PreHeader from '@/components/PreHeader';
+
 
 const Hero = () => {
   const t = useTranslations('heroSection'); // t() sada čita iz "heroSection" u home.json
@@ -22,7 +22,7 @@ const Hero = () => {
        
         style={{ objectFit: 'cover',
             objectPosition: 'center', }}
-        className='img-fluid page-hero-image'
+        className='img-fluid page-hero-image h-100 w-100'
       />
       </div>
 

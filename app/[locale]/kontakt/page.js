@@ -4,7 +4,7 @@ import { useTranslations } from 'next-intl';
 import Breadcrumbs from '@/components/Breadcrumbs';
 import HeroImage from '@/components/HeroImage';
 import React, { useState } from 'react';
-import CalendarPicker from '@/components/CalendarPicker';
+
 import ContactForm from '@/components/ContactForm';
 /* import getTranslation  from '@/lib/getTranslation';
 export async function generateMetadata({ params }) {
@@ -32,8 +32,6 @@ export async function generateMetadata({ params }) {
 
 export default function ContactPage() {
   const t = useTranslations('contactPage');
-const [arrivalDate, setArrivalDate] = useState(null);
-  const [departureDate, setDepartureDate] = useState(null);
 
   return (
    <>

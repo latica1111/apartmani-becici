@@ -9,9 +9,7 @@ export default function BookingScoreSection({ data }) {
   const { sectionHeading, generalNote, categories,linkToAllReviews } = data
 const [showAllCategories, setShowAllCategories] = useState(false)
 
-const toggleShowAll = () => {
-  setShowAllCategories(prev => !prev)
-}
+
 const t = useTranslations('bookingScore');
   return (
     <section className="mx-auto reviews-and-ratings container-fluid ">

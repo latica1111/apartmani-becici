@@ -1,7 +1,6 @@
 // app/[locale]/layout.js
 
- // Ili nije potrebno, sve bi trebalo da se uveze kroz head.  // Dodaj Head komponentu za meta tagove i linkove
- import LanguageSwitcher from '@/components/LanguageSwitcher'; 
+
 import { NextIntlClientProvider } from 'next-intl'; // Importuj NextIntlClientProvider
 import { getMessages } from 'next-intl/server';
 import Navbar from '@/components/Navbar';
@@ -10,7 +9,7 @@ import Footer from '@/components/Footer';
 import PreHeader from '@/components/PreHeader';
 
 const locales = ['en', 'sr'];
-const defaultLocale = 'en';
+
 
 // Dodavanje fontova putem Google Fonts
 
