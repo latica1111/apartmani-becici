@@ -13,9 +13,18 @@ const Hero = () => {
       <div
         className="position-absolute top-0 start-0 w-100 h-100 bg-cover bg-center z-0 div-with-background"
         style={{
-          backgroundImage: `url('/images/yard/outdoors-splendid-view.jpg')`
+          overflow:'hidden'
         }}
+      > 
+      <img
+        src="/images/yard/outdoors-splendid-view.jpg"
+        alt=""
+       
+        style={{ objectFit: 'cover',
+            objectPosition: 'center', }}
+        className='img-fluid page-hero-image'
       />
+      </div>
 
       {/* Overlay */}
       <div className="position-absolute overlay inset-0 bg-black/40 z-10" />
