@@ -6,7 +6,7 @@ const withNextIntl = createNextIntlPlugin({
   defaultLocale: 'en',            // Podrazumevani jezik
   localePrefix: 'as-needed',      // 'as-needed' = /sr za srpski, / za engleski
   pathnames: {},                  // Možeš definisati rute po jezicima ako želiš
-  requestModule: '#/i18n/request.js' // Opcionalno ako koristiš custom request.js
+  requestModule: './src/i18n/request.js' // Opcionalno ako koristiš custom request.js
 });
 
 // Define your custom nextConfig

@@ -27,9 +27,9 @@ for (const filename of filenames) {
   try {
     const fileContents = await fs.readFile(filePath, 'utf8');
     messages.push(JSON.parse(fileContents));
-    console.log(`✅ Loaded: ${filePath}`);
+    console.log(` Loaded: ${filePath}`);
   } catch (err) {
-    console.warn(`⚠️ Could not load: ${filePath}`, err.message);
+    console.warn(` Could not load: ${filePath}`, err.message);
   }
 }
 
