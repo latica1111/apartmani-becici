@@ -10,7 +10,7 @@ export default getRequestConfig(async ({ requestLocale }) => {
     ? requested
     : routing.defaultLocale;
 
-  const basePath = path.join(process.cwd(), 'public','locales', locale);
+  const basePath = path.join(process.cwd(), 'src/i18n', 'locales', locale);
 
   const filenames = [
     'home.json',

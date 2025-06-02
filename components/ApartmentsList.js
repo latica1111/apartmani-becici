@@ -4,8 +4,8 @@ import { useTranslations, useLocale } from 'next-intl';
 import { iconTotalGuests, iconApartmentSize, iconBeds, iconFreeParkingRectangle, iconBabyCrib, iconFamilyRooms, iconSeaView, iconKitchen,iconBathroom,iconMountainView, iconBudgetFriendly } from '@/components/Icons';
 import PhotoCarousel from '@/components/PhotoCarousel';// koristiš pravi icon
 import Link from 'next/link';
-import apartmentsDataEn from './public/locales/en/apartments-description.json';
-import apartmentsDataSr from './public/locales/sr/apartments-description.json';
+import apartmentsDataEn from '@/src/i18n/locales/en/apartments-description.json';
+import apartmentsDataSr from '@/src/i18n/locales/sr/apartments-description.json';
 
 export default function ApartmentsList() {
   const t = useTranslations('apartments'); // ako koristiš prevode
