@@ -21,7 +21,7 @@ export default function PhotoCarousel({ photos }) {
             src={photo.photoURL}
             alt={photo.photoAlt}
             className="img-fluid"
-             loading="lazy"
+           
               style={{
             objectFit: 'cover',
             objectPosition: photo.photoPosition || 'center',
