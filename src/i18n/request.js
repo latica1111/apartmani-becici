@@ -15,29 +15,28 @@ export default getRequestConfig(async ({ requestLocale }) => {
   const filenames = [
     'home.json',
     'apartments-description.json',
-      'meta.json',
+    'meta.json',
     'facilities.json',
-  'navigation.json'
+    'navigation.json'
   ];
 
- const messages = [];
+  const messages = {};
 
-for (const filename of filenames) {
-  const filePath = path.join(basePath, filename);
-  try {
-    const fileContents = await fs.readFile(filePath, 'utf8');
-    messages.push(JSON.parse(fileContents));
-    console.log(` Loaded: ${filePath}`);
-  } catch (err) {
-    console.warn(` Could not load: ${filePath}`, err.message);
+  for (const filename of filenames) {
+    const filePath = path.join(basePath, filename);
+    try {
+      const fileContents = await fs.readFile(filePath, 'utf8');
+      const parsed = JSON.parse(fileContents);
+      Object.assign(messages, parsed); // merge into messages
+      console.log(` Loaded: ${filePath}`);
+    } catch (err) {
+      console.warn(` Could not load: ${filePath}`);
+      console.warn(`   Reason: ${err.message}`);
+    }
   }
-}
-
-
-  const mergedMessages = messages.reduce((acc, curr) => ({ ...acc, ...curr }), {});
 
   return {
     locale,
-    messages: mergedMessages
+    messages
   };
 });
