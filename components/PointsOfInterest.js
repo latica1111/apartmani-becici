@@ -4,7 +4,7 @@ import { useTranslations } from 'next-intl';
 
 const PointsOfInterest = ({ data }) => {
   const t = useTranslations();
-  console.log("Data: u pointinterest componenti", data);  
+ 
   
   
 

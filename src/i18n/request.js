@@ -20,13 +20,19 @@ export default getRequestConfig(async ({ requestLocale }) => {
     'navigation.json'
   ];
 
-  const messages = await Promise.all(
-    filenames.map(async (filename) => {
-      const filePath = path.join(basePath, filename);
-      const fileContents = await fs.readFile(filePath, 'utf8');
-      return JSON.parse(fileContents);
-    })
-  );
+ const messages = [];
+
+for (const filename of filenames) {
+  const filePath = path.join(basePath, filename);
+  try {
+    const fileContents = await fs.readFile(filePath, 'utf8');
+    messages.push(JSON.parse(fileContents));
+    console.log(`✅ Loaded: ${filePath}`);
+  } catch (err) {
+    console.warn(`⚠️ Could not load: ${filePath}`, err.message);
+  }
+}
+
 
   const mergedMessages = messages.reduce((acc, curr) => ({ ...acc, ...curr }), {});
 

@@ -38,7 +38,7 @@ const FacilityList = () => {
             <div className="inner">
             <div className="icon-wrapper">
               <span className="icon">
-                {IconComponent ? <IconComponent /> : <span>❓</span>}  {/* Render the icon */}
+                {IconComponent ? <IconComponent /> : <span> x </span>}  {/* Render the icon */}
               </span>
             </div>
             <div className="text-wrapper">
