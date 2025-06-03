@@ -1,11 +1,11 @@
 {
     "kitchen" :"Kuhinja",
     "privateBathroom":"Sopstveno kupatilo",
-    "bedroom":"Spavaca soba",
+    "bedroom":"Spavaća soba",
     "balcony":"Terasa" ,
     "gardenView" :"Pogled na vrt",
     "mountainView":"Pogled na planinu",
-    "innerCourtyardView":"Pogled na dvoriste", 
+    "innerCourtyardView":"Pogled na dvorište", 
     "seaView":"Pogled na more",
     "airConditioning":"Klima-uredjaj" ,
     "TV":"TV sa kablovskim kanalima" , 
@@ -14,9 +14,9 @@
     "safe":"Sef",
     "freeParking":"Besplatan parking" ,
     
-    "doubleBed" :"Francuski lezaj",
+    "doubleBed" :"Francuski ležaj",
     "singleBed" :"Krevet za jednu osobu",
-    "sofaBed":"Kauc na razvlačenje", 
+    "sofaBed":"kauč na razvlačenje", 
     "pullOutArmchair":"Fotelja na razvlačenje", 
     "babyCrib" :"Djeciji krevetac",
     "highChair":"Stolica za hranjenje",
@@ -26,7 +26,7 @@
     "cookingUtensils":"Pribor za kuvanje" ,
     "cutlery":"Pribor za jelo", 
     "electricKettle":"Elektricno kuvalo", 
-    "diningTable" :"Sto za rucavanje", 
+    "diningTable" :"Sto za ručavanje", 
     "oven":"Rerna" ,
     "microwave":"Mikrotalasna pecnica",
     
@@ -42,9 +42,9 @@
     
     "outdoorDiningArea":"Prostor za sjedenje" , 
     "clothesDryer":"Susilica za ves",
-    "sunLoungers":"Lezaljke za suncanje",
+    "sunLoungers":"Lezaljke za sunčanje",
     "hairdryer":"Fen" ,
-    "cleaningProducts":"Sredstva za ciscenje" ,
+    "cleaningProducts":"Sredstva za cišćenje" ,
     "ironingFacilities" :"Pribor za peglanje"
     
     

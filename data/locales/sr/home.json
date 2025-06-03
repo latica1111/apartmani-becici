@@ -2,60 +2,18 @@
 {
     "facilitiesWithIcons" :{
     "freeParking":"Besplatan parking",
-    "beachNearby":"Blizu plaze",
+    "beachNearby":"Blizu plaže",
     "freeWiFi":"Besplatan Wifi",
     "familyRooms":"Porodicne sobe",
     "airConditioning":"Klimatizovane sobe",
-    "playground":"Djecije igraliste na otvorenom",
+    "playground":"Djecije igralište na otvorenom",
     "kitchen" :"Kuhinja",
      "TV" :"TV sa kablovskim kanalima",
      "generalHeading" :"Sadržaji"
     
     
     },
-    "offeringsCarousels" :[
-    {"id" : 1 ,
-    "apartmentName": "",
-    "apartmentBeds":"",
-    "apartmentSize" : "",
-    "maxCapacity" :""
-    },
-    {"id" : 2 ,
-    "apartmentName": "",
-    "apartmentBeds":"",
-    "apartmentSize" : "",
-    "maxCapacity" :""
-    },
-    {"id" : 3 ,
-    "apartmentName": "",
-    "apartmentBeds":"",
-    "apartmentSize" : "",
-    "maxCapacity" :""
-    
-    },
-    {"id" : 4 ,
-    "apartmentName": "",
-    "apartmentBeds":"",
-    "apartmentSize" : "",
-    "maxCapacity" :""
-    
-    
-    },
-    {"id" : 5 ,
-    "apartmentName": "",
-    "apartmentBeds":"",
-    "apartmentSize" : "",
-    "maxCapacity" :""
-    },
-    {"id" : 6 ,
-    "apartmentName": "",
-    "apartmentBeds":"",
-    "apartmentSize" : "",
-    "maxCapacity" :""
-    }
-    
-    
-    ],
+  
     
   "heroSection" : {
 "heroTitle" : "Priroda, udobnost i tišina",
@@ -135,9 +93,9 @@
       "heading":"Obliznje plaže",
       "icon" :"iconBeachNearby",
   "items":[
-  {"name" : "Becicka plaza" , "distance":"300 m"},
+  {"name" : "Becicka plaža" , "distance":"300 m"},
   {"name" : "Plaza Rafailovici" , "distance":"1.1 km"},
-  {"name" : "Slovenska plaza" , "distance":"1.6 km"},
+  {"name" : "Slovenska plaža" , "distance":"1.6 km"},
   {"name" : "Dukley" , "distance":"1.2 km"},
   {"name" : "Kamenovo" , "distance":"1.8 km"},
   {"name" : "Mogren" , "distance":"2.9 km"}
@@ -262,7 +220,7 @@
     "id": "",
     "heading": "Avansno plaćanje",
     "textBlock": [
-      "Da bi rezervacija bila potvrđena, potrebno je uplatiti avans u iznosu od 30% ukupne cene smeštaja.",
+      "Da bi rezervacija bila potvrđena, potrebno je uplatiti avans u iznosu od 30% ukupne cijene smeštaja.",
       "Preostali iznos se plaća po dolasku, u gotovini."
     ]
   },
@@ -312,7 +270,7 @@
   "textBlock": [
     "Strogo je zabranjeno unošenje vatrenog oružja, zapaljivih ili eksplozivnih supstanci, kao i predmeta sa jakim ili neprijatnim mirisom u smeštajnu jedinicu ili u krug objekta.",
     "Gosti mogu koristiti sve uređaje i aparate koji su obezbeđeni u smeštaju, ali su dužni da ih koriste u skladu sa uputstvima i da pažljivo rukuju njima.",
-    "Korišćenje aparata i uređaja koji nisu deo smeštajne ponude dozvoljeno je samo uz odobrenje domaćina. Ovo se ne odnosi na lične uređaje za negu (npr. fen, brijač).",
+    "Korišćenje aparata i uređaja koji nisu dio smeštajne ponude dozvoljeno je samo uz odobrenje domaćina. Ovo se ne odnosi na lične uređaje za negu (npr. fen, brijač).",
     "Pre napuštanja objekta, molimo vas da isključite sve električne uređaje i vratite ključeve na dogovoreno mesto ili domaćinu."
   ]
 },
@@ -413,8 +371,8 @@
 {"label" :"Osoblje" , "note" :"9.8"},
 {"label" :"Udobnost" , "note" :"9.3"},
 {"label" :"Besplatan WiFi" , "note" :"9.1"},
-{"label" :"Sadrzaji" , "note" :"9.3"},
-{"label" :"Odnos cene i kvaliteta" , "note" :"9.4"},
+{"label" :"Sadržaji" , "note" :"9.3"},
+{"label" :"Odnos cijene i kvaliteta" , "note" :"9.4"},
 {"label" :"Čistoća" , "note" :"9.2"},
 {"label" :"Lokacija" , "note" :"9.7"}
   ],

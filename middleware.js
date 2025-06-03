@@ -1,8 +1,8 @@
 import createMiddleware from 'next-intl/middleware';
 import { NextResponse } from 'next/server';
 export default async function middleware(request) {
-  // Step 1: Preuzmi locale iz zahteva (ako nije definisan, koristi default 'en')
-  const url = request.nextUrl.clone();  // Dobijamo URL iz dolaznog zahteva
+  // Step 1: Preuzmi locale iz zahtjeva (ako nije definisan, koristi default 'en')
+  const url = request.nextUrl.clone();  // Dobijamo URL iz dolaznog zahtjeva
   const defaultLocale = request.headers.get('x-your-custom-locale') || 'en';
   const locales = ['en', 'sr']; // Lista podržanih jezika
 

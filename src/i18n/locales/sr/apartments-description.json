@@ -5,20 +5,19 @@
     "apartmentSize"  : 30,
     "type"  : "studio",
     "guestsNumber"  : 3,
-    "beds"  : ["francuski lezaj" ,"kauc na razvlacenje", {"babyCrib"  : true}],
+    "beds"  : ["francuski ležaj" ,"kauč na razvlačenje", {"babyCrib"  : true}],
     "maxGuestsNumber"  : ["2 odraslih + 2 djece"],
-    "featured":["familyFrendly"],
-    "facilities"   : ["freeParking",
-   "kitchen" ,"privateBathroom","balcony" ,"gardenView","mountainView","innerCourtyardView", "airConditioning" ,"TV" , "freeWiFi" ,"safe" ],
-    "kitchen"  : ["frizider", "ploca za kuvanje",  "pribor za kuvanje" ,"pribor za jelo", "elektricno kuvalo", "sto za rucavanje" ],
-    "bathroom"  : ["Sopstveno kupatilo","kada" ,"peskiri" ,"toalet papir"  ],
-    "bedroom"  : ["posteljina" , "orman", "nocni stocic" ],
-    "balcony"   : ["prostor za sjedenje" , "susilica za ves"],
-    "view"   : ["pogled na vrt","pogled na planinu","pogled na dvoriste" ],
+    "featured":["familyFrendly","budgetFriendly","privateKitchen" ],
+    "facilities"   : ["freeParking","kitchen" ,"privateBathroom","balcony" ,"gardenView","mountainView","innerCourtyardView", "airConditioning" ,"TV" , "freeWiFi" ,"safe" ],
+    "kitchen"  : ["frižider", "ploča za kuvanje",  "pribor za kuvanje" ,"pribor za jelo", "električno kuvalo", "sto za ručavanje" ],
+    "bathroom"  : ["Sopstveno kupatilo","kada" ,"peškiri" ,"toalet papir"  ],
+    "bedroom"  : ["posteljina" , "orman", "noćni stočić" ],
+    "balcony"   : ["prostor za sjedenje" , "sušilica za veš"],
+    "view"   : ["pogled na vrt","pogled na planinu","pogled na dvorište" ],
     "mediaAndTechnology":["kablovski kanali", "TV"],
    "safetyAndSecurity":["Pristup ključem", "Sef"],
-    "commonAreas" :["bašta","spoljni nameštaj","spoljni prostor za ručavanje","pribor za pripremu roštilja","Djecije igralište na otvorenom"],
-    "onDemand"   :["fen" ,"sredstva za ciscenje" ,"pribor za peglanje" , "djeciji krevetac", "stolica za hranjenje"],
+    "commonAreas" :["bašta","spoljni namještaj","spoljni prostor za ručavanje","pribor za pripremu roštilja","Djecije igralište na otvorenom"],
+    "onDemand"   :["fen" ,"sredstva za cišćenje" ,"pribor za peglanje" , "djeciji krevetac", "stolica za hranjenje"],
    
   "photos": 
 [
@@ -35,11 +34,11 @@
       
       
        ],
-    "shortDescription"  :"Studio sa mini kuhinjom, kupatilom i terasom. Na 1.om spratu porodicne kuce. Sadrzi sve sto je neophodno za kraci boravak. ",
+    "shortDescription"  :"Studio sa mini kuhinjom, kupatilom i terasom. Sadrži sve sto vam je neophodno za kraći boravak. Pogled na vrt, planinu i dvorište.",
     "longerDesciption"  :"",
     "notes"  :"Studio se nalazi na prvom spratu i dostupan je samo stepenicama.", 
    "metaKeywords"  :["iznajmljivanje apartmana", "idealno za odmor", "porodičan smeštaj", "studio za 3 osobe Bečići", "letovanje Bečići", "smestaj u Bečićima", "apartman blizu plaže", "apartmani Bečići"],
-    "metaDescription"  :"Udoban i praktican studio za 3 osobe. 3 minuta od plaze. Obezbjeđen parking. Dječije igralište u sklopu objekta.",
+    "metaDescription"  :"Udoban i praktičan studio za 3 osobe. 3 minuta od plaže. Obezbjeđen parking. Dječije igralište u sklopu objekta.",
   
 
 
@@ -51,7 +50,7 @@
   "Balkon sa pogledom – uživajte u kafi uz pogled na vrt, planine i dvorište.",
   "Besplatan WiFi – za rad, zabavu ili kontakt s porodicom i prijateljima.",
   "TV sa kablovskim kanalima – idealno za opuštanje uveče.",
-  "Sef – bezbrižno čuvajte svoje dragocenosti.",
+  "Sef – za bezbrižno čuvanje vaših dragocjenosti.",
   "Besplatan parking – dostupan bez dodatnih troškova.",
   "Igralište za decu – sigurno i zabavno mesto za najmlađe goste."
 ],
@@ -65,14 +64,14 @@
     
     "amenities"  : [  
       "Kompaktan, ali funkcionalan – studio sadrži sve što vam je potrebno za prijatan boravak." ,
-    "Spavaći dio: Udoban francuski ležaj, kauč na razvlačenje, a za porodice sa malom djecom na zahtev je dostupan i dečiji krevetac. Tu su i posteljina, orman i noćni stočići. ",
+    "Spavaći dio: Udoban francuski ležaj, kauč na razvlačenje, a za porodice sa malom djecom na zahtjev je dostupan i dečiji krevetac. Tu su i posteljina, orman i noćni stočići. ",
     "Kuhinja: Opremljena frižiderom, pločom za kuvanje, električnim kuvalom, priborom za jelo i kuvanje, kao i stolom za ručavanje – sve što vam je potrebno  za pripremu i uživanje u obrocima",
-    "Balkon sa pogledom : Iz studija se izlazi na prostrani balkon, gde možete uživati u jutarnjoj kafi ili opuštajućem zalasku sunca. Pogled se pruža na vrt, planinu i dvorište. Balkon ima prostor za sedenje i sušilicu za veš."],
+    "Balkon sa pogledom : Iz studija se izlazi na prostrani balkon, gde možete uživati u jutarnjoj kafi ili opuštajućem zalasku sunca. Pogled se pruža na vrt, planinu i dvorište. Balkon ima prostor za sjedenje i sušilicu za veš."],
     
   
 
     
-   "availableOnRequest": "Na zahtev su dostupni fen za kosu, sredstva za čišćenje, pribor za peglanje i stolica za hranjenje za najmlađe goste."
+   "availableOnRequest": "Na zahtjev su dostupni fen za kosu, sredstva za čišćenje, pribor za peglanje i stolica za hranjenje za najmlađe goste."
     ,
    
     
@@ -93,19 +92,19 @@
     "apartmentSize"  : 20,
     "type"  : "soba",
     "guestsNumber"  : 3,
-    "beds"  : ["francuski lezaj" ,"kauc na razvlacenje", {"babyCrib"  : false}],
+    "beds"  : ["francuski ležaj" ,"kauč na razvlačenje", {"babyCrib"  : false}],
     "maxGuestsNumber"  : ["2 odraslih + 2 djece"], 
-    "featured":["privateBathroom"],
+    "featured":["privateBathroom", "privateKitchen", "budgetFriendly","partialSeaView"],
     "facilities"   : ["freeParking", "kitchen" ,"privateBathroom","balcony" ,"gardenView", "mountainView","innerCourtyardView", "airConditioning" ,"TV" , "freeWiFi" ,"safe" ],
-    "kitchen"  : ["frizider", "ploca za kuvanje",  "pribor za kuvanje" ,"pribor za jelo", "elektricno kuvalo", "sto za rucavanje" ],
-    "bathroom"  : ["Sopstveno kupatilo","kada" ,"peskiri" ,"toalet papir"  ],
-    "bedroom"  : ["posteljina" , "orman", "nocni stocic" ],
-    "balcony"   : ["prostor za sjedenje" , "susilica za ves"],
-    "view"   : ["pogled na vrt","pogled na planinu","pogled na dvoriste","bocni pogled na more" ],
+    "kitchen"  : ["frižider", "ploča za kuvanje",  "pribor za kuvanje" ,"pribor za jelo", "električno kuvalo", "sto za ručavanje" ],
+    "bathroom"  : ["Sopstveno kupatilo","kada" ,"peškiri" ,"toalet papir"  ],
+    "bedroom"  : ["posteljina" , "orman", "noćni stočić" ],
+    "balcony"   : ["prostor za sjedenje" , "sušilica za veš"],
+    "view"   : ["pogled na vrt","pogled na planinu","pogled na dvorište","bočni pogled na more" ],
     "mediaAndTechnology":["kablovski kanali", "TV"],
    "safetyAndSecurity":["Pristup ključem", "Sef"],
-    "commonAreas" :["bašta","spoljni nameštaj","spoljni prostor za ručavanje","pribor za pripremu roštilja","Djecije igralište na otvorenom"],
-    "onDemand"   :["fen" ,"sredstva za ciscenje" ,"pribor za peglanje" ],
+    "commonAreas" :["bašta","spoljni namještaj","spoljni prostor za ručavanje","pribor za pripremu roštilja","Djecije igralište na otvorenom"],
+    "onDemand"   :["fen" ,"sredstva za cišćenje" ,"pribor za peglanje" ],
    
    "photos": [
      {"id"   : "", "photoURL"  :"/images/3_person_room_with_external_bathroom/double-bed.jpg", "photoAlt"  :"", "photoPosition"  :"", "order": 1},
@@ -123,7 +122,7 @@
   {"id"   : "", "photoURL"  :"/images/3_person_room_with_external_bathroom/bathroom.jpg", "photoAlt"  :"", "photoPosition"  :"bottom", "order": 1}
 
  ],
-    "shortDescription"  :"Soba sa francuskim lezajem i trosjedom koji se razvlaci i sluzi kao pomocan lezaj. Mini kuhinja u sklopu sobe. Terasa. Kupatilo je preko puta sobe, ali se ne dijeli ni sa kim.",
+    "shortDescription"  :"Soba sa francuskim ležajem i trosjedom koji se razvlači i služi kao pomoćni ležaj. Mini kuhinja u sklopu sobe. Terasa sa manjim, bočnim pogledom na more. Kupatilo je preko puta sobe, ali se ne dijeli ni sa kim.",
     "longerDesciption"  :"",
     "notes"  :["Kupatilo je van sobe , ali se ne dijeli ni sa kim. " ],
     
@@ -138,14 +137,14 @@
     "Sef –  Sigurno odlaganje vrijednih stvari.",
 
     "Besplatan parking u dvorištu – Bez dodatnih troškova, u dvorištu.",
-    "Igralište za decu – Bezbedno i zabavno mesto za najmlađe, unutar samog objekta."
+    "Igralište za decu – Bezbjedno i zabavno mesto za najmlađe, unutar samog objekta."
   ],
     
 
     
     
     "introContent"   : ["Trokrevetna soba – Povoljan smještaj blizu plaže",
-    "Za parove i porodice koji žele jednostavan, ali udoban i pristupacan smještaj blizu plaže.",
+    "Za parove i porodice koji žele jednostavan, ali udoban i pristupačan smještaj blizu plaže.",
     "Soba se nalazi na prvom spratu porodične kuće, a pristup je omogućen stepenicama."],
     
     "amenities"  : [
@@ -158,14 +157,14 @@
     
  
     
-    "availableOnRequest"  : "Na zahtev su dostupni fen za kosu, sredstva za čišćenje i pribor za peglanje.",
+    "availableOnRequest"  : "Na zahtjev su dostupni fen za kosu, sredstva za čišćenje i pribor za peglanje.",
     
    
    "metaKeywords"  :["trokrevetna soba", "smeštaj blizu plaže","smestaj Crna Gora", "povoljan apartman Bečići", "letovanje smeštaj", "soba sa balkonom", "privatni smeštaj Bečići", "porodični odmor", "letovanje uz more", "apartman za parove", "soba sa kupatilom", "porodičan smeštaj", "soba sa balkonom", "letovanje Bečići", "smestaj u Bečićima", "povoljan smestaj blizu plaže", "sobe Bečići" ],
     
-    "metaDescription"  : "Trokrevetna soba blizu plaže – jednostavan, ali udoban i pristupačan smeštaj na samo nekoliko minuta hoda od plaže. Odlican izbor za parove, porodice i putnike u prolazu. Soba sa sopstvenim kupatilom, balkonom i besplatnim parkingom. Djecije igraliste u sklopu objekta.",
+    "metaDescription"  : "Trokrevetna soba blizu plaže – jednostavan, ali udoban i pristupačan smeštaj na samo nekoliko minuta hoda od plaže. Odlican izbor za parove, porodice i putnike u prolazu. Soba sa sopstvenim kupatilom, balkonom i besplatnim parkingom. Djecije igralište u sklopu objekta.",
     
-    "title"  : "Trokrevetna soba sa sopstvenim kupatilom van sobe – Povoljan i udoban smeštaj blizu plaze",
+    "title"  : "Trokrevetna soba sa sopstvenim kupatilom van sobe – Povoljan i udoban smeštaj blizu plaže",
     
     "pageURL"   : "trokrevetna-soba-sa-sopstvenim-kupatilom-van-sobe"
     }, 
@@ -176,18 +175,18 @@
     "apartmentSize"  : 20,
     "type"  : "soba",
     "guestsNumber"  : 3,
-    "beds"  : ["francuski lezaj" ,"kauc na razvlacenje", {"babyCrib"  : false}],
+    "beds"  : ["francuski ležaj" ,"kauč na razvlačenje", {"babyCrib"  : false}],
     "maxGuestsNumber"  : ["2 odraslih + 2 djece"],
     "facilities"   : ["freeParking","kitchen" ,"privateBathroom","balcony" ,"gardenView", "mountainView","innerCourtyardView", "airConditioning" ,"TV" , "freeWiFi" ,"safe" ],
-    "kitchen"  : ["frizider", "ploca za kuvanje", "rerna" ,"pribor za kuvanje" ,"pribor za jelo", "elektricno kuvalo", "sto za rucavanje" ],
-    "bathroom"  : ["Sopstveno kupatilo","kada" ,"peskiri" ,"toalet papir"  ],
-    "bedroom"  : ["posteljina" , "orman", "nocni stocic" ],
-    "balcony"   : ["prostor za sjedenje" , "susilica za ves"],
-    "view"   : ["pogled na vrt","pogled na planinu","pogled na dvoriste","bocni pogled na more" ],
+    "kitchen"  : ["frižider", "ploča za kuvanje", "rerna" ,"pribor za kuvanje" ,"pribor za jelo", "električno kuvalo", "sto za ručavanje" ],
+    "bathroom"  : ["Sopstveno kupatilo","kada" ,"peškiri" ,"toalet papir"  ],
+    "bedroom"  : ["posteljina" , "orman", "noćni stočić" ],
+    "balcony"   : ["prostor za sjedenje" , "sušilica za veš"],
+    "view"   : ["pogled na vrt","pogled na planinu","pogled na dvorište","bočni pogled na more" ],
     "mediaAndTechnology":["kablovski kanali", "TV"],
     "safetyAndSecurity":["Pristup ključem", "Sef"],
-     "commonAreas" :["bašta","spoljni nameštaj","spoljni prostor za ručavanje","pribor za pripremu roštilja","Djecije igralište na otvorenom"],
-    "onDemand"   :["fen" ,"sredstva za ciscenje" ,"pribor za peglanje" ],
+     "commonAreas" :["bašta","spoljni namještaj","spoljni prostor za ručavanje","pribor za pripremu roštilja","Djecije igralište na otvorenom"],
+    "onDemand"   :["fen" ,"sredstva za cišćenje" ,"pribor za peglanje" ],
     "featured":["privateBathroom", "privateKitchen", "partialSeaView"],
    "photos": [
     {"id"   : "", "photoURL"  :"/images/3_person_room_with_external_kitchen_and_bathroom/entrance-1.jpg", "photoAlt"  :"", "photoPosition"  :"bottom", "order": 1},
@@ -205,14 +204,14 @@
   {"id"   : "", "photoURL"  :"/images/3_person_room_with_external_kitchen_and_bathroom/bathroom.jpg", "photoAlt"  :"", "photoPosition"  :"", "order": 1},
   {"id"   : "", "photoURL"  :"/images/3_person_room_with_external_kitchen_and_bathroom/bath.jpg", "photoAlt"  :"", "photoPosition"  :"", "order": 1}
  ],
-    "shortDescription"  :"Soba sa francuskim lezajem i trosjedom koji se razvlaci i sluzi kao pomocni lezaj. Terasa. Kuhinja i kupatilo nisu u sklopu sobe, ali se ne dijele ni sa kim.",
+    "shortDescription"  :"Soba sa francuskim ležajem i trosjedom koji se razvlači i služi kao pomoćni ležaj. Terasa sa pogledom na vrt i manjim bočnim pogledom na more. Kuhinja i kupatilo nisu u sklopu sobe, ali se ne dijele ni sa kim.",
     "longerDesciption"  :" ",
     
     
-   "metaKeywords"  : ["trokrevetna soba Bečići", "smeštaj blizu plaže", "povoljan apartman Bečići", "letovanje smeštaj", "soba sa balkonom", "privatni smeštaj Bečići", "porodični odmor", "letovanje uz more", "apartman za parove", "soba sa sopstvenim kupatilom", "soba sa kuhinjom", "povoljan smeštaj Crna Gora","apartmani na moru","apartmani sa parkingom","smještaj za 2 odraslih + 2 dece","soba sa terasom", "trokrevetna soba Bečići" ],
+   "metaKeywords"  : ["trokrevetna soba Bečići", "smeštaj blizu plaže", "povoljan apartman Bečići", "letovanje smeštaj", "soba sa balkonom", "privatni smeštaj Bečići", "porodični odmor", "letovanje uz more", "apartman za parove", "soba sa sopstvenim kupatilom", "soba sa kuhinjom", "povoljan smeštaj Crna Gora","apartmani na moru","apartmani sa parkingom","smještaj za 2 odraslih + 2 djece","soba sa terasom", "trokrevetna soba Bečići" ],
     
-    "metaDescription"  :"Povoljan i udoban smeštaj za 2 odraslih + 2 dece. Privatno kupatilo i kuhinja, balkon sa pogledom i besplatan parking na raspolaganju. Djecije igraliste u sklopu objekta. Odlican izbor za vaš odmor!",
-    "introContent"   :["Trokrevetna soba sa sopstvenim kupatilom i kuhinjom van sobe – Pristupacan smještaj blizu plaže",
+    "metaDescription"  :"Povoljan i udoban smeštaj za 2 odraslih + 2 djece. Privatno kupatilo i kuhinja, balkon sa pogledom i besplatan parking na raspolaganju. Djecije igralište u sklopu objekta. Odlican izbor za vaš odmor!",
+    "introContent"   :["Trokrevetna soba sa sopstvenim kupatilom i kuhinjom van sobe – Pristupačan smještaj blizu plaže",
     
     "Soba se nalazi na prvom spratu porodične kuće, a pristup je omogućen stepenicama."],
     
@@ -223,16 +222,16 @@
     "Napomena: Kupatilo i kuhinja se ne nalaze u sklopu sobe – morate proći kroz hodnik da biste do njih došli, ali ih koristite isključivo vi. Ovaj raspored omogućava više prostora i udobnosti u samoj sobi, bez mirisa kuvanja i buke." ],
     
     
-    "availableOnRequest"  : "Na zahtev su dostupni: Fen za kosu, sredstva za čišćenje i pribor za peglanje",
+    "availableOnRequest"  : "Na zahtjev su dostupni: Fen za kosu, sredstva za čišćenje i pribor za peglanje",
     
     "reasonsToChoose"  : [ 
     "Blizina plaže – 3 minuta laganog hoda!",
-    "Odličan odnos cene i kvaliteta – Sve pogodnosti koje su vam potrebne, po pristupačnoj ceni.",
+    "Odličan odnos cijene i kvaliteta – Sve pogodnosti koje su vam potrebne, po pristupačnoj ceni.",
     "Dobar izbor za porodice – Dječije igralište i mogućnost pripreme obroka čine boravak sa djecom mnogo lakšim.",
     "Balkon sa pogledom – Opuštajuća atmosfera uz pogled na vrt, planinu i bočni pogled na more.",
     "Klima-uređaj – Za prijatan boravak u sobi tokom vrućih ljetnjih dana.",
-    "Besplatan WiFi – Stabilna internet konekcija za rad, zabavu ili komunikaciju sa porodicom.",
-    "Kablovska TV – Opustite se uz omiljene emisije u vecernjim satima.",
+    "Besplatan WiFi – Za rad, zabavu ili komunikaciju sa porodicom.",
+    "Kablovska TV – Opustite se uz omiljene emisije u večernjim satima.",
     "Sef – Za bezbjedno odlaganje vaših dragocjenosti.",
     
     "Obezbjedjen parking u dvorištu – Bez dodatnih troškova."
@@ -254,19 +253,19 @@
     "apartmentSize"  : 20,
     "type"  : "studio",
     "guestsNumber"  : 2,
-    "beds"  : ["francuski lezaj", {"babyCrib"  : false}],
+    "beds"  : ["francuski ležaj", {"babyCrib"  : false}],
     "maxGuestsNumber"  : ["2 odraslih"],
     "facilities"   : ["freeParking", "kitchen" ,"privateBathroom","balcony" , "airConditioning" ,"flatTV" , "freeWiFi" ,"safe" ],
-    "kitchen"  : ["frizider", "ploca za kuvanje", "rerna", "pribor za kuvanje" ,"pribor za jelo", "elektricno kuvalo" ],
-    "bathroom"  : ["Sopstveno kupatilo","kada" ,"peskiri" ,"toalet papir"  ],
-    "bedroom"  : ["posteljina" , "orman", "nocni stocic" ],
-    "balcony"   : ["prostor za sjedenje" , "susilica za ves"],
-    "view"   : ["pogled na dvoriste","bocni pogled na more" ],
+    "kitchen"  : ["frižider", "ploča za kuvanje", "rerna", "pribor za kuvanje" ,"pribor za jelo", "električno kuvalo" ],
+    "bathroom"  : ["Sopstveno kupatilo","kada" ,"peškiri" ,"toalet papir"  ],
+    "bedroom"  : ["posteljina" , "orman", "noćni stočić" ],
+    "balcony"   : ["prostor za sjedenje" , "sušilica za veš"],
+    "view"   : ["pogled na dvorište","bočni pogled na more" ],
     "mediaAndTechnology":["kablovski kanali", "TV"],
    "safetyAndSecurity":["Pristup ključem", "Sef"],
-    "commonAreas" :["bašta","spoljni nameštaj","spoljni prostor za ručavanje","pribor za pripremu roštilja","Djecije igralište na otvorenom"],
-    "onDemand"   :["fen" ,"sredstva za ciscenje" ,"pribor za peglanje"],
-    "featured":["coupleFriendly"],
+    "commonAreas" :["bašta","spoljni namještaj","spoljni prostor za ručavanje","pribor za pripremu roštilja","Djecije igralište na otvorenom"],
+    "onDemand"   :["fen" ,"sredstva za cišćenje" ,"pribor za peglanje"],
+    "featured":["coupleFriendly","privateKitchen","privateBathroom"],
   "photos": [
 
        {"id"   : "", "photoURL"  :"/images/2_person_studio/double-bed.jpg", "photoAlt"  :"", "photoPosition"  :"", "order": 1},
@@ -285,7 +284,7 @@
    
       
        ],
-    "shortDescription"  :"Studio sa francuskim lezajem, mini kuhinjom, kupatilom i terasom. Klima, tv, net. Idealno za parove bez djece.",
+    "shortDescription"  :"Studio sa francuskim ležajem, mini kuhinjom, kupatilom i terasom. Klima, tv, net. Idealno za parove bez djece.",
     "longerDesciption"  :"",
     
     
@@ -297,31 +296,31 @@
     "amenities"  :[ 
     
    "Kompaktan i funkcionalan studio – Manje kvadrature, ali opremljen svime što je potrebno za udoban boravak.",
-    "Spavaći deo: Francuski ležaj - Za kvalitetan san i odmor nakon dana provedenog na plaži.",
-    "Mini kuhinja: Frižider, ploča za kuvanje, rerna,  osnovni pribor za pripremu i serviranje obroka  – Praktično za brze i jednostavne obroke.",
+    "Spavaći dio: Francuski ležaj - Za kvalitetan san i odmor nakon dana provedenog na plaži.",
+    "Mini kuhinja: Frižider, ploča za kuvanje, rerna, osnovni pribor za pripremu i serviranje obroka  – Praktično za brze i jednostavne obroke.",
     "Kupatilo: Kada, peškiri, toalet papir – Osnovno za svakodnevnu higijenu.",
-    "Balkon sa prostorom za sedenje: Za uzivanje u jutarnjoj kafi ili obroku na svežem vazduhu.",
+    "Balkon sa prostorom za sjedenje: Za uživanje u jutarnjoj kafi ili obroku na svježem vazduhu.",
     
-    "Napomena: Studio je manjih dimenzija, za parove koji planiraju aktivan boravak van smeštaja i vole jednostavnan ambijent. Mini kuhinja i radni prostor su dovoljni za pripremu laganih obroka, ali nisu pogodni za duže boravke s decom." ],
+    "Napomena: Studio je manjih dimenzija, za parove koji planiraju aktivan boravak van smeštaja i vole jednostavnan ambijent. Mini kuhinja i radni prostor su dovoljni za pripremu laganih obroka, ali nisu pogodni za duže boravke s djecom." ],
     
    
-    "availableOnRequest"  : "Na zahtev: Fen za kosu, sredstva za čišćenje i pribor za peglanje" ,
+    "availableOnRequest"  : "Na zahtjev: Fen za kosu, sredstva za čišćenje i pribor za peglanje" ,
     
     "reasonsToChoose"  : [ 
     "Blizina plaže – Plaža je na samo nekoliko minuta od vas.",
-    "Praktičan i kompaktan prostor – Minimalistički dizajn uz sve što vam je potrebno za kraci boravak.",
-    "Odlicna opcija za parove –  Romantičan ambijent i sve pogodnosti za prijatan i opušten boravak.",
-    "Balkon – Za uživanje u obrocima na svežem vazduhu.",
+    "Praktičan i kompaktan prostor – Minimalistički dizajn uz sve što vam je potrebno za kraći boravak.",
+    "Odlična opcija za parove –  Romantičan ambijent i sve pogodnosti za prijatan i opušten boravak.",
+    "Balkon – Za uživanje u obrocima na svježem vazduhu.",
     "Klima-uređaj – Za prijatan boravak tokom vrućih dana. ",
     "Flat TV sa kablovskim kanalima – Za opuštanje uz omiljene sadržaje.",
     "Besplatan WiFi – Za rad, zabavu ili komunikaciju.",
-    "Sef – Bezbedno čuvanje vaših ličnih stvari tokom boravka.",
+    "Sef – Bezbjedno čuvanje vaših ličnih stvari tokom boravka.",
     "Besplatan parking –  Privatno parking mesto dostupno bez dodatnih troškova." 
   
   
   ],
     
-   "metaKeywords"  :["dvokrevetni studio", "studio Bečići","studio za 2 osobe Bečići","smestaj sa parkingom Bečići", "apartman blizu plaže", "studio za parove", "smeštaj za parove", "apartman sa balkonom", "minimalistički studio", "Bečići smeštaj", "studio za kraci boravak", "studio apartman Bečići", "smestaj Crna Gora"],
+   "metaKeywords"  :["dvokrevetni studio", "studio Bečići","studio za 2 osobe Bečići","smestaj sa parkingom Bečići", "apartman blizu plaže", "studio za parove", "smeštaj za parove", "apartman sa balkonom", "minimalistički studio", "Bečići smeštaj", "studio za kraći boravak", "studio apartman Bečići", "smestaj Crna Gora"],
     
     "metaDescription"  : "Dvokrevetni studio u Bečićima, idealan za parove. Sa kupatilom, mini kuhinjom i balkonom. Klima, tv, internet. 3 minuta pjeske od plaže. Parking mjesto obezbjedjeno." ,
     
@@ -338,19 +337,19 @@
     "apartmentSize"  : 60,
     "type"  : "apartman",
     "guestsNumber"  : 5,
-    "beds"  : ["francuski lezaj", "trosjed na razvlacenje", "fotelja na razvlacenje", {"babyCrib"  : true}],
+    "beds"  : ["francuski ležaj", "trosjed na razvlačenje", "fotelja na razvlačenje", {"babyCrib"  : true}],
     "maxGuestsNumber"  : ["5 odraslih"],
     "facilities"   : ["freeParking", "kitchen" ,"privateBathroom","balcony" ,"sunLoungers","sea view","gardenView","innerCourtyardView", "airConditioning" ,"flatTV" , "freeWiFi" ,"safe" ],
-    "kitchen"  : ["frizider", "ploca za kuvanje", "rerna", "mikrotalasna rerna", "pribor za kuvanje" ,"pribor za jelo", "elektricno kuvalo","sto za rucavanje" ],
-    "bathroom"  : ["Sopstveno kupatilo","kada" ,"peskiri" ,"toalet papir"  ],
-    "bedroom"  : ["posteljina" , "orman", "nocni stocic" ,"TV sa kablovskim kanalima" ],
-    "balcony"   : ["prostor za sjedenje" , "susilica za ves" ,"2 lezaljke za suncanje"],
-    "view"   : ["pogled na more", "pogled na dvoriste","pogled na vrt" ],
+    "kitchen"  : ["frižider", "ploča za kuvanje", "rerna", "mikrotalasna rerna", "pribor za kuvanje" ,"pribor za jelo", "električno kuvalo","sto za ručavanje" ],
+    "bathroom"  : ["Sopstveno kupatilo","kada" ,"peškiri" ,"toalet papir"  ],
+    "bedroom"  : ["posteljina" , "orman", "noćni stočić" ,"TV sa kablovskim kanalima" ],
+    "balcony"   : ["prostor za sjedenje" , "sušilica za veš" ,"2 ležaljke za sunčanje"],
+    "view"   : ["pogled na more", "pogled na dvorište","pogled na vrt" ],
     "mediaAndTechnology":["kablovski kanali", "TV"],
     "safetyAndSecurity":["Pristup ključem", "Sef"],
-     "commonAreas" :["bašta","spoljni nameštaj","spoljni prostor za ručavanje","pribor za pripremu roštilja","Djecije igralište na otvorenom"],
-    "onDemand"   :["fen" ,"sredstva za ciscenje" ,"pribor za peglanje", "djeciji krevetac", "stolica za hranjenje"],
-    "featured":["partialSeaView"],
+     "commonAreas" :["bašta","spoljni namještaj","spoljni prostor za ručavanje","pribor za pripremu roštilja","Djecije igralište na otvorenom"],
+    "onDemand"   :["fen" ,"sredstva za cišćenje" ,"pribor za peglanje", "djeciji krevetac", "stolica za hranjenje"],
+    "featured":["partialSeaView","familyFriendly","sunLoungers","gardenView"],
    "photos": [
      {"id"   : "", "photoURL"  :"/images/5_person_apartment_4th_floor/beds.jpg", "photoAlt"  :"", "photoPosition"  :"", "order": 4},
  {"id"   : "", "photoURL"  :"/images/5_person_apartment_4th_floor/bedroom.jpg", "photoAlt"  :"", "photoPosition"  :"", "order": 4},
@@ -361,19 +360,19 @@
  {"id"   : "", "photoURL"  :"/images/5_person_apartment_4th_floor/balcony.jpg", "photoAlt"  :"", "photoPosition"  :"", "order": 4},
  {"id"   : "", "photoURL"  :"/images/5_person_apartment_4th_floor/splendid-view.jpg", "photoAlt"  :"", "photoPosition"  :"bottom", "order": 4}
  ],
-    "shortDescription"  :"Francuski lezaj, fotelja i trosjed koji se razvlaci. Kuhinja, kupatilo, prostrana terasa. Za porodice do 5 clanova.",
+    "shortDescription"  :"Prostran i funkcionalan apartman za grupe ili porodice do 5 članova. Francuski ležaj, fotelja i trosjed koji se razvlači. Terasa sa prostorom za sjedenje i pogledom na more, vrt i dvorište.",
     "longerDesciption"  :"",
     "notes"  :["" ],
     
     
     "introContent"   : [
-    "Prostran apartman na poslednjem spratu, za veće grupe ili za porodice do 5 clanova." ,
-    "Sastoji se od jedne spavaće sobe sa francuskim ležajem i foteljom kao pomocnim ležajem , dok je druga prostorija kombinacija kuhinje, trpezarije i prostora za spavanje sa trosjedom na razvlačenje. Obe prostorije su klimatizovane i imaju izlaz na terasu sa pogledom na more, vrt i dvorište." ], 
+    "Prostran apartman na poslednjem spratu, za veće grupe ili za porodice do 5 članova." ,
+    "Sastoji se od jedne spavaće sobe sa francuskim ležajem i foteljom kao pomoćnim ležajem , dok je druga prostorija kombinacija kuhinje, trpezarije i prostora za spavanje sa trosjedom na razvlačenje. Obe prostorije su klimatizovane i imaju izlaz na terasu sa pogledom na more, vrt i dvorište." ], 
     
     "amenities"   : [
     "Spavaća soba: Francuski ležaj + fotelja na razvlačenje.",
     "Dnevni boravak i kuhinja: Trosed na razvlačenje, kuhinjski uredjaji (frižider, ploča za kuvanje, rerna, mikrotalasna, električno kuvalo), posudje za pripremu hranu, pribor za jelo, sto za ručavanje.",
-    "Balkon: Prostran balkon sa prostorom za sedenje i 2 ležaljke za sunčanje. Tenda na terasi za zaštitu od prekomerne vrućine." ],
+    "Balkon: Prostran balkon sa prostorom za sjedenje i 2 ležaljke za sunčanje. Tenda na terasi za zaštitu od prekomjerne vrućine. Pogled na more, vrt i dvorište." ],
     
    
     
@@ -383,20 +382,18 @@
      "Klima-uređaj u obe prostorije.",
     "Besplatan WiFi – za zabavu i komunikaciju.",
     "TV sa kablovskim kanalima.",
-    "Sef –  za sigurno čuvanje vrijednih stvari.",
+    "Sef – za sigurno čuvanje vrijednih stvari.",
 
     "Prostrana terasa sa ležaljkama – za opuštanje sa pogledom na okolinu.",
-    
-    
     "Dodatni sadržaji za djecu – Djecije igralište u sklopu objekta. Na zahtjev, dostupni su dečiji krevetac i stolica za hranjenje.",
-    "Parking mjesto obezbjedjeno – bez dodatnih troskova."
+    "Parking mjesto obezbjedjeno – bez dodatnih troškova."
 
 
 
     ],
     
     
-    "metaDescription"  : "Prostran apartman za 5 osoba u Bečićima sa pogledom na more. 3 minuta do plaze. Idealno za porodice i grupe. Parking obezbjedjen.",
+    "metaDescription"  : "Prostran apartman za 5 osoba u Bečićima sa pogledom na more. 3 minuta do plaže. Idealno za porodice i grupe. Parking obezbjedjen.",
     
    "metaKeywords"  : ["apartman za 5 osoba Bečići","smjestaj za 5 osoba u Becicima","smeštaj blizu plaže","smestaj Crna Gora", "povoljan apartman Bečići", "letovanje smeštaj", "apartman za petoro", "privatni smeštaj Bečići", "porodični odmor", "letovanje Crna Gora", "apartman za porodice", "porodičan smeštaj", "apartman sa pogledom na more Becici", "ljetovanje Bečići", "smestaj u Bečićima", "povoljan smestaj blizu plaže", "petokrevetni apartman Bečići"],
     "title"  : "Apartman za 5 Osoba sa pogledom na more - Za Porodice i Grupe",
@@ -412,19 +409,19 @@
     "apartmentSize"  : 33,
     "type"  : "apartman",
     "guestsNumber"  : 3,
-    "beds"  : ["francuski lezaj", "fotelja na razvlacenje", {"babyCrib"  : true}],
+    "beds"  : ["francuski ležaj", "fotelja na razvlačenje", {"babyCrib"  : true}],
     "maxGuestsNumber"  : ["2 odraslih + 2 djece / 3 odraslih"],
     "facilities"   : ["freeParking", "kitchen" ,"privateBathroom","balcony" ,"gardenView","innerCourtyardView", "mountainView", "airConditioning" ,"TV" , "freeWiFi" ,"safe" ],
-    "kitchen"  : ["frizider", "ploca za kuvanje", "rerna", "pribor za kuvanje" ,"pribor za jelo", "elektricno kuvalo","sto za rucavanje" ],
-    "bathroom"  : ["Sopstveno kupatilo","kada" ,"peskiri" ,"toalet papir"  ],
-    "bedroom"  : ["posteljina" , "orman", "nocni stocic" ,"TV sa kablovskim kanalima" ],
-    "balcony"   : ["prostor za sjedenje" , "susilica za ves" ],
-    "view"   : ["pogled na planinu", "pogled na dvoriste","pogled na vrt" ],
+    "kitchen"  : ["frižider", "ploča za kuvanje", "rerna", "pribor za kuvanje" ,"pribor za jelo", "električno kuvalo","sto za ručavanje" ],
+    "bathroom"  : ["Sopstveno kupatilo","kada" ,"peškiri" ,"toalet papir"  ],
+    "bedroom"  : ["posteljina" , "orman", "noćni stočić" ,"TV sa kablovskim kanalima" ],
+    "balcony"   : ["prostor za sjedenje" , "sušilica za veš" ],
+    "view"   : ["pogled na planinu", "pogled na dvorište","pogled na vrt" ],
     "mediaAndTechnology":["kablovski kanali", "TV"],
     "safetyAndSecurity":["Pristup ključem", "Sef"],
-     "commonAreas" :["bašta","spoljni nameštaj","spoljni prostor za ručavanje","pribor za pripremu roštilja","Djecije igralište na otvorenom"],
-    "onDemand"   :["fen" ,"sredstva za ciscenje" ,"pribor za peglanje", "djeciji krevetac", "stolica za hranjenje"],
-    "featured":["familyFriendly", "gardenView"],
+     "commonAreas" :["bašta","spoljni namještaj","spoljni prostor za ručavanje","pribor za pripremu roštilja","Djecije igralište na otvorenom"],
+    "onDemand"   :["fen" ,"sredstva za cišćenje" ,"pribor za peglanje", "djeciji krevetac", "stolica za hranjenje"],
+    "featured":["familyFriendly", "gardenView","mountainView"],
    "photos": [
 {"id"   : "", "photoURL"  :"/images/3_person_apartment_3rd_floor/balcony-with-sitting-area.jpg", "photoAlt"  :"", "photoPosition"  :"bottom", "order": 1},
       
@@ -445,7 +442,7 @@
       
       
        ],
-    "shortDescription"  :"Francuski lezaj i fotelja kao pomocni. ",
+    "shortDescription"  :"Potpuno opremljen i funkcionalan apartman sa kuhinjom, kupatilom i terasom. Za porodice i grupe do 3 osobe. Pogled na vrt, dvorište i planinu.",
     "longerDesciption"  :"",
    
     
@@ -456,26 +453,26 @@
     
     "amenities"   : [
     "Spavaća soba: Francuski ležaj, klima-uređaj, TV sa kablovskim kanalima, izlaz na terasu.",
-    "Kombinovani prostor: Fotelja na razvlačenje kao pomocni lezaj, kuhinjski uređaji (frižider, ploča za kuvanje, rerna, električno kuvalo), posuđe za pripremu hrane, pribor za jelo, sto za ručavanje.",
-    "Balkon: Prostor za sedenje sa pogledom na vrt, dvorište i planinu, susilica za ves."],
+    "Kombinovani prostor: Fotelja na razvlačenje kao pomoćni ležaj, kuhinjski uređaji (frižider, ploča za kuvanje, rerna, električno kuvalo), posuđe za pripremu hrane, pribor za jelo, sto za ručavanje.",
+    "Balkon: Prostor za sjedenje sa pogledom na vrt, dvorište i planinu, sušilica za veš."],
     
    
     
-    "availableOnRequest"  :"Na zahtev: Fen za kosu, sredstva za čišćenje, pribor za peglanje, djeciji krevetac, stolica za hranjenje.",
-    "metaDescription":"Apartman za 3 osobe u Bečićima sa terasom. 3 minuta do plaze. Besplatan parking. Djecije igraliste u sklopu objekta.",
+    "availableOnRequest"  :"Na zahtjev: Fen za kosu, sredstva za čišćenje, pribor za peglanje, djeciji krevetac, stolica za hranjenje.",
+    "metaDescription":"Apartman za 3 osobe u Bečićima sa terasom. 3 minuta do plaže. Besplatan parking. Djecije igralište u sklopu objekta.",
    "metaKeywords"  :["apartman za 3 osobe Bečići", "smještaj za 3 osobe u Bečićima","trokrevetni apartman Bečići", "smeštaj blizu plaže","smestaj Crna Gora", "apartman za 3 osobe Bečići", "letovanje smeštaj", "apartman sa balkonom", "privatni smeštaj Bečići", "porodični odmor", "letovanje uz more", "apartman za parove", "smeštaj sa parkingom Becici", "letovanje Bečići", "smestaj u Bečićima", "povoljan smestaj blizu plaže", "smještaj za 3 osobe u Bečićima" ],
     "pageURL"  : "apartman-za-3-osobe-na-3-spratu" ,
     
     "reasonsToChoose"  :[
-    "Odlicna lokacija –  Par minuta laganog hoda do pješčane obale.",
+    "Odlična lokacija –  Par minuta laganog hoda do pješčane plaže.",
     "Kompletno opremljen apartman – Ima sve što vam je potrebno za udoban boravak.",
-"Prostrana terasa – Za uzivanje u jutarnjoj kafi ili večernjem odmoru na svježem vazduhu.",
+"Prostrana terasa – Za uživanje u jutarnjoj kafi ili večernjem odmoru na svježem vazduhu.",
     "Klima-uređaj – Za prijatan boravak tokom vrućih dana.",
     "TV sa kablovskim kanalima – Za opuštanje uz omiljene sadržaje.",
     "Besplatan WiFi – Za rad, zabavu ili komunikaciju.",
     "Sef – Za bezbjedno čuvanje dragocjenosti.",
     "Obezbjeđeno parking mesto – Bez dodatnih troškova.",
-    "Sadržaji za djecu – Djecije igraliste u sklopu objekta, a na zahtev su dostupni dečiji krevetac i stolica za hranjenje."
+    "Sadržaji za djecu – Djecije igralište u sklopu objekta, a na zahtjev su dostupni dečiji krevetac i stolica za hranjenje."
     
     
     
@@ -486,22 +483,23 @@
     
     
     {
-    "name" : "Apartman za 4 osobe na 3.em spratu","id":7,
+    "name" : "Apartman za 4 osobe s pogledom na more, vrt i dvorište","id":7,
     "apartmentSize"  : 55,
     "type"  : "apartman",
     "guestsNumber"  : 4,
-    "beds"  : ["francuski lezaj", "kauc na razvlacenje", {"babyCrib"  : true}],
+    "beds"  : ["francuski ležaj", "kauč na razvlačenje", {"babyCrib"  : true}],
     "maxGuestsNumber"  : ["4 odraslih"],
    "facilities"   : ["freeParking", "kitchen" ,"privateBathroom","balcony" ,"sunLoungers","gardenView","innerCourtyardView","seaView", "airConditioning" ,"TV" , "freeWiFi" ,"safe" ],
-    "kitchen"  : ["frizider", "ploca za kuvanje", "rerna", "pribor za kuvanje" ,"pribor za jelo", "elektricno kuvalo","sto za rucavanje" ],
-    "bathroom"  : ["Sopstveno kupatilo","kada" ,"peskiri" ,"toalet papir"  ],
-    "bedroom"  : ["posteljina" , "orman", "nocni stocic" ,"TV sa kablovskim kanalima" ],
-    "balcony"   : ["prostor za sjedenje" , "susilica za ves", "2 lezaljke za suncanje" ],
-    "view"   : ["pogled na more", "pogled na dvoriste","pogled na vrt" ],
+    "kitchen"  : ["frižider", "ploča za kuvanje", "rerna", "pribor za kuvanje" ,"pribor za jelo", "električno kuvalo","sto za ručavanje" ],
+    "bathroom"  : ["Sopstveno kupatilo","kada" ,"peškiri" ,"toalet papir"  ],
+    "bedroom"  : ["posteljina" , "orman", "noćni stočić" ,"TV sa kablovskim kanalima" ],
+    "balcony"   : ["prostor za sjedenje" , "sušilica za veš", "2 ležaljke za sunčanje" ],
+    "view"   : ["pogled na more", "pogled na dvorište","pogled na vrt" ],
     "mediaAndTechnology":["kablovski kanali", "TV"],
-    "safetyAndSecurity":["Pristup ključem", "Sef"], "featured":["partialSeaView", "familyFriendly"],
-     "commonAreas" :["bašta","spoljni nameštaj","spoljni prostor za ručavanje","pribor za pripremu roštilja","Djecije igralište na otvorenom"],
-    "onDemand"   :["fen" ,"sredstva za ciscenje" ,"pribor za peglanje", "djeciji krevetac", "stolica za hranjenje"],
+    "safetyAndSecurity":["Pristup ključem", "Sef"], 
+    "featured":["partialSeaView", "familyFriendly", "sunLoungers","gardenView"],
+     "commonAreas" :["bašta","spoljni namještaj","spoljni prostor za ručavanje","pribor za pripremu roštilja","Djecije igralište na otvorenom"],
+    "onDemand"   :["fen" ,"sredstva za cišćenje" ,"pribor za peglanje", "djeciji krevetac", "stolica za hranjenje"],
     "photos": [
  {"id"   : "", "photoURL"  :"/images/4_person_apartment_3rd_floor/kitchen-elements.jpg", "photoAlt"  :"", "photoPosition"  :"", "order": 13},
       {"id"   : "", "photoURL"  :"/images/4_person_apartment_3rd_floor/double-bed.jpg", "photoAlt"  :"", "photoPosition"  :"", "order": 1},
@@ -526,24 +524,24 @@
       
       
        ],
-    "shortDescription"  :"",
+    "shortDescription"  :"Prostran i klimatizovan apartman za 4 osobe, sa velikom natkrivenom terasom, ležaljkama za sunčanje i pogledom na more, vrt i dvorište. ",
     "longerDesciption"  :"",
    
     "introContent"  : [
     "Apartman za 4 osobe na 3. spratu.",
     "Za parove, porodice i grupe, na par minuta hoda od plaže!"],
     
-    "amenities"  : ["Prostran i klimatizovan apartman za 4 osobe u Bečićima, sa velikom natkrivenom terasom, ležaljkama za sunčanje i pogledom na more.",
+    "amenities"  : ["Prostran i klimatizovan apartman za 4 osobe u Bečićima, sa velikom natkrivenom terasom, ležaljkama za sunčanje i pogledom na more, vrt i dvorište.",
     
     "Spavaća soba – Francuski ležaj, TV sa kablovskim kanalima, orman, noćni stočići. Direktan izlaz na terasu.",
     "Kombinovani prostor – Prostor za spavanje sa kaučem na razvlačenje,  trpezarijski sto, kuhinjski uređaji (frižider, ploča za kuvanje, rerna, električno kuvalo), posuđe i pribor za jelo. Izlaz na terasu.",
-    "Kupatilo – Kada, peškiri, higijenske potrepstine.",
-    "Prostrana terasa – Natkrivena, sa prostorom za sedenje, sušilicom za veš i dve ležaljke za sunčanje. Pogled na more, vrt i dvorište."],
+    "Kupatilo – Kada, peškiri, higijenske potrepštine.",
+    "Prostrana terasa – Natkrivena, sa prostorom za sjedenje, sušilicom za veš i dvije ležaljke za sunčanje. Pogled na more, vrt i dvorište."],
     
     
     
     
-    "availableOnRequest"  :"Na zahtev – Fen za kosu, sredstva za čišćenje, pribor za peglanje, dečiji krevetac, stolica za hranjenje.",
+    "availableOnRequest"  :"Na zahtjev – Fen za kosu, sredstva za čišćenje, pribor za peglanje, dečiji krevetac, stolica za hranjenje.",
     
     "reasonsToChoose"  : [
     "Kompletno opremljen apartman – Sve što vam je potrebno za udoban boravak.",
@@ -552,16 +550,16 @@
     "Odličan izbor za porodice i grupe – Dovoljno prostora za 4 osobe.",
     "Prostrana terasa sa pogledom na more – Za jutarnju kafu ili večernji odmor.",
     "Klima-uređaj u obe prostorije – Za prijatan boravak tokom toplih dana.",
-    "TV sa kablovskim kanalima – Za udobno uživanje u omiljenim emisijama.",
-    "Besplatan WiFi – Za rad, zabavu ili kontakt s najblizima.",
-    "Sef – Sigurno čuvanje vaših vrednosti.",
+    "TV sa kablovskim kanalima – Za uživanje u omiljenim emisijama.",
+    "Besplatan WiFi – Za rad, zabavu ili kontakt s najbližima.",
+    "Sef – Za sigurno čuvanje vaših vrijednosti.",
     "Obezbjeđeno parking mjesto – Besplatno.",
-    "Sadržaji za djecu – Djecije igraliste u sklopu objekta, a na zahtev su dostupni dečiji krevetac i stolica za hranjenje."
+    "Sadržaji za djecu – Djecije igralište u sklopu objekta, a na zahtjev su dostupni dečiji krevetac i stolica za hranjenje."
    
     
     ], 
     
-    "metaDescription"  :"Prostran apartman za 4 osobe u Bečićima sa velikom terasom i pogledom na more. Za porodice i grupe. Blizu plaže. Parking obezbeđen. Djecije igraliste u sklopu objekta.",
+    "metaDescription"  :"Prostran apartman za 4 osobe u Bečićima sa velikom terasom i pogledom na more. Za porodice i grupe. Blizu plaže. Parking obezbeđen. Djecije igralište u sklopu objekta.",
     
    "metaKeywords"  :[ "apartman za 4 osobe Bečići", "smeštaj za 4 osobe u Bečićima","smeštaj blizu plaže","smestaj Crna Gora", "povoljan apartman Bečići", "letovanje smeštaj", "apartman za cetvoro", "privatni smeštaj Bečići", "porodični odmor", "letovanje Crna Gora", "apartman za porodice", "porodičan smeštaj", "apartman sa pogledom na more Becici", "ljetovanje Bečići", "smestaj u Bečićima", "povoljan smestaj blizu plaže", "cetvorokrevetni apartman Bečići" ],
     "pageURL"   : "apartman-za-4-osobe-na-3-spratu",
@@ -575,18 +573,19 @@
     "apartmentSize"  : 35,
     "type"  : "apartman",
     "guestsNumber"  : 3,
-    "beds"  : ["francuski lezaj", "fotelja na razvlacenje", {"babyCrib"  : true}],
+    "beds"  : ["francuski ležaj", "fotelja na razvlačenje", {"babyCrib"  : true}],
     "maxGuestsNumber"  : ["2 odraslih + 2 djece / 3 odraslih"],
  "facilities"   : ["freeParking", "kitchen" ,"privateBathroom", "balcony" ,"sunLoungers","seaView","gardenView","innerCourtyardView", "mountainView", "airConditioning" ,"TV" , "freeWiFi" ,"safe" ],
-    "kitchen"  : ["frizider", "ploca za kuvanje", "rerna", "pribor za kuvanje" ,"pribor za jelo", "elektricno kuvalo","sto za rucavanje" ],
-    "bathroom"  : ["Sopstveno kupatilo","kada" ,"peskiri" ,"toalet papir"  ],
-    "bedroom"  : ["posteljina" , "orman", "nocni stocic" ,"TV sa kablovskim kanalima" ],
-    "balcony"   : ["prostor za sjedenje" , "susilica za ves" , "1 lezaljka za suncanje" ],
-    "view"   : ["pogled na more","pogled na planinu", "pogled na dvoriste","pogled na vrt" ],
+    "kitchen"  : ["frižider", "ploča za kuvanje", "rerna", "pribor za kuvanje" ,"pribor za jelo", "električno kuvalo","sto za ručavanje" ],
+    "bathroom"  : ["Sopstveno kupatilo","kada" ,"peškiri" ,"toalet papir"  ],
+    "bedroom"  : ["posteljina" , "orman", "noćni stočić" ,"TV sa kablovskim kanalima" ],
+    "balcony"   : ["prostor za sjedenje" , "sušilica za veš" , "1 ležaljka za sunčanje" ],
+    "view"   : ["pogled na more","pogled na planinu", "pogled na dvorište","pogled na vrt" ],
     "mediaAndTechnology":["kablovski kanali", "TV"],
-    "safetyAndSecurity":["Pristup ključem", "Sef"],   "featured":["2 terraces", "familyFriendly"],
-     "commonAreas" :["bašta","spoljni nameštaj","spoljni prostor za ručavanje","pribor za pripremu roštilja","Djecije igralište na otvorenom"],
-    "onDemand"   :["fen" ,"sredstva za ciscenje" ,"pribor za peglanje", "djeciji krevetac", "stolica za hranjenje"],
+    "safetyAndSecurity":["Pristup ključem", "Sef"],   
+    "featured":[ "familyFriendly","gardenView","mountainView","partialSeaView"],
+     "commonAreas" :["bašta","spoljni namještaj","spoljni prostor za ručavanje","pribor za pripremu roštilja","Djecije igralište na otvorenom"],
+    "onDemand"   :["fen" ,"sredstva za cišćenje" ,"pribor za peglanje", "djeciji krevetac", "stolica za hranjenje"],
    "photos": [
 {"id"   : "", "photoURL"  :"/images/3_person_apartment_2terraces_4th_floor/double-bed.jpg", "photoAlt"  :"", "photoPosition"  :"", "order": 1},
       {"id"   : "", "photoURL"  :"/images/3_person_apartment_2terraces_4th_floor/bedroom-tv.jpg", "photoAlt"  :"", "photoPosition"  :"", "order": 2},
@@ -601,40 +600,40 @@
              {"id"   : "", "photoURL"  :"/images/3_person_apartment_2terraces_4th_floor/view.jpg", "photoAlt"  :"", "photoPosition"  :"", "order": 10}
       
        ],
-    "shortDescription"  :"",
+    "shortDescription"  :"Za manje porodice ili grupe do 3 osobe, sa dvije prostrane terase. Pogled na more, vrt, dvorište i planine. Udoban i funkcionalan apartman, sadrži sve sto je potrebno za ugodan boravak.",
     "longerDesciption"  :"",
     "notes"  :["" ],
     
     "introContent"  : [
-    "Apartman na 4. spratu, idealan za manje porodice ili grupe do 3 osobe, sa dve prostrane terase.",
+    "Apartman na 4.om spratu, idealan za manje porodice ili grupe do 3 osobe, sa dvije prostrane terase.",
     "Spavaća soba sadrži francuski ležaj, klima-uređaj i TV sa kablovskim kanalima, i iz sobe se izlazi na jednu od terasa, sa prostorom za sjedenje i ležaljkom za sunčanje. Pogled na more i na vrt.",
-    "Kombinovani prostor obuhvata kutak za spavanje (sa foteljom na razvlačenje), kuhinju i trpezarijski deo, sa izlazom na drugu terasu koja takođe ima prostor za sedenje. Pogled na vrt i planinu."
+    "Kombinovani prostor obuhvata kutak za spavanje (sa foteljom na razvlačenje), kuhinju i trpezarijski dio, sa izlazom na drugu terasu koja takođe ima prostor za sjedenje. Pogled na vrt i planinu."
     ],
     
     "amenities"   :[
     "Spavaća soba: Francuski ležaj, klima-uređaj, TV sa kablovskim kanalima, izlaz na terasu.",
     "Kombinovani prostor: Fotelja na razvlačenje, kuhinjski uređaji (frižider, ploča za kuvanje, rerna, električno kuvalo), posuđe za pripremu hrane, pribor za jelo, sto za ručavanje.",
-    "Terase (2): Jedna terasa sa stolom, stolicama i ležaljkom za sunčanje; druga terasa sa stolom, stolicama i susilicom za ves."
+    "Terase (2): Jedna terasa sa stolom, stolicama i ležaljkom za sunčanje; druga terasa sa stolom, stolicama i sušilicom za veš."
     
     ],
    
-    "availableOnRequest"  : "Na zahtev: Fen za kosu, sredstva za čišćenje, pribor za peglanje, dečiji krevetac, stolica za hranjenje",
+    "availableOnRequest"  : "Na zahtjev: Fen za kosu, sredstva za čišćenje, pribor za peglanje, dečiji krevetac, stolica za hranjenje",
     
     "reasonsToChoose"  : [
       "Blizina plaže – 3 minuta laganog hoda.",
       "Kompletno opremljen apartman – Svi potrebni sadržaji za udoban boravak.",
       "Dvije terase – Sa pogledom na more, vrt, dvorište i planine.",
      
-      "Klima-uređaj – Za ugodan boravak tokom toplih dana.",
+      "Klima-uređaj – Za ugodan boravak u toplim ljetnjim danima.",
       "TV sa kablovskim kanalima – Za opuštanje uz omiljene sadržaje.",
       "Besplatan WiFi – Za rad, zabavu i komunikaciju.",
-      "Sef – Za sigurno čuvanje dragocenosti.",
-     "Pogodan za porodice – Djecije igraliste u sklopu objekta, a na zahtev su dostupni dečiji krevetac i stolica za hranjenje.",
+      "Sef – Za sigurno čuvanje vasih dragocjenosti.",
+     "Pogodan za porodice – Djecije igralište u sklopu objekta, a na zahtjev su dostupni dečiji krevetac i stolica za hranjenje.",
     "Besplatan parking – Obezbeđeno mjesto bez dodatnih troškova."
     
     ],
    "metaKeywords"  : ["apartman sa 2 terase Bečići", "smještaj za 3 osobe u Bečićima", "apartman sa pogledom na more Bečići", "povoljan apartman Bečići", "letovanje smeštaj", "apartman za troje", "privatni smeštaj Bečići", "porodični odmor", "letovanje za 3 osobe Crna Gora", "apartman za 3 osobe Becici", "povoljan smeštaj Crna Gora","apartmani na moru","apartmani sa parkingom","smještaj za 3 odraslih", "trokrevetni apartman sa parkingom Bečići"],
-    "metaDescription" : "Apartman za 3 osobe u Bečićima sa 2 terase. Svi neophodni sadzaji za kratak i udoban boravak. 3 minuta do plaze. Besplatan parking. Djecije igraliste u sklopu objekta.",
+    "metaDescription" : "Apartman za 3 osobe u Bečićima sa 2 terase. Svi neophodni sadržaji za kratak i udoban boravak. 3 minuta do plaže. Besplatan parking. Djecije igralište u sklopu objekta.",
    
    "pageURL"  : "apartman-za-3-osobe-sa-dve-terase-na-4-spratu",
     "title"  :"Apartman za 3 osobe sa 2 terase na 4.om spratu"
@@ -649,19 +648,19 @@
     "apartmentSize"  : 35,
     "type"  : "apartman",
     "guestsNumber"  : 3,
-    "beds"  : ["francuski lezaj", "fotelja na razvlacenje", {"babyCrib"  : true}],
+    "beds"  : ["francuski ležaj", "fotelja na razvlačenje", {"babyCrib"  : true}],
     "maxGuestsNumber"  : ["2 odraslih + 2 djece / 3 odraslih"],
    "facilities"   : ["freeParking", "kitchen" ,"privateBathroom", "balcony" ,"sunLoungers","seaView","gardenView","innerCourtyardView", "mountainView", "airConditioning" ,"TV" , "freeWiFi" ,"safe" ],
-    "kitchen"  : ["frizider", "ploca za kuvanje", "rerna", "pribor za kuvanje" ,"pribor za jelo", "elektricno kuvalo","sto za rucavanje" ],
-    "bathroom"  : ["Sopstveno kupatilo","kada" ,"peskiri" ,"toalet papir"  ],
-    "bedroom"  : ["posteljina" , "orman", "nocni stocic" ,"TV sa kablovskim kanalima" ],
-    "balcony"   : ["prostor za sjedenje" , "susilica za ves" , "1 lezaljka za suncanje" ],
-    "view"   : ["pogled na more","pogled na planinu", "pogled na dvoriste","pogled na vrt" ],
+    "kitchen"  : ["frižider", "ploča za kuvanje", "rerna", "pribor za kuvanje" ,"pribor za jelo", "električno kuvalo","sto za ručavanje" ],
+    "bathroom"  : ["Sopstveno kupatilo","kada" ,"peškiri" ,"toalet papir"  ],
+    "bedroom"  : ["posteljina" , "orman", "noćni stočić" ,"TV sa kablovskim kanalima" ],
+    "balcony"   : ["prostor za sjedenje" , "sušilica za veš" , "1 ležaljka za sunčanje" ],
+    "view"   : ["pogled na more","pogled na planinu", "pogled na dvorište","pogled na vrt" ],
     "mediaAndTechnology":["kablovski kanali", "TV"],
     "safetyAndSecurity":["Pristup ključem", "Sef"],
-     "commonAreas" :["bašta","spoljni nameštaj","spoljni prostor za ručavanje","pribor za pripremu roštilja","Djecije igralište na otvorenom"],
-    "onDemand"   :["fen" ,"sredstva za ciscenje" ,"pribor za peglanje", "djeciji krevetac", "stolica za hranjenje"],
-    "featured":["2 terraces", "familyFriendly"],
+     "commonAreas" :["bašta","spoljni namještaj","spoljni prostor za ručavanje","pribor za pripremu roštilja","Djecije igralište na otvorenom"],
+    "onDemand"   :["fen" ,"sredstva za cišćenje" ,"pribor za peglanje", "djeciji krevetac", "stolica za hranjenje"],
+    "featured":["2 terraces", "familyFriendly", "partialSeaView","gardenView"],
    "photos": [
       {"id"   : "", "photoURL"  :"/images/3_person_apartment_with_2_terraces_3rd_floor/double-bed.jpg", "photoAlt"  :"", "photoPosition"  :"", "order": 1},
     {"id"   : "", "photoURL"  :"/images/3_person_apartment_with_2_terraces_3rd_floor/bedroom.jpg", "photoAlt"  :"", "photoPosition"  :"", "order": 1},
@@ -676,14 +675,14 @@
     {"id"   : "", "photoURL"  :"/images/3_person_apartment_with_2_terraces_3rd_floor/terrace-2-view.jpg", "photoAlt"  :"", "photoPosition"  :"", "order": 1},
     {"id"   : "", "photoURL"  :"/images/3_person_apartment_with_2_terraces_3rd_floor/terrace-2-splendid-view.jpg", "photoAlt"  :"", "photoPosition"  :"", "order": 1}
  ],
-    "shortDescription"  :"",
+    "shortDescription"  :"Pogodan za manje porodice ili grupe do 3 osobe, sa dvije terase. Kompletno opremljen apartman, sadrži sve što vam je potrebno za prijatan boravak. Pogled na vrt, dvorište i planine.",
     "longerDesciption"  :"",
     
     
    "introContent"  : [
-    "Apartman na 3. spratu, za manje porodice ili grupe do 3 osobe, sa dve terase.",
+    "Apartman na 3. spratu, za manje porodice ili grupe do 3 osobe, sa dvije terase.",
     "Spavaća soba sadrži francuski ležaj, klima-uređaj i TV sa kablovskim kanalima, sa izlazom na prostranu terasu sa stolom, stolicama i ležaljkom za sunčanje. Pogled na vrt i dvorište.",
-    "Kombinovani prostor obuhvata kutak za spavanje (sa foteljom na razvlačenje), kuhinju i trpezarijski deo, sa izlazom na drugu terasu, koja je opremljena stolom, stolicama i sušilicom za veš. Pogled na planinu i dvorište."
+    "Kombinovani prostor obuhvata kutak za spavanje (sa foteljom na razvlačenje), kuhinju i trpezarijski dio, sa izlazom na drugu terasu, koja je opremljena stolom, stolicama i sušilicom za veš. Pogled na planinu i dvorište."
     ],
     
     "amenities"  :[ 
@@ -693,29 +692,28 @@
     
    
     
-    "availableOnRequest"  : "Na zahtev: Fen za kosu, sredstva za čišćenje, pribor za peglanje, dečiji krevetac, stolica za hranjenje.",
+    "availableOnRequest"  : "Na zahtjev: Fen za kosu, sredstva za čišćenje, pribor za peglanje, dečiji krevetac, stolica za hranjenje.",
     
     
    
     
     "reasonsToChoose"  : [
-      "Odlicna lokacija – Na samo 3 minuta laganog hoda od plaze.",
+      "Odlična lokacija – Na samo 3 minuta laganog hoda od plaže.",
     "Kompletno opremljen apartman – Sve što vam je potrebno za prijatan boravak.",
-"Dve terase – Privatni prostor na otvorenom sa pogledom na vrt, dvorište i planine.",
-
-      "Klima-uređaj – U obe prostorije, za maksimalnu udobnost tokom boravka.",
+"Dvije terase – Privatni prostor na otvorenom sa pogledom na vrt, dvorište i planine.",
+"Klima-uređaj – U obe prostorije, za maksimalnu udobnost tokom boravka.",
     "TV sa kablovskim kanalima – Za uživanje u omiljenim emisijama i filmovima.",
     "Besplatan WiFi – Za zabavu, rad, kontakt sa porodicom i prijateljima.",
     "Sef – Sigurno čuvanje vrijednih stvari tokom odmora.", 
-     "Besplatan parking – Obezbeđeno mjesto bez dodatnih troškova.",
+     "Besplatan parking – Obezbijeđeno mjesto bez dodatnih troškova.",
     
-    "Porodični sadržaji – Dečije igralište u sklopu objekta, a na zahtev su dostupni dečiji krevetac i stolica za hranjenje."
+    "Porodični sadržaji – Dečije igralište u sklopu objekta, a na zahtjev su dostupni dečiji krevetac i stolica za hranjenje."
    
     
     
     
     ],
-    "metaDescription" : "Apartman za 3 osobe u Bečićima sa 2 terase. Svi neophodni sadzaji za kratak i udoban boravak. 3 minuta do plaze. Besplatan parking. Djecije igraliste u sklopu objekta.",
+    "metaDescription" : "Apartman za 3 osobe u Bečićima sa 2 terase. Svi neophodni sadzaji za kratak i udoban boravak. 3 minuta do plaže. Besplatan parking. Djecije igralište u sklopu objekta.",
    
    "metaKeywords"  : ["apartman sa 2 terase Bečići", "smještaj za 3 osobe u Bečićima", "apartman sa pogledom na more Bečići", "povoljan apartman Bečići", "letovanje smeštaj", "apartman za troje", "privatni smeštaj Bečići", "porodični odmor", "letovanje za 3 osobe Crna Gora", "apartman za 3 osobe Becici", "povoljan smeštaj Crna Gora","apartmani na moru","apartmani sa parkingom","smještaj za 3 odraslih", "trokrevetni apartman sa parkingom Bečići"],
     "pageURL"  : "apartman-za-3-osobe-sa-dve-terase-na-3-spratu",
@@ -731,19 +729,19 @@
     "apartmentSize"  : 50,
     "type"  : "apartman",
     "guestsNumber"  : 4,
-    "beds"  : ["francuski lezaj", "kauc na razvlacenje", {"babyCrib"  : true}],
+    "beds"  : ["francuski ležaj", "kauč na razvlačenje", {"babyCrib"  : true}],
     "maxGuestsNumber"  : ["4 odraslih"],
    "facilities"   : ["freeParking", "kitchen" ,"privateBathroom","balcony" ,"sunLoungers","gardenView","innerCourtyardView","seaView", "mountainView", "airConditioning" ,"TV" , "freeWiFi" ,"safe" ],
-    "kitchen"  : ["frizider", "ploca za kuvanje", "rerna", "pribor za kuvanje" ,"pribor za jelo", "elektricno kuvalo","sto za rucavanje" ],
-    "bathroom"  : ["Sopstveno kupatilo","kada" ,"peskiri" ,"toalet papir"  ],
-    "bedroom"  : ["posteljina" , "orman", "nocni stocic" ,"TV sa kablovskim kanalima" ],
-    "balcony"   : ["prostor za sjedenje" , "susilica za ves", "2 lezaljke za suncanje" ],
-    "view"   : ["pogled na more", "pogled na dvoriste","pogled na vrt","pogled na planinu" ],
+    "kitchen"  : ["frižider", "ploča za kuvanje", "rerna", "pribor za kuvanje" ,"pribor za jelo", "električno kuvalo","sto za ručavanje" ],
+    "bathroom"  : ["Sopstveno kupatilo","kada" ,"peškiri" ,"toalet papir"  ],
+    "bedroom"  : ["posteljina" , "orman", "noćni stočić" ,"TV sa kablovskim kanalima" ],
+    "balcony"   : ["prostor za sjedenje" , "sušilica za veš", "2 ležaljke za sunčanje" ],
+    "view"   : ["pogled na more", "pogled na dvorište","pogled na vrt","pogled na planinu" ],
     "mediaAndTechnology":["kablovski kanali", "TV"],
     "safetyAndSecurity":["Pristup ključem", "Sef"],
-     "commonAreas" :["bašta","spoljni nameštaj","spoljni prostor za ručavanje","pribor za pripremu roštilja","Djecije igralište na otvorenom"],
-    "onDemand"   :["fen" ,"sredstva za ciscenje" ,"pribor za peglanje", "djeciji krevetac", "stolica za hranjenje"],
-    "featured":["2 Sun loungers", "familyFriendly", "partialSeaView"],
+     "commonAreas" :["bašta","spoljni namještaj","spoljni prostor za ručavanje","pribor za pripremu roštilja","Djecije igralište na otvorenom"],
+    "onDemand"   :["fen" ,"sredstva za cišćenje" ,"pribor za peglanje", "djeciji krevetac", "stolica za hranjenje"],
+    "featured":["sunLoungers", "familyFriendly", "partialSeaView","gardenView","mountainView"],
    "photos": [
 
       {"id"   : "", "photoURL"  :"/images/4_person_apartment_4th_floor/terrace-view.jpg", "photoAlt"  :"", "photoPosition"  :"", "order": 1},
@@ -766,40 +764,40 @@
       
       
        ],
-    "shortDescription"  :"",
+    "shortDescription"  :"Idealno za četvoročlane porodice. Sa prostranom natkrivenom terasom za uživanje u pogledu na more, vrt i planine. Udoban i funkcionalan apartman.",
     "longerDesciption"  :"",
    
     "introContent"   :[
     "Apartman na 4. spratu, za porodice ili grupe do 4 osobe, sa prostranom natkrivenom terasom za uživanje u pogledu na more, vrt i planine.",
     "Spavaća soba sadrži francuski ležaj, klima-uređaj i TV sa kablovskim kanalima.",
-    "Kombinovani prostor uključuje kuhinju, trpezarijski deo i dvosed na razvlačenje. Iz kuhinje se izlazi na veliku terasu, gde se nalazi sto za ručavanje, ležaljke za sunčanje i prostor za opuštanje."
+    "Kombinovani prostor uključuje kuhinju, trpezarijski dio i dvosjed na razvlačenje. Iz kuhinje se izlazi na veliku terasu, gde se nalazi sto za ručavanje, ležaljke za sunčanje i prostor za opuštanje."
    ],
     
     "amenities"  :[ 
     "Spavaća soba: Francuski ležaj, klima-uređaj, TV sa kablovskim kanalima.",
-    "Kombinovani prostor: Dvosed na razvlačenje, kuhinjski uređaji (frižider, ploča za kuvanje, rerna, električno kuvalo), posuđe za pripremu hrane, pribor za jelo, sto za ručavanje.",
+    "Kombinovani prostor: Dvosjed na razvlačenje, kuhinjski uređaji (frižider, ploča za kuvanje, rerna, električno kuvalo), posuđe za pripremu hrane, pribor za jelo, sto za ručavanje.",
     "Terasa: Natkrivena terasa sa stolom za ručavanje, 2 ležaljke za sunčanje i sušilicom za veš."
     ],
   
-    "availableOnRequest"  : "Na zahtev: Fen za kosu, sredstva za čišćenje, pribor za peglanje, dečiji krevetac, stolica za hranjenje. ",
+    "availableOnRequest"  : "Na zahtjev: Fen za kosu, sredstva za čišćenje, pribor za peglanje, dečiji krevetac, stolica za hranjenje. ",
     
 
     "reasonsToChoose"  : [
-      "Odlicna lokacija – 3 minuta lagane šetnje do mora.",
+      "Odlična lokacija – 3 minuta lagane šetnje do mora.",
       "Kompletno opremljen apartman – Sve što vam je potrebno za udoban boravak.",
       "Prostrana natkrivena terasa – sa pogledom na more i planine.",
 
-      "Klima-uređaj – U spavaćoj sobi, za prijatan boravak tokom toplih dana.",
+      "Klima-uređaj – U spavaćoj sobi, za prijatan boravak u toplim danima.",
       "TV sa kablovskim kanalima – Za opuštanje uz omiljene emisije i filmove.",
       "Besplatan WiFi – Za rad i zabavu.",
-      "Sef – Za sigurno čuvanje vaših dragocenosti.",
-   "Besplatan parking – U dvoristu, bez dodatnih troskova.",
+      "Sef – Za sigurno čuvanje vaših dragocjenosti.",
+   "Besplatan parking – U dvorištu, bez dodatnih troškova.",
    
     "Pogodno za porodice – Dečije igralište u sklopu objekta, i mogućnost obezbjeđivanja djecijeg kreveca i stolice za hranjenje."
     
     ],
    "metaKeywords"  : ["apartman za 4 osobe Bečići", "smještaj za 4 osobe u Bečićima", "apartman sa pogledom na more Bečići"],
-   "metaDescription" : "Apartman za 4 osobe u Bečićima sa terasom. 3 minuta do plaze. Besplatan parking. Djecije igraliste u sklopu objekta.",
+   "metaDescription" : "Apartman za 4 osobe u Bečićima sa terasom. 3 minuta do plaže. Besplatan parking. Djecije igralište u sklopu objekta.",
    
    "pageURL"  : "apartman-za-4-osobe-na-4-spratu",
     "title"  : "Apartman za 4 osobe sa natkrivenom terasom na 4. spratu"
@@ -813,19 +811,19 @@
     "apartmentSize"  : 42,
     "type"  : "apartman",
     "guestsNumber"  : 3,
-    "beds"  : ["francuski lezaj", "fotelja na razvlacenje", {"babyCrib"  : true}],
+    "beds"  : ["francuski ležaj", "fotelja na razvlačenje", {"babyCrib"  : true}],
     "maxGuestsNumber"  : ["2 odraslih + 2 djece / 3 odraslih"],
     "facilities"   : ["freeParking", "kitchen" ,"privateBathroom","balcony" ,"gardenView","innerCourtyardView", "mountainView", "airConditioning" ,"TV" , "freeWiFi" ,"safe" ],
-    "kitchen"  : ["frizider", "ploca za kuvanje", "rerna", "pribor za kuvanje" ,"pribor za jelo", "elektricno kuvalo","sto za rucavanje" ],
-    "bathroom"  : ["Sopstveno kupatilo","kada" ,"peskiri" ,"toalet papir"  ],
-    "bedroom"  : ["posteljina" , "orman", "nocni stocic" ,"TV sa kablovskim kanalima" ],
-    "balcony"   : ["prostor za sjedenje" , "susilica za ves" ],
-    "view"   : ["pogled na planinu", "pogled na dvoriste","pogled na vrt" ],
+    "kitchen"  : ["frižider", "ploča za kuvanje", "rerna", "pribor za kuvanje" ,"pribor za jelo", "električno kuvalo","sto za ručavanje" ],
+    "bathroom"  : ["Sopstveno kupatilo","kada" ,"peškiri" ,"toalet papir"  ],
+    "bedroom"  : ["posteljina" , "orman", "noćni stočić" ,"TV sa kablovskim kanalima" ],
+    "balcony"   : ["prostor za sjedenje" , "sušilica za veš" ],
+    "view"   : ["pogled na planinu", "pogled na dvorište","pogled na vrt" ],
     "mediaAndTechnology":["kablovski kanali", "TV"],
     "safetyAndSecurity":["Pristup ključem", "Sef"],
-     "commonAreas" :["bašta","spoljni nameštaj","spoljni prostor za ručavanje","pribor za pripremu roštilja","Djecije igralište na otvorenom"],
-    "onDemand"   :["fen" ,"sredstva za ciscenje" ,"pribor za peglanje", "djeciji krevetac", "stolica za hranjenje"],
-    "featured":["familyFriendly", "mountainView"],
+     "commonAreas" :["bašta","spoljni namještaj","spoljni prostor za ručavanje","pribor za pripremu roštilja","Djecije igralište na otvorenom"],
+    "onDemand"   :["fen" ,"sredstva za cišćenje" ,"pribor za peglanje", "djeciji krevetac", "stolica za hranjenje"],
+    "featured":["familyFriendly", "mountainView", "gardenView"],
    "photos": [
     
       {"id"   : "", "photoURL"  :"/images/3_person_apartment_4th_floor/apartment-entrance-door.jpg", "photoAlt"  :"", "photoPosition"  :"", "order": 1},
@@ -848,7 +846,7 @@
       {"id"   : "", "photoURL"  :"/images/3_person_apartment_4th_floor/bathroom-bedroom-doors.jpg", "photoAlt"  :"", "photoPosition"  :"", "order": 18}
       
  ],
-    "shortDescription"  :"",
+    "shortDescription"  :"Kompletno opremljen apartman za manje porodice ili grupe do 3 osobe. Klimatizovane spavaća soba sa francuskim ležajem i prostorija kombinovanog tipa sa foteljom na razvlačenje. Terasa sa pogledom na vrt, dvorište i planinu.",
     "longerDesciption"  :"",
    
     "introContent"  :[
@@ -859,11 +857,11 @@
     "amenities"  :[ 
     "Spavaća soba: Francuski ležaj, klima-uređaj, TV sa kablovskim kanalima. Izlaz na terasu.",
     "Kombinovani prostor: Fotelja na razvlačenje, kuhinjski uređaji (frižider, ploča za kuvanje, rerna, električno kuvalo), posuđe za pripremu hrane, pribor za jelo, sto za ručavanje.",
-    "Balkon: Prostor za sedenje sa pogledom na vrt, dvorište i planinu, susilica za ves."],
+    "Balkon: Prostor za sjedenje sa pogledom na vrt, dvorište i planinu, sušilica za veš."],
     
     
     
-    "availableOnRequest"  : "Na zahtev: Fen za kosu, sredstva za čišćenje, pribor za peglanje, djeciji krevetac, stolica za hranjenje.",
+    "availableOnRequest"  : "Na zahtjev: Fen za kosu, sredstva za čišćenje, pribor za peglanje, djeciji krevetac, stolica za hranjenje.",
     
     
 
@@ -873,16 +871,15 @@
     "title"  : "Apartman za 3 osobe na 4.om spratu",
     "reasonsToChoose"  : [
 "Kompletno opremljen apartman – Ima sve što vam je potrebno za udoban boravak.",
-"Blizina plaže – Na 3 minuta hoda od smjestaja.",
-"Prostrana terasa – Za jutarnju kafu ili večernji odmor na svežem vazduhu.",
-
-      "Klima-uređaj – Za prijatan boravak tokom vrućih dana.",
-      "TV sa kablovskim kanalima – Opuštanje uz omiljene sadržaje.",
-      "Besplatan WiFi – Za rad, zabavu ili komunikaciju.",
-      "Sef – Za bezbedno čuvanje dragocjenosti.",
+"Blizina plaže – Na 3 minuta hoda od smještaja.",
+"Prostrana terasa – Za jutarnju kafu ili večernji odmor na svježem vazduhu.",
+"Klima-uređaj – Za prijatan boravak tokom vrućih dana.",
+"TV sa kablovskim kanalima – Opuštanje uz omiljene sadržaje.",
+ "Besplatan WiFi – Za rad, zabavu ili komunikaciju.",
+ "Sef – Za bezbjedno čuvanje dragocjenosti.",
     
-    "Obezbjeđeno parking mesto – Besplatno, u dvoristu.",
-    "Sadržaji za decu – Djecije igraliste u sklopu objekta, a na zahtev su dostupni dečiji krevetac i stolica za hranjenje."
+    "Obezbijeđeno parking mesto – Besplatno, u dvorištu.",
+    "Sadržaji za decu – Djecije igralište u sklopu objekta, a na zahtjev su dostupni dečiji krevetac i stolica za hranjenje."
    
    
    
@@ -898,19 +895,19 @@
     "apartmentSize"  : 35,
     "type"  : "apartman",
     "guestsNumber"  : 4,
-    "beds"  : ["francuski lezaj", "kauc na razvlacenje", {"babyCrib"  : true}],
+    "beds"  : ["francuski ležaj", "kauč na razvlačenje", {"babyCrib"  : true}],
     "maxGuestsNumber"  : ["4 odraslih"],
     "facilities"   : ["freeParking", "kitchen" ,"privateBathroom","balcony" ,"gardenView","innerCourtyardView", "mountainView", "airConditioning" ,"TV" , "freeWiFi" ,"safe" ],
-    "kitchen"  : ["frizider", "ploca za kuvanje", "rerna", "pribor za kuvanje" ,"pribor za jelo", "elektricno kuvalo" ],
-    "bathroom"  : ["Sopstveno kupatilo","kada" ,"peskiri" ,"toalet papir"  ],
-    "bedroom"  : ["posteljina" , "orman", "nocni stocic" ,"TV sa kablovskim kanalima" ],
-    "balcony"   : ["prostor za sjedenje" , "susilica za ves"  ],
-    "view"   : [ "pogled na dvoriste","pogled na vrt","pogled na planinu" ],
+    "kitchen"  : ["frižider", "ploča za kuvanje", "rerna", "pribor za kuvanje" ,"pribor za jelo", "električno kuvalo" ],
+    "bathroom"  : ["Sopstveno kupatilo","kada" ,"peškiri" ,"toalet papir"  ],
+    "bedroom"  : ["posteljina" , "orman", "noćni stočić" ,"TV sa kablovskim kanalima" ],
+    "balcony"   : ["prostor za sjedenje" , "sušilica za veš"  ],
+    "view"   : [ "pogled na dvorište","pogled na vrt","pogled na planinu" ],
     "mediaAndTechnology":["kablovski kanali", "TV"],
     "safetyAndSecurity":["Pristup ključem", "Sef"],
-     "commonAreas" :["bašta","spoljni nameštaj","spoljni prostor za ručavanje","pribor za pripremu roštilja","Djecije igralište na otvorenom"],
-    "onDemand"   :["fen" ,"sredstva za ciscenje" ,"pribor za peglanje", "djeciji krevetac", "stolica za hranjenje"],
-    "featured":["2 Sun loungers", "familyFriendly", "partialSeaView"],
+     "commonAreas" :["bašta","spoljni namještaj","spoljni prostor za ručavanje","pribor za pripremu roštilja","Djecije igralište na otvorenom"],
+    "onDemand"   :["fen" ,"sredstva za cišćenje" ,"pribor za peglanje", "djeciji krevetac", "stolica za hranjenje"],
+    "featured":["familyFriendly", "gardenView", "mountainView"],
    "photos": [
      {"id"   : "", "photoURL"  :"/images/4_person_apartment_with_opened_terrace/bedroom.jpg", "photoAlt"  :"", "photoPosition"  :"bottom", "order": 13},
 {"id"   : "", "photoURL"  :"/images/4_person_apartment_with_opened_terrace/double-bed-1.jpg", "photoAlt"  :"", "photoPosition"  :"", "order": 13},
@@ -924,7 +921,7 @@
 {"id"   : "", "photoURL"  :"/images/4_person_apartment_with_opened_terrace/bathroom-door.jpg", "photoAlt"  :"", "photoPosition"  :"", "order": 13}
 
  ],
-    "shortDescription"  :"",
+    "shortDescription"  :"Apartman na 3. spratu, idealan za četvoročlane porodice, sa terasom i pogledom na vrt i planine. Funkcionalan i u potpunosti opremljen, sa svim neophodnim sadržajima za udoban i prijatan boravak.",
     "longerDesciption"  :"",
     "notes"  :[],
     
@@ -932,38 +929,38 @@
     
     "Apartman na 3. spratu, za porodice ili grupe do 4 osobe, sa terasom i pogledom na vrt i planine.",
     "Spavaća soba sadrži francuski ležaj, klima-uređaj i TV sa kablovskim kanalima, pružajući udoban prostor za odmor i opuštanje.",
-    "Kombinovani prostor uključuje kuhinju i prostor za spavanje sa dvosedom na razvlačenje. Iz ove prostorije se izlazi na terasu sa prostorom za sedenje."
+    "Kombinovani prostor uključuje kuhinju i prostor za spavanje sa dvosjedom na razvlačenje. Iz ove prostorije se izlazi na terasu sa prostorom za sjedenje."
    ],
     
     "amenities"  :[ 
     "Spavaća soba: Francuski ležaj, klima-uređaj, TV sa kablovskim kanalima.",
-    "Kombinovani prostor: Dvosed na razvlačenje, kuhinjski uređaji (frižider, ploča za kuvanje, rerna, električno kuvalo), posuđe za pripremu hrane, pribor za jelo.",
-    "Terasa: Prostor za sedenje, sušilica za veš."],
+    "Kombinovani prostor: Dvosjed na razvlačenje, kuhinjski uređaji (frižider, ploča za kuvanje, rerna, električno kuvalo), posuđe za pripremu hrane, pribor za jelo.",
+    "Terasa: Prostor za sjedenje, sušilica za veš."],
     
   
-    "availableOnRequest"  : "Na zahtev: Fen za kosu, sredstva za čišćenje, pribor za peglanje, dečiji krevetac, stolica za hranjenje.",
+    "availableOnRequest"  : "Na zahtjev: Fen za kosu, sredstva za čišćenje, pribor za peglanje, dečiji krevetac, stolica za hranjenje.",
     
     
     
     "reasonsToChoose"  :  [
-      "Odlicna lokacija – 3 minuta lagane šetnje do plaze.",
+      "Odlična lokacija – 3 minuta lagane šetnje do plaže.",
       "Kompletno opremljen apartman – Svi neophodni sadržaji za udoban boravak.",
       "Natkrivena terasa – s pogledom na vrt i planine.",
 
-      "Klima-uređaj – U spavaćoj sobi, za prijatan boravak tokom toplih dana.",
-    "TV sa kablovskim kanalima – Opuštanje uz omiljene emisije i filmove.",
+      "Klima-uređaj – U spavaćoj sobi, za prijatan boravak u toplim ljetnjim danima.",
+    "TV sa kablovskim kanalima – Za opuštanje uz omiljene emisije i filmove.",
     "Besplatan WiFi – Za rad i zabavu.",
-    "Sef – Za sigurno čuvanje vaših dragocenosti.", 
-    "Besplatan parking – U dvoristu, bez dodatnih troskova.",
+    "Sef – Za sigurno čuvanje vaših dragocjenosti.", 
+    "Besplatan parking – U dvorištu, bez dodatnih troškova.",
    
-    "Pogodno za porodice – Dečije igralište u sklopu objekta, djeciji krevetac i stolica za hranjenje na zahtjev.",
+    "Pogodno za porodice – Dječije igralište u sklopu objekta, dječiji krevetac i stolica za hranjenje na zahtjev.",
    
     
     "Napomena: Terasa sa jedne strane nije u potpunosti ograđena, a pored nje se nalazi prolaz koji koriste gosti drugih apartmana."
     ],
     
    "metaKeywords"  : ["apartman sa terasom Bečići", "smještaj za 4 osobe u Bečićima", "apartman sa pogledom na planinu Bečići"],
-   "metaDescription" : "Apartman za 4 osobe u Bečićima sa terasom. 3 minuta do plaze. Besplatan parking. Djecije igraliste u sklopu objekta.",
+   "metaDescription" : "Apartman za 4 osobe u Bečićima sa terasom. 3 minuta do plaže. Besplatan parking. Djecije igralište u sklopu objekta.",
    
     "pageURL"  : "apartman-za-4-osobe-na-3-spratu-sa-otvorenom-terasom",
     
@@ -978,19 +975,19 @@
     "apartmentSize"  : 0,
     "type"  : "apartman",
     "guestsNumber"  : 4,
-    "beds"  : ["2 kreveta samca", "kauc na razvlacenje", {"babyCrib"  : true}],
+    "beds"  : ["2 kreveta samca", "kauč na razvlačenje", {"babyCrib"  : true}],
     "maxGuestsNumber"  : ["4 odraslih"],
     "facilities"   : ["freeParking","kitchen" ,"privateBathroom","balcony" ,"gardenView","innerCourtyardView", "airConditioning" ,"TV" , "freeWiFi" ,"safe" ],
-    "kitchen"  : ["frizider", "ploca za kuvanje", "rerna", "pribor za kuvanje" ,"pribor za jelo", "elektricno kuvalo","sto za rucavanje" ],
-    "bathroom"  : ["Sopstveno kupatilo","tus" ,"peskiri" ,"toalet papir"  ],
-    "bedroom"  : ["posteljina" , "orman", "nocni stocic" ,"TV sa kablovskim kanalima" ],
-    "balcony"   : ["prostor za sjedenje" , "susilica za ves"  ],
-    "view"   : [ "pogled na dvoriste","pogled na vrt" ],
+    "kitchen"  : ["frižider", "ploča za kuvanje", "rerna", "pribor za kuvanje" ,"pribor za jelo", "električno kuvalo","sto za ručavanje" ],
+    "bathroom"  : ["Sopstveno kupatilo","tus" ,"peškiri" ,"toalet papir"  ],
+    "bedroom"  : ["posteljina" , "orman", "noćni stočić" ,"TV sa kablovskim kanalima" ],
+    "balcony"   : ["prostor za sjedenje" , "sušilica za veš"  ],
+    "view"   : [ "pogled na dvorište","pogled na vrt" ],
     "mediaAndTechnology":["kablovski kanali", "TV"],
     "safetyAndSecurity":["Pristup ključem", "Sef"],
-     "commonAreas" :["bašta","spoljni nameštaj","spoljni prostor za ručavanje","pribor za pripremu roštilja","Djecije igralište na otvorenom"],
-    "onDemand"   :["fen" ,"sredstva za ciscenje" ,"pribor za peglanje", "djeciji krevetac", "stolica za hranjenje"],
-    "featured":[ "familyFriendly"],
+     "commonAreas" :["bašta","spoljni namještaj","spoljni prostor za ručavanje","pribor za pripremu roštilja","Djecije igralište na otvorenom"],
+    "onDemand"   :["fen" ,"sredstva za cišćenje" ,"pribor za peglanje", "djeciji krevetac", "stolica za hranjenje"],
+    "featured":[ "familyFriendly" ,"budgetFriendly","gardenView"],
    "photos": [
     
       {"id"   : "", "photoURL"  :"/images/4_person_apartment_ground_floor/rooms.jpg", "photoAlt"  :"", "photoPosition"  :"", "order": 1},
@@ -1008,26 +1005,26 @@
      
       
  ],
-    "shortDescription"  :"",
+    "shortDescription"  :"Apartman u prizemlju, sa dvije spavaće sobe - za porodice ili grupe do 4 osobe. Natkrivena terasa sa prostorom za sjedenje pruža prijatan pogled na baštu i dvorište. Pogodan za porodice sa malom djecom i starije ljude.",
     "longerDesciption"  :"",
  
     
    "introContent"  : [
     "Apartman u prizemlju, za porodice ili grupe do 4 osobe. ",
-    "Ima dve spavaće sobe – u jednoj se nalaze spojeni kreveti za jednu osobu i TV sa kablovskim kanalima, a druga soba sadrži dvosed na razvlačenje. Obe sobe su klimatizovane i imaju izlaz na terasu.",
+    "Ima dvije spavaće sobe – u jednoj se nalaze spojeni kreveti za jednu osobu i TV sa kablovskim kanalima, a druga soba sadrži dvosjed na razvlačenje. Obe sobe su klimatizovane i imaju izlaz na terasu.",
     "Kuhinja je opremljena svim neophodnim aparatima i posuđem za pripremu obroka.",
     "Kupatilo sadrži tuš kabinu, peškire i osnovne higijenske potrepštine.",
-    "Natkrivena terasa sa prostorom za sedenje pruža prijatan pogled na baštu i dvorište."],
+    "Natkrivena terasa sa prostorom za sjedenje pruža prijatan pogled na baštu i dvorište."],
     
     "amenities"  :[   
-    "Spavaće sobe (2): Prva soba - dva spojena kreveta za jednu osobu, TV sa kablovskim kanalima, klima-uređaj, izlaz na terasu. Druga soba - dvosed na razvlačenje, klima-uređaj, izlaz na terasu.",
+    "Spavaće sobe (2): Prva soba - dva spojena kreveta za jednu osobu, TV sa kablovskim kanalima, klima-uređaj, izlaz na terasu. Druga soba - dvosjed na razvlačenje, klima-uređaj, izlaz na terasu.",
     "Kuhinja: sa frižiderom, pločom za kuvanje, rernom, električnim kuvalom, posuđem za kuvanje i priborom za jelo.",
-    "Kupatilo: sa tusem, peškirima i osnovnim higijenskim potrepštinama.",
-    "Terasa: Prostor za sedenje sa pogledom na dvorište i baštu, sušilica za veš."
+    "Kupatilo: sa tušem, peškirima i osnovnim higijenskim potrepštinama.",
+    "Terasa: Prostor za sjedenje sa pogledom na dvorište i baštu, sušilica za veš."
      ],
     
  
-    "availableOnRequest"  : "Na zahtev: Fen za kosu, sredstva za čišćenje, pribor za peglanje, dečiji krevetac, stolica za hranjenje.",
+    "availableOnRequest"  : "Na zahtjev: Fen za kosu, sredstva za čišćenje, pribor za peglanje, dečiji krevetac, stolica za hranjenje.",
     
 
     
@@ -1044,7 +1041,7 @@
     "Besplatan WiFi – Za rad, zabavu ili komunikaciju.",
     "Sef – Za sigurno čuvanje vrijednih stvari."
     ],
-    "metaDescription" :"Apartman za 4 osobe u Bečićima sa terasom. 2 odvojene spavace sobe, kuhinja, kupatilo, terasa. 3 minuta do plaze. Besplatan parking. Djecije igraliste u sklopu objekta.",
+    "metaDescription" :"Apartman za 4 osobe u Bečićima sa terasom. 2 odvojene spavace sobe, kuhinja, kupatilo, terasa. 3 minuta do plaže. Besplatan parking. Djecije igralište u sklopu objekta.",
    "metaKeywords"  : ["apartman u prizemlju Bečići", "smještaj za 4 osobe u Bečićima", "apartman za 4 osobe Bečići"],
     "pageURL"  : "apartman-za-4-osobe-u-prizemlju",
     "title"  : "Apartman za 4 osobe u prizemlju"
@@ -1062,19 +1059,19 @@
     "beds"  : ["5 kreveta samaca", {"babyCrib"  : true}],
     "maxGuestsNumber"  : ["5 odraslih"],
     "facilities"   : ["freeParking", "kitchen" ,"privateBathroom","balcony" ,"gardenView","innerCourtyardView", "airConditioning" ,"TV" , "freeWiFi" ,"safe" ],
-    "kitchen"  : ["frizider", "ploca za kuvanje", "rerna", "pribor za kuvanje" ,"pribor za jelo", "elektricno kuvalo","sto za rucavanje" ],
-    "bathroom"  : ["Sopstveno kupatilo","kada" ,"peskiri" ,"toalet papir"  ],
-    "bedroom"  : ["posteljina" , "orman", "nocni stocic" ,"TV sa kablovskim kanalima" ],
-    "balcony"   : ["prostor za sjedenje" , "susilica za ves"  ],
-    "view"   : [ "pogled na dvoriste","pogled na vrt" ],
+    "kitchen"  : ["frižider", "ploča za kuvanje", "rerna", "pribor za kuvanje" ,"pribor za jelo", "električno kuvalo","sto za ručavanje" ],
+    "bathroom"  : ["Sopstveno kupatilo","kada" ,"peškiri" ,"toalet papir"  ],
+    "bedroom"  : ["posteljina" , "orman", "noćni stočić" ,"TV sa kablovskim kanalima" ],
+    "balcony"   : ["prostor za sjedenje" , "sušilica za veš"  ],
+    "view"   : [ "pogled na dvorište","pogled na vrt" ],
     "mediaAndTechnology":["kablovski kanali", "TV"],
     "safetyAndSecurity":["Pristup ključem", "Sef"],
-     "commonAreas" :["bašta","spoljni nameštaj","spoljni prostor za ručavanje","pribor za pripremu roštilja","Djecije igralište na otvorenom"],
-    "onDemand"   :["fen" ,"sredstva za ciscenje" ,"pribor za peglanje", "djeciji krevetac", "stolica za hranjenje"],
-    "featured":["familyFriendly"],
+     "commonAreas" :["bašta","spoljni namještaj","spoljni prostor za ručavanje","pribor za pripremu roštilja","Djecije igralište na otvorenom"],
+    "onDemand"   :["fen" ,"sredstva za cišćenje" ,"pribor za peglanje", "djeciji krevetac", "stolica za hranjenje"],
+    "featured":["familyFriendly", "budgetFriendly","gardenView"],
    "photos": [
  ],
-    "shortDescription"  :"",
+    "shortDescription"  :"Apartman u prizemlju, za grupe ili porodice do 5 osoba. Skromniji, ali funkcionalan smeštaj sa svim neophodnim sadržajima. Terasa sa prostorom za sjedenje i pogledom na baštu i dvorište.",
     "longerDesciption"  :"",
     "notes"  :[],
     
@@ -1083,20 +1080,20 @@
     "Apartman raspolaže sa dve spavaće sobe – jedna soba sadrži dva kreveta za jednu osobu i orman, dok druga soba ima tri kreveta, orman i izlaz na terasu.",
     "Kuhinja je opremljena svim neophodnim kuhinjskim aparatima i posuđem za pripremu obroka.",
     "Kupatilo sadrži kadu, peškire i osnovne higijenske potrepštine.",
-    "Terasa sa prostorom za sedenje pruža prijatan ambijent sa pogledom na baštu i dvorište."],
+    "Terasa sa prostorom za sjedenje pruža prijatan ambijent sa pogledom na baštu i dvorište."],
     "amenities"  :[  
     "Spavaće sobe (2): Prva soba: dva kreveta za jednu osobu. Druga soba: tri kreveta za jednu osobu, izlaz na terasu.",
-    "Kombinovani prostor: Kuhinja sa frižiderom, pločom za kuvanje, rernom, električnim kuvalom, posuđem za kuvanje i priborom za jelo. Trpezarijski deo sa stolom za ručavanje.",
+    "Kombinovani prostor: Kuhinja sa frižiderom, pločom za kuvanje, rernom, električnim kuvalom, posuđem za kuvanje i priborom za jelo. Trpezarijski dio sa stolom za ručavanje.",
     "Kupatilo: Kada, peškiri i osnovne higijenske potrepštine.",
-    "Terasa: Prostor za sedenje sa pogledom na dvorište i baštu, sušilica za veš."],
+    "Terasa: Prostor za sjedenje sa pogledom na dvorište i baštu, sušilica za veš."],
     
   
     
-  "availableOnRequest"  : "Na zahtev: Fen za kosu, sredstva za čišćenje, pribor za peglanje, dečiji krevetac, stolica za hranjenje.",
+  "availableOnRequest"  : "Na zahtjev: Fen za kosu, sredstva za čišćenje, pribor za peglanje, dečiji krevetac, stolica za hranjenje.",
     
  "reasonsToChoose"  :  [
         "Prostran apartman sa dve odvojene spavaće sobe – idealan za porodice ili grupe.",
-        "Nalazi se u prizemlju – pogodan za starije osobe i porodice sa malom decom.",
+        "Nalazi se u prizemlju – pogodan za starije osobe i porodice sa malom djecom.",
         "Blizina plaže  – 3 minuta hoda.",
         "Terasa sa pogledom na baštu i dvorište.",
         "Kompletno opremljena kuhinja – za samostalnu pripremu obroka.",
@@ -1104,7 +1101,7 @@
         "Klima-uređaj – Za prijatan boravak u vrelim ljetnjim danima.",
         "TV sa kablovskim kanalima – Za opuštanje uz omiljene sadržaje.",
         "Besplatan WiFi – Za rad, zabavu ili komunikaciju.",
-        "Sef – Za sigurno čuvanje dragocenosti.",
+        "Sef – Za sigurno čuvanje dragocjenosti.",
         "Besplatan parking – Bez dodatnih troškova."
       ],
     "metaKeywords": ["apartman za 5 osoba Bečići", "smještaj u prizemlju Bečići", "porodični apartman u Bečićima"],
@@ -1121,17 +1118,16 @@
     "guestsNumber"  : 5,
     "beds"  : ["5 kreveta samaca", {"babyCrib"  : true}],
     "maxGuestsNumber"  : ["5 odraslih"],
-    "facilities"   : ["besplatan parking",
-    "kuhinja" ,"kupatilo u okviru jedinice", "balkon" ,"lezaljke za suncanje", "pogled na vrt","pogled na dvoriste", "klima-uredjaj" ,"TV sa kablovskim kanalima" , "besplatan wifi" ,"sef" ],
-    "kitchen"  : ["frizider", "ploca za kuvanje", "rerna", "pribor za kuvanje" ,"pribor za jelo", "elektricno kuvalo","sto za rucavanje" ],
-    "bathroom"  : ["Sopstveno kupatilo","kada" ,"peskiri" ,"toalet papir"  ],
-    "bedroom"  : ["posteljina" , "orman", "nocni stocic" ,"TV sa kablovskim kanalima" ],
-    "balcony"   : ["prostor za sjedenje" , "susilica za ves","2 lezaljke za suncanje" ],
-    "view"   : [ "pogled na dvoriste","pogled na vrt" ],
+    "facilities"   : ["besplatan parking", "kuhinja" ,"kupatilo u okviru jedinice", "balkon" ,"ležaljke za sunčanje", "pogled na vrt","pogled na dvorište", "klima-uredjaj" ,"TV sa kablovskim kanalima" , "besplatan wifi" ,"sef" ],
+    "kitchen"  : ["frižider", "ploča za kuvanje", "rerna", "pribor za kuvanje" ,"pribor za jelo", "električno kuvalo","sto za ručavanje" ],
+    "bathroom"  : ["Sopstveno kupatilo","kada" ,"peškiri" ,"toalet papir"  ],
+    "bedroom"  : ["posteljina" , "orman", "noćni stočić" ,"TV sa kablovskim kanalima" ],
+    "balcony"   : ["prostor za sjedenje" , "sušilica za veš","2 ležaljke za sunčanje" ],
+    "view"   : [ "pogled na dvorište","pogled na vrt" ],
     "mediaAndTechnology":["kablovski kanali", "TV"],
     "safetyAndSecurity":["Pristup ključem", "Sef"],
-     "commonAreas" :["bašta","spoljni nameštaj","spoljni prostor za ručavanje","pribor za pripremu roštilja","Djecije igralište na otvorenom"],
-    "onDemand"   :["fen" ,"sredstva za ciscenje" ,"pribor za peglanje", "djeciji krevetac", "stolica za hranjenje"],
+     "commonAreas" :["bašta","spoljni namještaj","spoljni prostor za ručavanje","pribor za pripremu roštilja","Djecije igralište na otvorenom"],
+    "onDemand"   :["fen" ,"sredstva za čišćenje" ,"pribor za peglanje", "djeciji krevetac", "stolica za hranjenje"],
     
    "photos": [
    {"id"   : "", "photoURL"  :"/images/5_person_apartment_2nd_floor/five-beds.jpg", "photoAlt"  :"", "photoPosition"  :"", "order": 12},
@@ -1171,14 +1167,14 @@
       "amenities": "Sadržaji",
       "description":"Opis",
       "overview":"Pregled",
-      "details":"Details", 
-      "facilities":"Sadrzaji",
+      "details":"Detalji", 
+      "facilities":"Sadržaji",
       "mediaAndTechnology":"Mediji i tehnologija",
-      "safetyAndSecurity":"Bezbednost i sigurnost",
+      "safetyAndSecurity":"Bezbjednost i sigurnost",
       "commonAreas" :"Zajedničke prostorije",
       "extraBenefits": "Dodatne pogodnosti",
       "onDemand" :"Na zahtjev",
-       "relatedRooms" :"Slicne jedinice",
+       "relatedRooms" :"Slične jedinice",
        "viewDetails" :"Detaljnije",
        "parkingFacilities": "Parking",
        "internet":"Internet",
@@ -1188,11 +1184,11 @@
       
       "kitchen" :{"label":"Kuhinja", "icon":"iconKitchen"},
       "privateBathroom":{"label":"Sopstveno kupatilo", "icon": "iconBathroom"},
-      "bedroom":{"label":"Spavaca soba", "icon": "iconBedroom"},
+      "bedroom":{"label":"Spavaća soba", "icon": "iconBedroom"},
       "balcony":{"label":"Terasa", "icon": "iconBalcony"} ,
       "gardenView" :{"label":"Pogled na vrt", "icon":"iconGardenView"},
       "mountainView":{"label":"Pogled na planinu", "icon":"iconMountainView"},
-      "innerCourtyardView":{"label":"Pogled na dvoriste", "icon":"iconYard"}, 
+      "innerCourtyardView":{"label":"Pogled na dvorište", "icon":"iconYard"}, 
       "seaView":{"label":"Pogled na more", "icon":"iconSeaView"},
       "airConditioning":{"label":"Klima-uredjaj", "icon":"iconAirConditioning"} ,
       "TV":{"label":"TV sa kablovskim kanalima", "icon":"iconTv"} , 
@@ -1201,7 +1197,7 @@
       "safe":{"label":"Sef", "icon":"iconSafe"},
       "freeParking":{"label":"Besplatan parking",  "icon": "iconFreeParking"} ,
       
-      "doubleBed" :{"label":"Double bed", "icon":""},
+      "doubleBed" :{"label":"Francuski ležaj", "icon":""},
       "singleBed" :{"label":"Single bed", "icon":""},
       "sofaBed":{"label":"Sofa bed", "icon":""}, 
       "pullOutArmchair":{"label":"Pull-out armchair", "icon":""}, 
@@ -1251,7 +1247,7 @@
   },
   "accommodationTypeData":{
 "apartmani":{"introText" :"U ponudi imamo apartmane za 3 do 5 osoba, koji sadrze jednu ili dvije spavaće sobe, kompletno opremljenu kuhinju, kupatilo i terasu. Svi apartmani su klimatizovani, imaju TV i internet."},
-"studiji":{"introText" :"U ponudi imamo studio apartmane za 2 i 3 osobe. Iako manje kvadrature, imaju sve što je potrebno za kraci boravak: kupatilo, mini-kuhinju i terasu. Klimatizovani su, imaju TV i internet."},
+"studiji":{"introText" :"U ponudi imamo studio apartmane za 2 i 3 osobe. Iako manje kvadrature, imaju sve što je potrebno za kraći boravak: kupatilo, mini-kuhinju i terasu. Klimatizovani su, imaju TV i internet."},
 "sobe":{"introText" :"U ponudi imamo dvije trokrevetne sobe, svaka sa sopstvenim kupatilom, kuhinjom i terasom. Sobe su klimatizovane, imaju TV i internet."},
 "all":{ "introText":"U ponudi imamo raznovrsne tipove smeštaja – studije, apartmane i sobe,  za 2, 3, 4 ili 5 osoba. Jedinice su razlicite strukture i opremljenosti. Sve su klimatizovane, imaju sopstvenu kuhinju, kupatilo, terasu, TV i internet. Objekat se nalazi na idealnoj lokaciji – na samo 200 metara od plaže, odnosno tri minuta lagane šetnje. Za nase goste obezbjedili smo parking u okviru objekta, a za najmlađe tu je i dečije igralište na otvorenom."
 }

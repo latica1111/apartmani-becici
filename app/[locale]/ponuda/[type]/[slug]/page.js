@@ -58,7 +58,7 @@ export default function ApartmentDetails() {
     internet: {
       icon: iconFreeWifi,
       label: 'Internet',
-      additionalInfo: 'Bežični internet dostupan u sobama i dvoristu besplatno.'
+      additionalInfo: 'Bežični internet dostupan u sobama i dvorištu besplatno.'
     }
   };
   const [expandedSections, setExpandedSections] = useState({});

@@ -9,7 +9,7 @@
     "beds"  : ["double bed" ,"sofa bed", {"babyCrib"  : true}],
     "maxGuestsNumber"  : ["2 adults + 2 children"],
     "facilities"   : ["freeParking","kitchen" ,"privateBathroom","balcony" ,"gardenView","mountainView","innerCourtyardView", "airConditioning" ,"TV" , "freeWiFi" ,"safe" ],
-    "featured":["familyFrendly","budgetFriendly"],
+     "featured":["familyFrendly","budgetFriendly","privateKitchen" ],
     "kitchen"  : ["Fridge", "Stove",  "Cooking utensils" ,"Cutlery", "Electric kettle", "Dining table" ],
     "bathroom"  : ["Private bathroom","Bathtub" ,"Towels" ,"Toilet paper"],
     "bedroom"  : ["Linen" , "Wardrobe", "Nightstands" ],
@@ -60,6 +60,7 @@
   "Kitchen: Fully equipped with a refrigerator, stovetop, electric kettle, cookware, tableware, and a dining table – everything you need to prepare and enjoy meals at your convenience.",
   "Balcony with a view: The studio opens onto a spacious balcony, perfect for enjoying your morning coffee or a relaxing sunset. The balcony overlooks the garden, mountains, and courtyard, creating a peaceful atmosphere away from city noise. It is furnished with seating and a drying rack."
 ],
+"shortDescription": "Studio with a kitchenette, bathroom, and terrace. It includes everything you need for a short stay. Overlooks the garden, mountains, and courtyard.",
 
 "availableOnRequest": "Available on request: hairdryer, cleaning supplies, ironing equipment, and a high chair for the youngest guests.",
 "pageURL"   : "three-bed-studio-on-first-floor-with-balcony",
@@ -79,7 +80,7 @@
     "type"  : "room",
     "guestsNumber"  : 3,
     "beds"  : ["double bed" ,"sofa bed", {"babyCrib"  : false}],
-    "featured":["privateBathroom","budgetFriendly"],
+    "featured":["privateBathroom", "privateKitchen", "budgetFriendly","partialSeaView"],
     "maxGuestsNumber"  : ["2 adults + 2 children"],
    "facilities"   : ["freeParking", "kitchen" ,"privateBathroom","balcony" ,"gardenView", "mountainView","innerCourtyardView", "airConditioning" ,"TV" , "freeWiFi" ,"safe" ],
     "kitchen"  : ["fridge", "stove",  "cooking utensils" ,"cutlery", "electric kettle", "dining table" ],
@@ -138,6 +139,8 @@
 ],
 
 "availableOnRequest": "Hairdryer, cleaning supplies, and ironing equipment are available on request.",
+"shortDescription": "A room featuring a double bed and a sofa that extends into an additional bed. Includes a kitchenette within the room and a terrace offering a partial side view of the sea. The private bathroom is located just across the hall and is not shared with other guests.",
+
 
 "metaKeywords": [
   "triple room", "accommodation near the beach", "Montenegro lodging", 
@@ -161,7 +164,7 @@
     "guestsNumber"  : 3,
     "beds"  : ["double bed" ,"sofa bed", {"babyCrib"  : false}],
     "maxGuestsNumber"  : ["2 adults + 2 children"],
-    "featured":["privateBathroom","budgetFriendly", "partialSeaView"],
+     "featured":["privateBathroom", "privateKitchen", "partialSeaView"],
    "facilities"   : ["freeParking","kitchen" ,"privateBathroom","balcony" ,"gardenView", "mountainView","innerCourtyardView", "airConditioning" ,"TV" , "freeWiFi" ,"safe" ],
     "kitchen"  : ["fridge", "stove","oven" ,"cooking utensils" ,"cutlery", "electric kettle", "dining table" ],
     "bathroom"  : ["Private bathroom","bathtub" ,"towels" ,"toilet paper"  ],
@@ -172,7 +175,8 @@
    "safetyAndSecurity":["Key access", "Safe"],
     "commonAreas" :["Garden","Outdoor furniture","Outdoor dining area","Barbecue","Children's playground"],
     "onDemand"   :["hairdryer" ,"cleaning products" ,"Ironing facilities" ],
-    
+    "shortDescription": "A room with a double bed and a sofa that converts into an extra bed. The terrace overlooks the garden and offers a partial side view of the sea. The kitchen and bathroom are located outside the room but are private and not shared with other guests.",
+
     "photos": 
 [ 
   {"id"   : "", "photoURL"  :"/images/3_person_room_with_external_kitchen_and_bathroom/entrance-1.jpg", "photoAlt"  :"", "photoPosition"  :"bottom", "order": 1},
@@ -256,7 +260,7 @@
     "guestsNumber"  : 2,
     "beds"  : ["double bed", {"babyCrib"  : false}],
     "maxGuestsNumber"  : ["2 adults"],
-    "featured":["budgetFriendly"],
+    "featured":["coupleFriendly","privateKitchen","privateBathroom"],
    "facilities"   : ["freeParking", "kitchen" ,"privateBathroom","balcony" , "airConditioning" ,"flatTV" , "freeWiFi" ,"safe" ],
     "kitchen"  : ["fridge", "stove","oven", "cooking utensils" ,"cutlery", "electric kettle" ],
     "bathroom"  : ["Private bathroom","bathtub" ,"towels" ,"toilet paper"  ],
@@ -267,7 +271,7 @@
    "safetyAndSecurity":["Key access", "Safe"],
     "commonAreas" :["Garden","Outdoor furniture","Outdoor dining area","Barbecue","Children's playground"],
     "onDemand"   :["hairdryer" ,"cleaning products" ,"Ironing facilities"],
-    
+    "shortDescription": "Studio with a double bed, kitchenette, bathroom, and terrace. Equipped with air conditioning, TV, and internet. Ideal for couples without children.",
   "photos": [
 
       {"id"   : "", "photoURL"  :"/images/2_person_studio/double-bed.jpg", "photoAlt"  :"", "photoPosition"  :"", "order": 1},
@@ -336,7 +340,7 @@
     "guestsNumber"  : 5,
     "beds"  : ["double bed", "Sofa bed", "Pull-out armchair", {"babyCrib"  : true}],
     "maxGuestsNumber"  : ["5 adults"],
-    "featured":["partialSeaView"],
+   "featured":["partialSeaView","familyFriendly","sunLoungers","gardenView"],
    "facilities"   : ["freeParking", "kitchen" ,"privateBathroom","balcony" ,"sunLoungers","sea view","gardenView","innerCourtyardView", "airConditioning" ,"flatTV" , "freeWiFi" ,"safe" ],
     "kitchen"  : ["fridge", "stove","oven", "Microwave", "cooking utensils" ,"cutlery", "electric kettle","dining table" ],
     "bathroom"  : ["Private bathroom","bathtub" ,"towels" ,"toilet paper"  ],
@@ -347,7 +351,7 @@
    "safetyAndSecurity":["Key access", "Safe"],
     "commonAreas" :["Garden","Outdoor furniture","Outdoor dining area","Barbecue","Children's playground"],
     "onDemand"   :["hairdryer" ,"cleaning products" ,"Ironing facilities", "Baby crib", "Baby highchair"],
-    
+    "shortDescription": "Spacious and functional apartment suitable for groups or families of up to 5 people. Features a double bed, an armchair, and a sofa bed. The terrace includes a seating area and offers views of the sea, garden, and courtyard.",
    "photos": [
  {"id"   : "", "photoURL"  :"/images/5_person_apartment_4th_floor/beds.jpg", "photoAlt"  :"", "photoPosition"  :"", "order": 4},
  {"id"   : "", "photoURL"  :"/images/5_person_apartment_4th_floor/bedroom.jpg", "photoAlt"  :"", "photoPosition"  :"", "order": 4},
@@ -415,7 +419,7 @@
     "guestsNumber"  : 3,
     "beds"  : ["double bed", "Pull-out armchair", {"babyCrib"  : true}],
     "maxGuestsNumber"  : ["2 adults + 2 children / 3 adults"],
-    "featured":["familyFriendly", "gardenView"],
+    "featured":["familyFriendly", "gardenView","mountainView"],
    "facilities"   : ["freeParking", "kitchen" ,"privateBathroom","balcony" ,"gardenView","innerCourtyardView", "mountainView", "airConditioning" ,"TV" , "freeWiFi" ,"safe" ],
     "kitchen"  : ["fridge", "stove","oven", "cooking utensils" ,"cutlery", "electric kettle","dining table" ],
     "bathroom"  : ["Private bathroom","bathtub" ,"towels" ,"toilet paper"  ],
@@ -426,7 +430,7 @@
    "safetyAndSecurity":["Key access", "Safe"],
     "commonAreas" :["Garden","Outdoor furniture","Outdoor dining area","Barbecue","Children's playground"],
     "onDemand"   :["hairdryer" ,"cleaning products" ,"Ironing facilities", "Baby crib", "Baby highchair"],
-    
+    "shortDescription": "A fully equipped and functional apartment featuring a kitchen, bathroom, and terrace. Ideal for families or groups of up to 3 people. Offers views of the garden, courtyard, and mountains.",
    "photos": [
 
   
@@ -511,7 +515,7 @@
     "guestsNumber"  : 4,
     "beds"  : ["double bed", "sofa bed", {"babyCrib"  : true}],
     "maxGuestsNumber"  : ["4 adults"],  
-    "featured":["partialSeaView", "familyFriendly"],
+    "featured":["partialSeaView", "familyFriendly", "sunLoungers","gardenView"],
    "facilities"   : ["freeParking", "kitchen" ,"privateBathroom","balcony" ,"sunLoungers","gardenView","innerCourtyardView","seaView", "airConditioning" ,"TV" , "freeWiFi" ,"safe" ],
     "kitchen"  : ["fridge", "stove","oven", "cooking utensils" ,"cutlery", "electric kettle","dining table" ],
     "bathroom"  : ["Private bathroom","bathtub" ,"towels" ,"toilet paper"  ],
@@ -522,7 +526,7 @@
    "safetyAndSecurity":["Key access", "Safe"],
     "commonAreas" :["Garden","Outdoor furniture","Outdoor dining area","Barbecue","Children's playground"],
     "onDemand"   :["hairdryer" ,"cleaning products" ,"Ironing facilities", "Baby crib", "Baby highchair"],
-    
+    "shortDescription": "Spacious, air-conditioned apartment for 4 people, featuring a large covered terrace with sun loungers and views of the sea, garden, and courtyard.",
    "photos": [
     {"id"   : "", "photoURL"  :"/images/4_person_apartment_3rd_floor/kitchen-elements.jpg", "photoAlt"  :"", "photoPosition"  :"", "order": 13},
       {"id"   : "", "photoURL"  :"/images/4_person_apartment_3rd_floor/double-bed.jpg", "photoAlt"  :"", "photoPosition"  :"", "order": 1},
@@ -611,18 +615,18 @@
     "guestsNumber"  : 3,
     "beds"  : ["double bed", "Pull-out armchair", {"babyCrib"  : true}],
     "maxGuestsNumber"  : ["2 adults + 2 children / 3 adults"],
-    "featured":["2 terraces", "familyFriendly"],
+  "featured":[ "familyFriendly","gardenView","mountainView","partialSeaView"],
    "facilities"   : ["freeParking", "kitchen" ,"privateBathroom", "balcony" ,"sunLoungers","seaView","gardenView","innerCourtyardView", "mountainView", "airConditioning" ,"TV" , "freeWiFi" ,"safe" ],
     "kitchen"  : ["fridge", "stove","oven", "cooking utensils" ,"cutlery", "electric kettle","dining table" ],
     "bathroom"  : ["Private bathroom","bathtub" ,"towels" ,"toilet paper"  ],
     "bedroom"  : ["Linen" , "Wardrobe", "Nightstands" ,"TV with cable channels" ],
-    "balcony"   : ["outdoor dining area" , "Drying rack" , "1 lezaljka za suncanje" ],
+    "balcony"   : ["outdoor dining area" , "Drying rack" , "1 ležaljka za sunčanje" ],
     "view"   : ["seaView","Mountain view","inner courtyard view","garden view" ],
     "mediaAndTechnology":["Cable channels", "TV"],
    "safetyAndSecurity":["Key access", "Safe"],
     "commonAreas" :["Garden","Outdoor furniture","Outdoor dining area","Barbecue","Children's playground"],
     "onDemand"   :["hairdryer" ,"cleaning products" ,"Ironing facilities", "Baby crib", "Baby highchair"],
-    
+    "shortDescription": "Ideal for small families or groups of up to 3 people, featuring two spacious terraces with views of the sea, garden, courtyard, and mountains. A comfortable and functional apartment, equipped with everything needed for a pleasant stay.",
    "photos": [
    
       {"id"   : "", "photoURL"  :"/images/3_person_apartment_2terraces_4th_floor/double-bed.jpg", "photoAlt"  :"", "photoPosition"  :"", "order": 1},
@@ -696,20 +700,21 @@
     "name" : "Apartment for 3 with 2 Terraces on the 3rd Floor",  "id":9,
     "apartmentSize"  : 35,
     "type"  : "apartment",
-    "guestsNumber"  : 3, "featured":["2 terraces", "familyFriendly"],
+    "guestsNumber"  : 3, 
+      "featured":["2 terraces", "familyFriendly", "partialSeaView","gardenView"],
     "beds"  : ["double bed", "Pull-out armchair", {"babyCrib"  : true}],
     "maxGuestsNumber"  : ["2 adults + 2 children / 3 adults"],
    "facilities"   : ["freeParking", "kitchen" ,"privateBathroom", "balcony" ,"sunLoungers","seaView","gardenView","innerCourtyardView", "mountainView", "airConditioning" ,"TV" , "freeWiFi" ,"safe" ],
     "kitchen"  : ["fridge", "stove","oven", "cooking utensils" ,"cutlery", "electric kettle","dining table" ],
     "bathroom"  : ["Private bathroom","bathtub" ,"towels" ,"toilet paper"  ],
     "bedroom"  : ["Linen" , "Wardrobe", "Nightstands" ,"TV with cable channels" ],
-    "balcony"   : ["outdoor dining area" , "Drying rack" , "1 lezaljka za suncanje" ],
+    "balcony"   : ["outdoor dining area" , "Drying rack" , "1 ležaljka za sunčanje" ],
     "view"   : ["partial sea view","Mountain view","inner courtyard view","garden view" ],
     "mediaAndTechnology":["Cable channels", "TV"],
    "safetyAndSecurity":["Key access", "Safe"],
     "commonAreas" :["Garden","Outdoor furniture","Outdoor dining area","Barbecue","Children's playground"],
     "onDemand"   :["hairdryer" ,"cleaning products" ,"Ironing facilities", "Baby crib", "Baby highchair"],
-    
+    "shortDescription": "Suitable for small families or groups of up to 3 people, featuring two terraces. A fully equipped apartment that includes everything needed for a comfortable stay. Offers views of the garden, courtyard, and mountains.",
    "photos": [
     {"id"   : "", "photoURL"  :"/images/3_person_apartment_with_2_terraces_3rd_floor/double-bed.jpg", "photoAlt"  :"", "photoPosition"  :"", "order": 1},
     {"id"   : "", "photoURL"  :"/images/3_person_apartment_with_2_terraces_3rd_floor/bedroom.jpg", "photoAlt"  :"", "photoPosition"  :"", "order": 1},
@@ -724,7 +729,7 @@
     {"id"   : "", "photoURL"  :"/images/3_person_apartment_with_2_terraces_3rd_floor/terrace-2-view.jpg", "photoAlt"  :"", "photoPosition"  :"", "order": 1},
     {"id"   : "", "photoURL"  :"/images/3_person_apartment_with_2_terraces_3rd_floor/terrace-2-splendid-view.jpg", "photoAlt"  :"", "photoPosition"  :"", "order": 1}
   ],
-    "shortDescription"  :"",
+   
     "longerDesciption"  :"",
   
     
@@ -787,7 +792,7 @@
     "guestsNumber"  : 4,
     "beds"  : ["double bed", "sofa bed", {"babyCrib"  : true}],
     "maxGuestsNumber"  : ["4 adults"], 
-    "featured":["2 Sun loungers", "familyFriendly", "partialSeaView"],
+    "featured":["sunLoungers", "familyFriendly", "partialSeaView","gardenView","mountainView"],
    "facilities"   : ["freeParking", "kitchen" ,"privateBathroom","balcony" ,"sunLoungers","gardenView","innerCourtyardView","seaView", "mountainView", "airConditioning" ,"TV" , "freeWiFi" ,"safe" ],
     "kitchen"  : ["fridge", "stove","oven", "cooking utensils" ,"cutlery", "electric kettle","dining table" ],
     "bathroom"  : ["Private bathroom","bathtub" ,"towels" ,"toilet paper"  ],
@@ -845,7 +850,7 @@
         "Free parking – On-site, with no additional cost.",
         "Family-friendly – Children’s playground within the property, with baby crib and high chair available on request."
       ],
-    
+    "shortDescription": "Ideal for families of four. Features a spacious covered terrace perfect for enjoying the view of the sea, garden, and mountains. A comfortable and functional apartment.",
       "metaKeywords": [
         "apartment for 4 people Bečići",
         "accommodation for 4 in Bečići",
@@ -865,7 +870,7 @@
     "guestsNumber"  : 3,
     "beds"  : ["double bed", "Pull-out armchair", {"babyCrib"  : true}],
     "maxGuestsNumber"  : ["2 adults + 2 children / 3 adults"],
-   "featured":["familyFriendly", "mountainView"],
+   "featured":["familyFriendly", "mountainView", "gardenView"],
    "facilities"   : ["freeParking", "kitchen" ,"privateBathroom","balcony" ,"gardenView","innerCourtyardView", "mountainView", "airConditioning" ,"TV" , "freeWiFi" ,"safe" ],
     "kitchen"  : ["fridge", "stove","oven", "cooking utensils" ,"cutlery", "electric kettle","dining table" ],
     "bathroom"  : ["Private bathroom","bathtub" ,"towels" ,"toilet paper"  ],
@@ -905,6 +910,9 @@
       
       
        ],
+"shortDescription": "Fully equipped apartment for small families or groups of up to 3 people. Features an air-conditioned bedroom with a double bed and a multifunctional room with a pull-out armchair. The terrace offers views of the garden, courtyard, and mountains.",
+
+
       "introContent": [
         "Fourth-floor apartment for small families or groups of up to 3 people.",
         "It consists of an air-conditioned bedroom with a double bed and access to the terrace. The second room is a combined space featuring a sleeping area (with a pull-out armchair), kitchen, and dining area (with a dining table)."
@@ -962,7 +970,7 @@
     "guestsNumber"  : 4,
     "beds"  : ["double bed", "sofa bed", {"babyCrib"  : true}],
     "maxGuestsNumber"  : ["4 adults"],
-    "featured":["2 Sun loungers", "familyFriendly", "partialSeaView"],
+      "featured":["familyFriendly", "gardenView", "mountainView"],
    "facilities"   : ["freeParking", "kitchen" ,"privateBathroom","balcony" ,"gardenView","innerCourtyardView", "mountainView", "airConditioning" ,"TV" , "freeWiFi" ,"safe" ],
     "kitchen"  : ["fridge", "stove","oven", "cooking utensils" ,"cutlery", "electric kettle" ],
     "bathroom"  : ["Private bathroom","bathtub" ,"towels" ,"toilet paper"  ],
@@ -973,7 +981,7 @@
    "safetyAndSecurity":["Key access", "Safe"],
     "commonAreas" :["Garden","Outdoor furniture","Outdoor dining area","Barbecue","Children's playground"],
     "onDemand"   :["hairdryer" ,"cleaning products" ,"Ironing facilities", "Baby crib", "Baby highchair"],
-    
+    "shortDescription": "Apartment on the 3rd floor, ideal for families of four, featuring a terrace with views of the garden and mountains. Functional and fully equipped with all the necessary amenities for a comfortable and pleasant stay.",
    "photos": [
  {"id"   : "", "photoURL"  :"/images/4_person_apartment_with_opened_terrace/bedroom.jpg", "photoAlt"  :"", "photoPosition"  :"bottom", "order": 13},
 {"id"   : "", "photoURL"  :"/images/4_person_apartment_with_opened_terrace/double-bed-1.jpg", "photoAlt"  :"", "photoPosition"  :"", "order": 13},
@@ -987,7 +995,7 @@
 {"id"   : "", "photoURL"  :"/images/4_person_apartment_with_opened_terrace/bathroom-door.jpg", "photoAlt"  :"", "photoPosition"  :"", "order": 13}
 
 ],
-    "shortDescription"  :"",
+    
     "longerDesciption"  :"",
     
       "introContent": [
@@ -1041,7 +1049,7 @@
     "guestsNumber"  : 4,
     "beds"  : ["2 single beds", "sofa bed", {"babyCrib"  : true}],
     "maxGuestsNumber"  : ["4 adults"],
-    "featured":[ "familyFriendly"],
+     "featured":[ "familyFriendly" ,"budgetFriendly","gardenView"],
    "facilities"   : ["freeParking","kitchen" ,"privateBathroom","balcony" ,"gardenView","innerCourtyardView", "airConditioning" ,"TV" , "freeWiFi" ,"safe" ],
     "kitchen"  : ["fridge", "stove","oven", "cooking utensils" ,"cutlery", "electric kettle","dining table" ],
     "bathroom"  : ["Private bathroom","shower" ,"towels" ,"toilet paper"  ],
@@ -1052,7 +1060,7 @@
    "safetyAndSecurity":["Key access", "Safe"],
     "commonAreas" :["Garden","Outdoor furniture","Outdoor dining area","Barbecue","Children's playground"],
     "onDemand"   :["hairdryer" ,"cleaning products" ,"Ironing facilities", "Baby crib", "Baby highchair"],
-    
+    "shortDescription": "Ground-floor apartment with two bedrooms, ideal for families or groups of up to 4 people. A covered terrace with a seating area offers a pleasant view of the garden and courtyard. Well-suited for families with young children and elderly guests.",
    "photos": [
 
       {"id"   : "", "photoURL"  :"/images/4_person_apartment_ground_floor/rooms.jpg", "photoAlt"  :"", "photoPosition"  :"", "order": 1},
@@ -1128,7 +1136,8 @@
     "guestsNumber"  : 5,
     "beds"  : ["5 kreveta samaca", {"babyCrib"  : true}],
     "maxGuestsNumber"  : ["5 adults"],
-    "featured":["familyFriendly"],
+    "featured":["familyFriendly", "budgetFriendly","gardenView"],
+    "shortDescription": "Ground-floor apartment for groups or families of up to 5 people. A modest yet functional accommodation with all essential amenities. The terrace includes a seating area and overlooks the garden and courtyard.",
    "facilities"   : ["freeParking", "kitchen" ,"privateBathroom","balcony" ,"gardenView","innerCourtyardView", "airConditioning" ,"TV" , "freeWiFi" ,"safe" ],
     "kitchen"  : ["fridge", "stove","oven", "cooking utensils" ,"cutlery", "electric kettle","dining table" ],
     "bathroom"  : ["Private bathroom","bathtub" ,"towels" ,"toilet paper"  ],
@@ -1142,7 +1151,7 @@
     
    "photos": [
  ],
-    "shortDescription"  :"",
+   
     "longerDesciption"  :"",
    
       "introContent": [
