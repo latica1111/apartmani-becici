@@ -16,7 +16,7 @@ import {
   iconGardenView,
   iconMountainView,
   iconYard,
-  iconSeaView,
+  iconSeaView, onDemandIcon,iconSunLounger,
   iconAirConditioning,
   iconAvailableLanguages,
   iconMediaAndTechnology,
@@ -144,7 +144,7 @@ export default function ApartmentDetails() {
     iconSeaView,
     iconYard,
     iconAvailableLanguages,
-    iconMediaAndTechnology,
+    iconMediaAndTechnology, onDemandIcon,iconSunLounger,
     iconSafety,iconCommonAreas
   };
   const sectionIcons = {
@@ -154,7 +154,7 @@ export default function ApartmentDetails() {
     bedroom:iconBedroom,
     view: iconGardenView, // ili druga ikona ako imaš više opcija za view
     bedroom: iconBedroom, // primer – možeš staviti neku drugu ako imaš bolju
-    onDemand: iconSafe,
+   onDemand: onDemandIcon,
     mediaAndTechnology: iconMediaAndTechnology,
     commonAreas:iconCommonAreas,
     safetyAndSecurity :iconSafety

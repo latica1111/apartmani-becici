@@ -725,7 +725,7 @@
     
     
     {
-    "name" : "Apartman za 4 osobe na 4.em spratu","id":10,
+    "name" : "Apartman za 4 osobe sa prostranom terasom i pogledom na vrt","id":10,
     "apartmentSize"  : 50,
     "type"  : "apartman",
     "guestsNumber"  : 4,
@@ -1225,7 +1225,7 @@
       
       "outdoorDiningArea":{"label":"Outdoor dining area", "icon":""} , 
       "clothesDryer":{"label":"Clothes dryer", "icon":""},
-      "sunLoungers":{"label":"Sun loungers", "icon":""},
+      "sunLoungers":{"label":"Ležaljke za sunčanje", "icon":"iconSunLounger"},
       "hairdryer":{"label":"Hairdryer", "icon":""} ,
       "cleaningProducts":{"label":"Cleaning products", "icon":""} ,
       "ironingFacilities" :{"label":"Ironing facilities", "icon":""}

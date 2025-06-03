@@ -1305,7 +1305,7 @@
         
         "outdoorDiningArea":{"label":"Outdoor dining area", "icon":""} , 
         "clothesDryer":{"label":"Clothes dryer", "icon":""},
-        "sunLoungers":{"label":"Sun loungers", "icon":""},
+        "sunLoungers":{"label":"Sun loungers", "icon":"iconSunLounger"},
         "hairdryer":{"label":"Hairdryer", "icon":""} ,
         "cleaningProducts":{"label":"Cleaning products", "icon":""} ,
         "ironingFacilities" :{"label":"Ironing facilities", "icon":""}

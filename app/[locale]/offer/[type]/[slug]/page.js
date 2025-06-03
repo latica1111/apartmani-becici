@@ -24,7 +24,7 @@ import {
   iconCommonAreas,
   iconTv,
   iconFreeWifi,
-  iconFreeParking,iconSunLounger,
+  iconFreeParking,iconSunLounger,onDemandIcon,
   iconSafe
 } from '@/components/Icons';
 
@@ -37,7 +37,7 @@ import ContactForm from '@/components/ContactForm';
 export default function ApartmentDetails() {
   const { locale, type, slug } = useParams();
   const tApartments = useTranslations('apartments');
-  const tSectionTitles = useTranslations('pageSectionNames');
+ 
   const currentLocale = useLocale();
   const t = useTranslations();
 
@@ -147,7 +147,7 @@ export default function ApartmentDetails() {
     iconYard,
     iconAvailableLanguages,
     iconMediaAndTechnology,
-    iconSafety,iconCommonAreas,iconSunLounger
+    iconSafety,iconCommonAreas,iconSunLounger,onDemandIcon
   };
   const sectionIcons = {
     kitchen: iconKitchen,
@@ -156,7 +156,7 @@ export default function ApartmentDetails() {
     bedroom:iconBedroom,
     view: iconGardenView, // ili druga ikona ako imaš više opcija za view
     bedroom: iconBedroom, // primer – možeš staviti neku drugu ako imaš bolju
-    onDemand: iconSafe,
+    onDemand: onDemandIcon,
     mediaAndTechnology: iconMediaAndTechnology,
     commonAreas:iconCommonAreas,
     safetyAndSecurity :iconSafety
