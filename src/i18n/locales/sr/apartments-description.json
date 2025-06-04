@@ -34,15 +34,27 @@
       
       
        ],
-    "shortDescription"  :"Studio sa mini kuhinjom, kupatilom i terasom. Sadrži sve sto vam je neophodno za kraći boravak. Pogled na vrt, planinu i dvorište.",
+    "shortDescription"  :"Studio sa mini kuhinjom, kupatilom i terasom. Sadrži sve sto vam je neophodno za kraći boravak. Klima, tv, internet. Terasa sa pogledom na vrt, planinu i dvorište.",
     "longerDesciption"  :"",
     "notes"  :"Studio se nalazi na prvom spratu i dostupan je samo stepenicama.", 
-   "metaKeywords"  :["iznajmljivanje apartmana", "idealno za odmor", "porodičan smeštaj", "studio za 3 osobe Bečići", "letovanje Bečići", "smestaj u Bečićima", "apartman blizu plaže", "apartmani Bečići"],
-    "metaDescription"  :"Udoban i praktičan studio za 3 osobe. 3 minuta od plaže. Obezbjeđen parking. Dječije igralište u sklopu objekta.",
-  
+   "metaKeywords"  :["iznajmljivanje apartmana", "apartman za 3 osobe Becici","studio apartman Crna Gora","apartmani Bečići 2025", "odmor na moru", "porodičan smeštaj", "studio za 3 osobe Bečići", "letovanje Bečići", "smestaj u Bečićima", "apartman blizu plaže Becici", "apartmani Bečići", "apartmani Crna Gora", "smestaj s parkingom Becici", "trokrevetni apartman"],
+    "metaDescription"  :"Udoban i praktičan studio za 3 osobe, sa sopstvenom kuhinjom i kupatilom, idealan za kraći boravak.  Terasa sa pogledom na vrt, planinu i dvorište. 3 minuta od plaže. Obezbjeđen parking. Dječije igralište u sklopu objekta.",
+  "pageTitle": "Studio za 3 osobe sa terasom – Smeštaj u Bečićima blizu plaže",
+ 
+  "ogTitle": "Studio za 3 osobe – Terasa, Blizina Plaže i Obezbjedjen Parking",
+  "ogDescription": "Studio za kraći odmor u Bečićima. Terasa sa pogledom, WiFi, djecije igralište na otvorenom i parking. Idealan za 3 osobe.",
+  "ogLocale": "sr_RS",
+  "ogUrl": "https://yourdomain.com/sr/ponuda/studio-3-osobe",
+  "ogType": "article",
+  "ogImage": "https://yourdomain.com/images/apartments/studio-3-osobe.jpg",
+  "twitterTitle": "Studio Apartman Bečići za 3 osobe – 3 min od Plaže",
+  "twitterDescription": "Studio apartman u Bečićima za 3 osobe sa terasom. WiFi, TV, klima. Parking obezbijedjen. Djecije igraliste u sklopu objekta. Uživajte u odmoru blizu mora.",
+  "twitterImage": "https://yourdomain.com/images/apartments/studio-3-osobe-twitter.jpg",
+  "twitterCard": "summary_large_image",
+  "canonical": "https://yourdomain.com/sr/ponuda/trokrevetni-studio-na-prvom-spratu-sa-balkonom",
 
 
-    "pageTitle"  :"Studio za 3 osobe sa terasom",
+    "title"  :"Studio za 3 osobe sa terasom",
     
   "reasonsToChoose": [  
   "Odlična lokacija – blizu plaže, prodavnica i restorana.",
@@ -122,7 +134,7 @@
   {"id"   : "", "photoURL"  :"/images/3_person_room_with_external_bathroom/bathroom.jpg", "photoAlt"  :"", "photoPosition"  :"bottom", "order": 1}
 
  ],
-    "shortDescription"  :"Soba sa francuskim ležajem i trosjedom koji se razvlači i služi kao pomoćni ležaj. Mini kuhinja u sklopu sobe. Terasa sa manjim, bočnim pogledom na more. Kupatilo je preko puta sobe, ali se ne dijeli ni sa kim.",
+    "shortDescription"  :"Soba sa francuskim ležajem i trosjedom koji se razvlači i služi kao pomoćni ležaj. Mini kuhinja u sklopu sobe. Natkrivena terasa sa manjim, bočnim pogledom na more. Kupatilo je preko puta sobe, ali se ne dijeli ni sa kim.",
     "longerDesciption"  :"",
     "notes"  :["Kupatilo je van sobe , ali se ne dijeli ni sa kim. " ],
     
@@ -160,10 +172,28 @@
     "availableOnRequest"  : "Na zahtjev su dostupni fen za kosu, sredstva za čišćenje i pribor za peglanje.",
     
    
-   "metaKeywords"  :["trokrevetna soba", "smeštaj blizu plaže","smestaj Crna Gora", "povoljan apartman Bečići", "letovanje smeštaj", "soba sa balkonom", "privatni smeštaj Bečići", "porodični odmor", "letovanje uz more", "apartman za parove", "soba sa kupatilom", "porodičan smeštaj", "soba sa balkonom", "letovanje Bečići", "smestaj u Bečićima", "povoljan smestaj blizu plaže", "sobe Bečići" ],
+   "metaKeywords"  :["trokrevetna soba", "trokrevetna soba Bečići","povoljno letovanje Crna Gora","smeštaj Bečići blizu plaže","privatni smeštaj Crna Gora","porodični smeštaj Bečići","sobe za izdavanje Bečići","letovanje sa decom Bečići","soba sa pogledom na more", "smeštaj blizu plaže","smestaj Crna Gora", "povoljan apartman Bečići", "letovanje smeštaj","Becici jeftino letovanje" ,"soba sa balkonom", "privatni smeštaj Bečići", "porodični odmor", "leto 2025", "apartman za 3 osobe Becici", "soba sa kupatilom", "porodičan smeštaj", "soba sa balkonom", "letovanje Bečići", "smestaj u Bečićima", "povoljan smestaj blizu plaže", "sobe Bečići", "apartman sa parkingom Becici" ],
     
-    "metaDescription"  : "Trokrevetna soba blizu plaže – jednostavan, ali udoban i pristupačan smeštaj na samo nekoliko minuta hoda od plaže. Odlican izbor za parove, porodice i putnike u prolazu. Soba sa sopstvenim kupatilom, balkonom i besplatnim parkingom. Djecije igralište u sklopu objekta.",
+    "metaDescription"  : "Trokrevetna soba blizu plaže – sa sopstvenim kupatilom, kuhinjom, balkonom i besplatnim parkingom. Za povoljno ljetovanje u Crnoj Gori. Jednostavan, ali udoban i pristupačan smještaj na samo nekoliko minuta hoda od plaže. Odlican izbor za parove i porodice. Djecije igralište u sklopu objekta.",
     
+
+  "pageTitle": "Trokrevetna soba sa balkonom – Povoljan smještaj u Bečićima blizu plaže",
+ 
+  
+  "ogTitle": "Trokrevetna soba – Povoljan smještaj u Bečićima, parking i blizina plaže",
+  "ogDescription": "Smještaj za 3 osobe u Bečićima. Soba sa balkonom, kuhinjom i kupatilom. Parking je obezbjedjen. Blizu mora i idealno za porodice. Za ljetovanje po pristupacnoj cijeni!",
+  "ogLocale": "sr_RS",
+  "ogUrl": "https://yourdomain.com/sr/ponuda/trokrevetna-soba",
+  "ogType": "article",
+  "ogImage": "https://yourdomain.com/images/apartments/trokrevetna-soba.jpg",
+  "twitterTitle": "Bečići – Trokrevetna soba sa svojim kupatilom i kuhinjom",
+  "twitterDescription": "Pristupačan smještaj u Bečićima – trokrevetna soba sa sopstvenim kupatilom, kuhinjom i terasom. Parking je obezbjedjen. Blizu plaže, idealno za porodice. Djecije igrliste u sklopu objekta.",
+  "twitterImage": "https://yourdomain.com/images/apartments/trokrevetna-soba-twitter.jpg",
+  "twitterCard": "summary_large_image",
+  "canonical": "https://yourdomain.com/sr/ponuda/trokrevetna-soba",
+
+
+
     "title"  : "Trokrevetna soba sa sopstvenim kupatilom van sobe – Povoljan i udoban smeštaj blizu plaže",
     
     "pageURL"   : "trokrevetna-soba-sa-sopstvenim-kupatilom-van-sobe"
@@ -208,9 +238,24 @@
     "longerDesciption"  :" ",
     
     
-   "metaKeywords"  : ["trokrevetna soba Bečići", "smeštaj blizu plaže", "povoljan apartman Bečići", "letovanje smeštaj", "soba sa balkonom", "privatni smeštaj Bečići", "porodični odmor", "letovanje uz more", "apartman za parove", "soba sa sopstvenim kupatilom", "soba sa kuhinjom", "povoljan smeštaj Crna Gora","apartmani na moru","apartmani sa parkingom","smještaj za 2 odraslih + 2 djece","soba sa terasom", "trokrevetna soba Bečići" ],
+   "metaKeywords"  : ["trokrevetna soba Bečići", "trokrevetna soba Becici", "leto 2025 Becici","letovanje Becici","smestaj sa parkingom Becici","soba sa kuhinjom Bečići","jeftin smeštaj blizu plaže","smeštaj za porodicu Bečići","privatan smeštaj Crna Gora","apartman sa parkingom Bečići","soba sa balkonom Bečići","letovanje Bečići smeštaj", "smeštaj blizu plaže", "povoljan apartman Bečići", "letovanje smeštaj", "soba sa balkonom", "privatni smještaj Bečići", "porodični odmor", "letovanje na moru", "apartman za porodicu", "soba sa sopstvenim kupatilom", "soba sa kuhinjom", "povoljan smeštaj Crna Gora","apartmani na moru","apartmani sa parkingom","smještaj za 2 odraslih i 2 djece","soba sa terasom", "trokrevetna soba sa parkingom" ,"jeftin smestaj Becici"],
     
-    "metaDescription"  :"Povoljan i udoban smeštaj za 2 odraslih + 2 djece. Privatno kupatilo i kuhinja, balkon sa pogledom i besplatan parking na raspolaganju. Djecije igralište u sklopu objekta. Odlican izbor za vaš odmor!",
+     "pageTitle": "Trokrevetna soba sa kuhinjom i kupatilom – Praktičan smeštaj u Bečićima",
+  "metaDescription": "Trokrevetna soba sa sopstvenim kupatilom i kuhinjom van sobe. Povoljan smeštaj za 2 odraslih + 2 djece. Balkon sa pogledom, parking. Djecije igralište u sklopu objekta. Bečići, 3 minuta do plaže.",
+  
+  "ogTitle": "Trokrevetna soba sa balkonom i sopstvenom kuhinjom – Bečići",
+  "ogDescription": "Soba za 3 osobe sa sopstvenim kupatilom i kuhinjom (van sobe). Balkon sa pogledom, WiFi, parking. 3 minuta do mora.",
+  "ogLocale": "sr_RS",
+  "ogUrl": "https://yourdomain.com/sr/ponuda/trokrevetna-soba-kuhinja",
+  "ogType": "article",
+  "ogImage": "https://yourdomain.com/images/apartments/trokrevetna-soba-kuhinja.jpg",
+  "twitterTitle": "Bečići – Trokrevetna soba sa kuhinjom i balkonom",
+  "twitterDescription": "Smeštaj za 3 osobe sa sopstvenom kuhinjom i kupatilom (van sobe), blizu plaže. Balkon, WiFi i parking uključeni.",
+  "twitterImage": "https://yourdomain.com/images/apartments/trokrevetna-soba-kuhinja-twitter.jpg",
+  "twitterCard": "summary_large_image",
+  "canonical": "https://yourdomain.com/sr/ponuda/trokrevetna-soba-kuhinja",
+    
+    
     "introContent"   :["Trokrevetna soba sa sopstvenim kupatilom i kuhinjom van sobe – Pristupačan smještaj blizu plaže",
     
     "Soba se nalazi na prvom spratu porodične kuće, a pristup je omogućen stepenicama."],
@@ -284,7 +329,7 @@
    
       
        ],
-    "shortDescription"  :"Studio sa francuskim ležajem, mini kuhinjom, kupatilom i terasom. Klima, tv, net. Idealno za parove bez djece.",
+    "shortDescription"  :"Studio sa francuskim ležajem, mini kuhinjom, kupatilom i terasom. Manje kvadrature, ali opremljen svime što je potrebno za kraci boravak. Klima, tv, net. Idealno za parove bez djece.",
     "longerDesciption"  :"",
     
     
@@ -315,15 +360,27 @@
     "Flat TV sa kablovskim kanalima – Za opuštanje uz omiljene sadržaje.",
     "Besplatan WiFi – Za rad, zabavu ili komunikaciju.",
     "Sef – Bezbjedno čuvanje vaših ličnih stvari tokom boravka.",
-    "Besplatan parking –  Privatno parking mesto dostupno bez dodatnih troškova." 
+    "Besplatan parking –  Parking mejsto dostupno bez dodatnih troškova." 
   
   
   ],
     
-   "metaKeywords"  :["dvokrevetni studio", "studio Bečići","studio za 2 osobe Bečići","smestaj sa parkingom Bečići", "apartman blizu plaže", "studio za parove", "smeštaj za parove", "apartman sa balkonom", "minimalistički studio", "Bečići smeštaj", "studio za kraći boravak", "studio apartman Bečići", "smestaj Crna Gora"],
+   "metaKeywords"  :["dvokrevetni studio", "dvokrevetni studio Bečići","studio za parove Bečići","jeftin smeštaj za dvoje Bečići","apartman za dvoje Bečići","studio Crna Gora","letovanje u Bečićima 2025","smeštaj Bečići 2025","studio sa parkingom Bečići","studio za 2 osobe Bečići","smestaj sa parkingom Bečići", "apartman blizu plaže", "studio za parove", "smeštaj za parove", "apartman za ljubavnike", "minimalistički studio", "Bečići smeštaj", "studio za kraći boravak", "studio apartman Bečići", "smestaj Crna Gora 2025"],
     
     "metaDescription"  : "Dvokrevetni studio u Bečićima, idealan za parove. Sa kupatilom, mini kuhinjom i balkonom. Klima, tv, internet. 3 minuta pjeske od plaže. Parking mjesto obezbjedjeno." ,
-    
+     "pageTitle": "Dvokrevetni studio za parove – Bečići",
+  
+  "ogTitle": "Bečići – Dvokrevetni studio za parove sa parkingom na 3 min od plaze",
+  "ogDescription": "Studio manjih dimenzija ali sadrzi sve sto je neophodno za kraci boravak. Francuski ležaj, mini kuhinja i balkon – idealno za parove koji traze jednostavnost. Parking mjesto obezbijedjeno. ",
+  "ogLocale": "sr_RS",
+  "ogUrl": "https://yourdomain.com/sr/ponuda/studio-za-parove-becici",
+  "ogType": "article",
+  "ogImage": "https://yourdomain.com/images/apartments/studio-za-parove-becici.jpg",
+  "twitterTitle": "Studio za dvoje u Bečićima sa parkingom – na 3 min od plaze",
+  "twitterDescription": "Manji studio za dvoje, sa svim osnovnim pogodnostima za kraci boravak. Blizu plaže. Sa francuskim lezajem, mini kuhinjom, kupatilom i terasom. Parking obezbijedjen.",
+  "twitterImage": "https://yourdomain.com/images/apartments/studio-za-parove-becici-twitter.jpg",
+  "twitterCard": "summary_large_image",
+  "canonical": "https://yourdomain.com/sr/ponuda/studio-za-parove-becici",
     "title"  : "Dvokrevetni studio – blizu plaže",
     "pageURL"   : "dvokrevetni-studio"
     
@@ -393,10 +450,27 @@
     ],
     
     
-    "metaDescription"  : "Prostran apartman za 5 osoba u Bečićima sa pogledom na more. 3 minuta do plaže. Idealno za porodice i grupe. Parking obezbjedjen.",
+   
     
-   "metaKeywords"  : ["apartman za 5 osoba Bečići","smjestaj za 5 osoba u Becicima","smeštaj blizu plaže","smestaj Crna Gora", "povoljan apartman Bečići", "letovanje smeštaj", "apartman za petoro", "privatni smeštaj Bečići", "porodični odmor", "letovanje Crna Gora", "apartman za porodice", "porodičan smeštaj", "apartman sa pogledom na more Becici", "ljetovanje Bečići", "smestaj u Bečićima", "povoljan smestaj blizu plaže", "petokrevetni apartman Bečići"],
-    "title"  : "Apartman za 5 Osoba sa pogledom na more - Za Porodice i Grupe",
+   "metaKeywords"  : ["apartman za 5 osoba Bečići", "porodični odmor Bečići","apartman za 5 osoba Becici","letovanje sa decom Crna Gora","smeštaj sa pogledom na more","apartman sa parkingom Becici","apartmani Bečići 2025",
+    "letovanje Bečići","odmor u Bečićima 2025","smjestaj za 5 osoba u Becicima","smeštaj blizu plaže","smestaj Crna Gora", "povoljan apartman Bečići", "letovanje smeštaj", "apartman za petoro", "privatni smeštaj Bečići", "porodični odmor", "leto 2025 Crna Gora", "apartman za 5", "porodičan smeštaj", "apartman sa pogledom na more Becici", "ljetovanje Bečići", "smestaj u Bečićima", "povoljan smestaj blizu plaže", "petokrevetni apartman Bečići"],
+    "pageTitle": "Apartman sa pogledom na more – idealan za petoclane porodice Bečići",
+  "metaDescription": "Prostran apartman za 5 osoba u Becicima. Dvije odvojene prostorije, terasa sa prostorom za sjedenje, ležaljkama i manjim pogledom na more. 3 minuta do plaže. Parking obezbjedjen. Djecije igraliste u sklopu objekta. ",
+  
+  "ogTitle": "Apartman sa terasom i pogledom na more – Bečići",
+  "ogDescription": "Komforan apartman za 5 osoba. Klimatizovane sobe, kuhinja, kupatilo, terasa sa prostorom za sjedenje i ležaljkama. Pogled na more i vrt. Blizu plaže. Parking obezbijedjen.",
+  "ogLocale": "sr_RS",
+  "ogUrl": "https://yourdomain.com/sr/ponuda/porodicni-apartman-more",
+  "ogType": "article",
+  "ogImage": "https://yourdomain.com/images/apartments/porodicni-apartman-more.jpg",
+  "twitterTitle": "Apartman za 5 osoba sa terasom i pogledom na more – Bečići",
+  "twitterDescription": "Klimatizovane sobe, kuhinja, terasa sa prostorom za sjedenje i ležaljkama, pogled na more. 3 min od plaze. Parking obezbijedjen.",
+  "twitterImage": "https://yourdomain.com/images/apartments/porodicni-apartman-more-twitter.jpg",
+  "twitterCard": "summary_large_image",
+  "canonical": "https://yourdomain.com/sr/ponuda/apartman-za-pet-osoba-na-cetvrtom-spratu",
+   
+   
+   "title"  : "Apartman za 5 Osoba sa pogledom na more - Za Porodice i Grupe",
     "pageURL"   : "apartman-za-pet-osoba-na-cetvrtom-spratu",
     "invatitation":""
     } ,
@@ -459,9 +533,26 @@
    
     
     "availableOnRequest"  :"Na zahtjev: Fen za kosu, sredstva za čišćenje, pribor za peglanje, djeciji krevetac, stolica za hranjenje.",
-    "metaDescription":"Apartman za 3 osobe u Bečićima sa terasom. 3 minuta do plaže. Besplatan parking. Djecije igralište u sklopu objekta.",
-   "metaKeywords"  :["apartman za 3 osobe Bečići", "smještaj za 3 osobe u Bečićima","trokrevetni apartman Bečići", "smeštaj blizu plaže","smestaj Crna Gora", "apartman za 3 osobe Bečići", "letovanje smeštaj", "apartman sa balkonom", "privatni smeštaj Bečići", "porodični odmor", "letovanje uz more", "apartman za parove", "smeštaj sa parkingom Becici", "letovanje Bečići", "smestaj u Bečićima", "povoljan smestaj blizu plaže", "smještaj za 3 osobe u Bečićima" ],
-    "pageURL"  : "apartman-za-3-osobe-na-3-spratu" ,
+ 
+   "metaKeywords"  :["apartman za 3 osobe Bečići","porodični apartman Bečići","apartman sa kuhinjom i terasom","smještaj blizu plaže Bečići",
+    "apartmani Bečići","apartman sa parkingom Becici","letovanje Crna Gora smeštaj","smeštaj za porodice Bečići", "apartmani u Bečićima Crna Gora","apartman za 3 osobe Bečići", "smještaj za 3 osobe u Bečićima","trokrevetni apartman Bečići", "smeštaj blizu plaže","smestaj Crna Gora", "apartman za 3 osobe Bečići", "letovanje smeštaj", "apartman sa balkonom", "privatni smeštaj Bečići", "porodični odmor", "letovanje 2025", "apartman za troje", "smeštaj sa parkingom Becici", "letovanje Bečići", "smestaj u Bečićima", "povoljan smestaj blizu plaže", "smještaj za 3 osobe u Bečićima" ],
+    "pageTitle": "Apartman za 3 osobe sa terasom – Bečići",
+  "metaDescription": "Udoban apartman za 3 osobe sa pogledom na planinu i vrt. Klimatizovana spavaća soba, potpuno opremljena kuhinja, kupatilo i terasa. TV, WiFi. 3 minuta do plaže. Besplatan parking. Djecije igralište u sklopu objekta.",
+ 
+  "ogTitle": "Apartman za 3 osobe sa parkingom – Bečići",
+  "ogDescription": "Apartman za manju porodicu ili grupu. Klimatizovana spavaća soba, potpuno opremljena kuhinja, kupatilo i terasa. TV, WiFi. 3 minuta do plaže. Besplatan parking. Djecije igralište u sklopu objekta.",
+  "ogLocale": "sr_RS",
+  "ogUrl": "https://yourdomain.com/sr/ponuda/apartman-za-3-osobe-terasa",
+  "ogType": "article",
+  "ogImage": "https://yourdomain.com/images/apartments/apartman-za-3-osobe-terasa.jpg",
+  "twitterTitle": "Apartman za 3 osobe sa parkingom – Bečići",
+  "twitterDescription": "Za manju porodicu ili grupu. 3 minuta do plaže. Klima, TV, WiFi.  Besplatan parking. Djecije igralište u sklopu objekta.",
+  "twitterImage": "https://yourdomain.com/images/apartments/apartman-za-3-osobe-terasa-twitter.jpg",
+  "twitterCard": "summary_large_image",
+  "canonical": "https://yourdomain.com/sr/ponuda/apartman-za-3-osobe-terasa",
+   
+   
+   "pageURL"  : "apartman-za-3-osobe-na-3-spratu" ,
     
     "reasonsToChoose"  :[
     "Odlična lokacija –  Par minuta laganog hoda do pješčane plaže.",
@@ -559,10 +650,29 @@
     
     ], 
     
-    "metaDescription"  :"Prostran apartman za 4 osobe u Bečićima sa velikom terasom i pogledom na more. Za porodice i grupe. Blizu plaže. Parking obezbeđen. Djecije igralište u sklopu objekta.",
+    "metaDescription"  :"Prostran apartman za 4 osobe u Bečićima sa velikom terasom i pogledom na more. Za porodice i grupe. Klimatizovane sobe, opremljena kuhinja. Blizu plaže. Parking obezbijeđen. Djecije igralište u sklopu objekta.",
     
-   "metaKeywords"  :[ "apartman za 4 osobe Bečići", "smeštaj za 4 osobe u Bečićima","smeštaj blizu plaže","smestaj Crna Gora", "povoljan apartman Bečići", "letovanje smeštaj", "apartman za cetvoro", "privatni smeštaj Bečići", "porodični odmor", "letovanje Crna Gora", "apartman za porodice", "porodičan smeštaj", "apartman sa pogledom na more Becici", "ljetovanje Bečići", "smestaj u Bečićima", "povoljan smestaj blizu plaže", "cetvorokrevetni apartman Bečići" ],
-    "pageURL"   : "apartman-za-4-osobe-na-3-spratu",
+   "metaKeywords"  :[  "apartman za 4 osobe Bečići","smestaj blizu plaze",
+    "smestaj za cetvoro Becici","porodični apartman Crna Gora","apartman sa pogledom na more Bečići","letovanje Bečići apartmani","apartman blizu plaže Bečići",
+    "apartman za 4 Bečići","privatni smeštaj Bečići","apartman sa parkingom Bečići", "smeštaj za 4 osobe u Bečićima","smeštaj blizu plaže","smestaj Crna Gora", "povoljan apartman Bečići", "letovanje Crna Gora 2025", "apartman za cetvoro sa parkingom", "privatni smeštaj Bečići", "porodični odmor", "letovanje Crna Gora", "apartmani Crna Gora 2025", "smestaj za porodice sa decom", "apartman sa pogledom na more Becici", "ljetovanje Bečići", "smestaj u Bečićima", "povoljan smestaj blizu plaže", "cetvorokrevetni apartman Bečići" ],
+   "pageTitle": "Apartman za 4 osobe sa pogledom na more i parkingom – Bečići",
+ 
+ 
+  "ogTitle": "Apartman za 4 osobe sa parkingom i pogledom na more – Bečići",
+  "ogDescription": "Prostran i klimatizovan apartman za 4 osobe, sa potpuno opremljenom kuhinjom i velikom terasom. Pogled na more. Klima,  WiFi i TV. Parking obezbijedjen. Odlican izbor za 2 odraslih i 2 djece.",
+  "ogLocale": "sr_RS",
+  "ogUrl": "https://yourdomain.com/sr/ponuda/apartman-za-4-osobe-terasa-pogled",
+  "ogType": "article",
+  "ogImage": "https://yourdomain.com/images/apartments/apartman-za-4-osobe-terasa.jpg",
+  "twitterTitle": "Apartman za 4 osobe u Bečićima sa parkingom i pogledom na more",
+  "twitterDescription": "Prostran i klimatizovan, odlican izbor za četvoročlane porodice. Blizu plaže, sa kuhinjom, klimom i WiFi-jem. Parking. Djecije igraliste u sklopu objekta.",
+  "twitterImage": "https://yourdomain.com/images/apartments/apartman-za-4-osobe-terasa-twitter.jpg",
+  "twitterCard": "summary_large_image",
+  "canonical": "https://yourdomain.com/sr/ponuda/apartman-za-4-osobe-na-3-spratu"
+,
+   
+   
+   "pageURL"   : "apartman-za-4-osobe-na-3-spratu",
     "title"   : "Apartman za 4 osobe na 3.em spratu"
     } ,
     
@@ -600,7 +710,7 @@
              {"id"   : "", "photoURL"  :"/images/3_person_apartment_2terraces_4th_floor/view.jpg", "photoAlt"  :"", "photoPosition"  :"", "order": 10}
       
        ],
-    "shortDescription"  :"Za manje porodice ili grupe do 3 osobe, sa dvije prostrane terase. Pogled na more, vrt, dvorište i planine. Udoban i funkcionalan apartman, sadrži sve sto je potrebno za ugodan boravak.",
+    "shortDescription"  :"Za manje porodice ili grupe do 3 osobe, sa dvije prostrane terase. Pogled na more, vrt, dvorište i planine. Potpuno opremljena kuhinja sa posudjem i priborom za jelo. Udoban i funkcionalan apartman, sadrži sve sto je potrebno za ugodan boravak.",
     "longerDesciption"  :"",
     "notes"  :["" ],
     
@@ -632,9 +742,25 @@
     "Besplatan parking – Obezbeđeno mjesto bez dodatnih troškova."
     
     ],
-   "metaKeywords"  : ["apartman sa 2 terase Bečići", "smještaj za 3 osobe u Bečićima", "apartman sa pogledom na more Bečići", "povoljan apartman Bečići", "letovanje smeštaj", "apartman za troje", "privatni smeštaj Bečići", "porodični odmor", "letovanje za 3 osobe Crna Gora", "apartman za 3 osobe Becici", "povoljan smeštaj Crna Gora","apartmani na moru","apartmani sa parkingom","smještaj za 3 odraslih", "trokrevetni apartman sa parkingom Bečići"],
-    "metaDescription" : "Apartman za 3 osobe u Bečićima sa 2 terase. Svi neophodni sadržaji za kratak i udoban boravak. 3 minuta do plaže. Besplatan parking. Djecije igralište u sklopu objekta.",
-   
+   "metaKeywords"  : ["apartman sa 2 terase Bečići", "apartman za 3 osobe Bečići","smještaj za 3 osobe u Bečićima",
+    "smještaj povoljno Bečići","apartman za 3 osobe sa parkingom Bečići","letovanje u Bečićima",
+    "apartmani Becici Crna Gora","privatni smeštaj Bečići","apartman sa kuhinjom Bečići","apartman sa parkingom Becici","apartman sa pogledom na more Bečići", "povoljan apartman Bečići", "letovanje 2025","crnogorsko primorje smestaj" ,"apartman za troje", "smeštaj Bečići", "odmor na moru 2025", "letovanje za 3 osobe Crna Gora", "smestaj za 3 osobe Becici", "povoljan smeštaj Crna Gora","apartmani na moru","apartmani sa parkingom","smještaj za 3 odraslih", "trokrevetni apartman sa parkingom Bečići"],
+  
+    "pageTitle": "Apartman za 3 osobe sa 2 terase – Bečići",
+  "metaDescription": "Apartman za 3 osobe na 4. spratu kuće u Bečićima. Dvije terase sa pogledom na more i planinu. Svi neophodni sadržaji za kratak i udoban boravak. Opremljena kuhinja, klima, WiFi i TV. Besplatan parking. Djecije igralište u sklopu objekta.",
+ 
+  "ogTitle": "Apartman za 3 osobe sa parkingom ( + 2 terase! ) – Bečići",
+  "ogDescription": "Udoban i funkcionalan apartman, na svega 3 min od plaze, sadrži sve sto je potrebno za ugodan boravak. Dvije terase sa pogledom na more i planinu. Opremljena kuhinja, klima, WiFi i TV. Besplatan parking. Djecije igralište u sklopu objekta. ",
+  "ogLocale": "sr_RS",
+  "ogUrl": "https://yourdomain.com/sr/ponuda/apartman-sa-2-terase-za-3-osobe",
+  "ogType": "article",
+  "ogImage": "https://yourdomain.com/images/apartments/apartman-za-3-osobe-terase.jpg",
+  "twitterTitle": "Apartman za 3 osobe u Bečićima sa 2 terase i parkingom",
+  "twitterDescription": "Idealno za tročlane porodice i manje grupe. Klima, TV, WiFi. Potpuno opremljena kuhinja. Dvije terase sa pogledom na more i planinu. Parking. Djecije igraliste. ",
+  "twitterImage": "https://yourdomain.com/images/apartments/apartman-za-3-osobe-terase-twitter.jpg",
+  "twitterCard": "summary_large_image",
+  "canonical": "https://yourdomain.com/sr/ponuda/apartman-za-3-osobe-sa-dve-terase-na-4-spratu",
+
    "pageURL"  : "apartman-za-3-osobe-sa-dve-terase-na-4-spratu",
     "title"  :"Apartman za 3 osobe sa 2 terase na 4.om spratu"
     } ,
@@ -675,7 +801,7 @@
     {"id"   : "", "photoURL"  :"/images/3_person_apartment_with_2_terraces_3rd_floor/terrace-2-view.jpg", "photoAlt"  :"", "photoPosition"  :"", "order": 1},
     {"id"   : "", "photoURL"  :"/images/3_person_apartment_with_2_terraces_3rd_floor/terrace-2-splendid-view.jpg", "photoAlt"  :"", "photoPosition"  :"", "order": 1}
  ],
-    "shortDescription"  :"Pogodan za manje porodice ili grupe do 3 osobe, sa dvije terase. Kompletno opremljen apartman, sadrži sve što vam je potrebno za prijatan boravak. Pogled na vrt, dvorište i planine.",
+    "shortDescription"  :"Pogodan za tročlane porodice ili grupe do 3 osobe. Sa francuskim lezajem i foteljom na rasklapanje. Kompletno opremljena kuhinja. Dvije terase i pogled na vrt, dvorište i planine. Sadrži sve što vam je potrebno za prijatan boravak.",
     "longerDesciption"  :"",
     
     
@@ -713,10 +839,26 @@
     
     
     ],
-    "metaDescription" : "Apartman za 3 osobe u Bečićima sa 2 terase. Svi neophodni sadzaji za kratak i udoban boravak. 3 minuta do plaže. Besplatan parking. Djecije igralište u sklopu objekta.",
+    "metaDescription" : "Apartman za 3 osobe u Bečićima sa parkingom i 2 terase. Svi neophodni sadzaji za kratak i udoban boravak.  Pogled na planinu i dvorište, klima, WiFi i TV. kuhinja u potpunosti opremljena. 3 minuta do plaže. Besplatan parking. Djecije igralište u sklopu objekta.",
    
-   "metaKeywords"  : ["apartman sa 2 terase Bečići", "smještaj za 3 osobe u Bečićima", "apartman sa pogledom na more Bečići", "povoljan apartman Bečići", "letovanje smeštaj", "apartman za troje", "privatni smeštaj Bečići", "porodični odmor", "letovanje za 3 osobe Crna Gora", "apartman za 3 osobe Becici", "povoljan smeštaj Crna Gora","apartmani na moru","apartmani sa parkingom","smještaj za 3 odraslih", "trokrevetni apartman sa parkingom Bečići"],
-    "pageURL"  : "apartman-za-3-osobe-sa-dve-terase-na-3-spratu",
+   "metaKeywords"  : ["apartman sa 2 terase Bečići",  "apartman za 3 osobe Bečići","apartman sa parkingom Bečići","family-friendly apartman","smještaj Crna Gora","apartmani Bečići 2025","letovanje Bečići privatan smještaj",
+    "apartman za porodicu Bečići","apartman za troje odraslih Bečići","smještaj za 3 osobe u Bečićima", "apartman sa pogledom na more Bečići", "povoljan apartman Bečići", "letovanje Becici 2025", "Becici smeštaj", "apartman za 3 Becici", "privatni smeštaj Bečići", "odmor na moru 2025", "letovanje za 3 osobe Crna Gora", "apartman povoljno Becici", "povoljan smeštaj Crna Gora","apartmani blizu plaze","apartmani sa parkingom","smještaj za 3 odraslih", "trokrevetni apartman sa parkingom Bečići"],
+     "pageTitle": "Apartman sa 2 terase za 3 osobe – Bečići",
+  
+  "ogTitle": "Apartman sa parkingom – Bečići (3 osobe)",
+  "ogDescription": "Savršen apartman za troclanu porodicu – kompletno opremljena kuhinja, klima, TV, WiFi. Dvije terase sa pogledom na planinu i dvorište. Djecije igraliste. Parking.",
+  "ogLocale": "sr_RS",
+  "ogUrl": "https://yourdomain.com/sr/ponuda/apartman-sa-2-terase-za-3-osobe-3-sprat",
+  "ogType": "article",
+  "ogImage": "https://yourdomain.com/images/apartments/apartman-3osobe-3sprat.jpg",
+  "twitterTitle": "Bečići: Apartman za 3 osobe sa obezbijedjenim parkingom",
+  "twitterDescription": "Idealno za tročlane porodice – kompletno opremljena kuhinja, klima, TV, WiFi. Dvije terase sa pogledom na planinu i dvorište. Djecije igraliste. Parking.",
+  "twitterImage": "https://yourdomain.com/images/apartments/apartman-3osobe-3sprat-twitter.jpg",
+  "twitterCard": "summary_large_image",
+  "canonical": "https://yourdomain.com/sr/ponuda/apartman-za-3-osobe-sa-dve-terase-na-3-spratu",
+   
+   
+   "pageURL"  : "apartman-za-3-osobe-sa-dve-terase-na-3-spratu",
     "title"  : "Apartman za 3 osobe sa 2 terase na 3.em spratu"
     
     
@@ -796,9 +938,28 @@
     "Pogodno za porodice – Dečije igralište u sklopu objekta, i mogućnost obezbjeđivanja djecijeg kreveca i stolice za hranjenje."
     
     ],
-   "metaKeywords"  : ["apartman za 4 osobe Bečići", "smještaj za 4 osobe u Bečićima", "apartman sa pogledom na more Bečići"],
-   "metaDescription" : "Apartman za 4 osobe u Bečićima sa terasom. 3 minuta do plaže. Besplatan parking. Djecije igralište u sklopu objekta.",
-   
+   "metaKeywords"  : ["apartman za 4 osobe Bečići", "apartman za 4 osobe Becici",
+    "apartman sa parkingom Bečići",
+    "smještaj sa pogledom na more Crna Gora",
+    "porodični apartman Bečići",
+    "apartman u Bečićima sa klimom","Becici apartmani","Becici sobe","Becici smestaj sa parkingom","cetvorokrevetni apartman Becici",
+    "letovanje Bečići apartmani",
+    "privatan smeštaj Bečići 4 osobe","smještaj za 4 osobe u Bečićima", "apartman sa pogledom na more Bečići"],
+   "metaDescription" : "Apartman za 4 osobe u Bečićima sa parkingom. 3 minuta do plaže. Velika natkrivena terasa sa pogledom na more, planine i vrt. Kuhinja u potponosti opremljena, klima, WiFi i TV. Besplatan parking. Djecije igralište u sklopu objekta.",
+   "pageTitle": "Apartman za 4 osobe sa terasom i pogledom – Bečići",
+
+ 
+  "ogTitle": "Apartman sa velikom terasom i pogledom – Bečići (4 osobe)",
+  "ogDescription": "Prostran apartman za 4 osobe blizu plaze. Sa obezbjedjenim parkingom i pogledom na more i planine – odlican izbor za 2 odraslih i 2 djece. Djecije igraliste u sklopu objekta!",
+  "ogLocale": "sr_RS",
+  "ogUrl": "https://yourdomain.com/sr/ponuda/apartman-sa-terasom-za-4-osobe-4-sprat",
+  "ogType": "article",
+  "ogImage": "https://yourdomain.com/images/apartments/apartman-4osobe-4sprat.jpg",
+  "twitterTitle": "Bečići: Apartman za 4 osobe sa parkingom i pogledom na more",
+  "twitterDescription": "Apartman sa klimom, kuhinjom i prostranom terasom u Bečićima. Samo 3 min od plaze. Sa obezbjedjenim parkingom!",
+  "twitterImage": "https://yourdomain.com/images/apartments/apartman-4osobe-4sprat-twitter.jpg",
+  "twitterCard": "summary_large_image",
+  "canonical": "https://yourdomain.com/sr/ponuda/apartman-za-4-osobe-na-4-spratu",
    "pageURL"  : "apartman-za-4-osobe-na-4-spratu",
     "title"  : "Apartman za 4 osobe sa natkrivenom terasom na 4. spratu"
     
@@ -846,7 +1007,7 @@
       {"id"   : "", "photoURL"  :"/images/3_person_apartment_4th_floor/bathroom-bedroom-doors.jpg", "photoAlt"  :"", "photoPosition"  :"", "order": 18}
       
  ],
-    "shortDescription"  :"Kompletno opremljen apartman za manje porodice ili grupe do 3 osobe. Klimatizovane spavaća soba sa francuskim ležajem i prostorija kombinovanog tipa sa foteljom na razvlačenje. Terasa sa pogledom na vrt, dvorište i planinu.",
+    "shortDescription"  :"Kompletno opremljen apartman za tročlane porodice ili grupe do 3 osobe. Klimatizovana spavaća soba sa francuskim ležajem i prostorija kombinovanog tipa sa foteljom na razvlačenje. Terasa sa pogledom na vrt, dvorište i planinu.",
     "longerDesciption"  :"",
    
     "introContent"  :[
@@ -863,9 +1024,28 @@
     
     "availableOnRequest"  : "Na zahtjev: Fen za kosu, sredstva za čišćenje, pribor za peglanje, djeciji krevetac, stolica za hranjenje.",
     
-    
+    "pageTitle": "Apartman sa parkingom za 3 osobe – Bečići",
+  "metaDescription": "Komforan apartman na 4. spratu za 3 osobe u Bečićima. Spavaća soba sa francuskim lezajem, kuhinja u potponosti opremljena, balkon sa pogledom na vrt, planine i dvorište. Klima, WiFi, TV. Djecije igraliste na otvorenom. ",
+ 
+  "ogTitle": "Bečići – Apartman sa parkingom za 3 osobe",
+  "ogDescription": "Funkcionalan i potuno opremljen apartman sa spavaćom sobom, kuhinjom, balkonom i pogledom na prirodu – idealan za tročlane porodice.",
+  "ogLocale": "sr_RS",
+  "ogUrl": "https://yourdomain.com/sr/ponuda/apartman-sa-balkonom-za-3-osobe-4-sprat",
+  "ogType": "article",
+  "ogImage": "https://yourdomain.com/images/apartments/apartman-3osobe-4sprat.jpg",
+  "twitterTitle": "Bečići: Apartman za 3 osobe sa parkingom",
+  "twitterDescription": "Apartman pogodan za tročlane porodice ili grupe – dvije odvojene prostorije za spavanje, opremljena kuhinja, klima, TV, WiFi. Parking.",
+  "twitterImage": "https://yourdomain.com/images/apartments/apartman-3osobe-4sprat-twitter.jpg",
+  "twitterCard": "summary_large_image",
+  "canonical": "https://yourdomain.com/sr/ponuda/apartman-sa-balkonom-za-3-osobe-4-sprat",
 
-   "metaKeywords"  :["apartman za 3 osobe Bečići", "smještaj za 3 osobe u Bečićima","povoljan apartman Bečići", "letovanje smeštaj", "apartman za troje", "privatni smeštaj Bečići", "porodični odmor", "letovanje za 3 osobe Crna Gora", "apartman za 3 osobe Becici", "povoljan smeštaj Crna Gora","apartmani na moru","apartmani sa parkingom","smještaj za 3 odraslih", "trokrevetni apartman sa parkingom Bečići" ],
+   "metaKeywords"  :["apartman za 3 osobe Bečići", "Becici apartman za 3 osobe",
+    "apartmani s parkingom Bečići",
+    "smještaj u Bečićima",
+    "apartman blizu plaže Becici",
+    "apartman sa parkingom Bečići","Crna Gora leto 2025","Becici leto 2025",
+    "letovanje Bečići 2025","ponuda apartmana Becici","sobe Becici","smestaj u Bečićima","smestaj s parkingom Becici",
+    "privatni smeštaj Bečići 3 osobe", "smještaj za 3 osobe u Bečićima","povoljan apartman Bečići", "letovanje smeštaj", "apartman za troje", "privatni smeštaj Bečići", "porodični odmor", "letovanje za 3 osobe Crna Gora", "apartman za troje Becici", "povoljan smeštaj Crna Gora","apartmani na moru","apartmani sa parkingom","smještaj za 3 odraslih", "trokrevetni apartman sa parkingom Bečići" ],
     "pageURL"  : "apartman-za-3-osobe-na-4-spratu" ,
    
     "title"  : "Apartman za 3 osobe na 4.om spratu",
@@ -959,9 +1139,25 @@
     "Napomena: Terasa sa jedne strane nije u potpunosti ograđena, a pored nje se nalazi prolaz koji koriste gosti drugih apartmana."
     ],
     
-   "metaKeywords"  : ["apartman sa terasom Bečići", "smještaj za 4 osobe u Bečićima", "apartman sa pogledom na planinu Bečići"],
-   "metaDescription" : "Apartman za 4 osobe u Bečićima sa terasom. 3 minuta do plaže. Besplatan parking. Djecije igralište u sklopu objekta.",
-   
+   "metaKeywords"  : ["apartman sa terasom Bečići", "apartman za 4 osobe Bečići","smestaj Crna Gora",
+    "smještaj u Bečićima","porodični apartman Crna Gora","apartmani Bečići","letovanje Bečići apartman",
+    "privatni smeštaj Bečići 4 osobe",
+    "apartman povoljno Bečići", "smještaj za 4 osobe u Bečićima", "apartman sa parkingom Becici"],
+   "metaDescription" : "Apartman za 4 osobe u Bečićima sa parkingom. Spavaća soba, kuhinja, terasa sa prostorom za sjedenje i pogledom na planine i vrt. 3 minuta do plaže. Besplatan parking. Djecije igralište u sklopu objekta.",
+    "pageTitle": "Apartman za 4 osobe sa terasom i pogledom na vrt– Bečići",
+
+  
+  "ogTitle": "Bečići – Apartman za 4 osobe sa parkingom",
+  "ogDescription": "Apartman sa spavaćom sobom, kuhinjom i terasom – idealan za četvoročlane porodice i grupe. Klima, TV,WiFi. Parking. Djecije igraliste u sklopu objekta. ",
+  "ogLocale": "sr_RS",
+  "ogUrl": "https://yourdomain.com/sr/ponuda/apartman-za-4-osobe-3-sprat",
+  "ogType": "article",
+  "ogImage": "https://yourdomain.com/images/apartments/apartman-4osobe-3sprat.jpg",
+  "twitterTitle": "Bečići: Apartman za 4 osobe sa terasom i parkingom",
+  "twitterDescription": "Apartman na 3. spratu sa pogledom na prirodu i svim pogodnostima za prijatan boravak. Odlican izbor za cetvoroclane porodice. ",
+  "twitterImage": "https://yourdomain.com/images/apartments/apartman-4osobe-3sprat-twitter.jpg",
+  "twitterCard": "summary_large_image",
+  "canonical": "https://yourdomain.com/sr/ponuda/apartman-za-4-osobe-na-3-spratu-sa-otvorenom-terasom",
     "pageURL"  : "apartman-za-4-osobe-na-3-spratu-sa-otvorenom-terasom",
     
     "title"  : "Apartman za 4 osobe na 3. spratu sa terasom"
@@ -1041,9 +1237,31 @@
     "Besplatan WiFi – Za rad, zabavu ili komunikaciju.",
     "Sef – Za sigurno čuvanje vrijednih stvari."
     ],
-    "metaDescription" :"Apartman za 4 osobe u Bečićima sa terasom. 2 odvojene spavace sobe, kuhinja, kupatilo, terasa. 3 minuta do plaže. Besplatan parking. Djecije igralište u sklopu objekta.",
-   "metaKeywords"  : ["apartman u prizemlju Bečići", "smještaj za 4 osobe u Bečićima", "apartman za 4 osobe Bečići"],
-    "pageURL"  : "apartman-za-4-osobe-u-prizemlju",
+    "metaDescription" :"Apartman za 4 osobe u Bečićima sa terasom. 2 odvojene spavace sobe, kuhinja, kupatilo,  natkrivena terasa sa pogledom na dvorište. 3 minuta do plaže. Besplatan parking. Djecije igralište u sklopu objekta.",
+   "metaKeywords"  : ["apartman u prizemlju Bečići",  "apartman prizemlje Bečići",
+    "apartman sa dvije spavaće sobe Bečići",
+    "smještaj za 4 osobe Bečići",
+    "porodični apartman Crna Gora",
+    "apartman sa kuhinjom Bečići","povoljni apartmani Becici",
+    "letovanje Bečići apartmani",
+    "apartman sa parkingom Becici","smještaj za 4 osobe u Bečićima", "apartman za 4 osobe Bečići"],
+    "pageTitle": "Apartman sa 2 spavaće sobe u prizemlju – Bečići",
+
+
+  "ogTitle": "Bečići – Apartman za 4 osobe sa 2 spavaće sobe u prizemlju, sa obezbijedjenim parkingom",
+  "ogDescription": "Apartman za porodice ili grupe – 2 klimatizovane spavaće sobe, potpuno opremljena kuhinja, terasa sa pogledom na baštu. TV, WiFi. Parking. Djecije igraliste na otvorenom.",
+  "ogLocale": "sr_RS",
+  "ogUrl": "https://yourdomain.com/sr/ponuda/apartman-prizemlje-2-sobe",
+  "ogType": "article",
+  "ogImage": "https://yourdomain.com/images/apartments/apartman-prizemlje.jpg",
+  "twitterTitle": "Bečići: Apartman za 4 osobe sa 2 spavaće sobe u prizemlju",
+  "twitterDescription": "Apartman sa kuhinjom, kupatilom i prostranom terasom – idealan za porodični odmor u Bečićima. Parking obezbijedjen.",
+  "twitterImage": "https://yourdomain.com/images/apartments/apartman-prizemlje-twitter.jpg",
+  "twitterCard": "summary_large_image",
+  "canonical": "https://yourdomain.com/sr/ponuda/apartman-prizemlje-2-sobe",
+   
+   
+   "pageURL"  : "apartman-za-4-osobe-u-prizemlju",
     "title"  : "Apartman za 4 osobe u prizemlju"
     
     } ,
@@ -1104,8 +1322,29 @@
         "Sef – Za sigurno čuvanje dragocjenosti.",
         "Besplatan parking – Bez dodatnih troškova."
       ],
-    "metaKeywords": ["apartman za 5 osoba Bečići", "smještaj u prizemlju Bečići", "porodični apartman u Bečićima"],
-      "pageURL": "apartman-za-5-osoba-u-prizemlju",
+    "metaKeywords": ["apartman za 5 osoba Bečići",  "Becici apartman za 5 osoba",
+    "apartmani Bečići 2025",
+    "smještaj u prizemlju Bečići",
+    "dve spavace sobe apartman Becicii",
+    "letovanje sa porodicom Crna Gora","leto 2025",
+    "apartman sa terasom i kuhinjom Bečići",
+    "apartman u Bečićima blizu plaže", "smještaj sa parkingom Bečići", "apartman u Bečićima za 5 osoba"],
+       "pageTitle": "Apartman u prizemlju za 5 osoba sa dvije spavace sobe – Bečići",
+  "metaDescription": "Komforan apartman u prizemlju za 5 osoba u Bečićima. Dvije spavaće sobe, potpuno opremljena kuhinja, terasa sa pogledom na dvorište i baštu.",
+  
+  "ogTitle": "Bečići – Apartman u prizemlju za 5 osoba sa dvije spavace sobe",
+  "ogDescription": "Funkcionalan apartman sa 2 spavaće sobe, kuhinjom i prostranom terasom sa pogledom na dvorište – idealan za petoclane porodice. Klima, TV, WiFi. Parking obezbijedjen.",
+  "ogLocale": "sr_RS",
+  "ogUrl": "https://yourdomain.com/sr/ponuda/apartman-prizemlje-5-osoba",
+  "ogType": "article",
+  "ogImage": "https://yourdomain.com/images/apartments/apartman-prizemlje-5-osoba.jpg",
+  "twitterTitle": "Apartman za 5 osoba sa dvije spavace sobe – Bečići, prizemlje",
+  "twitterDescription": "Udoban apartman sa 2 klimatizovane spavace sobe i velikom terasom za porodični boravak u Bečićima. Smeštaj za 5 osoba sa obezbijedjenim parkingom.",
+  "twitterImage": "https://yourdomain.com/images/apartments/apartman-prizemlje-5-osoba-twitter.jpg",
+  "twitterCard": "summary_large_image",
+  "canonical": "https://yourdomain.com/sr/ponuda/apartman-za-5-osoba-u-prizemlju",
+    
+    "pageURL": "apartman-za-5-osoba-u-prizemlju",
       "title" : "Apartman za 5 osoba u prizemlju"
     } ,
     

@@ -1,8 +1,50 @@
- 'use client';
+ 
  import HeroImage from '@/components/HeroImage';
  import Breadcrumbs from '@/components/Breadcrumbs';
 import { useTranslations } from 'next-intl';
 import {iconCheckin, iconCheckout, iconCancellation, iconInfo, iconChildrenAndBeds,iconAdditionalHouseRules,iconCashOnly, iconPetsAllowed, iconEvents, iconQuietHours } from '@/components/Icons';
+import { getMetaTranslation } from '/src/lib/getMetaTranslation';
+
+export async function generateMetadata({ params }) {
+  const { meta } = await getMetaTranslation(params.locale);
+  const offerMeta = meta.houseRulesMeta;
+
+  return {
+    title: offerMeta.title,
+    description: offerMeta.description,
+    keywords: offerMeta.keywords,
+    openGraph: {
+      title: offerMeta.ogTitle,
+      description: offerMeta.ogDescription,
+      locale: offerMeta.ogLocale,
+       type: offerMeta.ogType,
+      url: offerMeta.ogUrl,
+      images: [
+        {
+          url: offerMeta.ogImage,
+          width: 1200,
+          height: 630,
+          alt: offerMeta.title
+        }
+      ]
+    },
+    twitter: {
+      card: offerMeta.twitterCard,
+      title: offerMeta.twitterTitle,
+      description: offerMeta.twitterDescription,
+      images: [offerMeta.twitterImage]
+    },
+    alternates: {
+      canonical: offerMeta.canonical,
+      languages: {
+        en: 'https://yourdomain.com/en/offer',
+        sr: 'https://yourdomain.com/sr/ponuda'
+      }
+    }
+  };
+}
+
+
 export default function HouseRulesPage() {
   const t = useTranslations();
 
@@ -59,6 +101,7 @@ export default function HouseRulesPage() {
         })}
       </div>
     </div>
+    
     </>
   );
  

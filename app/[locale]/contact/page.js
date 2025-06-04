@@ -6,10 +6,16 @@ import HeroImage from '@/components/HeroImage';
 import React, { useState } from 'react';
 
 import ContactForm from '@/components/ContactForm';
-/* import getTranslation  from '@/lib/getTranslation';
+
+
+/*
+export async function generateStaticParams() {
+  return [{ locale: 'en' }, { locale: 'sr' }];
+}
+
 export async function generateMetadata({ params }) {
   const t = await getTranslation(params.locale);
-  const meta = t.contact;
+  const meta = t.meta.contact;
 
   return {
     title: meta.title,

@@ -531,24 +531,144 @@
     "ogDescription": "Pronađite idealan smeštaj za odmor u Bečićima – apartmani, sobe i studiji za 2–5 osoba. Uživajte u blizini plaže, parkingu i igralištu.",
     "ogLocale": "sr_RS",
     "ogUrl": "https://yourdomain.com/sr",
+     "ogType": "website",
+"ogImage": "https://yourdomain.com/images/og-image.jpg",
     "twitterTitle": "Bečići smeštaj blizu plaže – Apartmani i sobe",
-    "twitterDescription": "Letovanje u Bečićima? Rezervišite apartman, sobu ili studio uz more! Porodičan smeštaj sa parkingom i igralištem."
+    "twitterDescription": "Letovanje u Bečićima? Rezervišite apartman, sobu ili studio uz more! Porodičan smeštaj sa parkingom i igralištem.",
+    "twitterImage": "https://yourdomain.com/images/twitter-image.jpg",
+"twitterCard": "summary_large_image",
+"canonical": "https://yourdomain.com/sr"
+ 
   },
   "about": {
     "title": "O Nama – Vaši Domaćini u Bečićima",
     "description": "Saznajte više o našem porodičnom smeštaju u Bečićima. Prijateljski domaćini, čiste i prostrane sobe blizu mora.",
     "keywords": "o nama Bečići, porodični smeštaj, odmor na moru"
   },
-  "contact": {
-    "title": "Kontaktirajte Nas – Rezervišite Svoj Boravak",
-    "description": "Kontaktirajte nas kako biste rezervisali sobu ili apartman u Bečićima. Rado ćemo odgovoriti na vaša pitanja.",
-    "keywords": "kontakt Bečići, rezervacija apartmana, odmor sa porodicom"
-  },
+ "contact": {
+  "title": "Kontakt – Rezervišite Apartman ili Sobu u Bečićima",
+  "description": "Imate pitanja ili želite da rezervišete smeštaj? Kontaktirajte nas direktno za apartmane, studije i sobe u Bečićima, blizu plaže. Brz odgovor i ljubazna usluga.",
+  "keywords": "kontakt Bečići, rezervacija apartmana Bečići, privatni smeštaj, apartmani blizu mora, letovanje Bečići, porodični odmor Crna Gora, smeštaj u Bečićima",
+  "ogTitle": "Kontaktirajte nas – Rezervišite smeštaj u Bečićima blizu plaže",
+  "ogDescription": "Za rezervacije i informacije o smeštaju u Bečićima – apartmani, studiji i sobe – obratite nam se direktno. Nalazimo se blizu plaže i nudimo porodični ambijent.",
+  "ogLocale": "sr_RS",
+  "ogUrl": "https://yourdomain.com/sr/kontakt",
+  "ogType": "website",
+  "ogImage": "https://yourdomain.com/images/og-image.jpg",
+  "twitterTitle": "Kontakt – Rezervacije apartmana i soba u Bečićima",
+  "twitterDescription": "Kontaktirajte nas za više informacija o privatnom smeštaju u Bečićima. Brza rezervacija apartmana i soba uz more.",
+  "twitterImage": "https://yourdomain.com/images/twitter-image.jpg",
+  "twitterCard": "summary_large_image",
+  "canonical": "https://yourdomain.com/sr/kontakt"
+}
+,
   "offer": {
-    "title": "Naša Ponuda – Sobe, Studiji i Apartmani",
-    "description": "Izaberite između udobnih soba, studija i potpuno opremljenih apartmana u Bečićima. Za 2 do 5 osoba, savršeno za leto na moru.",
-    "keywords": "sobe Bečići, letnji smeštaj, apartmani Crna Gora"
-  }
+  
+  "title": "Privatan smeštaj u Bečićima – Sobe, studiji i apartmani blizu plaže",
+  "description": "Iznajmite sobe, studije i apartmane u Bečićima za 2 do 5 osoba. Savršen izbor za letovanje u Crnoj Gori, blizu plaže, sa privatnim parkingom i udobnim sadržajem.",
+  "keywords": "privatan smeštaj Bečići, apartmani blizu plaže, sobe Bečići, letovanje Crna Gora, studiji Bečići, izdavanje apartmana Bečići, smeštaj Crna Gora, porodicni apartmani Bečići",
+  "ogTitle": "Naša ponuda – Apartmani, sobe i studiji blizu plaže u Bečićima",
+  "ogDescription": "Pogledajte našu ponudu privatnog smeštaja u Bečićima – apartmani, studiji i sobe za 2–5 osoba, idealni za letovanje uz more.",
+  "ogLocale": "sr_RS",
+  "ogUrl": "https://yourdomain.com/sr/ponuda",
+  "ogType": "website",
+  "ogImage": "https://yourdomain.com/images/og-image.jpg",
+  "twitterTitle": "Bečići – Privatan smeštaj blizu plaže | Naša ponuda",
+  "twitterDescription": "Sobe, studiji i apartmani u Bečićima. Ljetujte uz more u komfornom, klimatizovanom smeštaju sa terasom, TV-om i internetom.",
+  "twitterImage": "https://yourdomain.com/images/twitter-image.jpg",
+  "twitterCard": "summary_large_image",
+  "canonical": "https://yourdomain.com/sr/ponuda"
+}
+,
+"studios": {
+  "title": "Studio apartmani Bečići – Privatan smeštaj blizu plaže",
+  "description": "Studio apartmani za 2–3 osobe u Bečićima, idealni za kraći boravak. Blizu plaže, sa mini-kuhinjom, klimom, internetom i terasom.",
+  "keywords": "studio apartmani Bečići, privatan smeštaj blizu plaže, letovanje Bečići, studiji Crna Gora, apartmani za dvoje, apartman sa terasom, smeštaj uz more",
+  "ogTitle": "Studio apartmani u Bečićima – Idealni za kraći boravak blizu plaže",
+  "ogDescription": "Kompletno opremljeni studio apartmani za 2–3 osobe u Bečićima. Uživajte u privatnom smeštaju blizu mora sa klimom, Wi-Fi-jem i terasom.",
+  "ogLocale": "sr_RS",
+  "ogUrl": "https://yourdomain.com/sr/studiji",
+  "ogType": "website",
+  "ogImage": "https://yourdomain.com/images/og-image.jpg",
+  "twitterTitle": "Bečići – Studio apartmani za 2–3 osobe blizu plaže",
+  "twitterDescription": "Privatni studio apartmani sa kuhinjom, klimom i internetom, savršeni za kraće letovanje u Bečićima, blizu plaže.",
+  "twitterImage": "https://yourdomain.com/images/twitter-image.jpg",
+  "twitterCard": "summary_large_image",
+  "canonical": "https://yourdomain.com/sr/studiji"
+}
+
+,
+"apartments": {
+  "title": "Apartmani Bečići – Porodični smeštaj blizu mora",
+  "description": "Prostrani apartmani za 3–5 osoba sa kuhinjom, klimom i terasom. Idealno za porodice, u blizini plaže u Bečićima.",
+  "keywords": "apartmani Bečići, porodični apartman Bečići, smeštaj blizu plaže, apartman sa kuhinjom, letovanje Crna Gora, privatni smeštaj Bečići",
+  "ogTitle": "Apartmani u Bečićima – Komforan smeštaj za porodice blizu mora",
+  "ogDescription": "Izaberite apartman sa jednom ili dve spavaće sobe, kompletno opremljen, idealan za letovanje u Bečićima blizu plaže.",
+  "ogLocale": "sr_RS",
+  "ogUrl": "https://yourdomain.com/sr/apartmani",
+  "ogType": "website",
+  "ogImage": "https://yourdomain.com/images/og-image.jpg",
+  "twitterTitle": "Bečići apartmani za 3–5 osoba – Savršen letnji smeštaj",
+  "twitterDescription": "Prostrani apartmani sa klimom, kuhinjom i parkingom, blizu plaže. Rezervišite svoj letnji odmor u Bečićima.",
+  "twitterImage": "https://yourdomain.com/images/twitter-image.jpg",
+  "twitterCard": "summary_large_image",
+  "canonical": "https://yourdomain.com/sr/apartmani"
+}
+
+,
+"rooms": {
+  "title": "Sobe Bečići – Povoljan i kvalitetan smeštaj blizu plaže",
+  "description": "Trokrevetne sobe sa kupatilom, kuhinjom i terasom. Odličan izbor za goste koji traže udoban i povoljan smeštaj u Bečićima, na par minuta od mora.",
+  "keywords": "sobe Bečići, trokrevetne sobe, povoljan smeštaj Bečići, soba sa kuhinjom, privatni smeštaj Crna Gora, smeštaj blizu plaže Bečići",
+  "ogTitle": "Sobe u Bečićima – Udoban i povoljan smeštaj za letovanje",
+  "ogDescription": "Dve trokrevetne sobe sa privatnim kupatilom i kuhinjom u Bečićima, blizu plaže. Idealne za povoljan i miran odmor.",
+  "ogLocale": "sr_RS",
+  "ogUrl": "https://yourdomain.com/sr/sobe",
+  "ogType": "website",
+  "ogImage": "https://yourdomain.com/images/og-image.jpg",
+  "twitterTitle": "Bečići – Povoljne sobe blizu plaže za letnji odmor",
+  "twitterDescription": "Privatne sobe sa klimom, internetom i terasom, u mirnom delu Bečića. Povoljan smeštaj za 3 osobe.",
+  "twitterImage": "https://yourdomain.com/images/twitter-image.jpg",
+  "twitterCard": "summary_large_image",
+  "canonical": "https://yourdomain.com/sr/sobe"
+}
+
+,
+"houseRulesMeta": {
+  "title": "Kućni Red – Prijava, Odjava i Pravila Boravka",
+  "description": "Pročitajte pravila boravka u našem smeštaju u Bečićima: vreme prijave i odjave, uslovi avansnog plaćanja, informacije o ljubimcima, deci i organizaciji događaja.",
+  "keywords": "kućni red Bečići, pravila boravka, check-in i check-out, smeštajna pravila, ljubimci dozvoljeni, porodični apartmani Crna Gora, rezervacija smeštaja Bečići",
+  "ogTitle": "Kućni Red – Pravila za Udoban i Siguran Boravak",
+  "ogDescription": "Saznajte sve o pravilima boravka: prijava, odjava, plaćanje unapred, boravak dece i kućnih ljubimaca. Vaš komfor i sigurnost su nam prioritet.",
+  "ogLocale": "sr_RS",
+  "ogUrl": "https://yourdomain.com/sr/kucni-red",
+  "ogType": "website",
+  "ogImage": "https://yourdomain.com/images/og-image.jpg",
+  "twitterTitle": "Kućni Red – Pravila boravka u smeštaju Bečići",
+  "twitterDescription": "Informišite se o vremenu prijave, odjave i dodatnim pravilima boravka u našem smeštaju. Transparentno i jednostavno.",
+  "twitterImage": "https://yourdomain.com/images/twitter-image.jpg",
+  "twitterCard": "summary_large_image",
+  "canonical": "https://yourdomain.com/sr/kucni-red"
+}
+,
+"usefulInfoMeta": {
+  "title": "Korisne Informacije – Kako Doći i Šta Trebate Znati",
+  "description": "Saznajte kako da nas lako pronađete: dolazak magistralom, autobusom ili avionom. Informacije o lokalnom prevozu, taksiju i boravišnoj taksi u Bečićima.",
+  "keywords": "kako doći Bečići, autobus Bečići, aerodrom Tivat, taksi Bečići, boravišna taksa Crna Gora, lokalni prevoz Bečići, korisne informacije o smeštaju",
+  "ogTitle": "Kako Doći i Šta Trebate Znati – Korisne Informacije",
+  "ogDescription": "Planirate dolazak? Pročitajte kako da dođete do nas, koje opcije prevoza imate, i sve o boravišnoj taksi. Praktične informacije za bezbrižan dolazak.",
+  "ogLocale": "sr_RS",
+  "ogUrl": "https://yourdomain.com/sr/korisne-informacije",
+  "ogType": "website",
+  "ogImage": "https://yourdomain.com/images/og-image.jpg",
+  "twitterTitle": "Korisne Informacije – Dolazak, Prevoz i Taksa",
+  "twitterDescription": "Kako stići do našeg smeštaja u Bečićima i šta treba znati pre dolaska? Sve informacije na jednom mestu.",
+  "twitterImage": "https://yourdomain.com/images/twitter-image.jpg",
+  "twitterCard": "summary_large_image",
+  "canonical": "https://yourdomain.com/sr/korisne-informacije"
+}
+
+
 },
 "facilities" : {
     "kitchen" :"Kuhinja",

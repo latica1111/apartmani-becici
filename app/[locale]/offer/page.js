@@ -96,7 +96,7 @@ export default function OfferPage({ params }) {
               {/* Info Block */}
               <div className="col-lg-6 info-block">
                 <h3 className=" fw-semibold unit-name">{unit.name}</h3>
-                <p className="text-muted unit-description">{unit.metaDescription}</p>
+                <p className="text-muted unit-description">{unit.shortDescription}</p>
 
                 <div className="apartment-basic-info" style={{ fontSize: '.9rem' }}>
                   <div className="wrapper d-flex flex-wrap row-cols-auto">

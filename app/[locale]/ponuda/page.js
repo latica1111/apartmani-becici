@@ -5,7 +5,49 @@
 import Breadcrumbs from '@/components/Breadcrumbs';
 import HeroImage from '@/components/HeroImage';
 import { iconTotalGuests, iconApartmentSize, iconBeds, iconFreeParkingRectangle, iconBabyCrib, iconFamilyRooms, iconSeaView, iconKitchen,iconBathroom,iconMountainView ,iconBudgetFriendly} from '@/components/Icons';
- export default function OfferPage({ params }) {
+import { getMetaTranslation } from '/src/lib/getMetaTranslation';
+
+export async function generateMetadata({ params }) {
+  const { meta } = await getMetaTranslation(params.locale);
+  const offerMeta = meta.offer;
+
+  return {
+    title: offerMeta.title,
+    description: offerMeta.description,
+    keywords: offerMeta.keywords,
+    openGraph: {
+      title: offerMeta.ogTitle,
+      description: offerMeta.ogDescription,
+      locale: offerMeta.ogLocale,
+       type: offerMeta.ogType,
+      url: offerMeta.ogUrl,
+      images: [
+        {
+          url: offerMeta.ogImage,
+          width: 1200,
+          height: 630,
+          alt: offerMeta.title
+        }
+      ]
+    },
+    twitter: {
+      card: offerMeta.twitterCard,
+      title: offerMeta.twitterTitle,
+      description: offerMeta.twitterDescription,
+      images: [offerMeta.twitterImage]
+    },
+    alternates: {
+      canonical: offerMeta.canonical,
+      languages: {
+        en: 'https://yourdomain.com/en/offer',
+        sr: 'https://yourdomain.com/sr/ponuda'
+      }
+    }
+  };
+}
+
+
+export default function OfferPage({ params }) {
    const { locale } = params;
  
    const apartmentsData = locale === 'en' ? apartmentsDataEn : apartmentsDataSr;
@@ -93,7 +135,7 @@ import { iconTotalGuests, iconApartmentSize, iconBeds, iconFreeParkingRectangle,
           {/* Info Block */}
           <div className="col-lg-6 info-block">
             <h3 className=" fw-semibold unit-name">{unit.name}</h3>
-            <p className="text-muted  unit-description">{unit.metaDescription}</p>
+            <p className="text-muted  unit-description">{unit.shortDescription}</p>
 
             <div className="apartment-basic-info" style={{ fontSize: '.9rem' }}>
               <div className="wrapper d-flex flex-wrap row-cols-auto">
