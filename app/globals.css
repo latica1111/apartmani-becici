@@ -9680,7 +9680,7 @@ box-shadow:
     2px 0 4px rgba(var(--primary-rgb), 0.08),   /* right shadow */
    -2px 0 4px rgba(var(--primary-rgb), 0.08);   /* left shadow */
    background-color: #fff;
-//background: linear-gradient(
+background: linear-gradient(
   to top right,
   rgba(var(--primary-rgb), 0.15),
   rgba(var(--primary-rgb), 0.05)
