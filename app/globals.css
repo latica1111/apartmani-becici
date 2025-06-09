@@ -9679,13 +9679,13 @@ box-shadow:
     0 -2px 4px rgba(var(--primary-rgb), 0.08),  /* top shadow */
     2px 0 4px rgba(var(--primary-rgb), 0.08),   /* right shadow */
    -2px 0 4px rgba(var(--primary-rgb), 0.08);   /* left shadow */
-background: linear-gradient(
+   background-color: #fff;
+//background: linear-gradient(
   to top right,
   rgba(var(--primary-rgb), 0.15),
   rgba(var(--primary-rgb), 0.05)
 );
 
-    
 }
 .accomodation-type .intro-text{
   margin-bottom: 2rem;
@@ -9694,6 +9694,9 @@ background: linear-gradient(
   padding-bottom: 48px !important;
   padding-left:24px;
   padding-right:24px;
+}
+.accomodation-type{
+  background-color: rgba(var(--primary-rgb), .35);
 }
 @media(max-width:767.98px){
   .language-switcher-wrapper{
