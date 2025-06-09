@@ -421,10 +421,10 @@
 "aboutUs":{"label":"About us", "photoURL":"", "photoPosition":""},
 "contact":{"label":"Contact", "photoURL":"/images/yard/house.jpg", "photoPosition":""},
 "houseRules":{"label":"House rules", "photoURL":"/images/3_person_room_with_external_kitchen_and_bathroom/double-bed-1.jpg", "photoPosition":"bottom"},
-"offer":{"label":"Offer", "photoURL":"/images/5_person_apartment_4th_floor/beds.jpg"},
-"apartments":{"label":"Apartments", "photoURL":"/images/3_person_apartment_with_2_terraces_3rd_floor/room-balcony-door.jpg"},
-"studios":{"label":"Studios", "photoURL":"/images/2_person_studio/double-bed.jpg", "photoPosition":""},
-"rooms" :{"label":"Rooms", "photoURL":"/images/3_person_room_with_external_bathroom/double-bed-view.jpg"},
+"offer":{"label":"Offer", "photoURL":"/images/4_person_apartment_3rd_floor/photo194.jpg"},
+"apartments":{"label":"Apartments", "photoURL":"/images/3_person_apartment_3rd_floor/photo128.jpg"},
+"studios":{"label":"Studios", "photoURL":"/images/2_person_studio/photo220.jpg", "photoPosition":""},
+"rooms" :{"label":"Rooms", "photoURL":"/images/3_person_room_with_external_bathroom/photo204.jpg"},
 "usefulInfo" :{"label":"Useful information", "photoURL":"/images/becici/bird.jpg"}
 },
 "usefulInfo" :{

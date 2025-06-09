@@ -11,7 +11,7 @@ export default function ApartmentsList() {
   const t = useTranslations('apartments'); // ako koristiš prevode
   const locale = useLocale();
   const apartmentsData = locale === 'sr' ? apartmentsDataSr : apartmentsDataEn;
-  const targetIDs = [1, 4, 6, 7, 8, 10];
+  const targetIDs = [5, 4, 6, 7, 8, 10];
 
   const filteredApartments = apartmentsData.apartments.filter(apartment =>
     targetIDs.includes(apartment.id)

@@ -413,10 +413,10 @@
 "aboutUs":{"label":"O nama", "photoURL":""},
 "contact":{"label":"Kontakt","photoURL":"/images/yard/house.jpg", "photoPosition":""},
 "houseRules":{"label":"Kućni red", "photoURL":"/images/3_person_room_with_external_kitchen_and_bathroom/double-bed-1.jpg", "photoPosition":"bottom"},
-"offer":{"label":"Ponuda", "photoURL":"/images/5_person_apartment_4th_floor/beds.jpg"},
-"apartmani":{"label":"Apartmani","photoURL":"/images/3_person_apartment_with_2_terraces_3rd_floor/room-balcony-door.jpg"},
-"studiji":{"label":"Studiji", "photoURL":"/images/2_person_studio/double-bed.jpg", "photoPosition":""},
-"sobe" :{"label":"Sobe", "photoURL":"/images/3_person_room_with_external_bathroom/double-bed-view.jpg"},
+"offer":{"label":"Ponuda", "photoURL":"/images/4_person_apartment_3rd_floor/photo194.jpg"},
+"apartmani":{"label":"Apartmani","photoURL":"/images/3_person_apartment_3rd_floor/photo128.jpg"},
+"studiji":{"label":"Studiji", "photoURL":"/images/2_person_studio/photo220.jpg", "photoPosition":""},
+"sobe" :{"label":"Sobe", "photoURL":"/images/3_person_room_with_external_bathroom/photo204.jpg"},
 "usefulInfo" :{"label":"Korisne informacije", "photoURL":"/images/becici/bird.jpg"}
 },
 "usefulInfo": {
