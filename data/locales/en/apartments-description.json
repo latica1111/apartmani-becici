@@ -908,7 +908,7 @@
     {
       "name" : "Sunshine",  "id":10,
     "apartmentSize"  : 50,
-    "type"  : "apartman",
+    "type"  : "apartment",
     "guestsNumber"  : 4,
     "beds"  : ["double bed", "sofa bed", {"babyCrib"  : true}],
     "maxGuestsNumber"  : ["4 adults"], 

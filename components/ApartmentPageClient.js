@@ -41,7 +41,8 @@ import ContactRhf from './ContactRhf';
 import HeroImage from './HeroImage';
 export default   function ApartmentPageClient({layout}) {
   const { locale, type, slug } = useParams();
- 
+  console.log('Server params.type:', type);
+   console.log('Server locale:', locale);
  
  
   const t = useTranslations('apartmentsDescription');

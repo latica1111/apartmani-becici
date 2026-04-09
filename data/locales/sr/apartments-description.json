@@ -1336,8 +1336,8 @@
 "dynamicSlugs" :{
 "type" : {
      "studio": "studiji",
-    "apartman": "apartmani",
-    "soba": "sobe"
+    "apartment": "apartmani",
+    "room": "sobe"
   }
 }
 }

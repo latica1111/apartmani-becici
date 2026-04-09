@@ -13,16 +13,13 @@ import { setRequestLocale } from 'next-intl/server';
 import { dynamicSegments } from '@/i18n/dynamicSegments';
 export const revalidate = 0; // full static, generiše se jednom u build-u
 
-const getNormalizedType = (localeType, locale) => {
-  const typeMap = {
-    room: dynamicSegments.type.rooms,
-    studio: dynamicSegments.type.studios,
-    apartment: dynamicSegments.type.apartments
-  };
-
-  // Pronađi koji standardni tip odgovara prosleđenom type-u i locale-u
-  const normalized = Object.entries(typeMap).find(([key, val]) => val[locale] === localeType);
-  return normalized ? normalized[0] : 'apartment'; // default 'apartment'
+const urlToTypeMap = {
+  rooms: 'room',
+  sobe: 'room',
+  studios: 'studio',
+  studiji: 'studio',
+  apartments: 'apartment',
+  apartmani: 'apartment'
 };
 
 export async function generateStaticParams() {
@@ -53,7 +50,9 @@ export async function generateStaticParams() {
 }
 
 export default async function OfferTypePage({ params }) {
-  const { locale, type } = params;
+  const { locale, type } = await params;
+   console.log('Server params.type:', params?.type);
+  console.log('Server locale:', params?.locale);
   setRequestLocale(locale);
    const t = await getTranslations({
     locale,
@@ -62,22 +61,19 @@ export default async function OfferTypePage({ params }) {
 const allUnits =  t.raw('apartments');
 const slugs = t.raw('dynamicSlugs.type');
 
-// normalize type (room/studio/apartment)
-  const normalizedType = getNormalizedType(type, locale);
+const normalizedType = urlToTypeMap[type] || 'apartment';
+const filteredUnits = allUnits.filter(unit => unit.type === normalizedType);
+const typeToJsonKey = {
+  room: 'rooms',
+  studio: 'studios',
+  apartment: 'apartments'
+};
 
-  // map normalized type to JSON key
-  const typeToJsonKey = {
-    room: 'rooms',
-    studio: 'studios',
-    apartment: 'apartments'
-  };
-  const jsonKey = typeToJsonKey[normalizedType] || 'apartments';
-
-  // filter apartments
-  const filteredUnits = allUnits.filter(unit => unit.type === normalizedType);
- 
-
-
+const jsonKey = typeToJsonKey[normalizedType];
+console.log('params.type:', type);
+console.log('locale:', locale);
+console.log('normalizedType:', normalizedType);
+console.log('normalizedType:', normalizedType);
   return (
 <>
 

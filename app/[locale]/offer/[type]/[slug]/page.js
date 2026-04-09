@@ -11,6 +11,7 @@ export async function generateStaticParams() {
 }
 export async function generateMetadata({ params }) {
   const { slug, locale, type } = await params;
+ 
 
   // ovdje možeš dohvatiti podatke (ili iz JSON-a)
    const data = await import(`@/data/locales/${locale}/apartments-description.json`);
@@ -29,7 +30,8 @@ export async function generateMetadata({ params }) {
 
 
 export default async  function ApartmentDetails({params}) {
- const { locale} = await params;
+ const { locale, type} = await params;
+  
  setRequestLocale(locale);
 
 
