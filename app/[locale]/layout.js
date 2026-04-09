@@ -1,14 +1,14 @@
 // app/[locale]/layout.js
 
 
-import '/app/globals.css';   // Putanja do CSS fajla u public folderu
+import '../globals.css';   // Putanja do CSS fajla u public folderu
 import { NextIntlClientProvider } from 'next-intl';  // Uvezi provider
 import {routing} from '@/i18n/routing';
 
 import { getMessages } from 'next-intl/server';  // Uvezi getMessages funkciju
 import { notFound } from 'next/navigation';
-import { Providers } from '/app/providers';
-import { marcellus, inter  } from '/app/fonts';
+import { Providers } from '../providers';
+import { marcellus, inter  } from '../fonts';
 
 
 
