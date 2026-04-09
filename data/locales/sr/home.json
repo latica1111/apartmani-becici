@@ -439,9 +439,9 @@
 "contact":{"label":"Kontakt", "photoURL":"/images/4_person_apartment_with_opened_terrace/photo280.jpg", "photoPosition":"bottom", "desc":"Upit · Rezervacija"},
 "houseRules":{"label":"Kucni red", "photoURL":"/images/yard/house-entrance.jpg", "photoPosition":"", "desc":"Pravila · Mir · Prijatan boravak"},
 "offer":{"label":"Ponuda", "photoURL":"/images/4_person_apartment_3rd_floor/photo191.jpg", "desc":"Raznovrsno · Klimatizovano · Prilagođeno porodicama"},
-"apartmani":{"label":"Apartmani","photoURL":"/images/5_person_apartment_4th_floor/photo267.jpg", "desc":"Prostrani · Udobni · Potpuno opremljeni"},
-"studiji":{"label":"Studiji", "photoURL":"/images/3_person_studio/photo04.jpg", "photoPosition":"", "desc":"Prakticni · Funkcionalni · Opremljeni"},
-"sobe" :{"label":"Sobe", "photoURL":"/images/3_person_room_with_external_bathroom/photo206.jpg", "desc" :"Udobne · Moderne · Povoljne"},
+"apartments":{"label":"Apartmani","photoURL":"/images/5_person_apartment_4th_floor/photo267.jpg", "desc":"Prostrani · Udobni · Potpuno opremljeni"},
+"studios":{"label":"Studiji", "photoURL":"/images/3_person_studio/photo04.jpg", "photoPosition":"", "desc":"Prakticni · Funkcionalni · Opremljeni"},
+"rooms" :{"label":"Sobe", "photoURL":"/images/3_person_room_with_external_bathroom/photo206.jpg", "desc" :"Udobne · Moderne · Povoljne"},
 "usefulInfo" :{"label":"Korisne informacije",  "photoURL":"/images/4_person_apartment_4th_floor/photo109.jpg", "photoPosition":"bottom", "desc":"Dolazak · Prevoz · Važne informacije"}
 
 
