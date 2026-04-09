@@ -1,46 +1,62 @@
 // app/[locale]/layout.js
 
 
-import { NextIntlClientProvider } from 'next-intl'; // Importuj NextIntlClientProvider
-import { getMessages } from 'next-intl/server';
-import Navbar from '@/components/Navbar';
+import '/app/globals.css';   // Putanja do CSS fajla u public folderu
+import { NextIntlClientProvider } from 'next-intl';  // Uvezi provider
+import {routing} from '@/i18n/routing';
+
+import { getMessages } from 'next-intl/server';  // Uvezi getMessages funkciju
 import { notFound } from 'next/navigation';
+import { Providers } from '/app/providers';
+import { marcellus, inter  } from '/app/fonts';
+
+
+
 import Footer from '@/components/Footer';
 import PreHeader from '@/components/PreHeader';
-
-const locales = ['en', 'sr'];
-
-
-// Dodavanje fontova putem Google Fonts
+import NavigationLayout from '@/components/NavigationLayout';
+import BackToTop from '@/components/BackToTop';
 
 
-export function generateStaticParams() {
-  return locales.map((locale) => ({ locale }));
+
+
+
+export async function generateStaticParams() {
+  return routing.locales.map((locale) => ({ locale }));
 }
+
+
+
+
 
 export default async function LocaleLayout({ children, params }) {
   // Čekamo da se params učita pre nego što pristupimo vrednostima
   const { locale } = await params;
-  if (!locales.includes(locale)) notFound();
+  if (!routing.locales.includes(locale)) 
+    {console.log("Skipping non-locale route:", locale);
+  return children;}
 
   // server‑side load all messages in public/locales/[locale]/*
   const messages = await getMessages(locale);
   console.log('Locale u layoutu:', locale);
+  // Enable static rendering
+  
   //console.log('Messages keys:', Object.keys(messages));
   //console.log('Messages keys:', Object.entries(messages));
   return (
    <>
+    <html lang={locale} suppressHydrationWarning>
+      <Providers>
          <NextIntlClientProvider locale={locale} messages={messages}>
-          <header>
-         
-            <PreHeader />
-            <Navbar locale={locale} />
-           
-          </header>
-         
-          {children}
-          <Footer />
+            <body className={inter.className}>
+             <PreHeader />
+         {children}
+          <Footer locale={locale} />
+          <BackToTop />
+          </body>
           </NextIntlClientProvider>
+       </Providers>   
+       </html>
        </>
   );
 }

@@ -1,27 +1,30 @@
 'use client';
 
-import Link from 'next/link';
-import { usePathname } from 'next/navigation';
+import {Link} from '@/i18n/navigation';
+import { Span, } from '@chakra-ui/react';
 
-export default function Logo({ brandName }) {
-  const pathname = usePathname();
-  const locale = pathname.split('/').filter(Boolean)[0] || 'en'; // fallback na 'en' ako ne postoji
+export default function Logo({ brandName="Apartmani Becici" }) {
+ 
 
   const [firstWord, ...rest] = brandName.split(' ');
   const secondPart = rest.join(' ');
 
   return (
     <Link
-      href={`/${locale}`}
-      className="navbar-brand d-inline-flex flex-column align-items-center text-decoration-none"
+      href={`/`}
+     
     >
-      <span style={{ lineHeight: 1 }}>
-        <span style={{ fontWeight: 300 }} className="first-word">{firstWord} </span>
-        <span style={{ fontWeight: 300 }} className="second-word">{secondPart}</span>
-      </span>
-      <span style={{ fontSize: '.75rem' }} className="d-none">
-        rooms • studios • apartments
-      </span>
+     
+      <Span style={{ lineHeight: 1 }} letterSpacing="wider"  filter="brightness(2) contrast(.6)" transition="all 0.3s ease"
+  _hover={{
+  
+    filter: "brightness(1.2) contrast(.8)"
+  }}>
+        <Span style={{ fontWeight: 500, color:"var(--primary)",fontSize:"lg" }} >{firstWord} </Span>
+        <Span style={{ fontWeight: 500, color:"var(--secondary)",fontSize:"lg" }}>{secondPart}</Span>
+      </Span>
+     
+     
     </Link>
   );
 }

@@ -1,41 +1,51 @@
  
  import HeroImage from '@/components/HeroImage';
  import Breadcrumbs from '@/components/Breadcrumbs';
-import { useTranslations } from 'next-intl';
-import {iconCheckin, iconCheckout, iconCancellation, iconInfo, iconChildrenAndBeds,iconAdditionalHouseRules,iconCashOnly, iconPetsAllowed, iconEvents, iconQuietHours } from '@/components/Icons';
-import { getMetaTranslation } from '/src/lib/getMetaTranslation';
-/*
-export async function generateMetadata({ params }) {
-  const { meta } = await getMetaTranslation(params.locale);
-  const offerMeta = meta.houseRulesMeta;
+
+import { getTranslations } from 'next-intl/server';
+import {IconCheckin, IconCheckout, IconCancellation, IconInfo, IconChildrenAndBeds,IconAdditionalHouseRules,IconCashOnly, IconPetsAllowed, IconEvents, IconQuietHours } from '@/components/Icons';
+import { setRequestLocale } from 'next-intl/server';
+import { routing } from '@/i18n/routing';
+import { HStack, Tag ,Stack,Image, List ,ListItem, Span,Box, Heading, VStack ,Text,Grid,GridItem,Flex, Icon} from '@chakra-ui/react';
+export const revalidate = 0; // full static, generiše se jednom u build-u
+export async function generateStaticParams() {
+  return routing.locales.map((locale) => ({ locale }));
+}
+
+
+export async function generateMetadata() {
+  const t = await getTranslations('meta');
 
   return {
-    title: offerMeta.title,
-    description: offerMeta.description,
-    keywords: offerMeta.keywords,
+    title: t('houseRulesMeta.title'),
+    description: t('houseRulesMeta.description'),
+    keywords: t('houseRulesMeta.keywords'),
+
     openGraph: {
-      title: offerMeta.ogTitle,
-      description: offerMeta.ogDescription,
-      locale: offerMeta.ogLocale,
-       type: offerMeta.ogType,
-      url: offerMeta.ogUrl,
+      title: t('houseRulesMeta.ogTitle'),
+      description: t('houseRulesMeta.ogDescription'),
+      locale: t('houseRulesMeta.ogLocale'),
+      type: t('houseRulesMeta.ogType'),
+      url: t('houseRulesMeta.ogUrl'),
       images: [
         {
-          url: offerMeta.ogImage,
+          url: t('houseRulesMeta.ogImage'),
           width: 1200,
           height: 630,
-          alt: offerMeta.title
+          alt: t('houseRulesMeta.title')
         }
       ]
     },
+
     twitter: {
-      card: offerMeta.twitterCard,
-      title: offerMeta.twitterTitle,
-      description: offerMeta.twitterDescription,
-      images: [offerMeta.twitterImage]
+      card: t('houseRulesMeta.twitterCard'),
+      title: t('houseRulesMeta.twitterTitle'),
+      description: t('houseRulesMeta.twitterDescription'),
+      images: [t('houseRulesMeta.twitterImage')]
     },
+
     alternates: {
-      canonical: offerMeta.canonical,
+      canonical: t('houseRulesMeta.canonical'),
       languages: {
         en: 'https://yourdomain.com/en/offer',
         sr: 'https://yourdomain.com/sr/ponuda'
@@ -43,9 +53,11 @@ export async function generateMetadata({ params }) {
     }
   };
 }
-  */
-export default function HouseRulesPage() {
-  const t = useTranslations();
+
+export default async function HouseRulesPage({params}) {
+   const { locale } = await params;
+   setRequestLocale(locale);
+  const t = await getTranslations("home");
 
   // Ključevi koje želiš da prikažeš redom
   const rulesKeys = [
@@ -60,18 +72,18 @@ export default function HouseRulesPage() {
     'houseRules.pets',
     'additionalRules'
   ];
-  const iconMap = {
-    'houseRules.checkIn': iconCheckin,
-    'houseRules.checkOut': iconCheckout,
-    'houseRules.cancellation': iconCancellation,
-    'houseRules.prepayment': iconInfo,
-    'houseRules.childrenAndBeds': iconChildrenAndBeds,
-    'houseRules.cashOnly': iconCashOnly,
-    'houseRules.parties': iconEvents,
-    'houseRules.quietHours': iconQuietHours,
-    'houseRules.pets': iconPetsAllowed,
-    'additionalRules': iconAdditionalHouseRules
-  };
+ const iconMap = {
+  'houseRules.checkIn': IconCheckin,
+  'houseRules.checkOut': IconCheckout,
+  'houseRules.cancellation': IconCancellation,
+  'houseRules.prepayment': IconInfo,
+  'houseRules.childrenAndBeds': IconChildrenAndBeds,
+  'houseRules.cashOnly': IconCashOnly,
+  'houseRules.parties': IconEvents,
+  'houseRules.quietHours': IconQuietHours,
+  'houseRules.pets': IconPetsAllowed,
+  'additionalRules': IconAdditionalHouseRules
+};
 
   
   return (
@@ -79,27 +91,39 @@ export default function HouseRulesPage() {
       <HeroImage pageKey="houseRules" />
      
       
-    <div className="container-fluid py-4 house-rules-wrapper">
+    <Box className="house-rules-wrapper" px={{base:"6", md:"8", lg:"12"}} py={{base:"12",md:"16",lg:"24"}}  maxW="1200px" mx="auto">
     <Breadcrumbs />
-<div className='heading-container'><h2 className='house-rules-heading'>{t('houseRules.mainHeading')}</h2></div>
-      <div className="grid gap-8  ">
+<Box className='heading-container'><Heading>{t('houseRules.mainHeading')}</Heading></Box>
+      <VStack mt={{base:"6", md:"8", lg:"12"}} >
         {rulesKeys.map((key) => {
           const heading = t(`${key}.heading`);
           const textBlock = t.raw(`${key}.textBlock`);
           const IconComponent = iconMap[key];
           return (
-            <div key={key} className="row row-cols-1 row-cols-md-2 border-b pb-6 house-rule-row">
-              <h6 className="font-semibold text-lg text-gray-800 house-rule-heading"><span className="icon-wrapper"> {IconComponent && <IconComponent width={32} height={32} />}</span><span>{heading}</span></h6>
-              <div className="text-gray-700 space-y-2 house-rule-content">
+<Box
+  w="full"
+  p={{sm:"5"}} pb={{smDown:"8"}} borderBottom={{smDown:"1px solid"}} borderBottomColor="gray.200 !important"
+  borderRadius={{sm:"sm"}}
+  bg="white"
+  boxShadow={{sm:"xs"}}
+  _hover={{ boxShadow: "sm" }}
+  transition="all 0.2s" mb={{base:"8",sm:"5"}}
+>
+            <Grid key={key}  templateColumns={{md:"1fr 2fr"}} w={{sm:"",md:"full"}} gap={{base:"6", md:"8", lg:"12"}}>
+              <Heading gap="2" display="flex"  alignItems="center"><Span className="icon-wrapper" display="inline-flex" alignItems="center" justifyContent="center" p="3" bg="rgba(var(--secondary-rgb), .08)"
+backdropFilter="blur(6px)"
+border="1px solid rgba(0,0,0,0.05)" shadow="sm" rounded="full" minW="48px" minH="48px"> {IconComponent && <IconComponent width={32} height={32} fill="var(--secondary)"/>}</Span><Span fontSize="xl">{heading}</Span></Heading>
+              <VStack alignItems="flex-start" justifyContent="center">
                 {Array.isArray(textBlock)
-                  ? textBlock.map((text, index) => <p key={index}>{text}</p>)
-                  : <p>{textBlock}</p>}
-              </div>
-            </div>
+                  ? textBlock.map((text, index) => <Text key={index}  color="gray.500" maxW="600px">{text}</Text>)
+                  : <Text>{textBlock}</Text>}
+              </VStack>
+            </Grid>
+</Box>
           );
         })}
-      </div>
-    </div>
+      </VStack>
+    </Box>
     </>
   );
  

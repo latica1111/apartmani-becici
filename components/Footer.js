@@ -1,126 +1,175 @@
-'use client';
+
 import React from 'react';
-import { useTranslations } from 'next-intl';
-import * as Icons from '@/components/Icons';
-import Link from 'next/link';
-import { useLocale } from 'next-intl';
+import { getTranslations } from 'next-intl/server';
 
-const Footer = () => {
-  const t = useTranslations('footer');
-  const locale = useLocale();
-  const addressIcon = Icons[t('contact.adress.icon')];
-  console.log(addressIcon);
-  const phoneIcon = Icons[t('contact.phones.icon')];
-  const emailIcon = Icons[t('contact.email.icon')];
-
-  const fbIcon = Icons[t('footerSocials.fb.iconFb')];
-  const instagramIcon = Icons[t('footerSocials.instagram.iconInstagram')];
+import {Link} from '@/i18n/navigation';
+import Copyright from './Copyright';
+import {
+  Box,
+  Grid,
+  GridItem,
+  Flex,
+  Heading,
+  Text,VStack,
+ Span,
+ 
+} from '@chakra-ui/react';
+import { MdOutlinePhone } from "react-icons/md";
+import { MdOutlineMail } from "react-icons/md";
+import { AiOutlineFacebook } from "react-icons/ai";
+import { AiOutlineInstagram } from "react-icons/ai";
+import { MdOutlineLocationOn } from "react-icons/md";
+export default async function Footer({ locale }){
+  const t = await getTranslations('home.footer');
+  
+ 
 
   return (
-    <div className="footer bg-primary pt-3 pt-lg-5 pb-3">
-      <div className="inner-wrapper container-fluid">
-        <div className="row gy-4">
+    <>
+   
+ <Box as="footer" className="footer primary-bg">
+      <Box   px={{base:"6", md:"8", lg:"12"}} py={{base:"6",md:"8",lg:"12"}}  maxW="1200px" mx="auto">
+        <Grid
+          templateColumns={{
+            base: '1fr',
+            sm: 'repeat(2, 1fr)',
+            lg: '5fr 3fr 4fr',
+          }}
+          gap={6}
+        >
+          {/* CONTACT */}
+          <GridItem>
+            <Box className="adress-block">
+              <Heading as="h6"  mb="5" fontSize="sm"
+  textTransform="uppercase"
+  letterSpacing="0.15em"
+  color="rgba(255,255,255,0.9)" >
+                {t('contact.heading')}
+              </Heading>
 
-          {/* Contact Block */}
-          <div className="col-12 col-sm-6 col-lg-5">
-            <div className="adress-block">
-              <div className="heading-wrapper">
-                <h6>{t('contact.heading')}</h6>
-              </div>
-              <div className="adress">
-                <span className="icon">
-                {addressIcon && React.createElement(addressIcon, { className: 'icon' ,width: 18,height: 18})}
-                </span>
-                <span className="data">{t('contact.adress.data')}</span>
-              </div>
-              <div className="phone">
-  <span className="icon">
-    {phoneIcon && React.createElement(phoneIcon, { className: 'icon', width: 18, height: 18 })}
-  </span>
-  <ul className='list-unstyled mb-0'>
-    <li>
-      <a href={`tel:${t('contact.phones.phonesNmbrs.data1')}`} className="footer-link">
-        {t('contact.phones.phonesNmbrs.data1')}
-      </a>
-    </li>
-    <li>
-      <a href={`tel:${t('contact.phones.phonesNmbrs.data2')}`} className="footer-link">
-        {t('contact.phones.phonesNmbrs.data2')}
-      </a>
-    </li>
-  </ul>
-</div>
+              <Flex align="center" gap={2} mb={3}>
+                  <Span className="icon" p="2" rounded="sm" bg="rgba(255,255,255,0.08)"
+border="1px solid rgba(255,255,255,0.15)">
+              
+                <MdOutlineLocationOn width={16} height={16} fill="var(--secondary)" />
+                </Span>
+                <Box maxW={{md:"280px"}}><Link href="https://www.google.com/maps/place/Apartmani+Becici/@42.2827175,18.8671467,17z/data=!3m1!4b1!4m6!3m5!1s0x134dd4709fb6168f:0xc0187b98b31208e1!8m2!3d42.2827175!4d18.8671467!16s%2Fg%2F11c6w0dz07?hl=en&entry=ttu&g_ep=EgoyMDI2MDQwNS4wIKXMDSoASAFQAw%3D%3D" fontSize="sm"  className="footer-link" target="_blank" rel="noopener noreferrer">{t('contact.adress.data')}</Link></Box>
+              </Flex>
 
-<div className="email">
-  <span className="icon">
-    {emailIcon && React.createElement(emailIcon, { className: 'icon', width: 18, height: 18 })}
-  </span>
-  <a href={`mailto:${t('contact.email.data')}`} className="footer-link">
-    {t('contact.email.data')}
-  </a>
-</div>
+              <Flex align="flex-start" gap={2} mb={3}>
+               <Span className="icon" p="2" rounded="sm"  bg="rgba(255,255,255,0.08)"
+border="1px solid rgba(255,255,255,0.15)">
+    <MdOutlinePhone width={16} height={16} fill="var(--secondary)" />
+  </Span>
+                <VStack>
+                
+                    <Link
+                      href={`tel:${t('contact.phones.phonesNmbrs.data1')}`}
+                      className="footer-link"
+                    >
+                      {t('contact.phones.phonesNmbrs.data1')}
+                    </Link>
+                 
+               
+                    <Link
+                      href={`tel:${t('contact.phones.phonesNmbrs.data2')}`}
+                      className="footer-link"
+                    >
+                      {t('contact.phones.phonesNmbrs.data2')}
+                    </Link>
+                
+                </VStack>
+              </Flex>
 
-            </div>
-          </div>
+              <Flex align="center" gap={2}>
+            <Span className="icon" p="2" rounded="sm" bg="rgba(255,255,255,0.08)"
+border="1px solid rgba(255,255,255,0.15)">
+   <MdOutlineMail width={16} height={16} fill="var(--secondary)" />
+  </Span>
+                <Link
+                  href={`mailto:${t('contact.email.data')}`}
+                  className="footer-link"
+                >
+                  {t('contact.email.data')}
+                </Link>
+              </Flex>
+            </Box>
+          </GridItem>
 
-          {/* Offer Block */}
-          <div className="col-12 col-sm-6 col-lg-3">
-            <div className="footer-offer">
-              <div className="heading-wrapper">
-                <h6>{t('footerOffer.heading')}</h6>
-              </div>
-              <ul className="list-unstyled mb-0">
-  <li><Link className="footer-link" href={`/${locale}${t('footerOffer.item1.href')}`}>
-{t('footerOffer.item1.label')}
-              </Link></li>
-  <li><Link className="footer-link"  href={`/${locale}${t('footerOffer.item2.href')}`}>
-{t('footerOffer.item2.label')}
-              </Link></li>
-  <li><Link className="footer-link" href={`/${locale}${t('footerOffer.item3.href')}`}>
-{t('footerOffer.item3.label')}
-              </Link></li>
-</ul>
+          {/* OFFER */}
+          <GridItem>
+            <Box className="footer-offer">
+              <Heading as="h6"  fontSize="sm"  mb="5"
+  textTransform="uppercase"
+  letterSpacing="0.15em"
+  color="rgba(255,255,255,0.9)">
+                {t('footerOffer.heading')}
+              </Heading>
 
-            </div>
-          </div>
+              <VStack alignItems="flex-start">
+                {[1, 2, 3, 4].map((item) => (
+              
+                    <Link key={item}
+                      href={t(`footerOffer.item${item}.href`)}
+                      className="footer-link"
+                    >
+                      {t(`footerOffer.item${item}.label`)}
+                    </Link>
+                  
+                ))}
+              </VStack>
+            </Box>
+          </GridItem>
 
-          {/* Socials Block */}
-          <div className="col-12 col-sm-6 col-lg-4">
-            <div className="footer-socials">
-              <div className="heading-wrapper">
-                <h6>{t('footerSocials.heading')}</h6>
-              </div>
-              <div className="description">
-                <span>{t('footerSocials.intro')}</span>
-              </div>
-            <div className="d-flex flex-column gap-3 mt-2 socials">
-  <a href="#"  className="text-light icon-wrapper">
-  <span className="icon">{fbIcon && React.createElement(fbIcon, { width: 18, height: 18 })} </span>
-    <span className="label">{t('footerSocials.fb.fbLabel')}</span>
-  </a>
-  <a href="#"  className="text-light  icon-wrapper">
-  <span className="icon">{instagramIcon && React.createElement(instagramIcon, { width: 18, height: 18 })} </span>
-  <span className="label">{t('footerSocials.instagram.instagramLabel')}</span>
-  </a>
-</div>
+          {/* SOCIALS */}
+          <GridItem>
+            <Box className="footer-socials">
+              <Heading as="h6"    mb="5" fontSize="sm"
+  textTransform="uppercase"
+  letterSpacing="0.15em"
+  color="rgba(255,255,255,0.9)">
+                {t('footerSocials.heading')}
+              </Heading>
 
-            </div>
-          </div>
+              <Text mb={3} fontSize="xs">{t('footerSocials.intro')}</Text>
 
-          {/* Copyright */}
-          <div className="col-12 copyright-block">
-            <div className="text-block text-center mt-4 pt-3 border-top border-secondary">
-            <small className="copyright-muted-text">
-    {t('footerCopyright.copyrightInfo')} <i className="designer-name">{t('footerCopyright.author')}</i>.
-  </small>
-            </div>
-          </div>
+              <Flex direction="column" gap={3}>
+                <Link
+                  href="#"
+                  display="flex"
+                  alignItems="center"
+                  gap={3}
+                  className="icon-wrapper"
+                >
+              <Span className="icon"> <AiOutlineFacebook  width={16} height={16} /> </Span>
+                  <Text fontSize="sm" className="footer-link">{t('footerSocials.fb.fbLabel')}</Text>
+                </Link>
 
-        </div>
-      </div>
-    </div>
+                <Link
+                  href="#"
+                  display="flex"
+                  alignItems="center"
+                  gap={3}
+                  className="icon-wrapper"
+                >
+                <Span className="icon"><AiOutlineInstagram width={16} height={16} /> </Span>
+                  <Text fontSize="sm" className="footer-link">
+                    {t('footerSocials.instagram.instagramLabel')}
+                  </Text>
+                </Link>
+              </Flex>
+            </Box>
+          </GridItem>
+        </Grid>
+
+        {/* COPYRIGHT */}
+       <Copyright />
+      </Box>
+    </Box>
+
+    </>
   );
-};
+}
 
-export default Footer;
+
  

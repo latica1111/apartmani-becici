@@ -1,23 +1,74 @@
- 'use client';
+ 
  import Breadcrumbs from '@/components/Breadcrumbs';
-import { useTranslations } from 'next-intl';
+import { setRequestLocale } from 'next-intl/server';
+import { routing } from '@/i18n/routing';
+import { getTranslations } from 'next-intl/server';
 import HeroImage from '@/components/HeroImage';
-export default function UsefulInfoPage() {
-  const t = useTranslations('usefulInfo');
+import { Box, Heading,VStack,Text, List, Grid ,Span} from '@chakra-ui/react';
+
+export const revalidate = 0; // full static, generiše se jednom u build-u
+export async function generateStaticParams() {
+  return routing.locales.map((locale) => ({ locale }));
+}
+export async function generateMetadata() {
+  const t = await getTranslations('meta');
+
+  return {
+    title: t('usefulInformationMeta.title'),
+    description: t('usefulInformationMeta.description'),
+    keywords: t('usefulInformationMeta.keywords'),
+
+    openGraph: {
+      title: t('usefulInformationMeta.ogTitle'),
+      description: t('usefulInformationMeta.ogDescription'),
+      locale: t('usefulInformationMeta.ogLocale'),
+      type: t('usefulInformationMeta.ogType'),
+      url: t('usefulInformationMeta.ogUrl'),
+      images: [
+        {
+          url: t('usefulInformationMeta.ogImage'),
+          width: 1200,
+          height: 630,
+          alt: t('usefulInformationMeta.title')
+        }
+      ]
+    },
+
+    twitter: {
+      card: t('usefulInformationMeta.twitterCard'),
+      title: t('usefulInformationMeta.twitterTitle'),
+      description: t('usefulInformationMeta.twitterDescription'),
+      images: [t('usefulInformationMeta.twitterImage')]
+    },
+
+    alternates: {
+      canonical: t('usefulInformationMeta.canonical'),
+      languages: {
+        en: 'https://yourdomain.com/en/offer',
+        sr: 'https://yourdomain.com/sr/ponuda'
+      }
+    }
+  };
+}
+export default async function UsefulInfoPage({params}) {
+const { locale } = await params;
+   setRequestLocale(locale);
+
+  const t = await getTranslations('home.usefulInfo');
 
   const renderContent = (content) => {
     if (Array.isArray(content)) {
       return (
-        <ul className="list-disc pl-5 space-y-1">
+       <List.Root gap={2} pl={6}>
           {content.map((item, i) => (
-            <li key={i}>{item}</li>
+            <List.Item key={i} _marker={{ color: "var(--primary)" }} fontSize="sm" color="gray.800">{item}</List.Item>
           ))}
-        </ul>
+        </List.Root>
       );
     }
   
     if (typeof content === 'string') {
-      return <p className="mb-2">{content}</p>;
+      return <Text lineHeight="tall" color="gray.600">{content}</Text>;
     }
   
     return null;
@@ -28,14 +79,14 @@ export default function UsefulInfoPage() {
     const { intro, ...countryBorders } = borders;
   
     return (
-      <div className="borders-wrapper">
-        <p>{intro}</p>
+      <VStack alignItems="flex-start" mt="6">
+        <Heading fontSize="sm">{intro}</Heading>
         {Object.entries(countryBorders).map(([country, crossings]) => (
-          <div key={country} className="country">
-            <strong>{country}:</strong> {crossings.join(', ')}
-          </div>
+          <Text key={country} className="country">
+            <strong>{country}:</strong> <Span fontSize="sm" color="gray.600">{crossings.join(', ')}</Span>
+          </Text>
         ))}
-      </div>
+      </VStack>
     );
   };
   
@@ -44,95 +95,153 @@ export default function UsefulInfoPage() {
     <>
      <HeroImage pageKey="usefulInfo" />
     
- 
-    <main className=" mx-auto container-fluid py-4 useful-info-wrapper">
+ <Box px={{ base: 6, md: 8, lg: 12 }}
+  py={{ base: 12, md: 16, lg: 24}} bg="gray.50">
+    <VStack className="useful-info-wrapper" alignItems="flex-start"  maxW="1200px"
+  mx="auto"
+ gap="10">
       <Breadcrumbs />
-      <h2 className="text-3xl font-bold useful-info-heading">{t('heading')}</h2>
+    
 
       {/* Getting There */}
-<section>
-  <h4 className="text-2xl font-semibold subheading">{t('gettingThere.sectionHeading')}</h4>
+<VStack alignItems="flex-start" gap="8">
+  <Heading textStyle="3xl">{t('gettingThere.sectionHeading')}</Heading>
 
-  {/* General info kao <p> */}
- 
-  <p>{t.raw('gettingThere.generalInfo')[0]}</p>
-  <p>{t.raw('gettingThere.generalInfo')[1]}</p>
-  <p>{t.raw('gettingThere.generalInfo')[2]}</p>
-
-  <h3 className="text-xl font-medium mt-4">{t('gettingThere.subheading')}</h3>
+  {/* General info kao <Text> */}
+ <VStack alignItems="flex-start" lineHeight="tall" color="gray.700">
+  <Text>{t.raw('gettingThere.generalInfo')[0]}</Text>
+  <Text>{t.raw('gettingThere.generalInfo')[1]}</Text>
+  <Text>{t.raw('gettingThere.generalInfo')[2]}</Text>
+</VStack>
+<Grid templateColumns={{
+            base: '1fr',
+            sm: 'repeat(2, 1fr)',
+           
+          }}
+          gap={{base:"6", md:"8",lg:"12"}} >
+ {/* Car */}          
+<VStack alignItems="flex-start" w="full"
+  bg="white"
+  p={{ base: 5, md: 6 }}
+  rounded="xl"
+  shadow="sm"
+  border="1px solid"
+  borderColor="gray.100">
+  <Heading  fontSize="md"
+  textTransform="uppercase"
+  letterSpacing="wide"
+  color="gray.500">{t('gettingThere.car.label')}</Heading>
+  <Heading fontSize="sm">{t('gettingThere.subheading')}</Heading>
   {/* Ovo ide kao <ul> */}
   {renderContent(t.raw('gettingThere.roadConnections'))}
-
+   {/* Borders ostatak kao lista po zemlji */}
+    {renderBorders(t.raw('gettingThere.car.borders'))}
+</VStack>
   {/* Airplane */}
-  <div className="mt-4">
-    <h3 className="text-xl font-medium">{t('gettingThere.airplane.label')}</h3>
+  <VStack alignItems="flex-start" w="full"
+  bg="white"
+  p={{ base: 5, md: 6 }}
+  rounded="xl"
+  shadow="sm"
+  border="1px solid"
+  borderColor="gray.100">
+    <Heading  fontSize="md"
+  textTransform="uppercase"
+  letterSpacing="wide"
+  color="gray.500">{t('gettingThere.airplane.label')}</Heading>
     {/* Prvi kao paragraf, ostali kao lista */}
-    <p>{t.raw('gettingThere.airplane.items')[0]}</p>
+    <Text>{t.raw('gettingThere.airplane.items')[0]}</Text>
     {renderContent(t.raw('gettingThere.airplane.items').slice(1))}
-  </div>
+  </VStack>
 
   {/* Bus */}
-  <div className="mt-4">
-    <h3 className="text-xl font-medium">{t('gettingThere.bus.label')}</h3>
-    <p>{t.raw('gettingThere.bus.items')[0]}</p>
+  <VStack alignItems="flex-start" w="full"
+  bg="white"
+  p={{ base: 5, md: 6 }}
+  rounded="xl"
+  shadow="sm"
+  border="1px solid"
+  borderColor="gray.100">
+    <Heading  fontSize="md"
+  textTransform="uppercase"
+  letterSpacing="wide"
+  color="gray.500">{t('gettingThere.bus.label')}</Heading>
+    <Text>{t.raw('gettingThere.bus.items')[0]}</Text>
    
-  </div>
+  </VStack>
 
   {/* Railway */}
-  <div className="mt-4">
-    <h3 className="text-xl font-medium">{t('gettingThere.railway.label')}</h3>
-    <p>{t.raw('gettingThere.railway.items')[0]}</p>
+  <VStack alignItems="flex-start" w="full"
+  bg="white"
+  p={{ base: 5, md: 6 }}
+  rounded="xl"
+  shadow="sm"
+  border="1px solid"
+  borderColor="gray.100">
+    <Heading  fontSize="md"
+  textTransform="uppercase"
+  letterSpacing="wide"
+  color="gray.500">{t('gettingThere.railway.label')}</Heading>
+    <Text>{t.raw('gettingThere.railway.items')[0]}</Text>
    
-  </div>
-
-  {/* Car */}
-  <div className="mt-4">
-    <h3 className="text-xl font-medium">{t('gettingThere.car.label')}</h3>
-    <p>{t('gettingThere.car.description')}</p>
-    {/* Roads kao lista */}
-    {renderContent(t.raw('gettingThere.car.roads'))}
-    {/* Borders intro kao <p> */}
-    <p className="mt-2 d-none">{t('gettingThere.car.borders.intro')}</p>
-    {/* Borders ostatak kao lista po zemlji */}
-    {renderBorders(t.raw('gettingThere.car.borders'))}
-  </div>
-</section>
+  </VStack>
+ </Grid>
+  
+ 
+ 
+</VStack>
 
 {/* Public Transportation */}
-<section>
-  <h4 className="text-2xl font-semibold subheading mt-4 ">{t('publicTransportation.heading')}</h4>
+<VStack alignItems="flex-start" gap="8">
+  <Heading  textStyle="3xl">{t('publicTransportation.heading')}</Heading>
 
   {/* Local Bus */}
-  <div className="">
-    <h3 className="text-xl font-medium">{t('publicTransportation.localBus.title')}</h3>
-    <p>{t('publicTransportation.localBus.description')}</p>
-   
- <h3 className="">{t('publicTransportation.localBus.linesHeading')}</h3>
+  <VStack alignItems="flex-start" gap="8">
+    <VStack alignItems="flex-start">
+    <Heading  fontSize="md"
+  textTransform="uppercase"
+  letterSpacing="wide"
+  color="gray.500">{t('publicTransportation.localBus.title')}</Heading>
+    <Text>{t('publicTransportation.localBus.description')}</Text>
+   </VStack>
+    <VStack alignItems="flex-start">
+ <Heading  fontSize="md"
+  textTransform="uppercase"
+  letterSpacing="wide"
+  color="gray.500">{t('publicTransportation.localBus.linesHeading')}</Heading>
 
 
     {renderContent(t.raw('publicTransportation.localBus.lines'))}
- <p className="font-semibold mt-2">{t('publicTransportation.localBus.contact')}</p>
-
-  </div>
+ <Text>{t('publicTransportation.localBus.contact')}</Text>
+</VStack>
+  </VStack>
 
   {/* Taxi */}
-  <div className="mt-4">
-    <h3 className="text-xl font-medium">{t('publicTransportation.localTaxi.title')}</h3>
-    <p>{t('publicTransportation.localTaxi.description')}</p>
+  <VStack alignItems="flex-start">
+    <Heading  fontSize="md"
+  textTransform="uppercase"
+  letterSpacing="wide"
+  color="gray.500">{t('publicTransportation.localTaxi.title')}</Heading>
+    <Text>{t('publicTransportation.localTaxi.description')}</Text>
     {renderContent(t.raw('publicTransportation.localTaxi.companies'))}
-  </div>
-</section>
+  </VStack>
+
+</VStack>
   {/* Tourist Tax */}
-  <section>
-        <h2 className="text-2xl font-semibold subheading">{t('registrationFee.title')}</h2>
-<p>{t.raw('registrationFee.notes')[0]}</p>
-<p>{t.raw('registrationFee.notes')[1]}</p>
-<p>{t.raw('registrationFee.notes')[2]}</p>
-       
+  <VStack alignItems="flex-start" gap="8">
+        <Heading  textStyle="3xl">{t('registrationFee.title')}</Heading>
+        <VStack alignItems="flex-start">
+<Text>{t.raw('registrationFee.notes')[0]}</Text>
+<Text>{t.raw('registrationFee.notes')[1]}</Text>
+<Text>{t.raw('registrationFee.notes')[2]}</Text>
+     
         {renderContent(t.raw('registrationFee.exemptions'))}
-        <p>{t('registrationFee.proof')}</p>
-      </section>
-    </main>
+        
+        <Text>{t('registrationFee.proof')}</Text>
+          </VStack>
+      </VStack>
+    </VStack>
+  </Box>  
     </>
   );
 }

@@ -6,24 +6,162 @@
     "ogDescription": "Find the perfect accommodation for your holiday in Bečići – apartments, rooms, and studios for 2–5 guests. Enjoy beach proximity, parking, and a playground.",
     "ogLocale": "en_US",
     "ogUrl": "https://yourdomain.com/en",
+     "ogImage": "https://yourdomain.com/images/home-og.jpg",
+      "twitterCard": "summary_large_image",
     "twitterTitle": "Stay in Bečići – Apartments & Rooms Close to the Beach",
-    "twitterDescription": "Planning a beach holiday? Book a cozy apartment, room, or studio in Bečići – family-friendly stay with parking and a playground."
+    "twitterDescription": "Planning a beach holiday? Book a cozy apartment, room, or studio in Bečići – family-friendly stay with parking and a playground.",
+      "twitterImage": "https://yourdomain.com/images/home-og.jpg",
+
+    "canonical": "https://yourdomain.com/en"
   },
 
-"about": {
+"aboutMeta": {
     "title": "About Us – Your Hosts in Bečići",
     "description": "Learn more about our family-run accommodation in Bečići. Friendly hospitality, clean and spacious rooms close to the Adriatic coast.",
-    "keywords": "About Bečići stay, family hosts, Adriatic vacation"
+    "keywords": "About Bečići stay, family hosts, Adriatic vacation",
+     "ogTitle": "About Us – Accommodation in Bečići",
+    "ogDescription": "Family-run accommodation near the beach in Bečići with a welcoming atmosphere.",
+    "ogLocale": "en_US",
+    "ogType": "website",
+    "ogUrl": "https://yourdomain.com/en/about",
+    "ogImage": "https://yourdomain.com/images/about-og.jpg",
+
+    "twitterCard": "summary_large_image",
+    "twitterTitle": "About Our Accommodation in Bečići",
+    "twitterDescription": "Meet your hosts and discover our family-run stay in Bečići.",
+    "twitterImage": "https://yourdomain.com/images/about-og.jpg",
+
+    "canonical": "https://yourdomain.com/en/about"
   },
-  "contact": {
+  "contactMeta": {
     "title": "Contact Us – Book Your Stay in Bečići",
     "description": "Get in touch with us to book your room or apartment in Bečići, Montenegro. We're happy to answer any questions.",
-    "keywords": "contact Bečići stay, book apartment, family vacation"
+    "keywords": "contact Bečići stay, book apartment, family vacation",
+ "ogTitle": "Contact – Accommodation in Bečići",
+    "ogDescription": "Get in touch and book your stay in Bečići easily.",
+    "ogLocale": "en_US",
+    "ogType": "website",
+    "ogUrl": "https://yourdomain.com/en/contact",
+    "ogImage": "https://yourdomain.com/images/contact-og.jpg",
+
+    "twitterCard": "summary_large_image",
+    "twitterTitle": "Contact Us – Stay in Bečići",
+    "twitterDescription": "Reach out and book your stay today.",
+    "twitterImage": "https://yourdomain.com/images/contact-og.jpg",
+
+    "canonical": "https://yourdomain.com/en/contact"
+
   },
-  "offer": {
-    "title": "Our Accommodation Offer – Rooms, Studios and Apartments",
+  "offerMeta": {
+    "all": {"title": "Our Accommodation Offer – Rooms, Studios and Apartments",
     "description": "Choose between cozy rooms, studios and fully equipped apartments in Bečići. For 2 to 5 people, ideal for a summer by the sea.",
-    "keywords": "rooms in Bečići, beach apartments, summer offer"
+    "keywords": "rooms in Bečići, beach apartments, summer offer",
+   
+   
+      "ogTitle": "Accommodation Offer in Bečići",
+      "ogDescription": "Wide selection of rooms, studios and apartments near the beach.",
+      "ogType": "website",
+      "ogUrl": "https://yourdomain.com/en/offer",
+      "ogImage": "https://yourdomain.com/images/offer-og.jpg",
+
+      "twitterCard": "summary_large_image",
+      "twitterTitle": "Accommodation Offer – Bečići",
+      "twitterDescription": "Explore rooms, studios and apartments.",
+      "twitterImage": "https://yourdomain.com/images/offer-og.jpg",
+
+      "canonical": "https://yourdomain.com/en/offer"
+    },
+     "studios": {
+      "title": "Studio Apartments in Becici – Comfortable Stay Near the Beach",
+      "description": "Discover modern studio apartments in Becici, ideal for couples and small families. Fully equipped and located near the beach.",
+      "keywords": "studio Becici, studio apartments Montenegro, small apartment near beach, couple accommodation Becici",
+      "ogTitle": "Studio Apartments in Bečići",
+      "ogDescription": "Comfortable studios near the beach.",
+      "ogType": "website",
+      "ogUrl": "https://yourdomain.com/en/offer/studios",
+      "ogImage": "https://yourdomain.com/images/studios-og.jpg",
+
+      "twitterCard": "summary_large_image",
+      "twitterTitle": "Studios in Bečići",
+      "twitterDescription": "Perfect for couples.",
+      "twitterImage": "https://yourdomain.com/images/studios-og.jpg",
+
+      "canonical": "https://yourdomain.com/en/offer/studios"
+      },
+
+    "apartments": {
+      "title": "Apartments in Becici – Spacious & Fully Equipped",
+      "description": "Choose spacious apartments in Becici for families and groups. Enjoy comfort, privacy and everything you need for a perfect stay.",
+      "keywords": "apartments Becici, family apartments Montenegro, large apartment near beach, accommodation Budva Riviera",
+       "ogTitle": "Apartments in Bečići",
+      "ogDescription": "Spacious and comfortable stay.",
+      "ogType": "website",
+      "ogUrl": "https://yourdomain.com/en/offer/apartments",
+      "ogImage": "https://yourdomain.com/images/apartments-og.jpg",
+
+      "twitterCard": "summary_large_image",
+      "twitterTitle": "Apartments in Bečići",
+      "twitterDescription": "Ideal for families.",
+      "twitterImage": "https://yourdomain.com/images/apartments-og.jpg",
+
+      "canonical": "https://yourdomain.com/en/offer/apartments"
+    },
+
+    "rooms": {
+      "title": "Rooms in Becici – Affordable and Cozy Accommodation",
+      "description": "Book comfortable and affordable rooms in Becici, perfect for short stays and budget-friendly holidays near the sea.",
+      "keywords": "rooms Becici, cheap accommodation Montenegro, budget rooms near beach, guest rooms Becici",
+       "ogTitle": "Rooms in Bečići",
+      "ogDescription": "Budget-friendly stay.",
+      "ogType": "website",
+      "ogUrl": "https://yourdomain.com/en/offer/rooms",
+      "ogImage": "https://yourdomain.com/images/rooms-og.jpg",
+
+      "twitterCard": "summary_large_image",
+      "twitterTitle": "Rooms in Bečići",
+      "twitterDescription": "Affordable accommodation.",
+      "twitterImage": "https://yourdomain.com/images/rooms-og.jpg",
+
+      "canonical": "https://yourdomain.com/en/offer/rooms"
+    }
+  },
+  "houseRulesMeta": {
+    "title": "House Rules | Apartments & Rooms in Becici",
+    "description": "Read the house rules for our apartments and rooms in Becici. Enjoy a comfortable, safe, and respectful stay near the beach.",
+    "keywords": "house rules Becici, apartments Becici rules, Montenegro accommodation rules, guest rules, apartment stay guidelines",
+
+    "ogTitle": "House Rules | Stay in Becici Apartments",
+    "ogDescription": "Check our house rules to ensure a pleasant and relaxing stay in our apartments and rooms in Becici, Montenegro.",
+    "ogLocale": "en_US",
+    "ogType": "website",
+    "ogUrl": "https://yourdomain.com/en/house-rules",
+    "ogImage": "https://yourdomain.com/images/house-rules-og.jpg",
+
+    "twitterCard": "summary_large_image",
+    "twitterTitle": "House Rules | Apartments in Becici",
+    "twitterDescription": "Simple house rules for a peaceful stay in our Becici accommodation near the beach.",
+    "twitterImage": "https://yourdomain.com/images/house-rules-og.jpg",
+
+    "canonical": "https://yourdomain.com/en/house-rules"
+  },
+   "usefulInformationMeta": {
+    "title": "Useful Information for Guests | Apartments in Becici",
+    "description": "Helpful information for guests staying in our apartments and rooms in Becici. Learn about transport, beaches, restaurants, and local tips.",
+    "keywords": "Becici travel tips, Montenegro useful information, apartments Becici guide, transport Becici, beaches Montenegro, guest information",
+
+    "ogTitle": "Useful Information | Your Stay in Becici",
+    "ogDescription": "Everything you need to know for a comfortable stay in Becici – transport, beaches, local tips and more.",
+    "ogLocale": "en_US",
+    "ogType": "website",
+    "ogUrl": "https://yourdomain.com/en/useful-information",
+    "ogImage": "https://yourdomain.com/images/useful-info-og.jpg",
+
+    "twitterCard": "summary_large_image",
+    "twitterTitle": "Useful Information for Guests in Becici",
+    "twitterDescription": "Discover useful tips for your stay in Becici – transport, beaches, restaurants and local insights.",
+    "twitterImage": "https://yourdomain.com/images/useful-info-og.jpg",
+
+    "canonical": "https://yourdomain.com/en/useful-information"
   }
 
 }

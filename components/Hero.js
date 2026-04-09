@@ -1,64 +1,60 @@
-'use client';
 
-import React from 'react';
+
 import { useTranslations } from 'next-intl';
-
-
+import { Box, VStack, Text, Heading,   AbsoluteCenter,} from "@chakra-ui/react"
+import HeroBtnGroup from './HeroBtnGroup';
+import NavigationLayout from './NavigationLayout';
 const Hero = () => {
-  const t = useTranslations('heroSection'); // t() sada čita iz "heroSection" u home.json
+  const t = useTranslations('home.heroSection'); // t() sada čita iz "heroSection" u home.json
+ const rawData = t.raw("heroCta");
 
+
+ 
   return (
-    <section className="position-relative w-100  hero-image">
-      {/* Background Image */}
-      <div
-        className="position-absolute top-0 start-0 w-100 h-100 bg-cover bg-center z-0 div-with-background"
-        style={{
-          overflow:'hidden'
-        }}
-      > 
-      <img
-        src="/images/yard/outdoors-splendid-view.jpg"
-        alt=""
-       
-        style={{ objectFit: 'cover',
-            objectPosition: 'center', }}
-        className='img-fluid page-hero-image h-100 w-100'
-      />
-      </div>
+    <>
+   
+  <Box shadow="lg"  position="relative" h="xl" bgImage="url(/images/yard/outdoors-splendid-view.jpg)" backgroundPosition="center" bgSize="cover" bgRepeat="no-repeat">
+{/* NAVBAR OVERLAY */}
+  <Box
+    position="absolute"
+    top="0"
+    left="0"
+    w="100%"
+    zIndex="3"
+    px={4}
+    py={3}  backdropFilter="blur(2px)"
+  bg="rgba(0,0,0,0.2)"
+  >
+    <NavigationLayout />
+  </Box>
+    {/* Overlay sloj */}
+  <Box
+    position="absolute"
+    inset={0}
+  bg= "rgba(0,0,0,0.8)"
+    zIndex={1}
+  />
+         <AbsoluteCenter zIndex={2} color="#fff" borderRadius="md"  w={{smDown:"full", sm:"75%", lg:"50%"}} >
+              <VStack justifyContent="center" alignItems="center" gap="0" py={{base:"0", sm:"12", md:"12", lg:"24"}} pb={{smDown:"0"}} px="4" >
+                {t('heroSubtitle') && (
+              <Text fontSize={{base:"xs"}} mb="0"  textTransform="uppercase" letterSpacing="wide" color="var(--secondary)" >{t('heroSubtitle')}</Text>
+               )}
+              
+              <Heading fontSize={{ base: "3xl", sm: "4xl", md: "5xl" }} textAlign="center"   fontWeight="600" lineHeight="shorter" mb="5" >{t('heroTitle')}</Heading>
+              <Text   maxW="600px"  fontSize="md" color="rgba(255,255,255,0.85)"
+  opacity="0.85" mb="5" lineHeight="tall" textAlign="center" >{t('heroText')}</Text>
+          
+    <HeroBtnGroup rawData={rawData} />
+              </VStack>
+          </AbsoluteCenter> 
+           
+           
 
-      {/* Overlay */}
-      <div className="position-absolute overlay inset-0 bg-black/40 z-10" />
+ </Box>
 
-      {/* Centered Content */}
-      <div className="position-relative z-30 d-flex flex-column align-items-sm-center justify-content-sm-center text-sm-center h-100 text-white gap-3 text-block ">
-     
-         
-          {t('heroSubtitle') && (
-          <h2 className="text-2xl sm:text-3xl fw-semibold hero-subtitle">{t('heroSubtitle')}</h2>
-        )}
-        <h1 className="text-4xl sm:text-5xl fw-bold hero-title">{t('heroTitle')}</h1>
-        {t('heroSubtitle') && (
-          <h2 className="text-2xl sm:text-3xl fw-semibold hero-subtitle d-none">{t('heroSubtitle')}</h2>
-        )}
-        <p className="text-lg sm:text-xl max-w-xl hero-text">{t('heroText')}</p>
 
-        <div className="d-flex flex-column flex-sm-row gap-3 gap-md-3  mt-lg-4 hero-btns-wrapper">
-          <a
-            href={t('heroCta.btn1.href')}
-            className="btn px-sm-4 px-md-5 py-md-3 rounded-pill fw-semibold hover:bg-gray-200 transition send-inquiry"
-          >
-            {t('heroCta.btn1.label')}
-          </a>
-          <a
-            href={t('heroCta.btn2.href')}
-            className="btn px-sm-4 px-md-5 py-md-3  rounded-pill  fw-semibold hover:bg-gray-200 transition view-offer"
-          >
-            {t('heroCta.btn2.label')}
-          </a>
-        </div>
-      
-      </div>
-    </section>
+
+    </>
   );
 };
 

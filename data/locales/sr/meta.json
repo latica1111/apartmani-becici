@@ -6,22 +6,163 @@
     "ogDescription": "Pronađite idealan smeštaj za odmor u Bečićima – apartmani, sobe i studiji za 2–5 osoba. Uživajte u blizini plaže, parkingu i igralištu.",
     "ogLocale": "sr_RS",
     "ogUrl": "https://yourdomain.com/sr",
+     "ogImage": "https://yourdomain.com/images/home-og.jpg",
+       "twitterCard": "summary_large_image",
     "twitterTitle": "Bečići smeštaj blizu plaže – Apartmani i sobe",
-    "twitterDescription": "Letovanje u Bečićima? Rezervišite apartman, sobu ili studio uz more! Porodičan smeštaj sa parkingom i igralištem."
+    "twitterDescription": "Letovanje u Bečićima? Rezervišite apartman, sobu ili studio uz more! Porodičan smeštaj sa parkingom i igralištem.",
+      "twitterImage": "https://yourdomain.com/images/home-og.jpg",
+
+    "canonical": "https://yourdomain.com/sr"
   },
-  "about": {
+  "aboutMeta": {
     "title": "O Nama – Vaši Domaćini u Bečićima",
     "description": "Saznajte više o našem porodičnom smeštaju u Bečićima. Prijateljski domaćini, čiste i prostrane sobe blizu mora.",
-    "keywords": "o nama Bečići, porodični smeštaj, odmor na moru"
+    "keywords": "o nama Bečići, porodični smeštaj, odmor na moru",
+     "ogTitle": "O nama – Smeštaj u Bečićima",
+    "ogDescription": "Upoznajte naše domaćine i smeštaj.",
+    "ogLocale": "sr_RS",
+    "ogType": "website",
+    "ogUrl": "https://yourdomain.com/sr/o-nama",
+    "ogImage": "https://yourdomain.com/images/about-og.jpg",
+
+    "twitterCard": "summary_large_image",
+    "twitterTitle": "O nama – Bečići",
+    "twitterDescription": "Porodični smeštaj blizu mora.",
+    "twitterImage": "https://yourdomain.com/images/about-og.jpg",
+
+    "canonical": "https://yourdomain.com/sr/o-nama"
   },
-  "contact": {
+  "contactMeta": {
     "title": "Kontaktirajte Nas – Rezervišite Svoj Boravak",
     "description": "Kontaktirajte nas kako biste rezervisali sobu ili apartman u Bečićima. Rado ćemo odgovoriti na vaša pitanja.",
-    "keywords": "kontakt Bečići, rezervacija apartmana, odmor sa porodicom"
+    "keywords": "kontakt Bečići, rezervacija apartmana, odmor sa porodicom",
+     "ogTitle": "Kontakt – Bečići smeštaj",
+    "ogDescription": "Kontaktirajte nas i rezervišite boravak.",
+    "ogLocale": "sr_RS",
+    "ogType": "website",
+    "ogUrl": "https://yourdomain.com/sr/kontakt",
+    "ogImage": "https://yourdomain.com/images/contact-og.jpg",
+
+    "twitterCard": "summary_large_image",
+    "twitterTitle": "Kontakt – Bečići",
+    "twitterDescription": "Pošaljite upit za rezervaciju.",
+    "twitterImage": "https://yourdomain.com/images/contact-og.jpg",
+
+    "canonical": "https://yourdomain.com/sr/kontakt"
   },
-  "offer": {
-    "title": "Naša Ponuda – Sobe, Studiji i Apartmani",
-    "description": "Izaberite između udobnih soba, studija i potpuno opremljenih apartmana u Bečićima. Za 2 do 5 osoba, savršeno za leto na moru.",
-    "keywords": "sobe Bečići, letnji smeštaj, apartmani Crna Gora"
+  "offerMeta": {
+  
+    "all": {
+      "title": "Naša ponuda smeštaja – Sobe, studiji i apartmani u Bečićima",
+      "description": "Pogledajte kompletnu ponudu smeštaja u Bečićima – sobe, studije i potpuno opremljene apartmane za 2 do 5 osoba, idealne za letovanje na moru.",
+      "keywords": "smeštaj Bečići, apartmani Crna Gora, sobe Bečići, studiji blizu mora, letovanje Bečići",
+       "ogTitle": "Ponuda smeštaja u Bečićima",
+      "ogDescription": "Apartmani, studiji i sobe blizu mora.",
+      "ogType": "website",
+      "ogUrl": "https://yourdomain.com/sr/ponuda",
+      "ogImage": "https://yourdomain.com/images/offer-og.jpg",
+
+      "twitterCard": "summary_large_image",
+      "twitterTitle": "Ponuda smeštaja",
+      "twitterDescription": "Pogledajte našu ponudu.",
+      "twitterImage": "https://yourdomain.com/images/offer-og.jpg",
+
+      "canonical": "https://yourdomain.com/sr/ponuda"
+    },
+
+    "studiji": {
+      "title": "Studio apartmani u Bečićima – Udoban boravak blizu mora",
+      "description": "Otkrijte moderne studio apartmane u Bečićima, idealne za parove i manje porodice. Potpuno opremljeni i blizu plaže.",
+      "keywords": "studio Bečići, studio apartmani Crna Gora, mali apartman more, smeštaj za parove Bečići",
+   "ogTitle": "Studio apartmani – Bečići",
+      "ogDescription": "Udoban smeštaj za parove.",
+      "ogType": "website",
+      "ogUrl": "https://yourdomain.com/sr/ponuda/studiji",
+      "ogImage": "https://yourdomain.com/images/studios-og.jpg",
+
+      "twitterCard": "summary_large_image",
+      "twitterTitle": "Studiji u Bečićima",
+      "twitterDescription": "Idealni za kraći boravak.",
+      "twitterImage": "https://yourdomain.com/images/studios-og.jpg",
+
+      "canonical": "https://yourdomain.com/sr/ponuda/studiji"
+    },
+
+    "apartmani": {
+      "title": "Apartmani u Bečićima – Prostrani i potpuno opremljeni",
+      "description": "Izaberite prostrane apartmane u Bečićima za porodice i grupe. Uživajte u komforu, privatnosti i svemu što vam je potrebno.",
+      "keywords": "apartmani Bečići, porodični apartmani Crna Gora, veliki apartman more, smeštaj Budva rivijera",
+     "ogTitle": "Apartmani – Bečići",
+      "ogDescription": "Komforan smeštaj blizu mora.",
+      "ogType": "website",
+      "ogUrl": "https://yourdomain.com/sr/ponuda/apartmani",
+      "ogImage": "https://yourdomain.com/images/apartments-og.jpg",
+
+      "twitterCard": "summary_large_image",
+      "twitterTitle": "Apartmani u Bečićima",
+      "twitterDescription": "Idealni za porodice.",
+      "twitterImage": "https://yourdomain.com/images/apartments-og.jpg",
+
+      "canonical": "https://yourdomain.com/sr/ponuda/apartmani"
+
+    },
+
+    "sobe": {
+      "title": "Sobe u Bečićima – Povoljan i udoban smeštaj",
+      "description": "Rezervišite udobne i povoljne sobe u Bečićima, idealne za kraći boravak i letovanje blizu mora.",
+      "keywords": "sobe Bečići, povoljan smeštaj Crna Gora, sobe blizu mora, privatni smeštaj Bečići",
+       "ogTitle": "Sobe – Bečići",
+      "ogDescription": "Jednostavan i povoljan smeštaj.",
+      "ogType": "website",
+      "ogUrl": "https://yourdomain.com/sr/ponuda/sobe",
+      "ogImage": "https://yourdomain.com/images/rooms-og.jpg",
+
+      "twitterCard": "summary_large_image",
+      "twitterTitle": "Sobe u Bečićima",
+      "twitterDescription": "Praktičan izbor za odmor.",
+      "twitterImage": "https://yourdomain.com/images/rooms-og.jpg",
+
+      "canonical": "https://yourdomain.com/sr/ponuda/sobe"
+    
+    }
+  }
+  ,
+  "houseRulesMeta": {
+    "title": "Kućni red | Apartmani i sobe u Bečićima",
+    "description": "Pročitajte kućni red za naše apartmane i sobe u Bečićima. Uživajte u prijatnom, sigurnom i opuštajućem boravku blizu mora.",
+    "keywords": "kućni red Bečići, pravila apartmana Bečići, smeštaj Crna Gora pravila, pravila za goste, boravak apartmani",
+
+    "ogTitle": "Kućni red | Boravak u apartmanima u Bečićima",
+    "ogDescription": "Pogledajte kućni red kako biste osigurali prijatan i opušten boravak u našim apartmanima i sobama u Bečićima.",
+    "ogLocale": "sr_RS",
+    "ogType": "website",
+    "ogUrl": "https://yourdomain.com/sr/kucni-red",
+    "ogImage": "https://yourdomain.com/images/house-rules-og.jpg",
+
+    "twitterCard": "summary_large_image",
+    "twitterTitle": "Kućni red | Apartmani u Bečićima",
+    "twitterDescription": "Jednostavna pravila za miran i prijatan boravak u našem smeštaju u Bečićima.",
+    "twitterImage": "https://yourdomain.com/images/house-rules-og.jpg",
+
+    "canonical": "https://yourdomain.com/sr/kucni-red"
+  },
+   "usefulInformationMeta": {
+    "title": "Korisne informacije za goste | Apartmani u Bečićima",
+    "description": "Korisne informacije za goste koji borave u našim apartmanima i sobama u Bečićima. Saznajte više o prevozu, plažama, restoranima i lokalnim savetima.",
+    "keywords": "Bečići informacije, Crna Gora saveti za turiste, apartmani Bečići vodič, prevoz Bečići, plaže Crna Gora, informacije za goste",
+
+    "ogTitle": "Korisne informacije | Boravak u Bečićima",
+    "ogDescription": "Sve što vam je potrebno za prijatan boravak u Bečićima – prevoz, plaže, lokalni saveti i još mnogo toga.",
+    "ogLocale": "sr_RS",
+    "ogType": "website",
+    "ogUrl": "https://yourdomain.com/sr/korisne-informacije",
+    "ogImage": "https://yourdomain.com/images/useful-info-og.jpg",
+
+    "twitterCard": "summary_large_image",
+    "twitterTitle": "Korisne informacije za goste u Bečićima",
+    "twitterDescription": "Saznajte korisne savete za boravak u Bečićima – prevoz, plaže, restorani i lokalne preporuke.",
+    "twitterImage": "https://yourdomain.com/images/useful-info-og.jpg",
+
+    "canonical": "https://yourdomain.com/sr/korisne-informacije"
   }
 }

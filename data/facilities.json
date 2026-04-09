@@ -210,27 +210,27 @@
       {
         "key": "ironingFacilities",
         "labelKey": "facilities.ironingFacilities",
-        "icon": "iconIron"
+        "icon": "IconIron"
       },
       {
         "key": "beachNearby",
         "labelKey": "facilities.beachNearby",
-        "icon": "iconBeachNearby"
+        "icon": "IconBeachNearby"
       },
       {
         "key": "familyRooms",
         "labelKey": "facilities.familyRooms",
-        "icon": "iconFamilyRooms"
+        "icon": "IconFamilyRooms"
       },
       {
         "key": "playground",
         "labelKey": "facilities.playground",
-        "icon": "iconNearby"
+        "icon": "IconNearby"
       },
       {
         "key": "nearby",
         "labelKey": "facilities.nearby",
-        "icon": "iconNearby"
+        "icon": "IconNearby"
       },
     
       {

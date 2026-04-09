@@ -6,13 +6,17 @@ const withNextIntl = createNextIntlPlugin({
   defaultLocale: 'en',            // Podrazumevani jezik
   localePrefix: 'as-needed',      // 'as-needed' = /sr za srpski, / za engleski
   pathnames: {},                  // Možeš definisati rute po jezicima ako želiš
-  requestModule: './src/i18n/request.js' // Opcionalno ako koristiš custom request.js
+  requestModule: './i18n/request.js' // Opcionalno ako koristiš custom request.js
 });
 
 // Define your custom nextConfig
 const nextConfig = {
   reactStrictMode: false,
- 
+ images: {
+  qualities: [50, 75,90],
+     unoptimized: true,
+
+ },
 
   experimental: {
     turbo: {
@@ -25,7 +29,7 @@ const nextConfig = {
       issuer: /\.[jt]sx?$/,
       use: ['@svgr/webpack'],
     });
-
+//Omogućava uvoz SVG fajlova direktno u React kao komponentu
     
     return config;
   },

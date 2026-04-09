@@ -1,16 +1,41 @@
 
 {
 
-  "facilitiesWithIcons": {
-    "freeParking": "Free parking",
-    "beachNearby": "Beachfront",
-    "freeWiFi": "Free Wi-Fi",
-    "familyRooms": "Family rooms",
-    "airConditioning": "Air conditioning",
-    "playground": "Outdoor playground",
-    "kitchen" :"Kitchen",
-    "TV" :"TV with cable channels",
-"generalHeading" :"Facilities"
+ "facilitiesWithIcons": {
+    "freeParking": {
+      "label": "Free parking",
+      "desc": "On-site parking available for all guests."
+    },
+    "beachNearby": {
+      "label": "Beachfront",
+      "desc": "Just a short walk to the beach and seaside."
+    },
+    "freeWiFi": {
+      "label": "Free Wi-Fi",
+      "desc": "Fast internet throughout the property."
+    },
+    "familyRooms": {
+      "label": "Family rooms",
+      "desc": "Spacious rooms perfect for families and groups."
+    },
+    "airConditioning": {
+      "label": "Air conditioning",
+      "desc": "Stay cool and comfortable during hot days."
+    },
+    "playground": {
+      "label": "Outdoor playground",
+      "desc": "Safe and fun play area for children."
+    },
+    "kitchen": {
+      "label": "Kitchen",
+      "desc": "Fully equipped kitchen for your daily needs."
+    },
+    "TV": {
+      "label": "Cable TV",
+      "desc": "Variety of local and international channels."
+    },
+    "generalHeading": "Facilities",
+    "subtitle": "Everything you need for a comfortable and relaxing stay."
   }
 
 
@@ -60,11 +85,12 @@
 ],
 
 "heroSection": {
-  "heroTitle": "Nature, comfort, and tranquility",
-  "heroSubtitle": "In the heart of Bečići",
-  "heroText": "Bathed in warm sunlight and the sound of waves.",
+  "heroTitle":"Feel at home from the moment you arrive",
+  "heroTitle1": "Apartments, Rooms & Studios in Bečići",
+  "heroSubtitle": "Only 300 m from the beach",
+  "heroText": "Choose between studios, apartments, and rooms, carefully designed to match your needs and travel style — whether you're here to relax, explore, or simply enjoy the moment.",
   "heroCta": {
-    "btn1": { "label": "Send inquiry", "href": "/contact" },
+    "btn1": { "label": "Get in touch", "href": "/contact" },
     "btn2": { "label": "View offer", "href": "/offer" }
   }
 },
@@ -72,11 +98,11 @@
 
 "header" :{
 "brandName" :"Apartments Becici",
-"homeLink" : {"key": "home", "label": "Home", "href": "/en"},
-"contactLink" : { "key": "contact","label": "Contact", "href": "/en/contact" },
-"aboutUsLink" :{ "key": "about", "label": "About us", "href": "/en/about" },
-"houseRulesLink" :{ "key": "houseRules", "label": "House rules", "href": "/en/house-rules" },
-"usefulInfoLink":{ "key": "usefulInfo", "label": "Useful information", "href": "/en/useful-information" },
+"homeLink" : {"key": "home", "label": "Home", "href": "/"},
+"contactLink" : { "key": "contact","label": "Contact", "href": "/contact" },
+"aboutUsLink" :{ "key": "about", "label": "About us", "href": "/about" },
+"houseRulesLink" :{ "key": "houseRules", "label": "House rules", "href": "/house-rules" },
+"usefulInfoLink":{ "key": "usefulInfo", "label": "Useful information", "href": "/useful-information" },
 "offerMenu": { 
     "key": "offer", 
     "label": "Offer",
@@ -93,10 +119,11 @@
 
 "pointsOfInterest" : {
 "heading" : "Points of interest",
+"introText":"Everything you need, just moments away — explore nearby beaches, restaurants, shops, and attractions, all within easy reach of your stay.",
 "nearby":{
   "id":"nearby",
   "heading":"What's nearby",
-  "icon" : "iconNearby",
+  "icon" : "IconNearby",
   "items":[
 {"name" : "Bečići beach" , "distance": "350 m"},
 {"name" : "Megamarket" , "distance":"350 m"},
@@ -112,32 +139,34 @@
 "collapseElement" :{
  "viewAll": "View all",
   "seeLess": "See less"
-}
+},
+"noData":""
 },
 "restaurantsAndCaffesNearby" : {
   "id":"restaurantsNearby",
 "heading":"Food & Drink",
-"icon" :"iconRestaurantsNearby",
+"icon" :"IconRestaurantsNearby",
 "items":[
-  {"name" : "Azzuro Restaurant & Beach Bar" , "distance":0},
-  {"name" : "Tri Ribara" , "distance":0},
-  {"name" : "Restaurant Porat" , "distance":0},
-  {"name" : "Babaluu, Bar & Restaurant" , "distance":0},
-  {"name" : "Beer & Bike Club" , "distance":0},
-  {"name" : "Jadran kod Krsta" , "distance":0},
-  {"name" : "Shangai" , "distance":0},
-  {"name" : "The Old Fisherman's Pub" , "distance":0}
+  {"name" : "Azzuro Restaurant & Beach Bar" , "distance":"850 m"},
+  {"name" : "Tri Ribara" , "distance":"1.2 km"},
+  {"name" : "Restaurant Porat" , "distance":"1.3 km"},
+  {"name" : "Babaluu, Bar & Restaurant" , "distance":"3.5km"},
+  {"name" : "Beer & Bike Club" , "distance":"3 km"},
+  {"name" : "Jadran kod Krsta" , "distance":"2.4 km"},
+  {"name" : "Shangai" , "distance":"3 km"},
+  {"name" : "The Old Fisherman's Pub" , "distance":"2.8 km"}
   
 ],
 "collapseElement" :{
  "viewAll": "View all",
   "seeLess": "See less"
-}
+},
+"noData":""
 }, 
 "beachesInTheNeighborhood" :{
   "id":"beachNearby",
   "heading":"Beaches in the Neighborhood",
-  "icon" :"iconBeachNearby",
+  "icon" :"IconBeachNearby",
   "items":[
   {"name" : "Becici Beach" , "distance":"300 m"},
   {"name" : "Rafailovici Beach" , "distance":"1.1 km"},
@@ -149,12 +178,13 @@
 "collapseElement" :{
  "viewAll": "View all",
   "seeLess": "See less"
-}
+},
+"noData":""
 }, 
 "attractions" : {
   "id":"attractions",
   "heading": "Popular attractions",
-  "icon" :"iconAttractions",
+  "icon" :"IconAttractions",
   "items": [
     {"name": "Budva Old Town", "distance": "3.4 km"},
     {"name": "Lovćen National Park", "distance": "15 km"},
@@ -171,13 +201,14 @@
   "collapseElement" :{
  "viewAll": "View all",
   "seeLess": "See less"
-}
+},
+"noData":""
 },
 
 "publicTransit" :{
   "id":"publicTransport",
   "heading":"Public transit",
-  "icon" :"iconPublicTransport",
+  "icon" :"IconPublicTransport",
   "items":[
   {"name" : "Budva Main Bus Station" , "distance":"3.5 km"},
   {"name" : "Becici Local Bus Station" , "distance":"250 m"},
@@ -187,12 +218,13 @@
 "collapseElement" :{
  "viewAll": "View all",
   "seeLess": "See less"
-}
+},
+"noData":""
 },
 "closestAirports" :{
   "id":"nearestAirports",
   "heading":"Closest Airports",
-  "icon" :"iconNearestAirports",
+  "icon" :"IconNearestAirports",
   "items":[
   {"name" : "Tivat Airport" , "distance":"21 km"},
   {"name" : "Podgorica Airport" , "distance":"59 km"},
@@ -201,16 +233,18 @@
 "collapseElement" :{
  "viewAll": "View all",
   "seeLess": "See less"
-}
+},
+"noData":""
 },
 "shopping" : {
   "id":"nearestShoppingMalls",
   "heading":"Shopping",
-  "icon" :"iconShopping",
+  "icon" :"IconShopping",
   "collapseElement" :{
  "viewAll": "View all",
   "seeLess": "See less"
 },
+"noData":"",
   "items":[
     {"name" : "TQ Plaza" , "distance":"3.4 km"},
     {"name" : "Budva's Old Town" , "distance":"4.5 km"},
@@ -223,17 +257,18 @@
 "nightLife" : {
   "id":"nightLife",
   "heading":"Night life",
-  "icon" :"iconNightLife",
+  "icon" :"IconNightLife",
   "collapseElement" :{
  "viewAll": "View all",
   "seeLess": "See less"
 },
+"noData":"",
   "items":[
     {"name" : "Omnia Night Club" , "distance":"3 km"},
     {"name" : "Ambiente Night Club" , "distance":"1.8 km"},
     {"name" : "Perla Club" , "distance":"3.1 km"},
-     {"name" : "Top Hill" , "distance":"0 km"},
-    {"name" : "Vice" , "distance":"0 km"}
+     {"name" : "Top Hill" , "distance":"3.9 km"}
+   
   ]
 }
 
@@ -289,25 +324,26 @@
 "contact":{
   "heading":"Contact",
   "adress" :{"data":"Ivo Lola Ribara 1, Becici, Budva 85310, Montenegro", "icon":"iconExactLocation"},
-  "phones" :{"icon":"iconPhone","phonesNmbrs": {
+  "phones" :{"icon":"IconPhone","phonesNmbrs": {
   "data1": "+382 67 748 403",
   "data2": "+382 67 556 512"
 } 
 },
-  "email":{"data":"apartmanibecici99@gmail.com", "icon":"iconEmail"}
+  "email":{"data":"apartmanibecici99@gmail.com", "icon":"IconEmail"}
   
 },
 "footerOffer":{
   "heading":"Offer",
   "item1": {"label":"Studios", "href": "/offer/studios"},
   "item2": {"label":"Apartments","href":"/offer/apartments"},
-  "item3": {"label":"Rooms","href":"/offer//rooms"}
+  "item3": {"label":"Rooms","href":"/offer//rooms"},
+   "item4": {"label":"All", "href": "/offer"}
 },
 "footerSocials" :{
   "heading":"Follow Us",
 "intro":"And keep up to date with Apartmani Becici",
-"fb":{"iconFb":"fbIcon","fbLabel": "Visit our Facebook page"},
-"instagram":{"iconInstagram":"iconInstagram","instagramLabel": "Check out our Instagram" }
+"fb":{"iconFb":"FbIcon","fbLabel": "Visit our Facebook page"},
+"instagram":{"iconInstagram":"IconInstagram","instagramLabel": "Check out our Instagram" }
 },
 "footerCopyright":{
   "copyrightInfo":"© 2023 Apartmani Becici. All Rights Reserved. Design by ",
@@ -341,18 +377,21 @@
   "email":{"data":"apartmanibecici99@gmail.com", "icon":"iconEmail", "additionalText":"", "formLabel":"Email"}
 },
 "contactForm":{
-  "email":{"label":"Email", "error":"Please enter your email adress","invalid":"Please enter a valid email address."},
-  "phone":{"label":"Phone"},
-  "name":{"label":"Name", "error":"Please enter your name."},
+  "email":{"label":"Email", "error":"Please enter your email adress","invalid":"Please enter a valid email address.", "placeholder":"email@gmail.com" },
+  "phone":{"label":"Phone","placeholder":"+381 6X XXX XXX"},
+  "name":{"label":"Name", "error":"Please enter your name.", "placeholder":"Enter your name"},
   "message":{"label":"Message"},
   "btn":{"label":"Submit request"},
   "adultsNmbr":{"label":"Adults", "error":"Please select the number of adults."},
   "childrenNmbr":{"label":"Children", "error":"Please select the number of children."},
   "childrenAge":{"label":"Children age", "error":"Please specify the age of the children."},
-  "additionalRequest":{"label":"Additional request"},
+  "additionalRequest":{"label":"Additional request", "placeholder":"Your message / special request"},
 "checkInDate":{"label":"Check-in date", "data":"Choose date of arrival", "error":"Please select a check-in date."},
 "checkOutDate":{"label":"Check-out date", "data":"Choose date of depart" , "error":"Please select a check-out date."},
-"selectedOption" :{"label":"Choose"}
+"selectedOption" :{"label":"Choose"},
+"onSubmitHeading": "Request sent",
+"onSubmitText" :"Thank you! We’ve received your request and will get back to you shortly.",
+"newRequestButton" :" Send another request"
 
 }
 
@@ -376,6 +415,7 @@
 "linkToAllReviews" :"Read all reviews",
 "viewMore" :"View more",
 "viewLess" :"View less",
+"introText":"Real experiences from our guests — honest ratings and reviews that reflect their stay with us, highlighting everything from comfort and cleanliness to the little touches that make a stay feel special.",
 "categories" :{
   "heading":"Categories:",
   "items" :[
@@ -391,8 +431,9 @@
 
 {"id": 1,"name" :"Ervin" , "country":"Serbia", "text":"Everything was great. Clean, tidy, excellent location a few minutes from the beach, host to be praised. Absolute recommendation.","ratingValue":"" },
 {"id": 2,"name" :"Misic" , "country":"Serbia", "text":"For every recommendation. From the reception and accommodation, to the friendliness and helpfulness of the staff, to the location. I can't find a single complaint or remark.","ratingValue":"" },
-{"id": 3,"name" :"Dmlukic" , "country":"Austria", "text":"Everything was great. The hosts were available 24/7 for anything needed. The location was top. Cross the bridge and we are on the beach. Top location for children. Everything is in the accommodation. Apartment clean. All praise. ","ratingValue":"" },
-{"id": 4,"name" :"Zoran" , "country":"Serbia", "text":"A real vacation. The apartment is correct. The location is excellent. The hosts are friendly. I am really satisfied, even more than expected.","ratingValue":"" },
+{"id": 3,"name" :"Zoran" , "country":"Serbia", "text":"A real vacation. The apartment is correct. The location is excellent. The hosts are friendly. I am really satisfied, even more than expected.","ratingValue":"" },
+{"id": 4,"name" :"Dmlukic" , "country":"Austria", "text":"Everything was great. The hosts were available 24/7 for anything needed. The location was top. Cross the bridge and we are on the beach. Top location for children. Everything is in the accommodation. Apartment clean. All praise. ","ratingValue":"" },
+
 {"id": 5,"name":"Snezana", "country":"Bosnia & Herzegovina", "text":"I would highly recommend Apartment Bečići, exceptional kindness of the host, location near the beach, especially good for families with small children, where there is a garden intended for children. Free parking. All praises.","ratingValue":"" },
 {"id": 6,"name":"Esther", "country":"Netherlands", "text":"The location was super, apartment was fine, terrace overlooking the garden was lovely. Beach and supermarket a few minutes walk away. Really recommended.","ratingValue":"10" }
 
@@ -419,13 +460,13 @@
   ]},
   "pageTitles" :{
 "aboutUs":{"label":"About us", "photoURL":"", "photoPosition":""},
-"contact":{"label":"Contact", "photoURL":"/images/yard/house.jpg", "photoPosition":""},
-"houseRules":{"label":"House rules", "photoURL":"/images/3_person_room_with_external_kitchen_and_bathroom/double-bed-1.jpg", "photoPosition":"bottom"},
-"offer":{"label":"Offer", "photoURL":"/images/5_person_apartment_4th_floor/beds.jpg"},
-"apartments":{"label":"Apartments", "photoURL":"/images/3_person_apartment_with_2_terraces_3rd_floor/room-balcony-door.jpg"},
-"studios":{"label":"Studios", "photoURL":"/images/2_person_studio/double-bed.jpg", "photoPosition":""},
-"rooms" :{"label":"Rooms", "photoURL":"/images/3_person_room_with_external_bathroom/double-bed-view.jpg"},
-"usefulInfo" :{"label":"Useful information", "photoURL":"/images/becici/bird.jpg"}
+"contact":{"label":"Contact", "photoURL":"/images/4_person_apartment_with_opened_terrace/photo280.jpg", "photoPosition":"bottom", "desc":"Reach · Connect · Visit"},
+"houseRules":{"label":"House rules", "photoURL":"/images/yard/house-entrance.jpg", "photoPosition":"", "desc":"Useful · Practical · Informative"},
+"offer":{"label":"Offer", "photoURL":"/images/4_person_apartment_3rd_floor/photo191.jpg", "desc":"Variety · Convenient · Family-friendly"},
+"apartments":{"label":"Apartments", "photoURL":"/images/5_person_apartment_4th_floor/photo267.jpg", "desc":"Spacious · Comfortable · Fully equipped"},
+"studios":{"label":"Studios", "photoURL":"/images/3_person_studio/photo04.jpg", "photoPosition":"", "desc":"Compact · Functional · Fully equipped"},
+"rooms" :{"label":"Rooms", "photoURL":"/images/3_person_room_with_external_bathroom/photo206.jpg", "desc" :"Private · Modern · Well equipped"},
+"usefulInfo" :{"label":"Useful information", "photoURL":"/images/4_person_apartment_4th_floor/photo109.jpg", "photoPosition":"bottom", "desc":"Travel · Local · Info"}
 },
 "usefulInfo" :{
   "heading": "Useful Information",
@@ -517,7 +558,40 @@
     "proof": "Exempt individuals must provide valid proof (e.g., membership card, school certificate, medical referral, etc.)"
   }
 }
+,
+"contactSection": {
+    "heading": "Book Your Stay",
+"cta": "Send an inquiry and book your stay today!",
+    "description": [
+      "For all information regarding accommodation at Apartments Bečići, feel free to contact us.",
+      "We will gladly answer all your questions and assist you with your reservation.",
+      "We will respond as soon as possible."
+    ],
 
+    "directContact": "Or contact us directly:",
+    "contactUs": "Contact us",
+    "contactInfo": {
+      "email": "apartmanibecici@gmail.com",
+      "phone1": "+382 67 000 000",
+      "phone2": "+382 68 000 000"
+    },
+
+    "addressSection": {
+      "heading": "Address",
+      "street": "Bečići bb",
+      "city": "85310 Budva, Montenegro"
+    },
+
+    "socialSection": {
+      "heading": "Follow Us",
+      "facebook": "Facebook",
+      "instagram": "Instagram"
+    },
+    "workingHours": {
+  "heading": "Working Hours",
+  "value": "Available every day from 08:00 to 22:00"
+}
+  }
 
 
 

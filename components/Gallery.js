@@ -1,16 +1,17 @@
 'use client';
 import { useTranslations } from 'next-intl';
 import { useEffect, useState } from 'react';
-import Lightbox from 'yet-another-react-lightbox';
-import 'yet-another-react-lightbox/styles.css';
-import { Swiper, SwiperSlide } from 'swiper/react';
-import 'swiper/css';
-import 'swiper/css/navigation';
-import 'swiper/css/pagination';
-import { Navigation } from 'swiper/modules';
-
+import {
+  Box,
+  VStack,
+  Heading,
+ 
+} from '@chakra-ui/react';
+import GalleryDesktopGrid from './GalleryDesktopGrid';
+import GalleryLightbox from './GalleryLightbox';
+import GalleryMobileCarousel from './GalleryMobileCarousel';
 export default function Gallery() {
-  const t = useTranslations();
+  const t = useTranslations("home");
   const [images, setImages] = useState([]);
   const [openIndex, setOpenIndex] = useState(-1); // za kontrolu lightboxa
 
@@ -21,63 +22,36 @@ export default function Gallery() {
   }, [t]);
 
   return (
-    <section className="gallery-section py-lg-5 photo-gallery-homepage">
-      <div className="gallery-container">
-        <h2 className=" text-center">{t('galleryImages.galleryTitle')}</h2>
+    <>
+   
+ <Box
+      as="section"
+      borderTop="1px solid"
+       borderBottom="1px solid"
+       borderColor="gray.200"
+      bg="gray.100" px={{base:"6", md:"8", lg:"12"}} py={{base:"12",md:"16",lg:"24"}} 
+    >
+      <VStack  maxW="1200px" mx="auto">
 
-        {/* Lightbox */}
-        <Lightbox
-          open={openIndex >= 0}
-          close={() => setOpenIndex(-1)}
-          slides={images.map((img) => ({
-            src: img.photoURL,
-            alt: img.photoAlt || '',
-          }))}
-          index={openIndex}
+        <Heading className="section-name" textAlign="center" >
+          {t('galleryImages.galleryTitle')}
+        </Heading>
+
+        <GalleryLightbox
+          images={images}
+          openIndex={openIndex}
+          setOpenIndex={setOpenIndex}
         />
 
-        {/* Desktop grid */}
-        <div className="d-none d-md-flex row row-cols-md-5 row-cols-lg-5 flex-wrap g-2">
-          {images.map((img, index) => (
-            <div key={img.photoURL} className="col img-zoom-wrapper" onClick={() => setOpenIndex(index)} style={{ cursor: 'pointer' }}>
-              <img
-                src={img.photoURL}
-                alt={img.photoAlt || ''}
-                className="img-fluid rounded shadow-sm"
-                style={{
-                  objectFit: img.photoPosition || 'cover',
-                  width: '100%',
-                  height: '100%',
-                }}
-              />
-            </div>
-          ))}
-        </div>
+        {/* DESKTOP GRID */}
+         <GalleryDesktopGrid images={images} setOpenIndex={setOpenIndex} />
 
-        {/* Mobile carousel */}
-        <div className="d-md-none">
-          <Swiper
-            modules={[Navigation]}
-            navigation
-            loop
-            spaceBetween={10}
-            slidesPerView={1}
-            className="mySwiper"
-          >
-            {images.map((img, index) => (
-              <SwiperSlide key={img.photoURL}>
-                <img
-                  src={img.photoURL}
-                  alt={img.photoAlt || ''}
-                  className="img-fluid rounded shadow-sm"
-                  style={{ width: '100%', height: '100%', cursor: 'pointer' }}
-                  onClick={() => setOpenIndex(index)}
-                />
-              </SwiperSlide>
-            ))}
-          </Swiper>
-        </div>
-      </div>
-    </section>
+        {/* MOBILE CAROUSEL */}
+       <GalleryMobileCarousel images={images} setOpenIndex={setOpenIndex} />
+
+      </VStack>
+    </Box>
+
+    </>
   );
 }
