@@ -138,10 +138,7 @@ body {
   font-weight: 600;
 }
 /* Strelice za menjanje meseca */
- .react-datepicker__navigation-icon::before{
-
-  
-}
+ 
 .react-datepicker__navigation--next {
 
 right: 0 !important;
@@ -277,16 +274,7 @@ left: 0 !important;
   color: var(--primary) !important;
 }
 
-//@media(min-width:576px) and (max-width:767.98px){
-  .swiper-wrapper{
-width: 50% !important;
 
-   }
-.swiper-slide {
-  width: 100% !important;
-}
-
-}
 
 
  .yarl__slide  {
@@ -770,11 +758,7 @@ fill: var(--secondary);
 .react-datepicker-popper .react-datepicker__triangle {
     display:none;
 }
-@media (max-width: 320px)
-{.react-datepicker-popper{
 
-}
-}
 #facil svg{
   height: 2.5rem !important;
   width: 2.5rem !important;
