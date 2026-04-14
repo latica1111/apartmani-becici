@@ -30,7 +30,7 @@
       {"id"   : "", "photoURL"  :"/images/3_person_studio/photo07.jpg", "photoAlt"  :"", "photoPosition"  :"", "order": 4},
       {"id"   : "", "photoURL"  :"/images/3_person_studio/photo08.jpg", "photoAlt"  :"", "photoPosition"  :"", "order": 9},
       {"id"   : "", "photoURL"  :"/images/3_person_studio/photo09.jpg", "photoAlt"  :"", "photoPosition"  :"bottom", "order": 10},
-      {"id"   : "", "photoURL"  :"/images/3_person_studio/photo10", "photoAlt"  :"", "photoPosition"  :"bottom", "order": 11},
+      {"id"   : "", "photoURL"  :"/images/3_person_studio/photo10.jpg", "photoAlt"  :"", "photoPosition"  :"bottom", "order": 11},
       {"id"   : "", "photoURL"  :"/images/3_person_studio/photo11.jpg", "photoAlt"  :"", "photoPosition"  :"", "order": 5},
         {"id"   : "", "photoURL"  :"/images/3_person_studio/photo12.jpg", "photoAlt"  :"", "photoPosition"  :"", "order": 5}
       
@@ -56,7 +56,7 @@
   "The studio is located on the first floor of a family house and is accessible via stairs."
 ],
    "amenities": [
-  "Compact yet functional – the studio offers everything you need for a pleasant and comfortable stay. ",
+  "Compact yet functional: the studio offers everything you need for a pleasant and comfortable stay. ",
   "Sleeping area: A cozy double bed, a sofa bed, and a baby crib available upon request – ideal for families with young children. The space also includes Linen, a wardrobe, and bedside tables.",
   "Kitchen: Fully equipped with a refrigerator, stovetop, electric kettle, cookware, tableware, and a dining table – everything you need to prepare and enjoy meals at your convenience.",
   "Balcony with a view: The studio opens onto a spacious balcony, perfect for enjoying your morning coffee or a relaxing sunset. The balcony overlooks the garden, mountains, and courtyard, creating a peaceful atmosphere away from city noise. It is furnished with seating and a drying rack."
@@ -137,9 +137,9 @@
 
 "amenities": [
   "Comfortable and practical space – everything you need for a relaxing stay.",
-  "Sleeping area with a double bed and a pull-out sofa.",
-  "Private bathroom (located outside the room but for your exclusive use) – fully equipped, ensuring privacy and comfort.",
-  "Balcony with views of the garden, mountains, courtyard, and a partial sea view – perfect for morning coffee or a peaceful evening break.",
+  "Sleeping area – with a double bed and a pull-out sofa.",
+  "Private bathroom – located outside the room but for your exclusive use but fully equipped, ensuring privacy and comfort.",
+  "Balcony – with views of the garden, mountains, courtyard, and a partial sea view, perfect for morning coffee or a peaceful evening break.",
   "Basic kitchen amenities – A fridge, stovetop, and dining essentials for preparing light meals."
 ],
 
@@ -228,7 +228,7 @@
 
 "metaDescription": "Affordable and comfortable accommodation for 2 adults + 2 children. Private bathroom and kitchen, balcony with a view, and free parking available. Children’s playground on-site. A great choice for your holiday!",
 
-"title": "Triple Room with Private Bathroom and Kitchen (Located Outside the Room) – Comfortable and Affordable Stay",
+"title": "Triple Room with Private Bathroom and Kitchen (Located Outside the Room) – Comfortable and Affordable Stay.",
 
 "pageURL": "sienna"
 ,
@@ -240,9 +240,9 @@
 "amenities": [
   "Double bed + sofa bed – Comfortable sleeping arrangements for up to 3 guests.",
   
-  "Private kitchen (located outside the room, but used exclusively by you) – Fully equipped with a refrigerator, stovetop, oven, and cookware. Ideal for guests who want practicality, savings, and flexibility in meal preparation.",
+  "Private kitchen – located outside the room, but used exclusively by you. Fully equipped with a refrigerator, stovetop, oven, and cookware. Ideal for guests who want practicality, savings, and flexibility in meal preparation.",
   
-  "Private bathroom (located outside the room, for your use only) – Fully equipped with towels and basic toiletries.",
+  "Private bathroom – located outside the room, for your use only. Fully equipped with towels and basic toiletries.",
   
   "Balcony with a view – Enjoy your morning coffee with views of the garden, mountains, and a partial sea view. A sunshade provides additional comfort on hot days.",
   
@@ -308,11 +308,11 @@
 ],
 
 "amenities": [
-  "Compact and functional studio – Small in size but equipped with everything needed for a comfortable stay.",
+  "Compact and functional studio: Small in size but equipped with everything needed for a comfortable stay.",
   "Sleeping area: Double bed – For quality rest and relaxation after a day at the beach.",
   "Mini kitchen: Refrigerator, stovetop, oven, and basic cooking and dining utensils – Convenient for quick and simple meals.",
   "Bathroom: Bathtub, towels, toilet paper – Essentials for daily hygiene.",
-  "Balcony with seating area – Perfect for enjoying your morning coffee or meals in the fresh air.",
+  "Balcony with seating area: Perfect for enjoying your morning coffee or meals in the fresh air.",
   "Note: This is a smaller studio, ideal for couples planning to spend most of their time exploring the area and who enjoy a simple, minimalistic space. The mini kitchen and workspace are suitable for light meals, but not recommended for extended stays with children."
 ],
 
@@ -490,28 +490,22 @@
       {"id"   : "", "photoURL"  :"/images/3_person_apartment_3rd_floor/photo125.jpg", "photoAlt"  :"", "photoPosition"  :"", "order": 10},
        {"id"   : "", "photoURL"  :"/images/3_person_apartment_3rd_floor/photo126.jpg", "photoAlt"  :"", "photoPosition"  :"", "order": 5},
       {"id"   : "", "photoURL"  :"/images/3_person_apartment_3rd_floor/photo127.jpg", "photoAlt"  :"", "photoPosition"  :"", "order": 6},
-      {"id"   : "", "photoURL"  :"/images/3_person_apartment_3rd_floor/photo128.jpg", "photoAlt"  :"", "photoPosition"  :"", "order": 7},
-      {"id"   : "", "photoURL"  :"/images/3_person_apartment_3rd_floor/photo129.jpg", "photoAlt"  :"", "photoPosition"  :"bottom", "order": 1},
+    
+    
       {"id"   : "", "photoURL"  :"/images/3_person_apartment_3rd_floor/photo130.jpg", "photoAlt"  :"", "photoPosition"  :"", "order": 9},
       {"id"   : "", "photoURL"  :"/images/3_person_apartment_3rd_floor/photo131.jpg", "photoAlt"  :"", "photoPosition"  :"", "order": 10},
        {"id"   : "", "photoURL"  :"/images/3_person_apartment_3rd_floor/photo132.jpg", "photoAlt"  :"", "photoPosition"  :"", "order": 5},
       {"id"   : "", "photoURL"  :"/images/3_person_apartment_3rd_floor/photo133.jpg", "photoAlt"  :"", "photoPosition"  :"", "order": 6},
       {"id"   : "", "photoURL"  :"/images/3_person_apartment_3rd_floor/photo134.jpg", "photoAlt"  :"", "photoPosition"  :"", "order": 7},
-      {"id"   : "", "photoURL"  :"/images/3_person_apartment_3rd_floor/photo135.jpg", "photoAlt"  :"", "photoPosition"  :"bottom", "order": 1},
-      {"id"   : "", "photoURL"  :"/images/3_person_apartment_3rd_floor/photo136.jpg", "photoAlt"  :"", "photoPosition"  :"", "order": 9},
+   
       {"id"   : "", "photoURL"  :"/images/3_person_apartment_3rd_floor/photo137.jpg", "photoAlt"  :"", "photoPosition"  :"", "order": 10},
        {"id"   : "", "photoURL"  :"/images/3_person_apartment_3rd_floor/photo138.jpg", "photoAlt"  :"", "photoPosition"  :"", "order": 5},
       {"id"   : "", "photoURL"  :"/images/3_person_apartment_3rd_floor/photo139.jpg", "photoAlt"  :"", "photoPosition"  :"", "order": 6},
       {"id"   : "", "photoURL"  :"/images/3_person_apartment_3rd_floor/photo140.jpg", "photoAlt"  :"", "photoPosition"  :"", "order": 7},
       {"id"   : "", "photoURL"  :"/images/3_person_apartment_3rd_floor/photo141.jpg", "photoAlt"  :"", "photoPosition"  :"bottom", "order": 1},
       {"id"   : "", "photoURL"  :"/images/3_person_apartment_3rd_floor/photo142.jpg", "photoAlt"  :"", "photoPosition"  :"", "order": 9},
-      {"id"   : "", "photoURL"  :"/images/3_person_apartment_3rd_floor/photo143.jpg", "photoAlt"  :"", "photoPosition"  :"", "order": 10},
-       {"id"   : "", "photoURL"  :"/images/3_person_apartment_3rd_floor/photo144.jpg", "photoAlt"  :"", "photoPosition"  :"", "order": 5},
-      {"id"   : "", "photoURL"  :"/images/3_person_apartment_3rd_floor/photo145.jpg", "photoAlt"  :"", "photoPosition"  :"", "order": 6},
-      {"id"   : "", "photoURL"  :"/images/3_person_apartment_3rd_floor/photo146.jpg", "photoAlt"  :"", "photoPosition"  :"", "order": 7},
-      {"id"   : "", "photoURL"  :"/images/3_person_apartment_3rd_floor/photo147.jpg", "photoAlt"  :"", "photoPosition"  :"bottom", "order": 1},
-      {"id"   : "", "photoURL"  :"/images/3_person_apartment_3rd_floor/photo148.jpg", "photoAlt"  :"", "photoPosition"  :"", "order": 9},
-      {"id"   : "", "photoURL"  :"/images/3_person_apartment_3rd_floor/photo149.jpg", "photoAlt"  :"", "photoPosition"  :"", "order": 10}
+      {"id"   : "", "photoURL"  :"/images/3_person_apartment_3rd_floor/photo143.jpg", "photoAlt"  :"", "photoPosition"  :"", "order": 10}
+   
       
       
       
@@ -1241,19 +1235,19 @@
       ],
     
       "amenities": [
-        "Bedrooms (2): First room: two joined single beds, cable TV, air conditioning, terrace access. Second room: pull-out loveseat, air conditioning, terrace access.",
-        "Kitchen with fridge, stovetop, oven, electric kettle, cookware, and cutlery.",
-        "Bathroom with shower, towels, and basic hygiene essentials.",
+        "Bedrooms (2): First room with two joined single beds, cable TV, air conditioning, terrace access. Second room with pull-out loveseat, air conditioning, terrace access.",
+        "Kitchen: with fridge, stovetop, oven, electric kettle, cookware, and cutlery.",
+        "Bathroom: with shower, towels, and basic hygiene essentials.",
         "Terrace: Seating area with a view of the courtyard and garden, clothes drying rack."
       ],
     
       "availableOnRequest": "Available on request: Hair dryer, cleaning supplies, ironing equipment, baby crib, high chair.",
     
       "reasonsToChoose": [
-        "Close to the beach and all amenities.",
+      
         "Ground-floor apartment – suitable for families with children or elderly guests.",
-        "Modest yet functional accommodation with all necessary amenities.",
-        "Separate air-conditioned bedrooms with terrace access.",
+        "Modest yet functional accommodation –  with all necessary amenities.",
+        "Separate air-conditioned bedrooms –  with terrace access.",
         "Covered terrace with garden view – ideal for morning coffee or evening relaxation.",
         "Air conditioning – In both rooms for a comfortable stay.",
         "Cable TV – For relaxing with your favorite shows.",

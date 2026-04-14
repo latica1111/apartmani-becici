@@ -32,7 +32,7 @@
       {"id"   : "", "photoURL"  :"/images/3_person_studio/photo07.jpg", "photoAlt"  :"", "photoPosition"  :"", "order": 4},
       {"id"   : "", "photoURL"  :"/images/3_person_studio/photo08.jpg", "photoAlt"  :"", "photoPosition"  :"", "order": 9},
       {"id"   : "", "photoURL"  :"/images/3_person_studio/photo09.jpg", "photoAlt"  :"", "photoPosition"  :"bottom", "order": 10},
-      {"id"   : "", "photoURL"  :"/images/3_person_studio/photo10", "photoAlt"  :"", "photoPosition"  :"bottom", "order": 11},
+      {"id"   : "", "photoURL"  :"/images/3_person_studio/photo10.jpg", "photoAlt"  :"", "photoPosition"  :"bottom", "order": 11},
       {"id"   : "", "photoURL"  :"/images/3_person_studio/photo11.jpg", "photoAlt"  :"", "photoPosition"  :"", "order": 5},
         {"id"   : "", "photoURL"  :"/images/3_person_studio/photo12.jpg", "photoAlt"  :"", "photoPosition"  :"", "order": 5}
       
@@ -68,10 +68,10 @@
     "Studio se nalazi na prvom spratu porodične kuće, a pristup je omogućen stepenicama."],
     
     "amenities"  : [  
-      "Kompaktan, ali funkcionalan – studio sadrži sve što vam je potrebno za prijatan boravak." ,
+      "Kompaktan, ali funkcionalan: Studio sadrži sve što vam je potrebno za prijatan boravak." ,
     "Spavaći dio: Udoban francuski ležaj, kauč na razvlačenje, a za porodice sa malom djecom na zahtjev je dostupan i dečiji krevetac. Tu su i posteljina, orman i noćni stočići. ",
     "Kuhinja: Opremljena frižiderom, pločom za kuvanje, električnim kuvalom, priborom za jelo i kuvanje, kao i stolom za ručavanje – sve što vam je potrebno  za pripremu i uživanje u obrocima",
-    "Balkon sa pogledom : Iz studija se izlazi na prostrani balkon, gde možete uživati u jutarnjoj kafi ili opuštajućem zalasku sunca. Pogled se pruža na vrt, planinu i dvorište. Balkon ima prostor za sjedenje i sušilicu za veš."],
+    "Balkon sa pogledom : Iz studija se izlazi na prostrani balkon, gdje možete uživati u jutarnjoj kafi ili opuštajućem zalasku sunca. Pogled se pruža na vrt, planinu i dvorište. Balkon ima prostor za sjedenje i sušilicu za veš."],
     
   
 
@@ -146,22 +146,22 @@
     "Kablovska TV – Za večernje opuštanje nakon dana provedenog na plaži.",
     "Sef –  Sigurno odlaganje vrijednih stvari.",
 
-    "Besplatan parking u dvorištu – Bez dodatnih troškova, u dvorištu.",
+    "Besplatan parking u dvorištu – Bez dodatnih troškova.",
     "Igralište za decu – Bezbjedno i zabavno mesto za najmlađe, unutar samog objekta."
   ],
     
 
     
     
-    "introContent"   : ["Trokrevetna soba – Povoljan smještaj blizu plaže",
-    "Za parove i porodice koji žele jednostavan, ali udoban i pristupačan smještaj blizu plaže.",
+    "introContent"   : ["Trokrevetna soba – Povoljan smještaj blizu plaže.",
+    "Za parove i porodice koji žele jednostavan, udoban i pristupačan smještaj u blizini plaže.",
     "Soba se nalazi na prvom spratu porodične kuće, a pristup je omogućen stepenicama."],
     
     "amenities"  : [
-     "Udoban i praktičan prostor –  sve što vam je potrebno za opuštajući boravak",   
-    "Spavaći dio  –  sa francuskim ležajem i kaučem na razvlačenje.",
-    "Privatno kupatilo (van sobe, ali samo za vas) – potpuno opremljeno, uz punu privatnost.",
-    "Balkon sa pogledom na vrt, planinu, dvorište i bočnim pogledom na more – za jutarnju kafu ili večernji predah.",
+     "Udoban i praktičan prostor – sve što vam je potrebno za opuštajući boravak",   
+    "Spavaći dio – sa francuskim ležajem i kaučem na razvlačenje.",
+    "Privatno kupatilo – van sobe, ali samo za vas, potpuno opremljeno, uz punu privatnost.",
+    "Balkon – sa pogledom na vrt, planinu, dvorište i bočnim pogledom na more – za jutarnju kafu ili večernji predah.",
     "Osnovni kuhinjski elementi – Frižider, ploča za kuvanje i pribor za jelo za pripremu laganih obroka."],
     
     
@@ -232,14 +232,14 @@
    "metaKeywords"  : ["trokrevetna soba Bečići", "smeštaj blizu plaže", "povoljan apartman Bečići", "letovanje smeštaj", "soba sa balkonom", "privatni smeštaj Bečići", "porodični odmor", "letovanje uz more", "apartman za parove", "soba sa sopstvenim kupatilom", "soba sa kuhinjom", "povoljan smeštaj Crna Gora","apartmani na moru","apartmani sa parkingom","smještaj za 2 odraslih + 2 djece","soba sa terasom", "trokrevetna soba Bečići" ],
     
     "metaDescription"  :"Povoljan i udoban smeštaj za 2 odraslih + 2 djece. Privatno kupatilo i kuhinja, balkon sa pogledom i besplatan parking na raspolaganju. Djecije igralište u sklopu objekta. Odlican izbor za vaš odmor!",
-    "introContent"   :["Trokrevetna soba sa sopstvenim kupatilom i kuhinjom van sobe – Pristupačan smještaj blizu plaže",
+    "introContent"   :["Trokrevetna soba sa sopstvenim kupatilom i kuhinjom van sobe – Pristupačan smještaj blizu plaže.",
     
     "Soba se nalazi na prvom spratu porodične kuće, a pristup je omogućen stepenicama."],
     
-    "amenities"  :[ "Francuski ležaj + kauč na razvlačenje.",
-    "Sopstvena kuhinja (van sobe, ali se ne dijeli ni sa kim!)  – Opremljena svim potrebnim aparatima (frižider, ploča za kuvanje, rerna) i posudjem. Za goste koji žele prakticnost, ustedu i fleksibilnost u obrocima. ",
-    "Sopstveno kupatilo (van sobe, ali samo za vas!) – Potpuno opremljeno, sa peškirima i osnovnim higijenskim potrepštinama.",
-    "Balkon sa pogledom – Za uživanje u jutarnjoj kafi sa pogledom na vrt, planinu i bočnim pogledom na more. Tenda na terasi za dodatnu zaštitu od sunca.",
+    "amenities"  :[ "Lezajevi: Francuski ležaj + kauč na razvlačenje.",
+    "Sopstvena kuhinja: van sobe, ali se ne dijeli ni sa kim. Opremljena svim potrebnim aparatima (frižider, ploča za kuvanje, rerna) i posudjem. Za goste koji žele prakticnost, ustedu i fleksibilnost u obrocima. ",
+    "Sopstveno kupatilo: van sobe, ali samo za vas. Potpuno opremljeno, sa peškirima i osnovnim higijenskim potrepštinama.",
+    "Balkon sa pogledom: Za uživanje u jutarnjoj kafi sa pogledom na vrt, planinu i bočnim pogledom na more. Tenda na terasi za dodatnu zaštitu od sunca.",
     "Napomena: Kupatilo i kuhinja se ne nalaze u sklopu sobe – morate proći kroz hodnik da biste do njih došli, ali ih koristite isključivo vi. Ovaj raspored omogućava više prostora i udobnosti u samoj sobi, bez mirisa kuvanja i buke." ],
     
     
@@ -315,7 +315,7 @@
     
     "amenities"  :[ 
     
-   "Kompaktan i funkcionalan studio – Manje kvadrature, ali opremljen svime što je potrebno za udoban boravak.",
+   "Kompaktan i funkcionalan studio: Manje kvadrature, ali opremljen svime što je potrebno za udoban boravak.",
     "Spavaći dio: Francuski ležaj - Za kvalitetan san i odmor nakon dana provedenog na plaži.",
     "Mini kuhinja: Frižider, ploča za kuvanje, rerna,  osnovni pribor za pripremu i serviranje obroka  – Praktično za brze i jednostavne obroke.",
     "Kupatilo: Kada, peškiri, toalet papir – Osnovno za svakodnevnu higijenu.",
@@ -426,9 +426,9 @@
     "reasonsToChoose"  :[
     "Blizina plaže – 3 minuta laganog hoda.",
     "Kompletno opremljen apartman – Svi sadržaji koji su vam potrebni za udoban boravak.",
-     "Klima-uređaj u obe prostorije.",
+     "Klima-uređaj –  u obe prostorije.",
     "Besplatan WiFi – za zabavu i komunikaciju.",
-    "TV sa kablovskim kanalima.",
+    "TV – sa kablovskim kanalima.",
     "Sef –  za sigurno čuvanje vrijednih stvari.",
 
     "Prostrana terasa sa ležaljkama – za opuštanje sa pogledom na okolinu.",
@@ -489,29 +489,22 @@
       {"id"   : "", "photoURL"  :"/images/3_person_apartment_3rd_floor/photo125.jpg", "photoAlt"  :"", "photoPosition"  :"", "order": 10},
        {"id"   : "", "photoURL"  :"/images/3_person_apartment_3rd_floor/photo126.jpg", "photoAlt"  :"", "photoPosition"  :"", "order": 5},
       {"id"   : "", "photoURL"  :"/images/3_person_apartment_3rd_floor/photo127.jpg", "photoAlt"  :"", "photoPosition"  :"", "order": 6},
-      {"id"   : "", "photoURL"  :"/images/3_person_apartment_3rd_floor/photo128.jpg", "photoAlt"  :"", "photoPosition"  :"", "order": 7},
-      {"id"   : "", "photoURL"  :"/images/3_person_apartment_3rd_floor/photo129.jpg", "photoAlt"  :"", "photoPosition"  :"bottom", "order": 1},
+     
+     
       {"id"   : "", "photoURL"  :"/images/3_person_apartment_3rd_floor/photo130.jpg", "photoAlt"  :"", "photoPosition"  :"", "order": 9},
       {"id"   : "", "photoURL"  :"/images/3_person_apartment_3rd_floor/photo131.jpg", "photoAlt"  :"", "photoPosition"  :"", "order": 10},
        {"id"   : "", "photoURL"  :"/images/3_person_apartment_3rd_floor/photo132.jpg", "photoAlt"  :"", "photoPosition"  :"", "order": 5},
       {"id"   : "", "photoURL"  :"/images/3_person_apartment_3rd_floor/photo133.jpg", "photoAlt"  :"", "photoPosition"  :"", "order": 6},
       {"id"   : "", "photoURL"  :"/images/3_person_apartment_3rd_floor/photo134.jpg", "photoAlt"  :"", "photoPosition"  :"", "order": 7},
-      {"id"   : "", "photoURL"  :"/images/3_person_apartment_3rd_floor/photo135.jpg", "photoAlt"  :"", "photoPosition"  :"bottom", "order": 1},
-      {"id"   : "", "photoURL"  :"/images/3_person_apartment_3rd_floor/photo136.jpg", "photoAlt"  :"", "photoPosition"  :"", "order": 9},
+    
       {"id"   : "", "photoURL"  :"/images/3_person_apartment_3rd_floor/photo137.jpg", "photoAlt"  :"", "photoPosition"  :"", "order": 10},
        {"id"   : "", "photoURL"  :"/images/3_person_apartment_3rd_floor/photo138.jpg", "photoAlt"  :"", "photoPosition"  :"", "order": 5},
       {"id"   : "", "photoURL"  :"/images/3_person_apartment_3rd_floor/photo139.jpg", "photoAlt"  :"", "photoPosition"  :"", "order": 6},
       {"id"   : "", "photoURL"  :"/images/3_person_apartment_3rd_floor/photo140.jpg", "photoAlt"  :"", "photoPosition"  :"", "order": 7},
       {"id"   : "", "photoURL"  :"/images/3_person_apartment_3rd_floor/photo141.jpg", "photoAlt"  :"", "photoPosition"  :"bottom", "order": 1},
       {"id"   : "", "photoURL"  :"/images/3_person_apartment_3rd_floor/photo142.jpg", "photoAlt"  :"", "photoPosition"  :"", "order": 9},
-      {"id"   : "", "photoURL"  :"/images/3_person_apartment_3rd_floor/photo143.jpg", "photoAlt"  :"", "photoPosition"  :"", "order": 10},
-       {"id"   : "", "photoURL"  :"/images/3_person_apartment_3rd_floor/photo144.jpg", "photoAlt"  :"", "photoPosition"  :"", "order": 5},
-      {"id"   : "", "photoURL"  :"/images/3_person_apartment_3rd_floor/photo145.jpg", "photoAlt"  :"", "photoPosition"  :"", "order": 6},
-      {"id"   : "", "photoURL"  :"/images/3_person_apartment_3rd_floor/photo146.jpg", "photoAlt"  :"", "photoPosition"  :"", "order": 7},
-      {"id"   : "", "photoURL"  :"/images/3_person_apartment_3rd_floor/photo147.jpg", "photoAlt"  :"", "photoPosition"  :"bottom", "order": 1},
-      {"id"   : "", "photoURL"  :"/images/3_person_apartment_3rd_floor/photo148.jpg", "photoAlt"  :"", "photoPosition"  :"", "order": 9},
-      {"id"   : "", "photoURL"  :"/images/3_person_apartment_3rd_floor/photo149.jpg", "photoAlt"  :"", "photoPosition"  :"", "order": 10}
-      
+      {"id"   : "", "photoURL"  :"/images/3_person_apartment_3rd_floor/photo143.jpg", "photoAlt"  :"", "photoPosition"  :"", "order": 10}
+   
       
       
       
@@ -1176,7 +1169,7 @@
     
    "introContent"  : [
     "Apartman u prizemlju, za porodice ili grupe do 4 osobe. ",
-    "Ima dve spavaće sobe – u jednoj se nalaze spojeni kreveti za jednu osobu i TV sa kablovskim kanalima, a druga soba sadrži dvosjed na razvlačenje. Obe sobe su klimatizovane i imaju izlaz na terasu.",
+    "Ima dvije spavaće sobe – u jednoj se nalaze spojeni kreveti za jednu osobu i TV sa kablovskim kanalima, a druga soba sadrži dvosjed na razvlačenje. Obe sobe su klimatizovane i imaju izlaz na terasu.",
     "Kuhinja je opremljena svim neophodnim aparatima i posuđem za pripremu obroka.",
     "Kupatilo sadrži tuš kabinu, peškire i osnovne higijenske potrepštine.",
     "Natkrivena terasa sa prostorom za sjedenje pruža prijatan pogled na baštu i dvorište."],
@@ -1194,10 +1187,10 @@
 
     
     "reasonsToChoose"  :  [
-      "Blizina plaže i svih sadržaja.",
+    
     "Apartman u prizemlju – pogodan za porodice sa djecom ili starije osobe.",
-    "Skromniji, ali funkcionalan smeštaj sa svim neophodnim sadržajima.",
-    "Odvojene spavaće sobe sa klima-uređajem i izlazom na terasu.",
+    "Skromniji, ali funkcionalan smeštaj – sa svim neophodnim sadržajima.",
+    "Odvojene spavaće sobe – sa klima-uređajem i izlazom na terasu.",
    
     "Natkrivena terasa sa pogledom na baštu – idealno mesto za jutarnju kafu ili večernji odmor.",
    

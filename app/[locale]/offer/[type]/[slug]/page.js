@@ -21,9 +21,37 @@ export async function generateMetadata({ params }) {
   const apartment = apartments.find(a => a.pageURL === slug);
 
   return {
-    title: apartment?.pageTitle,
+    title: apartment?.name,
     description: apartment?.metaDescription,
-    keywords: apartment?.metaKeywords?.join(', ')
+    keywords: apartment?.metaKeywords?.join(', '),
+
+twitter: {
+  card: 'summary_large_image',
+  title: apartment?.name,
+  description: apartment?.metaDescription,
+  images: [apartment?.images]
+},
+alternates: {
+  canonical: `https://yourdomain.com/offer/${apartment?.slug}`
+},
+robots: {
+  index: true,
+  follow: true,
+  googleBot: {
+    index: true,
+    follow: true
+  }
+},
+other: {
+  'application/ld+json': JSON.stringify({
+    '@context': 'https://schema.org',
+    '@type': 'LodgingBusiness',
+    name: apartment?.name,
+    description: apartment?.metaDescription,
+    image: apartment?.image
+  })
+}
+
   };
 }
 
