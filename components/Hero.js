@@ -16,7 +16,7 @@ const Hero = () => {
   <Box shadow="lg"  position="relative" h="xl" >
  {/* IMAGE */}
   <NextImage
-    src="/images/yard/outdoors-splendid-view.jpg"
+    src="/images/yard/outdoors-view.jpg"
     alt="Beautiful outdoor view"
     fill
     priority

@@ -107,9 +107,9 @@
     "key": "offer", 
     "label": "Offer",
     "items": [
-      { "key": "studios","label": "Studios", "href": "/studios" },
-      {  "key": "apartments","label": "Apartments", "href": "/apartments" },
-      {  "key": "rooms","label": "Rooms", "href": "/rooms" },
+      { "key": "studios","label": "Studios", "href": "studios" },
+      {  "key": "apartments","label": "Apartments", "href": "apartments" },
+      {  "key": "rooms","label": "Rooms", "href": "rooms" },
       {  "key": "viewAll","label": "View all", "href": "" }
     ]
 
@@ -446,7 +446,7 @@
   
   "items": [
       {"id"   : "", "photoURL"  :"/images/yard/house.jpg", "photoAlt"  :"", "photoPosition"  :"", "order": 1},
- {"id"   : "", "photoURL"  :"/images/yard/outdoors-splendid-view.jpg", "photoAlt"  :"", "photoPosition"  :"", "order": 2},
+ {"id"   : "", "photoURL"  :"/images/yard/outdoors-view.jpg", "photoAlt"  :"", "photoPosition"  :"", "order": 2},
        {"id"   : "", "photoURL"  :"/images/yard/toys.jpg", "photoAlt"  :"", "photoPosition"  :"", "order": 3},
  {"id"   : "", "photoURL"  :"/images/yard/for-kids.jpg", "photoAlt"  :"", "photoPosition"  :"", "order": 4},
 
