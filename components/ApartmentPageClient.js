@@ -62,12 +62,17 @@ export default   function ApartmentPageClient({layout}) {
     parkingFacilities: {
       icon: IconFreeParking,
       label: 'Parking',
-      additionalInfo: 'Free private parking is possible on site (reservation is needed).'
+      additionalInfo: {en :'Free private parking is possible on site (reservation is needed).',
+  sr: 'Besplatan parking u okviru objekta (rezervacija je obavezna).'}
     },
     internet: {
       icon: IconFreeWifi,
       label: 'Internet',
-      additionalInfo: 'WiFi is available in the rooms and is free of charge.'
+      additionalInfo: {en:'WiFi is available in the rooms and is free of charge.',
+        sr:"Bežični internet dostupan u sobama besplatno."
+
+
+      }
     }
   };
   const [expandedSections, setExpandedSections] = useState({});

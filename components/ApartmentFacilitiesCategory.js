@@ -1,7 +1,7 @@
 'use client'
 
 import { useTranslations} from 'next-intl';
-
+import { useLocale } from 'next-intl';
 import { HStack, Button,  Span,Box, Heading, VStack ,Text,Grid,} from '@chakra-ui/react';
 import { MdOutlineKeyboardArrowDown } from "react-icons/md";
 import { MdOutlineKeyboardArrowUp } from "react-icons/md";
@@ -10,7 +10,7 @@ import { FaRegCheckCircle } from "react-icons/fa";
 
 export default function ApartmentFacilitiesCategory ({apartment, extraSectionData,expandedSections, sectionIcons, toggleSection }){
  const t = useTranslations ("apartmentsDescription");
- 
+ const locale = useLocale();
     const renderSection = (sectionKey) => {
     const sectionData = apartment[sectionKey];
     const extraInfo = extraSectionData[sectionKey];
@@ -48,7 +48,7 @@ export default function ApartmentFacilitiesCategory ({apartment, extraSectionDat
             <Box>
                <Text fontWeight="semibold">{extraInfo.label}</Text>
             <Text fontSize="sm" color="gray.600">
-              {extraInfo.additionalInfo}
+              {extraInfo.additionalInfo?.[locale]}
             </Text>
             </Box>
           </HStack>

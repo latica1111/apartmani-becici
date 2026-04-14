@@ -1,5 +1,5 @@
 
-
+import NextImage from 'next/image';
 import { useTranslations } from 'next-intl';
 import { Box, VStack, Text, Heading,   AbsoluteCenter,} from "@chakra-ui/react"
 import HeroBtnGroup from './HeroBtnGroup';
@@ -13,7 +13,18 @@ const Hero = () => {
   return (
     <>
    
-  <Box shadow="lg"  position="relative" h="xl" bgImage="url(/images/yard/outdoors-splendid-view.jpg)" backgroundPosition="center" bgSize="cover" bgRepeat="no-repeat">
+  <Box shadow="lg"  position="relative" h="xl" >
+ {/* IMAGE */}
+  <NextImage
+    src="/images/yard/outdoors-splendid-view.jpg"
+    alt="Beautiful outdoor view"
+    fill
+    priority
+    style={{ objectFit: 'cover' }}
+    quality={70}
+  />
+
+
 {/* NAVBAR OVERLAY */}
   <Box
     position="absolute"

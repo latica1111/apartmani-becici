@@ -41,7 +41,7 @@ export async function generateMetadata({ params }) {
       title: t('title'),
       description:t('description'),
     },
-    metadataBase:new URL('http://localhost:3000/'), //https://apartmani-becici.vercel.app
+    metadataBase:new URL('http://apartmani-becici.vercel.app/'), //https://apartmani-becici.vercel.app
     alternates: {
     canonical: locale === 'sr' ? '/sr' : '/',
     languages: {

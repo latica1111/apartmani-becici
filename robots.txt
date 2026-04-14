@@ -1,4 +1,4 @@
  User-agent: *
 Disallow:
 
-Sitemap: https://mojsajt.com/sitemap.xml
+Sitemap: https://apartmani-becici.vercel.app/sitemap.xml
