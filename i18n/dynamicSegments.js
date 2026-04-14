@@ -21,9 +21,9 @@ export const dynamicSegments = {
       '3-person-apartment-with-2-terraces-on-4th-floor':{en:'sunset-duo-II', sr:"sunset-duo-II"} ,
       'apartment-for-3-with-two-terraces-on-3rd-floor' :{en:'sunset-duo-I', sr:'sunset-duo-I'} ,
       'apartment-for-4-with-covered-terrace-on-4th-floor' :{en:'sunshine', sr:'sunshine'} ,
-      'apartment-for-3-on-4th-floor' :{en:'apartment-for-3-on-4th-floor',sr:'sunrise-II'},
-      'apartment-for-4-on-3rd-floor-with-open-terrace' :{en:'apartment-for-4-on-3rd-floor-with-open-terrace',sr:'primavera-sa-otvorenom-terasom'} ,
-      'ground-floor-apartment-for-4-people' :{en:'ground-floor-apartment-for-4-people',sr:'family-commfort' },
+      'apartment-for-3-on-4th-floor' :{en:'sunrise-II',sr:'sunrise-II'},
+      'apartment-for-4-on-3rd-floor-with-open-terrace' :{en:'citrus',sr:'citrus'} ,
+      'ground-floor-apartment-for-4-people' :{en:'family-comfort',sr:'family-comfort' },
       'ground-floor-apartment-for-5-people' :{en:'ground-floor-apartment-for-5-people', sr:'apartman-za-5-osoba-u-prizemlju'} ,
 
   },

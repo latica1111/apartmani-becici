@@ -1201,7 +1201,7 @@
     ],
     "metaDescription" :"Apartman za 4 osobe u Bečićima sa terasom. 2 odvojene spavace sobe, kuhinja, kupatilo, terasa. 3 minuta do plaže. Besplatan parking. Djecije igralište u sklopu objekta.",
    "metaKeywords"  : ["apartman u prizemlju Bečići", "smještaj za 4 osobe u Bečićima", "apartman za 4 osobe Bečići"],
-    "pageURL"  : "family-commfort",
+    "pageURL"  : "family-comfort",
     "realName":"apartman-za-4-osobe-u-prizemlju",
     "title"  : "Apartman za 4 osobe u prizemlju"
     
@@ -1256,7 +1256,7 @@
       "freeWiFi":{"label":"Besplatan Wifi", "icon":"IconFreeWifi"} ,
       "safe":{"label":"Sef", "icon":"IconSafe"},
       "freeParking":{"label":"Besplatan parking",  "icon": "IconFreeParking"} ,
-      
+         "sunLoungers":{"label":"Ležaljke za sunčanje", "icon":"IconSunLounger"},
       "doubleBed" :{"label":"Double bed", "icon":""},
       "singleBed" :{"label":"Single bed", "icon":""},
       "sofaBed":{"label":"Sofa bed", "icon":""}, 
@@ -1285,7 +1285,7 @@
       
       "outdoorDiningArea":{"label":"Outdoor dining area", "icon":""} , 
       "clothesDryer":{"label":"Clothes dryer", "icon":""},
-      "sunLoungers":{"label":"Ležaljke za sunčanje", "icon":"iconSunLounger"},
+   
       "hairdryer":{"label":"Hairdryer", "icon":""} ,
       "cleaningProducts":{"label":"Cleaning products", "icon":""} ,
       "ironingFacilities" :{"label":"Ironing facilities", "icon":""}

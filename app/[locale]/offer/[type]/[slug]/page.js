@@ -7,7 +7,52 @@ import { routing } from '@/i18n/routing';
 import { setRequestLocale } from 'next-intl/server';
 export const revalidate = 0; // full static, generiše se jednom u build-u
 export async function generateStaticParams() {
-  return routing.locales.map((locale) => ({ locale }));
+  const locales = routing.locales;
+
+  const apartments = [
+    'golden',
+    'sunrise-I',
+    'primavera',
+    'sunset-duo-II',
+    'sunset-duo-I',
+    'sunshine',
+    'sunrise-II',
+    'citrus',
+    'family-comfort'
+  ];
+
+  const studios = [
+    'studio-classic',
+    'vanilla-sky',
+  ];
+
+  const rooms = [
+    'vanilla-dreams',
+    'sienna',
+  ];
+
+  return locales.flatMap((locale) => [
+    // ✅ apartments
+    ...apartments.map((slug) => ({
+      locale,
+      type: 'apartments',
+      slug,
+    })),
+
+    // ✅ studios
+    ...studios.map((slug) => ({
+      locale,
+      type: 'studios',
+      slug,
+    })),
+
+    // ✅ rooms
+    ...rooms.map((slug) => ({
+      locale,
+      type: 'rooms',
+      slug,
+    })),
+  ]);
 }
 export async function generateMetadata({ params }) {
   const { slug, locale, type } = await params;

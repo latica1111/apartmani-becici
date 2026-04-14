@@ -39,6 +39,7 @@ import ApartmentFacilitiesCategory from '@/components/ApartmentFacilitiesCategor
 import ApartmentRelated from '@/components/ApartmentRelated';
 import ContactRhf from './ContactRhf';
 import HeroImage from './HeroImage';
+
 export default   function ApartmentPageClient({layout}) {
   const { locale, type, slug } = useParams();
   console.log('Server params.type:', type);
@@ -303,10 +304,7 @@ button:{
 </GridItem>
 </Grid>
 
-      {/* Meta Data */}
-      <meta name="description" content={apartment.metaDescription} />
-      <meta name="keywords" content={Array.isArray(apartment.metaKeywords) ? apartment.metaKeywords.join(', ') : ''} />
-      <meta name="title" content={apartment.pageTitle} />
+     
     </VStack>
 </Box>
     </>

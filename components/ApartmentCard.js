@@ -34,9 +34,9 @@ const typeSlug = t(`dynamicSlugs.type.${apt.type}`);
   <Text fontSize="sm"  display="-webkit-box"
   overflow="hidden"
   textOverflow="ellipsis"
-  WebkitLineClamp="6"
+  WebkitLineClamp={{base:"10",sm:"8", md:"6"}}
   whiteSpace="nowrap"
-  lineClamp="6"
+  lineClamp={{base:"10",sm:"8", md:"6"}}
   WebkitBoxOrient="vertical" mb="2" color="gray.600">
     {apt.shortDescription}
   </Text>
