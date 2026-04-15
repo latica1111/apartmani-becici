@@ -13,7 +13,7 @@ const t = useTranslations("home")
 <>
 <Drawer.Root isOpen={isOpen} placement="right" onClose={onClose}>
       <Drawer.Trigger asChild>
-        <Button variant="outline" size="sm" color="#fff">
+        <Button variant="outline" size="sm" color="#fff" _expanded={{bg:"transparent", color:"var(--primary)",filter: "brightness(2) contrast(.6)", borderColor:"var(--primary)" }}>
          <LuMenu />
         </Button>
       </Drawer.Trigger>

@@ -101,7 +101,7 @@ console.log('normalizedType:', normalizedType);
 <HeroImage pageKey={jsonKey} />
 
 
-<VStack px={{base:"6", md:"8", lg:"12"}} py={{base:"12",md:"16",lg:"24"}} shadow="inset" maxW="1200px" mx="auto" alignItems="flex-start">
+<VStack px={{base:"6", md:"8", lg:"12"}} py={{base:"12",md:"16",lg:"24"}} maxW="1200px" mx="auto" alignItems="flex-start">
   <Breadcrumbs />
 <Heading>
  {t(`accommodationTypeData.${jsonKey}.heading`)}

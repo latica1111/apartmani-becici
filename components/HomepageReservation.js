@@ -66,27 +66,27 @@ const t = useTranslations("home.contactSection");
     <Heading>{t("contactUs")}</Heading>
    <HStack gap={3} as={Link} href="tel:+38267748403" >
      <Box bg="rgba(var(--primary-rgb),0.1)"  transition="all 0.4s ease"
-      _hover={{bg: "rgba(var(--primary-rgb),0.2)",}} p="2" border="1px solid" borderColor="rgba(var(--primary-rgb),0.22)"
+      _hover={{bg: "rgba(var(--primary-rgb),0.2)",}} p="2" border="1px solid" borderColor="rgba(var(--primary-rgb),0.10)"
     borderRadius="sm"><MdOutlinePhone width={18} height={18} /></Box> 
-    <Text  fontWeight="500">+382 67 748 403</Text>
+    <Text  fontWeight="500" _hover={{color:"var(--primary)"}}>+382 67 748 403</Text>
 </HStack>
 <HStack gap={3} as={Link} href="tel:+38267556512">
   <Box p="2" transition="all 0.4s ease"
     bg="rgba(var(--primary-rgb),0.1)" _hover={{
     bg: "rgba(var(--primary-rgb),0.2)",
    
-  }} border="1px solid" borderColor="rgba(var(--primary-rgb),0.22)"
+  }} border="1px solid" borderColor="rgba(var(--primary-rgb),0.10)"
     borderRadius="sm" ><MdOutlinePhone width={18} height={18} /></Box>
-  <Text  fontWeight="500">+382 67 556 512</Text>
+  <Text  fontWeight="500" _hover={{color:"var(--primary)"}}>+382 67 556 512</Text>
 </HStack>
 <HStack gap={3}as={Link} href="mailto:apartmanibecici99@gmail.com">
   <Box p="2" transition="all 0.4s ease"
     bg="rgba(var(--primary-rgb),0.1)" _hover={{
     bg: "rgba(var(--primary-rgb),0.2)",
    
-  }} border="1px solid" borderColor="rgba(var(--primary-rgb),0.22)"
+  }} border="1px solid" borderColor="rgba(var(--primary-rgb),0.10)"
     borderRadius="sm" ><MdOutlineMail width={18} height={18} /></Box>
-  <Text  fontWeight="500">apartmanibecici99@gmail.com</Text>
+  <Text  fontWeight="500" _hover={{color:"var(--primary)"}}>apartmanibecici99@gmail.com</Text>
 </HStack>
 
 </VStack>
@@ -100,11 +100,11 @@ const t = useTranslations("home.contactSection");
     bg: "rgba(var(--primary-rgb),0.2)",
    
   }}
-    borderRadius="sm" border="1px solid" borderColor="rgba(var(--primary-rgb),0.22)"
+    borderRadius="sm" border="1px solid" borderColor="rgba(var(--primary-rgb),0.10)"
   ><MdOutlineLocationOn width={18} height={18} /></Box>
-  <VStack align="flex-start" gap={0}>
-    <Link href="https://www.google.com/maps/place/Apartmani+Becici/@42.2827175,18.8671467,17z/data=!3m1!4b1!4m6!3m5!1s0x134dd4709fb6168f:0xc0187b98b31208e1!8m2!3d42.2827175!4d18.8671467!16s%2Fg%2F11c6w0dz07?hl=en&entry=ttu&g_ep=EgoyMDI2MDQwNS4wIKXMDSoASAFQAw%3D%3D" fontSize="sm"  className="footer-link" target="_blank" rel="noopener noreferrer" display="flex" flexDirection="column">
-    <Span display="block">{t("addressSection.street")}</Span>
+  <VStack align="flex-start" gap={0} _hover={{color:"var(--primary)"}}>
+    <Link href="https://www.google.com/maps/place/Apartmani+Becici/@42.2827175,18.8671467,17z/data=!3m1!4b1!4m6!3m5!1s0x134dd4709fb6168f:0xc0187b98b31208e1!8m2!3d42.2827175!4d18.8671467!16s%2Fg%2F11c6w0dz07?hl=en&entry=ttu&g_ep=EgoyMDI2MDQwNS4wIKXMDSoASAFQAw%3D%3D" fontSize="sm"  target="_blank" rel="noopener noreferrer" display="flex" flexDirection="column">
+    <Span display="block"  >{t("addressSection.street")}</Span>
     <Span display="block">{t("addressSection.city")}</Span>
     </Link>
    
@@ -134,10 +134,10 @@ target="_blank"
     bg="rgba(var(--primary-rgb),0.1)" _hover={{
     bg: "rgba(var(--primary-rgb),0.2)",
    
-  }} border="1px solid" borderColor="rgba(var(--primary-rgb),0.22)"
+  }} border="1px solid" borderColor="rgba(var(--primary-rgb),0.10)"
     borderRadius="sm" 
   >  <AiOutlineFacebook width={18} height={18} fill="var(--primary)"/> </Box>
-                  <Text fontSize="sm">{t("socialSection.facebook")}</Text>
+                  <Text fontSize="sm" _hover={{color:"var(--primary)"}}>{t("socialSection.facebook")}</Text>
                 </HStack>
 
                 <HStack as={Link} href="https://instagram.com/"
@@ -154,9 +154,9 @@ target="_blank"
     bg: "rgba(var(--primary-rgb),0.2)",
    
   }}
-    borderRadius="sm" border="1px solid" borderColor="rgba(var(--primary-rgb),0.22)"
+    borderRadius="sm" border="1px solid" borderColor="rgba(var(--primary-rgb),0.10)"
   > <AiOutlineInstagram width={18} height={18} fill="var(--primary) !important" /></Box>
-                  <Text fontSize="sm">
+                  <Text fontSize="sm" _hover={{color:"var(--primary)"}}>
                     {t("socialSection.instagram")}
                   </Text>
                 </HStack>

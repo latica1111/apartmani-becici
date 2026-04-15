@@ -69,7 +69,7 @@ const isVertical = layout === "vertical";
 </Stack>
   {/* 👇 ERROR */}
   {errors?.checkIn && (
-    <HStack fontSize="xs" color="#ef4444" mt="1" pl={{lg:"120px"}} fontWeight="500" lineHeight="1rem" gap="0.5">
+    <HStack fontSize="xs" color="#ef4444" mt="1"  pl={layout === "vertical" ? 0 : { lg: "120px" }} fontWeight="500" lineHeight="1rem" gap="0.5">
      <RiErrorWarningLine /> {errors.checkIn.message}
     </HStack>
   )}
@@ -119,7 +119,7 @@ const isVertical = layout === "vertical";
   </Stack> 
   {/* ERROR */}
   {errors?.checkOut && (
-    <HStack fontSize="xs" color="#ef4444" mt="1" pl={{lg:"120px"}} fontWeight="500" lineHeight="1rem" gap="0.5">
+    <HStack fontSize="xs" color="#ef4444" mt="1"  pl={layout === "vertical" ? 0 : { lg: "120px" }} fontWeight="500" lineHeight="1rem" gap="0.5">
       <RiErrorWarningLine /> {errors.checkOut.message}
     </HStack>
   )}

@@ -143,7 +143,7 @@ console.log("ITEM:", featuredInfoMap[key]);
 
 
 <Flex alignItems="center"  fontWeight="600" fontSize="sm"  borderColor="var(--primary)" border="1px solid"
-  color="var(--primary)" height="2.25rem" minWidth="2.25rem" px=".875rem" rounded="sm" justifyContent="flex-start" transition="all .4 ease"
+  color="var(--primary)" height="2.25rem" minWidth="2.25rem" px="2.5rem" rounded="sm" justifyContent="flex-start" transition="all .4 ease"
   _hover={{
     bg: "rgba(var(--primary-rgb), .3)",
    

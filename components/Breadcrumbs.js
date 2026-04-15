@@ -50,7 +50,7 @@ export default function Breadcrumbs() {
       <Breadcrumb.List gap={1} flexWrap="wrap">
         {/* HOME */}
         <Breadcrumb.Item>
-          <Breadcrumb.Link as={Link} href="/">
+          <Breadcrumb.Link as={Link} href="/" fontSize="md" color="#52525b">
             {/* tvoje SVG home ikonice */}
            <MdOutlineHome />
           </Breadcrumb.Link>

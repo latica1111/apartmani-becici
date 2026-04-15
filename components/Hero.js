@@ -52,7 +52,7 @@ const Hero = () => {
                )}
               
               <Heading fontSize={{ base: "3xl", sm: "4xl", md: "5xl" }} textAlign="center"   fontWeight="600" lineHeight="shorter" mb="5" mt={{base:"2", sm:"3"}} >{t('heroTitle')}</Heading>
-              <Text   maxW="600px"  fontSize="md" color="rgba(255,255,255,0.85)"
+              <Text   maxW="500px"  fontSize="md" color="rgba(255,255,255,0.85)"
   opacity="0.85" mb="5" lineHeight="tall" textAlign="center" >{t('heroText')}</Text>
           
     <HeroBtnGroup rawData={rawData} />

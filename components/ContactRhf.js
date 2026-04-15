@@ -147,7 +147,7 @@ const t = useTranslations('home.contactPage.contactForm');
                   size="sm"
                   variant="outline"
                   borderRadius="sm"
-                  shadow="sm"
+                  shadow="xs"
                   _hover={{ bg: "gray.100" }}
                 >
                   <LuMinus />
@@ -172,7 +172,7 @@ const t = useTranslations('home.contactPage.contactForm');
                   size="sm"
                   variant="outline"
                 borderRadius="sm"
-                  shadow="sm"
+                  shadow="xs"
                   _hover={{ bg: "gray.100" }}
                 >
                   <LuPlus />
@@ -226,7 +226,7 @@ const t = useTranslations('home.contactPage.contactForm');
                   size="sm"
                   variant="outline"
                   borderRadius="sm"
-                  shadow="sm"
+                  shadow="xs"
                   _hover={{ bg: "gray.100" }}
                 >
                   <LuMinus />
@@ -251,7 +251,7 @@ const t = useTranslations('home.contactPage.contactForm');
                   size="sm"
                   variant="outline"
                   borderRadius="sm"
-                  shadow="sm"
+                  shadow="xs"
                   _hover={{ bg: "gray.100" }}
                 >
                   <LuPlus />
@@ -292,7 +292,7 @@ const t = useTranslations('home.contactPage.contactForm');
         
 
          </Stack> 
-           <Field.ErrorText pl={{lg:"120px"}}> <RiErrorWarningLine/>{errors.childrenAge?.message}</Field.ErrorText>
+           <Field.ErrorText  pl={layout === "vertical" ? 0 : { lg: "120px" }}> <RiErrorWarningLine/>{errors.childrenAge?.message}</Field.ErrorText>
         </Field.Root>
   )}   
  
@@ -311,7 +311,7 @@ const t = useTranslations('home.contactPage.contactForm');
          
           
        </Stack>
-        <Field.ErrorText pl={{lg:"72px"}}><RiErrorWarningLine/>{errors.name?.message}</Field.ErrorText>
+        <Field.ErrorText  pl={layout === "vertical" ? 0 : { lg: "72px" }}><RiErrorWarningLine/>{errors.name?.message}</Field.ErrorText>
        </Field.Root>
 
         <Field.Root invalid={!!errors.phone}   flexDirection="column" alignItems="flex-start">
@@ -324,7 +324,7 @@ const t = useTranslations('home.contactPage.contactForm');
          
 
           </Stack>
-           <Field.ErrorText pl={{lg:"72px"}}><RiErrorWarningLine/>{errors.phone?.message}</Field.ErrorText>
+           <Field.ErrorText  pl={layout === "vertical" ? 0 : { lg: "72px" }}><RiErrorWarningLine/>{errors.phone?.message}</Field.ErrorText>
         </Field.Root>
 
  <Field.Root invalid={!!errors.email} flexDirection="column" alignItems="flex-start" w="full">
@@ -344,7 +344,7 @@ const t = useTranslations('home.contactPage.contactForm');
   
 
     </Stack>      
-        <Field.ErrorText pl={{lg:"72px"}}><RiErrorWarningLine/>{errors.email?.message}</Field.ErrorText>
+        <Field.ErrorText  pl={layout === "vertical" ? 0 : { lg: "72px" }}  ><RiErrorWarningLine/>{errors.email?.message}</Field.ErrorText>
         </Field.Root>
 </VStack>
  

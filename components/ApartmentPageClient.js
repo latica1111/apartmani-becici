@@ -174,7 +174,7 @@ boxShadow:"sm",
 
 },
 label:{
-color:"var(--secondary)"
+
 },
 wrapper:{
 
@@ -190,8 +190,10 @@ button:{
  fontSize:"md" ,
  px:"5",
 
+},
+errorText:{
+  ps:"0"
 }
-
 }
 
  
@@ -293,7 +295,7 @@ button:{
 
 </VStack>
 <GridItem className="aside">
-<VStack gap="6" alignItems="flex-start" px={{base:"3",sm:"6",md:0}} py={{base:"6",sm:"8"}} bg="rgba(var(--secondary-rgb),.055)">
+<VStack gap="6" alignItems="flex-start" px={{base:"3",sm:"6",md:0}} py={{base:"6",sm:"8"}} bg="rgba(var(--secondary-rgb),.055)" shadow={{md:"xs"}}>
           <Heading className="section-name" ms={{md:"4"}}>{tContact("heading")}</Heading>
           <Text color="gray.600" fontSize="md" px={{md:"4"}} >{tContact("cta")}</Text>
           <Box className="contact-form " w={{base:"full",mdOnly:"75%"}} >

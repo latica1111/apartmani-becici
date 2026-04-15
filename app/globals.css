@@ -331,7 +331,7 @@ color:#71717a !important;
   padding-left:28px !important;
   font-size:14px !important;
   height:40px !important;
-  box-shadow: var(--chakra-shadows-sm) !important ;
+  box-shadow: var(--chakra-shadows-xs) !important ;
 
   width:100% ;
 }
