@@ -37,7 +37,7 @@ const isVertical = layout === "vertical";
    <Controller
             name="checkIn"
             control={control}
-            rules={{ required: "Check-in required" }}
+            rules={{ required: t('checkInDate.error') }}
             render={({ field }) => (
   <DatePicker 
    className={`custom-datepicker custom-popper ${errors?.checkIn ? 'error-datepicker' : ''}`}
@@ -87,7 +87,7 @@ const isVertical = layout === "vertical";
             name="checkOut"
             control={control}
             rules={{
-              required: "Check-out required",
+              required: t('checkOutDate.error'),
               validate: (value) =>
                 !selectedDate || value > selectedDate || "Must be after check-in",
             }}

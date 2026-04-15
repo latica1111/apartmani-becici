@@ -117,7 +117,7 @@ const t = useTranslations('home.contactPage.contactForm');
 <Field.Root invalid={!!errors.adultsNumber} >
   <Stack align={{md:"center"}} w="full" flexDirection={{ base: "row", sm: "row" }} flexWrap="wrap">
     <Field.Label minW={{base:"76px",lg:"64px"}} {...dataStyles.label}>
-      {t('adultsNmbr.label')} *
+      {t('adultsNmbr.label')} *  
     </Field.Label>
 
     <VStack align="flex-start">
@@ -281,7 +281,7 @@ const t = useTranslations('home.contactPage.contactForm');
     {...register("childrenAge", {
       validate: (value) => {
         if (childrenNumber > 0 && !value) {
-          return "Please enter children ages";
+          return t('childrenAge.error');
         }
 
         return true;
@@ -306,7 +306,7 @@ const t = useTranslations('home.contactPage.contactForm');
           <Field.Label {...dataStyles.label} minW="64px">{t('name.label')} *</Field.Label>
         
           <Input   {...register("name", {
-    required: "Name is required",
+    required: t('name.error'),
   })} placeholder={t('name.placeholder')} px="3" {...dataStyles.input}/>
          
           
@@ -334,10 +334,10 @@ const t = useTranslations('home.contactPage.contactForm');
           <Field.Label {...dataStyles.label} minW="64px">{t('email.label')}</Field.Label>
        
           <Input {...register("email", {
-  required: { value: true, message: "Email is required" },
+  required: { value: true, message: t('email.error') },
   pattern: {
     value: /^[^\s@]+@[^\s@]+\.[^\s@]+$/,
-    message: "Invalid email"
+    message: t('email.invalid')
   }
 })}  px="3"
           placeholder={t('email.placeholder')} {...dataStyles.input}/>
