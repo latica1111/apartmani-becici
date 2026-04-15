@@ -4,7 +4,7 @@ import Breadcrumbs from '@/components/Breadcrumbs';
 
 
 import HeroImage from '@/components/HeroImage';
-import { HStack,Stack,Badge, Span,Box, Heading, VStack ,Text,Grid,GridItem,Flex, Icon} from '@chakra-ui/react';
+import { Heading, VStack ,Text,} from '@chakra-ui/react';
 import ApartmentsGrid from '@/components/ApartmentsGrid';
 
 
@@ -44,7 +44,28 @@ export async function generateStaticParams() {
     title: t('title'),
     description: t('description'),
     keywords: t('keywords'),
+  openGraph: {
+      title: t('ogTitle'),
+      description: t('ogDescription'),
+      type: t('ogType'),
+      url: t('ogUrl'),
+      images: [
+        {
+          url: t('ogImage'),
+        },
+      ],
+    },
 
+    twitter: {
+      card: t('twitterCard'),
+      title:  t('twitterTitle'),
+      description:  t('twitterDescription'),
+      images: t('twitterImage'),
+    },
+
+    alternates: {
+      canonical:  t('canonical'),
+    },
   
   };
 }

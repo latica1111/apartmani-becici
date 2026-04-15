@@ -44,8 +44,8 @@ export async function generateMetadata() {
     alternates: {
       canonical: t('canonical'),
       languages: {
-        en: 'https://yourdomain.com/en/offer',
-        sr: 'https://yourdomain.com/sr/ponuda'
+        en: 'https://apartmani-becici.vercel.app/en/offer',
+        sr: 'https://apartmani-becici.vercel.app/sr/ponuda'
       }
     }
   };

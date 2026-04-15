@@ -11,7 +11,20 @@ const t = useTranslations("apartmentsDescription");
 
 const featuredInfoMap = getFeaturedInfoMap(t);
 const typeSlug = t(`dynamicSlugs.type.${apt.type}`);
+const formatBed = (bed) => {
+  if (typeof bed !== 'string') return '';
 
+  const match = bed.match(/^(\d+)\s*(.*)/);
+
+  if (match) {
+    const count = match[1];
+    const label = match[2];
+
+    return `${count} ${label.charAt(0).toUpperCase() + label.slice(1)}`;
+  }
+
+  return `1 ${bed.charAt(0).toUpperCase() + bed.slice(1)}`;
+};
     return(
 
         <>
@@ -108,7 +121,7 @@ console.log("ITEM:", featuredInfoMap[key]);
                       </Span>
                     <Text >{apt.beds
                         .filter(b => typeof b === 'string')
-                        .map(b => `1 ${b.charAt(0).toUpperCase() + b.slice(1)}`)
+                        .map(formatBed)
                         .join(' + ')}</Text> 
                     </HStack>
    <HStack  className="apartment-size" w="full">

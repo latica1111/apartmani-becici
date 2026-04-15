@@ -135,23 +135,23 @@ border="1px solid rgba(255,255,255,0.15)">
 
               <Flex direction="column" gap={3}>
                 <Link
-                  href="#"
+                  href="https://facebook.com/"
                   display="flex"
                   alignItems="center"
                   gap={3}
                   className="icon-wrapper"
-                >
+             target="_blank" rel="noopener noreferrer">
               <Span className="icon"> <AiOutlineFacebook  width={16} height={16} /> </Span>
                   <Text fontSize="sm" className="footer-link">{t('footerSocials.fb.fbLabel')}</Text>
                 </Link>
 
                 <Link
-                  href="#"
+                  href="https://instagram.com/"
                   display="flex"
                   alignItems="center"
                   gap={3}
                   className="icon-wrapper"
-                >
+            target="_blank" rel="noopener noreferrer">
                 <Span className="icon"><AiOutlineInstagram width={16} height={16} /> </Span>
                   <Text fontSize="sm" className="footer-link">
                     {t('footerSocials.instagram.instagramLabel')}

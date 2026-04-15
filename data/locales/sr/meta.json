@@ -5,14 +5,14 @@
     "ogTitle": "Smeštaj u Bečićima – Apartmani, sobe i studiji blizu plaže",
     "ogDescription": "Pronađite idealan smeštaj za odmor u Bečićima – apartmani, sobe i studiji za 2–5 osoba. Uživajte u blizini plaže, parkingu i igralištu.",
     "ogLocale": "sr_RS",
-    "ogUrl": "https://yourdomain.com/sr",
-     "ogImage": "https://yourdomain.com/images/home-og.jpg",
+    "ogUrl": "https://apartmani-becici.vercel.app/sr",
+     "ogImage": "https://apartmani-becici.vercel.app/images/yard/outdoors-view.jpg",
        "twitterCard": "summary_large_image",
     "twitterTitle": "Bečići smeštaj blizu plaže – Apartmani i sobe",
     "twitterDescription": "Letovanje u Bečićima? Rezervišite apartman, sobu ili studio uz more! Porodičan smeštaj sa parkingom i igralištem.",
-      "twitterImage": "https://yourdomain.com/images/home-og.jpg",
+      "twitterImage": "https://apartmani-becici.vercel.app/images/yard/outdoors-view.jpg",
 
-    "canonical": "https://yourdomain.com/sr"
+    "canonical": "https://apartmani-becici.vercel.app/sr"
   },
   "aboutMeta": {
     "title": "O Nama – Vaši Domaćini u Bečićima",
@@ -22,15 +22,15 @@
     "ogDescription": "Upoznajte naše domaćine i smeštaj.",
     "ogLocale": "sr_RS",
     "ogType": "website",
-    "ogUrl": "https://yourdomain.com/sr/o-nama",
-    "ogImage": "https://yourdomain.com/images/about-og.jpg",
+    "ogUrl": "https://apartmani-becici.vercel.app/sr/o-nama",
+    "ogImage": "https://apartmani-becici.vercel.app/images/about-og.jpg",
 
     "twitterCard": "summary_large_image",
     "twitterTitle": "O nama – Bečići",
     "twitterDescription": "Porodični smeštaj blizu mora.",
-    "twitterImage": "https://yourdomain.com/images/about-og.jpg",
+    "twitterImage": "https://apartmani-becici.vercel.app/images/about-og.jpg",
 
-    "canonical": "https://yourdomain.com/sr/o-nama"
+    "canonical": "https://apartmani-becici.vercel.app/sr/o-nama"
   },
   "contactMeta": {
     "title": "Kontaktirajte Nas – Rezervišite Svoj Boravak",
@@ -40,15 +40,15 @@
     "ogDescription": "Kontaktirajte nas i rezervišite boravak.",
     "ogLocale": "sr_RS",
     "ogType": "website",
-    "ogUrl": "https://yourdomain.com/sr/kontakt",
-    "ogImage": "https://yourdomain.com/images/contact-og.jpg",
+    "ogUrl": "https://apartmani-becici.vercel.app/sr/kontakt",
+    "ogImage": "https://apartmani-becici.vercel.app/images/contact-og.jpg",
 
     "twitterCard": "summary_large_image",
     "twitterTitle": "Kontakt – Bečići",
     "twitterDescription": "Pošaljite upit za rezervaciju.",
-    "twitterImage": "https://yourdomain.com/images/contact-og.jpg",
+    "twitterImage": "https://apartmani-becici.vercel.app/images/contact-og.jpg",
 
-    "canonical": "https://yourdomain.com/sr/kontakt"
+    "canonical": "https://apartmani-becici.vercel.app/sr/kontakt"
   },
   "offerMeta": {
   
@@ -59,15 +59,15 @@
        "ogTitle": "Ponuda smeštaja u Bečićima",
       "ogDescription": "Apartmani, studiji i sobe blizu mora.",
       "ogType": "website",
-      "ogUrl": "https://yourdomain.com/sr/ponuda",
-      "ogImage": "https://yourdomain.com/images/offer-og.jpg",
+      "ogUrl": "https://apartmani-becici.vercel.app/sr/ponuda",
+      "ogImage": "https://apartmani-becici.vercel.app/images/4_person_apartment_3rd_floor/photo191.jpg",
 
       "twitterCard": "summary_large_image",
       "twitterTitle": "Ponuda smeštaja",
       "twitterDescription": "Pogledajte našu ponudu.",
-      "twitterImage": "https://yourdomain.com/images/offer-og.jpg",
+      "twitterImage": "https://apartmani-becici.vercel.app/images/4_person_apartment_3rd_floor/photo191.jpg",
 
-      "canonical": "https://yourdomain.com/sr/ponuda"
+      "canonical": "https://apartmani-becici.vercel.app/sr/ponuda"
     },
 
     "studiji": {
@@ -77,15 +77,15 @@
    "ogTitle": "Studio apartmani – Bečići",
       "ogDescription": "Udoban smeštaj za parove.",
       "ogType": "website",
-      "ogUrl": "https://yourdomain.com/sr/ponuda/studiji",
-      "ogImage": "https://yourdomain.com/images/studios-og.jpg",
+      "ogUrl": "https://apartmani-becici.vercel.app/sr/ponuda/studiji",
+      "ogImage": "https://apartmani-becici.vercel.app/images/3_person_studio/photo04.jpg",
 
       "twitterCard": "summary_large_image",
       "twitterTitle": "Studiji u Bečićima",
       "twitterDescription": "Idealni za kraći boravak.",
-      "twitterImage": "https://yourdomain.com/images/studios-og.jpg",
+      "twitterImage": "https://apartmani-becici.vercel.app/images/3_person_studio/photo04.jpg",
 
-      "canonical": "https://yourdomain.com/sr/ponuda/studiji"
+      "canonical": "https://apartmani-becici.vercel.app/sr/ponuda/studiji"
     },
 
     "apartmani": {
@@ -95,15 +95,15 @@
      "ogTitle": "Apartmani – Bečići",
       "ogDescription": "Komforan smeštaj blizu mora.",
       "ogType": "website",
-      "ogUrl": "https://yourdomain.com/sr/ponuda/apartmani",
-      "ogImage": "https://yourdomain.com/images/apartments-og.jpg",
+      "ogUrl": "https://apartmani-becici.vercel.app/sr/ponuda/apartmani",
+      "ogImage": "https://apartmani-becici.vercel.app/images/5_person_apartment_4th_floor/photo267.jpg",
 
       "twitterCard": "summary_large_image",
       "twitterTitle": "Apartmani u Bečićima",
       "twitterDescription": "Idealni za porodice.",
-      "twitterImage": "https://yourdomain.com/images/apartments-og.jpg",
+      "twitterImage": "https://apartmani-becici.vercel.app/images/5_person_apartment_4th_floor/photo267.jpg",
 
-      "canonical": "https://yourdomain.com/sr/ponuda/apartmani"
+      "canonical": "https://apartmani-becici.vercel.app/sr/ponuda/apartmani"
 
     },
 
@@ -114,15 +114,15 @@
        "ogTitle": "Sobe – Bečići",
       "ogDescription": "Jednostavan i povoljan smeštaj.",
       "ogType": "website",
-      "ogUrl": "https://yourdomain.com/sr/ponuda/sobe",
-      "ogImage": "https://yourdomain.com/images/rooms-og.jpg",
+      "ogUrl": "https://apartmani-becici.vercel.app/sr/ponuda/sobe",
+      "ogImage": "https://apartmani-becici.vercel.app/images/3_person_room_with_external_bathroom/photo206.jpg",
 
       "twitterCard": "summary_large_image",
       "twitterTitle": "Sobe u Bečićima",
       "twitterDescription": "Praktičan izbor za odmor.",
-      "twitterImage": "https://yourdomain.com/images/rooms-og.jpg",
+      "twitterImage": "https://apartmani-becici.vercel.app/images/3_person_room_with_external_bathroom/photo206.jpg",
 
-      "canonical": "https://yourdomain.com/sr/ponuda/sobe"
+      "canonical": "https://apartmani-becici.vercel.app/sr/ponuda/sobe"
     
     }
   }
@@ -136,15 +136,15 @@
     "ogDescription": "Pogledajte kućni red kako biste osigurali prijatan i opušten boravak u našim apartmanima i sobama u Bečićima.",
     "ogLocale": "sr_RS",
     "ogType": "website",
-    "ogUrl": "https://yourdomain.com/sr/kucni-red",
-    "ogImage": "https://yourdomain.com/images/house-rules-og.jpg",
+    "ogUrl": "https://apartmani-becici.vercel.app/sr/kucni-red",
+    "ogImage": "https://apartmani-becici.vercel.app/images/yard/house-entrance.jpg",
 
     "twitterCard": "summary_large_image",
     "twitterTitle": "Kućni red | Apartmani u Bečićima",
     "twitterDescription": "Jednostavna pravila za miran i prijatan boravak u našem smeštaju u Bečićima.",
-    "twitterImage": "https://yourdomain.com/images/house-rules-og.jpg",
+    "twitterImage": "https://apartmani-becici.vercel.app/images/yard/house-entrance.jpg",
 
-    "canonical": "https://yourdomain.com/sr/kucni-red"
+    "canonical": "https://apartmani-becici.vercel.app/sr/kucni-red"
   },
    "usefulInformationMeta": {
     "title": "Korisne informacije za goste | Apartmani u Bečićima",
@@ -155,14 +155,14 @@
     "ogDescription": "Sve što vam je potrebno za prijatan boravak u Bečićima – prevoz, plaže, lokalni saveti i još mnogo toga.",
     "ogLocale": "sr_RS",
     "ogType": "website",
-    "ogUrl": "https://yourdomain.com/sr/korisne-informacije",
-    "ogImage": "https://yourdomain.com/images/useful-info-og.jpg",
+    "ogUrl": "https://apartmani-becici.vercel.app/sr/korisne-informacije",
+    "ogImage": "https://apartmani-becici.vercel.app/images/4_person_apartment_4th_floor/photo109.jpg",
 
     "twitterCard": "summary_large_image",
     "twitterTitle": "Korisne informacije za goste u Bečićima",
     "twitterDescription": "Saznajte korisne savete za boravak u Bečićima – prevoz, plaže, restorani i lokalne preporuke.",
-    "twitterImage": "https://yourdomain.com/images/useful-info-og.jpg",
+    "twitterImage": "https://apartmani-becici.vercel.app/images/4_person_apartment_4th_floor/photo109.jpg",
 
-    "canonical": "https://yourdomain.com/sr/korisne-informacije"
+    "canonical": "https://apartmani-becici.vercel.app/sr/korisne-informacije"
   }
 }

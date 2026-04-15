@@ -77,7 +77,7 @@ twitter: {
   images: [apartment?.images]
 },
 alternates: {
-  canonical: `https://yourdomain.com/offer/${apartment?.slug}`
+  canonical: `https://apartmani-becici.vercel.app/offer/${apartment?.slug}`
 },
 robots: {
   index: true,

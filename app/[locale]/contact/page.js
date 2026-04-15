@@ -36,8 +36,8 @@ export async function generateMetadata() {
     alternates: {
       canonical: t('contactMeta.canonical'),
       languages: {
-        en: 'https://yourdomain.com/en/contact',
-        sr: 'https://yourdomain.com/sr/kontakt'
+        en: 'https://apartmani-becici.vercel.app/en/contact',
+        sr: 'https://apartmani-becici.vercel.app/sr/kontakt'
       }
     }
   };

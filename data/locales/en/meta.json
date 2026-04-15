@@ -5,14 +5,14 @@
     "ogTitle": "Bečići Accommodation – Apartments, Rooms & Studios Near the Beach",
     "ogDescription": "Find the perfect accommodation for your holiday in Bečići – apartments, rooms, and studios for 2–5 guests. Enjoy beach proximity, parking, and a playground.",
     "ogLocale": "en_US",
-    "ogUrl": "https://yourdomain.com/en",
-     "ogImage": "https://yourdomain.com/images/home-og.jpg",
+    "ogUrl": "https://apartmani-becici.vercel.app/en",
+     "ogImage": "https://apartmani-becici.vercel.app/images/yard/outdoors-view.jpg",
       "twitterCard": "summary_large_image",
     "twitterTitle": "Stay in Bečići – Apartments & Rooms Close to the Beach",
     "twitterDescription": "Planning a beach holiday? Book a cozy apartment, room, or studio in Bečići – family-friendly stay with parking and a playground.",
-      "twitterImage": "https://yourdomain.com/images/home-og.jpg",
+      "twitterImage": "https://apartmani-becici.vercel.app/images/yard/outdoors-view.jpg",
 
-    "canonical": "https://yourdomain.com/en"
+    "canonical": "https://apartmani-becici.vercel.app/en"
   },
 
 "aboutMeta": {
@@ -23,15 +23,15 @@
     "ogDescription": "Family-run accommodation near the beach in Bečići with a welcoming atmosphere.",
     "ogLocale": "en_US",
     "ogType": "website",
-    "ogUrl": "https://yourdomain.com/en/about",
-    "ogImage": "https://yourdomain.com/images/about-og.jpg",
+    "ogUrl": "https://apartmani-becici.vercel.app/en/about",
+    "ogImage": "https://apartmani-becici.vercel.app/images/about-og.jpg",
 
     "twitterCard": "summary_large_image",
     "twitterTitle": "About Our Accommodation in Bečići",
     "twitterDescription": "Meet your hosts and discover our family-run stay in Bečići.",
-    "twitterImage": "https://yourdomain.com/images/about-og.jpg",
+    "twitterImage": "https://apartmani-becici.vercel.app/images/about-og.jpg",
 
-    "canonical": "https://yourdomain.com/en/about"
+    "canonical": "https://apartmani-becici.vercel.app/en/about"
   },
   "contactMeta": {
     "title": "Contact Us – Book Your Stay in Bečići",
@@ -41,15 +41,15 @@
     "ogDescription": "Get in touch and book your stay in Bečići easily.",
     "ogLocale": "en_US",
     "ogType": "website",
-    "ogUrl": "https://yourdomain.com/en/contact",
-    "ogImage": "https://yourdomain.com/images/contact-og.jpg",
+    "ogUrl": "https://apartmani-becici.vercel.app/en/contact",
+    "ogImage": "https://apartmani-becici.vercel.app/images/4_person_apartment_with_opened_terrace/photo280.jpg",
 
     "twitterCard": "summary_large_image",
     "twitterTitle": "Contact Us – Stay in Bečići",
     "twitterDescription": "Reach out and book your stay today.",
-    "twitterImage": "https://yourdomain.com/images/contact-og.jpg",
+    "twitterImage": "https://apartmani-becici.vercel.app/images/4_person_apartment_with_opened_terrace/photo280.jpg",
 
-    "canonical": "https://yourdomain.com/en/contact"
+    "canonical": "https://apartmani-becici.vercel.app/en/contact"
 
   },
   "offerMeta": {
@@ -61,15 +61,15 @@
       "ogTitle": "Accommodation Offer in Bečići",
       "ogDescription": "Wide selection of rooms, studios and apartments near the beach.",
       "ogType": "website",
-      "ogUrl": "https://yourdomain.com/en/offer",
-      "ogImage": "https://yourdomain.com/images/offer-og.jpg",
+      "ogUrl": "https://apartmani-becici.vercel.app/en/offer",
+      "ogImage": "https://apartmani-becici.vercel.app/images/4_person_apartment_3rd_floor/photo191.jpg",
 
       "twitterCard": "summary_large_image",
       "twitterTitle": "Accommodation Offer – Bečići",
       "twitterDescription": "Explore rooms, studios and apartments.",
-      "twitterImage": "https://yourdomain.com/images/offer-og.jpg",
+      "twitterImage": "https://apartmani-becici.vercel.app/images/4_person_apartment_3rd_floor/photo191.jpg",
 
-      "canonical": "https://yourdomain.com/en/offer"
+      "canonical": "https://apartmani-becici.vercel.app/en/offer"
     },
      "studios": {
       "title": "Studio Apartments in Becici – Comfortable Stay Near the Beach",
@@ -78,15 +78,15 @@
       "ogTitle": "Studio Apartments in Bečići",
       "ogDescription": "Comfortable studios near the beach.",
       "ogType": "website",
-      "ogUrl": "https://yourdomain.com/en/offer/studios",
-      "ogImage": "https://yourdomain.com/images/studios-og.jpg",
+      "ogUrl": "https://apartmani-becici.vercel.app/en/offer/studios",
+      "ogImage": "https://apartmani-becici.vercel.app/images/3_person_studio/photo04.jpg",
 
       "twitterCard": "summary_large_image",
       "twitterTitle": "Studios in Bečići",
       "twitterDescription": "Perfect for couples.",
-      "twitterImage": "https://yourdomain.com/images/studios-og.jpg",
+      "twitterImage": "https://apartmani-becici.vercel.app/images/3_person_studio/photo04.jpgg",
 
-      "canonical": "https://yourdomain.com/en/offer/studios"
+      "canonical": "https://apartmani-becici.vercel.app/en/offer/studios"
       },
 
     "apartments": {
@@ -96,15 +96,15 @@
        "ogTitle": "Apartments in Bečići",
       "ogDescription": "Spacious and comfortable stay.",
       "ogType": "website",
-      "ogUrl": "https://yourdomain.com/en/offer/apartments",
-      "ogImage": "https://yourdomain.com/images/apartments-og.jpg",
+      "ogUrl": "https://apartmani-becici.vercel.app/en/offer/apartments",
+      "ogImage": "https://apartmani-becici.vercel.app/images/5_person_apartment_4th_floor/photo267.jpg",
 
       "twitterCard": "summary_large_image",
       "twitterTitle": "Apartments in Bečići",
       "twitterDescription": "Ideal for families.",
-      "twitterImage": "https://yourdomain.com/images/apartments-og.jpg",
+      "twitterImage": "https://apartmani-becici.vercel.app/images/5_person_apartment_4th_floor/photo267.jpg",
 
-      "canonical": "https://yourdomain.com/en/offer/apartments"
+      "canonical": "https://apartmani-becici.vercel.app/en/offer/apartments"
     },
 
     "rooms": {
@@ -114,15 +114,15 @@
        "ogTitle": "Rooms in Bečići",
       "ogDescription": "Budget-friendly stay.",
       "ogType": "website",
-      "ogUrl": "https://yourdomain.com/en/offer/rooms",
-      "ogImage": "https://yourdomain.com/images/rooms-og.jpg",
+      "ogUrl": "https://apartmani-becici.vercel.app/en/offer/rooms",
+      "ogImage": "https://apartmani-becici.vercel.app/images/3_person_room_with_external_bathroom/photo206.jpg",
 
       "twitterCard": "summary_large_image",
       "twitterTitle": "Rooms in Bečići",
       "twitterDescription": "Affordable accommodation.",
-      "twitterImage": "https://yourdomain.com/images/rooms-og.jpg",
+      "twitterImage": "https://apartmani-becici.vercel.app/images/3_person_room_with_external_bathroom/photo206.jpg",
 
-      "canonical": "https://yourdomain.com/en/offer/rooms"
+      "canonical": "https://apartmani-becici.vercel.app/en/offer/rooms"
     }
   },
   "houseRulesMeta": {
@@ -134,15 +134,15 @@
     "ogDescription": "Check our house rules to ensure a pleasant and relaxing stay in our apartments and rooms in Becici, Montenegro.",
     "ogLocale": "en_US",
     "ogType": "website",
-    "ogUrl": "https://yourdomain.com/en/house-rules",
-    "ogImage": "https://yourdomain.com/images/house-rules-og.jpg",
+    "ogUrl": "https://apartmani-becici.vercel.app/en/house-rules",
+    "ogImage": "https://apartmani-becici.vercel.app/images/yard/house-entrance.jpg",
 
     "twitterCard": "summary_large_image",
     "twitterTitle": "House Rules | Apartments in Becici",
     "twitterDescription": "Simple house rules for a peaceful stay in our Becici accommodation near the beach.",
-    "twitterImage": "https://yourdomain.com/images/house-rules-og.jpg",
+    "twitterImage": "https://apartmani-becici.vercel.app/images/yard/house-entrance.jpg",
 
-    "canonical": "https://yourdomain.com/en/house-rules"
+    "canonical": "https://apartmani-becici.vercel.app/en/house-rules"
   },
    "usefulInformationMeta": {
     "title": "Useful Information for Guests | Apartments in Becici",
@@ -153,15 +153,15 @@
     "ogDescription": "Everything you need to know for a comfortable stay in Becici – transport, beaches, local tips and more.",
     "ogLocale": "en_US",
     "ogType": "website",
-    "ogUrl": "https://yourdomain.com/en/useful-information",
-    "ogImage": "https://yourdomain.com/images/useful-info-og.jpg",
+    "ogUrl": "https://apartmani-becici.vercel.app/en/useful-information",
+    "ogImage": "https://apartmani-becici.vercel.app/images/4_person_apartment_4th_floor/photo109.jpg",
 
     "twitterCard": "summary_large_image",
     "twitterTitle": "Useful Information for Guests in Becici",
     "twitterDescription": "Discover useful tips for your stay in Becici – transport, beaches, restaurants and local insights.",
-    "twitterImage": "https://yourdomain.com/images/useful-info-og.jpg",
+    "twitterImage": "https://apartmani-becici.vercel.app/images/4_person_apartment_4th_floor/photo109.jpg",
 
-    "canonical": "https://yourdomain.com/en/useful-information"
+    "canonical": "https://apartmani-becici.vercel.app/en/useful-information"
   }
 
 }
