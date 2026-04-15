@@ -47,8 +47,8 @@ const collapseElement = section?.collapseElement || {};
           {/* Heading */}
           <Stack align={{base:"center",sm:'flex-start', md:"center"}} mb="5" flexDirection={{base:"row", sm:'column', md:'row'}}>
             {IconComponent && (
-              <Box className="icon " rounded="full" p="3"   bg="rgba(201,161,74,0.1)" border="1px solid rgba(var(--secondary-rgb), .6)">
-                <IconComponent width="16" height="16" fill="var(--secondary) !important"  />
+              <Box className="icon " rounded="full" p="3"   bg="rgba(201,161,74,0.1)" border="1px solid rgba(var(--secondary-rgb), .6)" color="var(--secondary)">
+                <IconComponent width="16" height="16" fill="var(--secondary)"  />
               </Box>
             )}
 
