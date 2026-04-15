@@ -59,7 +59,7 @@ const { locale } = await params;
   const renderContent = (content) => {
     if (Array.isArray(content)) {
       return (
-       <List.Root gap={2} pl={6}>
+       <List.Root gap={2} pl={3}>
           {content.map((item, i) => (
             <List.Item key={i} _marker={{ color: "var(--primary)" }} fontSize="sm" color="gray.800">{item}</List.Item>
           ))}
@@ -77,7 +77,7 @@ const { locale } = await params;
 
   const renderBorders = (borders) => {
     const { intro, ...countryBorders } = borders;
-  
+ 
     return (
       <VStack alignItems="flex-start" mt="6">
         <Heading fontSize="sm">{intro}</Heading>
@@ -89,7 +89,20 @@ const { locale } = await params;
       </VStack>
     );
   };
-  
+   const renderCompanies = (path) => {
+  const companies = t.raw(path);
+
+  if (!companies || !Array.isArray(companies)) return null;
+
+  return (
+    <VStack alignItems="flex-start" mt="4" px="4" py="7" bg="gray.200" rounded="sm" shadow="md">
+      <Heading fontSize="sm" color="gray.500">
+        {t('companiesLabel')}
+      </Heading>
+      {renderContent(companies)}
+    </VStack>
+  );
+};
 
   return (
     <>
@@ -121,13 +134,13 @@ const { locale } = await params;
           gap={{base:"6", md:"8",lg:"12"}} >
  {/* Car */}          
 <VStack alignItems="flex-start" w="full"
-  bg="white"
+  bg="gray.100"
   p={{ base: 5, md: 6 }}
   rounded="xl"
   shadow="sm"
   border="1px solid"
   borderColor="gray.100">
-  <Heading  fontSize="md"
+  <Heading  fontSize="xl"
   textTransform="uppercase"
   letterSpacing="wide"
   color="gray.500">{t('gettingThere.car.label')}</Heading>
@@ -136,54 +149,56 @@ const { locale } = await params;
   {renderContent(t.raw('gettingThere.roadConnections'))}
    {/* Borders ostatak kao lista po zemlji */}
     {renderBorders(t.raw('gettingThere.car.borders'))}
+   {renderCompanies('gettingThere.car.companies')} 
 </VStack>
   {/* Airplane */}
   <VStack alignItems="flex-start" w="full"
-  bg="white"
+  bg="gray.100"
   p={{ base: 5, md: 6 }}
   rounded="xl"
   shadow="sm"
   border="1px solid"
   borderColor="gray.100">
-    <Heading  fontSize="md"
+    <Heading  fontSize="xl"
   textTransform="uppercase"
   letterSpacing="wide"
   color="gray.500">{t('gettingThere.airplane.label')}</Heading>
     {/* Prvi kao paragraf, ostali kao lista */}
-    <Text>{t.raw('gettingThere.airplane.items')[0]}</Text>
+    <Text fontSize="sm" fontWeight="600">{t.raw('gettingThere.airplane.items')[0]}</Text>
     {renderContent(t.raw('gettingThere.airplane.items').slice(1))}
+  {renderCompanies('gettingThere.airplane.companies')}
   </VStack>
 
   {/* Bus */}
   <VStack alignItems="flex-start" w="full"
-  bg="white"
+  bg="gray.100"
   p={{ base: 5, md: 6 }}
   rounded="xl"
   shadow="sm"
   border="1px solid"
   borderColor="gray.100">
-    <Heading  fontSize="md"
+    <Heading  fontSize="xl"
   textTransform="uppercase"
   letterSpacing="wide"
   color="gray.500">{t('gettingThere.bus.label')}</Heading>
     <Text>{t.raw('gettingThere.bus.items')[0]}</Text>
-   
+   {renderCompanies('gettingThere.bus.companies')}
   </VStack>
 
   {/* Railway */}
   <VStack alignItems="flex-start" w="full"
-  bg="white"
+  bg="gray.100"
   p={{ base: 5, md: 6 }}
   rounded="xl"
   shadow="sm"
   border="1px solid"
   borderColor="gray.100">
-    <Heading  fontSize="md"
+    <Heading  fontSize="xl"
   textTransform="uppercase"
   letterSpacing="wide"
   color="gray.500">{t('gettingThere.railway.label')}</Heading>
     <Text>{t.raw('gettingThere.railway.items')[0]}</Text>
-   
+   {renderCompanies('gettingThere.railway.companies')}
   </VStack>
  </Grid>
   
@@ -198,32 +213,34 @@ const { locale } = await params;
   {/* Local Bus */}
   <VStack alignItems="flex-start" gap="8">
     <VStack alignItems="flex-start">
-    <Heading  fontSize="md"
+    <Heading  fontSize="xl"
   textTransform="uppercase"
   letterSpacing="wide"
   color="gray.500">{t('publicTransportation.localBus.title')}</Heading>
     <Text>{t('publicTransportation.localBus.description')}</Text>
+   
    </VStack>
     <VStack alignItems="flex-start">
- <Heading  fontSize="md"
+ <Heading  fontSize="xl"
   textTransform="uppercase"
   letterSpacing="wide"
   color="gray.500">{t('publicTransportation.localBus.linesHeading')}</Heading>
 
 
     {renderContent(t.raw('publicTransportation.localBus.lines'))}
- <Text>{t('publicTransportation.localBus.contact')}</Text>
+  {renderCompanies('publicTransportation.localBus.companies')}
+
 </VStack>
   </VStack>
 
   {/* Taxi */}
   <VStack alignItems="flex-start">
-    <Heading  fontSize="md"
+    <Heading  fontSize="xl"
   textTransform="uppercase"
   letterSpacing="wide"
   color="gray.500">{t('publicTransportation.localTaxi.title')}</Heading>
     <Text>{t('publicTransportation.localTaxi.description')}</Text>
-    {renderContent(t.raw('publicTransportation.localTaxi.companies'))}
+    {renderCompanies('publicTransportation.localTaxi.companies')}
   </VStack>
 
 </VStack>

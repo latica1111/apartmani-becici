@@ -449,7 +449,7 @@
 },
 "usefulInfo": {
   "heading": "Korisne informacije",
-
+"companiesLabel": "Kontakt informacije",
   "gettingThere": {
     "sectionHeading": "Kako doći",
     "generalInfo": [
@@ -470,13 +470,15 @@
         "Tivat (TIV) – oko 25 km udaljenosti, vožnja traje oko 30 minuta.",
         "Podgorica (PG) – oko 65 km udaljenosti, vožnja traje oko 1 sat.",
         "Dubrovnik (DBV) – oko 75 km udaljenosti, uz napomenu da je potrebno preći granični prelaz."
-      ]
+      ],
+      "companies" :["Aerodrom Tivat: +382 32 671 337 ", "Aerodrom Podgorica: +382 20 444 244", "Aerodrom Dubrovnik: +385 20 773 100" ]
     },
     "bus": {
       "label": "Autobusom",
       "items": [
         "Budva, tokom ljetnje sezone, ima redovne autobuske linije ka/iz većih gradova regiona, Srbije, Hrvatske, BiH i Makedonije."
-      ]
+      ],
+      "companies": ["Autobuska stanica Budva: +382 33 456 000" ]
     },
     "railway": {
       "label": "Vozom",
@@ -484,7 +486,8 @@
         "Najbliža železnička stanica je u Sutomoru (35 km), Baru (40 km) i Podgorici (65 km).",
         "Odatle možete nastaviti putovanje autobusom ili taksijem.",
         "Više informacija o železničkom prevozu dostupno je na Željeznički prevoz Crne Gore."
-      ]
+      ],
+      "companies":[ "Željeznička stanica Bar: +382 30 301 615 ", "Željeznička stanica Sutomore: +382 30 301 690 ", "Željeznička stanica Podgorica: +382 20 441 209 "]
     },
     "car": {
       "label": "Autom",
@@ -499,7 +502,8 @@
         "Hrvatska": ["Debeli Brijeg", "Kobila"],
         "Bosna i Hercegovina": ["Sitnica", "Ilino brdo", "Vraćenovići", "Krstac", "Nudo", "Šćepan Polje", "Metaljka", "Sula"],
         "Albanija": ["Božaj", "Sukobin", "Grnača"]
-      }
+      },
+      "companies" :["Auto moto savez: +382 20 234 999 "]
     }
   },
 
@@ -508,7 +512,8 @@
     "localBus": {
       "title": "Gradske linije",
       "description": "Polazna stanica za lokalne autobuse nalazi se u Mediteranskoj ulici, na kružnom toku u centru grada – preko puta kafića i restorana “Perla”. Autobusi koji voze do Svetog Stefana i Petrovca saobraćaju tokom cijele godine, prvi polazak je u 6 ujutru, a poslednji u 1:30 iza ponoći. Tokom ljetnje sezone, autobusi redovno voze iz Budve ka Jazu, Svetom Stefanu i Petrovcu.",
-      "contact": "Dodatne informacije o redu voznje: Mediteran Express, +382 33 451 089, +382 67 890 999.",
+      "contact": "Dodatne informacije o redu voznje:",
+      "companies":["Mediteran Express, +382 33 451 089, +382 67 890 999"],
       "linesHeading" :"Sezonske linije",
       "lines": [
         "Budva - Jaz - Trsteno - Ploče",
@@ -520,7 +525,7 @@
     "localTaxi": {
       "title": "Taxi prevoz",
       "description": "U Budvi postoje glavne taksi stanice na nekoliko lokacija: na Slovenskoj obali, kod zgrade Zeta filma, kod autobuske stanice “Mercur”, u blizini Turističkog naselja Slovenska plaža, kao i kod hotelskog kompleksa u Bečićima i autobuske stanice u Petrovcu. Taksi službe su dostupne 24 sata dnevno.",
-      "companies": ["Terrae taxi", "Vip taxi"]
+      "companies": ["Terrae Taxi: 19717 ", "Vip Taxi: 19666 ", "Plus Taxi: +382 68 019 198" ,"Sany Taxi: 19728 ", "Palma Taxi: 19577"]
     }
   },
 

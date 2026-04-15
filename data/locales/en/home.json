@@ -470,7 +470,7 @@
 },
 "usefulInfo" :{
   "heading": "Useful Information",
-
+"companiesLabel": "Useful Contacts",
   "gettingThere": {
     "sectionHeading": "Getting There",
     "generalInfo": [
@@ -490,20 +490,23 @@
         "Tivat (TIV) – approx. 25 km away, about a 30-minute drive.",
         "Podgorica (PG) – approx. 65 km away, about a 1-hour drive.",
         "Dubrovnik (DBV) – approx. 75 km away, note that a border crossing is required."
-      ]
+      ],
+      "companies" :["Tivat Airport: +382 32 671 337 ", "Podgorica Airport: +382 20 444 244", "Dubrovnik Airport: +385 20 773 100" ]
     },
     "bus": {
       "label": "By Bus",
       "items": [
         "During the summer season, Budva has regular bus lines to and from major cities in the region, including Serbia, Croatia, Bosnia and Herzegovina, and North Macedonia."
-      ]
+      ],
+      "companies": ["Budva Main Bus Station: +382 33 456 000" ]
     },
     "railway": {
       "label": "By Train",
       "items": [
         "The nearest railway stations are in Sutomore (35 km), Bar (40 km), and Podgorica (65 km). From there, you can continue your journey by bus or taxi.More information about rail transport is available at Railway Transport of Montenegro. "
       
-      ]
+      ],
+      "companies":[ "Railway Station Bar: +382 30 301 615 ", "Railway Station Sutomore: +382 30 301 690 ", "Railway Station Podgorica: +382 20 441 209 "]
     },
     "car": {
       "label": "By Car",
@@ -518,7 +521,8 @@
         "Croatia": ["Debeli Brijeg", "Kobila"],
         "Bosnia and Herzegovina": ["Sitnica", "Ilino brdo", "Vraćenovići", "Krstac", "Nudo", "Šćepan Polje", "Metaljka", "Sula"],
         "Albania": ["Božaj", "Sukobin", "Grnača"]
-      }
+      },
+      "companies" :["Auto moto savez: +382 20 234 999 "]
     }
   },
 
@@ -527,7 +531,8 @@
     "localBus": {
       "title": "City Bus Lines",
       "description": "The departure point for local buses is on Mediteranska Street, at the roundabout in the city center – directly across from the café and restaurant “Perla.” Buses to Sveti Stefan and Petrovac operate year-round. The first departure is at 6 a.m. and the last at 1:30 a.m. During the summer season, regular buses run from Budva to Jaz, Sveti Stefan, and Petrovac.",
-      "contact": "For schedule information: Mediteran Express, +382 33 451 089, +382 67 890 999.",
+      "contact": "For schedule information:",
+       "companies":["Mediteran Express, +382 33 451 089, +382 67 890 999"],
       "linesHeading" :"Lines",
       "lines": [
         "Budva - Jaz - Trsteno - Ploče",
@@ -539,7 +544,7 @@
     "localTaxi": {
       "title": "Taxi Services",
       "description": "Budva has several main taxi stands: along the Slovenska promenade, near the Zeta Film building, next to the Mercur bus station, near the Slovenska Plaža resort, as well as at the hotel complex in Bečići and the bus station in Petrovac. Taxi services are available 24/7.",
-      "companies": ["Terrae taxi", "Vip taxi"]
+      "companies": ["Terrae Taxi: 19717 ", "Vip Taxi: 19666 ", "Plus Taxi: +382 68 019 198" ,"Sany Taxi: 19728 ", "Palma Taxi: 19577"]
     }
   },
 
