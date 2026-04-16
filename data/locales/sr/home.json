@@ -140,7 +140,7 @@
     {"name": "Skadarsko jezero", "distance": "20 km"},
     {"name": "Gospa od Skrpjela", "distance": "27 km"},
     {"name": "Stari grad Kotor", "distance": "21 km"},
-    {"name": "MonastirOstrog", "distance": "46 km"},
+    {"name": "Manastir Ostrog", "distance": "46 km"},
     {"name": "Sveti Stefan", "distance": "3.3km"},
     
     {"name": "Muzej kralja Nikole", "distance": "15 km"},
@@ -381,7 +381,10 @@
       "additionalRequest": { "label": "Dodatni zahtjevi", "placeholder":"Dodatne napomene ili zahtevi" },
       "checkInDate": { "label": "Datum dolaska", "data":"Izaberite datum dolaska", "error":"Unesite datum dolaska." },
       "checkOutDate": { "label": "Datum odlaska","data":"Izaberite datum odlaska" , "error":"Unesite datum odlaska."},
-      "selectedOption": { "label": "Izaberite" }
+      "selectedOption": { "label": "Izaberite" },
+      "onSubmitHeading": "Zahtev je poslat",
+"onSubmitText": "Hvala! Primili smo vaš zahtev i uskoro ćemo vam se javiti.",
+"newRequestButton": "Pošaljite novi zahtev"
     }
   },
 
@@ -436,13 +439,13 @@
   ]},
 "pageTitles" :{
 "aboutUs":{"label":"O nama", "photoURL":""},
-"contact":{"label":"Kontakt", "photoURL":"/images/4_person_apartment_with_opened_terrace/photo280.jpg", "photoPosition":"bottom", "desc":"Upit · Rezervacija"},
-"houseRules":{"label":"Kucni red", "photoURL":"/images/yard/house-entrance.jpg", "photoPosition":"", "desc":"Pravila · Mir · Prijatan boravak"},
+"contact":{"label":"Kontakt", "photoURL":"/images/yard/playground-swings-v2.jpg", "photoPosition":"bottom", "desc":"Upit · Rezervacija"},
+"houseRules":{"label":"Kucni red", "photoURL":"/images/3_person_apartment_3rd_floor/photo114.jpg", "photoPosition":"bottom", "desc":"Pravila · Mir · Prijatan boravak"},
 "offer":{"label":"Ponuda", "photoURL":"/images/4_person_apartment_3rd_floor/photo191.jpg", "desc":"Raznovrsno · Klimatizovano · Prilagođeno porodicama"},
 "apartments":{"label":"Apartmani","photoURL":"/images/5_person_apartment_4th_floor/photo267.jpg", "desc":"Prostrani · Udobni · Potpuno opremljeni"},
 "studios":{"label":"Studiji", "photoURL":"/images/3_person_studio/photo04.jpg", "photoPosition":"", "desc":"Prakticni · Funkcionalni · Opremljeni"},
 "rooms" :{"label":"Sobe", "photoURL":"/images/3_person_room_with_external_bathroom/photo206.jpg", "desc" :"Udobne · Moderne · Povoljne"},
-"usefulInfo" :{"label":"Korisne informacije",  "photoURL":"/images/4_person_apartment_4th_floor/photo109.jpg", "photoPosition":"bottom", "desc":"Dolazak · Prevoz · Važne informacije"}
+"usefulInfo" :{"label":"Korisne informacije",  "photoURL":"/images/yard/becici-beach-slide.jpg", "photoPosition":"bottom", "desc":"Dolazak · Prevoz · Važne informacije"}
 
 
 

@@ -142,8 +142,8 @@ console.log("ITEM:", featuredInfoMap[key]);
 </VStack>
 
 
-<Flex alignItems="center"  fontWeight="600" fontSize="sm"  borderColor="var(--primary)" border="1px solid"
-  color="var(--primary)" height="2.25rem" minWidth="2.25rem" px="2.5rem" rounded="sm" justifyContent="flex-start" transition="all .4 ease"
+<Flex alignItems="center"  fontWeight="600" fontSize="sm" color="var(--primary)"  border="1px solid"  borderColor="var(--primary)"
+ height="2.25rem" minWidth="2.25rem" px="2.5rem" rounded="sm" justifyContent="flex-start" transition="all .4 ease"
   _hover={{
     bg: "rgba(var(--primary-rgb), .3)",
    

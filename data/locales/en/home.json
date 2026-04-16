@@ -460,13 +460,13 @@
   ]},
   "pageTitles" :{
 "aboutUs":{"label":"About us", "photoURL":"", "photoPosition":""},
-"contact":{"label":"Contact", "photoURL":"/images/4_person_apartment_with_opened_terrace/photo280.jpg", "photoPosition":"bottom", "desc":"Reach · Connect · Visit"},
-"houseRules":{"label":"House rules", "photoURL":"/images/yard/house-entrance.jpg", "photoPosition":"", "desc":"Useful · Practical · Informative"},
+"contact":{"label":"Contact", "photoURL":"/images/yard/playground-swings-v2.jpg", "photoPosition":"bottom", "desc":"Reach · Connect · Visit"},
+"houseRules":{"label":"House rules", "photoURL":"/images/3_person_apartment_3rd_floor/photo114.jpg", "photoPosition":"bottom", "desc":"Useful · Practical · Informative"},
 "offer":{"label":"Offer", "photoURL":"/images/4_person_apartment_3rd_floor/photo191.jpg", "desc":"Variety · Convenient · Family-friendly"},
 "apartments":{"label":"Apartments", "photoURL":"/images/5_person_apartment_4th_floor/photo267.jpg", "desc":"Spacious · Comfortable · Fully equipped"},
 "studios":{"label":"Studios", "photoURL":"/images/3_person_studio/photo04.jpg", "photoPosition":"", "desc":"Compact · Functional · Fully equipped"},
 "rooms" :{"label":"Rooms", "photoURL":"/images/3_person_room_with_external_bathroom/photo206.jpg", "desc" :"Private · Modern · Well equipped"},
-"usefulInfo" :{"label":"Useful information", "photoURL":"/images/4_person_apartment_4th_floor/photo109.jpg", "photoPosition":"bottom", "desc":"Travel · Local · Info"}
+"usefulInfo" :{"label":"Useful information", "photoURL":"/images/yard/becici-beach-slide.jpg", "photoPosition":"bottom", "desc":"Travel · Local · Info"}
 },
 "usefulInfo" :{
   "heading": "Useful Information",

@@ -29,7 +29,7 @@ return(
   }} transition="all 0.3s ease" >
           <Link
           
-            href="https://www.booking.com/"
+            href="https://www.booking.com/hotel/me/apartmani-becici-becici.sr.html?lang=sr&soz=1&lang_changed=1&activeTab=main&chal_t=1774368085587&force_referer=#tab-main"
             target="_blank"
             rel="noopener noreferrer"
           >

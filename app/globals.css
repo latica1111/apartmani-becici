@@ -770,7 +770,8 @@ fill: var(--secondary);
 }
 }
 :focus-visible {
-    outline: var(--primary) auto 1px !important;
+    outline: none !important;
+     box-shadow: 0 0 0 2px rgba(var(--primary-rgb), 0.4) !important;
 }
 @media(min-width:576px) and (max-width:1023.98px ){
 .contact-form {
