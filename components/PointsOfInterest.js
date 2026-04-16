@@ -34,7 +34,7 @@ console.log(params);
         <LocationBlock sectionKey="closestAirports" />
         <LocationBlock sectionKey="shopping" />
         <LocationBlock sectionKey="nightLife" />
-            
+        <LocationBlock sectionKey="health" />
             </SimpleGrid>
           </Box>
         </Box>

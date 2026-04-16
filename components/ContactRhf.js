@@ -359,7 +359,7 @@ const t = useTranslations('home.contactPage.contactForm');
           <Field.ErrorText>{errors.additionalRequest?.message}</Field.ErrorText>
         </Field.Root>
 
-        <Button type="submit" transition="all .4s ease" size="md" h="9" minWidth="220px" px="6" bg="var(--primary)" mt="3" color="#fff" {...dataStyles.button}>Send request  
+        <Button type="submit" transition="all .4s ease" size="md" h="9" minWidth="220px" px="6" bg="var(--primary)" mt="3" color="#fff" {...dataStyles.button}>{t('btnSubmit')} 
            <Icon size="sm" >
   <RxPaperPlane />
   </Icon></Button>

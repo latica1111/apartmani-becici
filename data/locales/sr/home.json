@@ -210,6 +210,23 @@
     "viewAll": "Vidi vise",
           "seeLess": "Vidi manje"
   }
+},
+"health": {
+  "id": "health",
+  "heading": "Zdravlje i sigurnost",
+  "icon": "IconHealth",
+ "items": [
+    {"name": "Apoteka Help", "distance": "200 m"},
+    {"name": "Apoteka Vitamed", "distance": "400 m"},
+    {"name": "Dom zdravlja Budva", "distance": "3 km"},
+   {"name": "Medical Centar", "distance": "300 m"},
+    {"name": "Milmedika Budva", "distance": "3.2 km"},
+    {"name": "Hitna pomoć", "distance": "3 km"}
+  ],
+   "collapseElement" :{
+    "viewAll": "Vidi vise",
+          "seeLess": "Vidi manje"
+  }
 }
     },
 
@@ -382,9 +399,10 @@
       "checkInDate": { "label": "Datum dolaska", "data":"Izaberite datum dolaska", "error":"Unesite datum dolaska." },
       "checkOutDate": { "label": "Datum odlaska","data":"Izaberite datum odlaska" , "error":"Unesite datum odlaska."},
       "selectedOption": { "label": "Izaberite" },
+      "btnSubmit":"Pošaljite zahtjev",
       "onSubmitHeading": "Zahtev je poslat",
-"onSubmitText": "Hvala! Primili smo vaš zahtev i uskoro ćemo vam se javiti.",
-"newRequestButton": "Pošaljite novi zahtev"
+"onSubmitText": "Hvala! Primili smo vaš zahtjev i uskoro ćemo vam se javiti.",
+"newRequestButton": "Pošaljite novi zahtjev"
     }
   },
 

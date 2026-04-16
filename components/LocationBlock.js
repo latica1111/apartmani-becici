@@ -13,6 +13,7 @@ import {
 } from '@chakra-ui/react';
 import { MdOutlineKeyboardArrowDown } from "react-icons/md";
 import { MdOutlineKeyboardArrowUp } from "react-icons/md";
+
 const LocationBlock = ({ sectionKey }) => {
  
   const [expanded, setExpanded] = useState(false);

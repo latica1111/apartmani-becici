@@ -140,6 +140,7 @@
  "viewAll": "View all",
   "seeLess": "See less"
 },
+
 "noData":""
 },
 "restaurantsAndCaffesNearby" : {
@@ -270,19 +271,36 @@
      {"name" : "Top Hill" , "distance":"3.9 km"}
    
   ]
+},
+"health": {
+  "id": "health",
+  "heading": "Health & Safety",
+  "icon": "IconHealth",
+   "collapseElement" :{
+ "viewAll": "View all",
+  "seeLess": "See less"
+},
+ "items": [
+    {"name": "Pharmacy Help", "distance": "200 m"},
+    {"name": "Pharmacy Vitamed", "distance": "400 m"},
+    {"name": "Budva Primary Health Care Center", "distance": "3 km"},
+   {"name": "Medical Centar", "distance": "300 m"},
+    {"name": "Milmedika Budva", "distance": "3.2 km"},
+    {"name": "Emergency Medical Services", "distance": "3 km"}
+  ]
 }
 
 },
 "houseRules" :{
   "mainHeading":"Our house rules",
 "checkIn":
-{"id":"checkin","heading":"Check-in","icon":"iconCheckin", "textBlock":["From 12:00 PM to 10:00 PM","You need to let us know what time you'll be arriving in advance.", "The staff will greet guests on arrival at the property."]},
+{"id":"checkin","heading":"Check-in","icon":"iconCheckin", "textBlock":["From 12:00 PM to 10:00 PM","You need to let us know what time you'll be arriving in advance.", "Our friendly staff will welcome you upon arrival, provide all necessary information, and assist you with check-in."]},
 
 "checkOut":
 {"id":"checkout","heading":"Check-out","icon":"iconCheckout", "textBlock":["From 9:00 AM to 10:00 AM"]},
 
 "cancellation":
-{"id":"cancellation","heading":"Cancellation","icon":"iconCancellation", "textBlock":["In case of reservation cancellation, the advance payment is non-refundable.","We kindly ask guests to carefully consider their plans before confirming the reservation."]},
+{"id":"cancellation","heading":"Cancellation","icon":"iconCancellation", "textBlock":["In case of reservation cancellation, the advance payment is non-refundable.","Before confirming your reservation, we kindly ask you to carefully plan your stay, including your arrival dates and total number of nights."]},
 "prepayment":
 {"id":"","heading":"Prepayment","icon":"iconInfo", "textBlock":["To confirm your reservation, an advance payment of 30% of the total amount is required.","The remaining balance can be paid upon arrival, in cash."]},
 
@@ -293,13 +311,13 @@
 {"id":"cashOnly","heading":"Cash only","icon":"iconCashOnly", "textBlock":["We only accepts cash payments."]},
 
 "parties":
-{"id":"events","heading":"Parties & Events", "icon":"iconEvents","textBlock":["Parties/events are not allowed."]},
+{"id":"events","heading":"Parties & Events", "icon":"iconEvents","textBlock":["Parties and large gatherings are not allowed, in order to ensure a pleasant stay for all guests. We kindly ask guests to keep noise to a minimum during evening and nighttime hours, out of respect for others."]},
 
 "quietHours":
 {"id":"quietHours","heading":"Quiet hours","icon":"iconQuietHours", "textBlock":["Guests must be quiet between 06:00 and 10:00."]},
 
 "pets":
-{"id":"petsAllowed","heading":"Pets","icon":"iconPetsAllowed", "textBlock":["Pets are not allowed."]}
+{"id":"petsAllowed","heading":"Pets","icon":"iconPetsAllowed", "textBlock":["Pets are not allowed for hygiene reasons."]}
 },
 
 "additionalRules": {
@@ -389,6 +407,7 @@
 "checkInDate":{"label":"Check-in date", "data":"Choose date of arrival", "error":"Please select a check-in date."},
 "checkOutDate":{"label":"Check-out date", "data":"Choose date of depart" , "error":"Please select a check-out date."},
 "selectedOption" :{"label":"Choose"},
+"btnSubmit":"Send request",
 "onSubmitHeading": "Request sent",
 "onSubmitText" :"Thank you! We’ve received your request and will get back to you shortly.",
 "newRequestButton" :" Send another request"
