@@ -20,7 +20,7 @@ console.log(params);
             >
               {t("heading")}
             </Heading>
-<Text maxW="xl" color="gray.700">  {t("introText")}</Text>
+<Text maxW="xl" color="gray.700" fontSize="lg">  {t("introText")}</Text>
             <SimpleGrid
               columns={{ base: 1, sm: 2, lg: 3 }}
                gap={{base:"6",md:"8",lg:"12"}}  mt={{base:"6",md:"8",lg:"12"}}  alignItems="flex-start"  

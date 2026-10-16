@@ -15,10 +15,11 @@ return(
               pt={4}
               borderTop="1px solid"
               borderColor="gray.500"
+              className="copyright-block"
             >
               <Text fontSize="xs" opacity={0.8}>
                 {t('footerCopyright.copyrightInfo')}{' '}
-                <Box as="i">{t('footerCopyright.author')}</Box>.
+                <Box as="i" className="designer-name">{t('footerCopyright.author')}</Box>.
               </Text>
             </Box>
     

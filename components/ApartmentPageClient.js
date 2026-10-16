@@ -169,8 +169,8 @@ const [activeSection, setActiveSection] = useState('overview');
 
  const dataStyles= {
 input:{
-bg:"#fff",
-boxShadow:"sm",
+bg:"transparent",
+boxShadow:"none",
 
 },
 label:{
@@ -180,17 +180,11 @@ wrapper:{
 
 w:"full",
 p:{sm:"4"},
-shadow:{sm:"md", md:"none"},
+
 pb:"8"
 
 },
-button:{
- h:"11",
- minW:"11" ,
- fontSize:"md" ,
- px:"5",
 
-},
 errorText:{
   ps:"0"
 }
@@ -212,9 +206,9 @@ errorText:{
 <Box  position="relative" w="full"  //
   zIndex="1000"
   bg="white"
-  boxShadow="sm"
+ border="1px solid"
   
-  borderColor="gray.100" mb="10">
+  borderColor="gray.200" mb="10">
         <HStack className="nav-list " gap="0" overflowX="auto"
     whiteSpace="nowrap">
           {['overview', 'description', 'extraBenefits', 'facilities', 'relatedRooms'].map((section) => (
@@ -223,7 +217,7 @@ errorText:{
         borderColor={activeSection === section ? "var(--secondary)" : "transparent"}
         bg={activeSection === section ? "rgba(var(--secondary-rgb),.2)" : "transparent" }
         transition="all 0.2s"
-        _hover={{ bg: "rgba(var(--secondary-rgb),.1)" }} textStyle={{base:"xs", md:"sm"}} px={{smDown:"3"}}>
+        _hover={{ bg: "rgba(var(--secondary-rgb),.1)" }} textStyle={{base:"xs", md:"sm"}} color="var(--secondary)" textTransform="uppercase" letterSpacing="0.1em" px={{smDown:"3"}}>
             <Link href={`#${section}`}
             onClick={() => setActiveSection(section)} >{t(`pageSectionNames.${section}`)}</Link>
 

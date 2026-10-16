@@ -11,19 +11,19 @@
     },
     "freeWiFi": {
       "label": "Besplatan Wi-Fi",
-      "desc": "Brz i stabilan internet u celom objektu."
+      "desc": "Brz i stabilan internet u cijelom objektu."
     },
     "familyRooms": {
       "label": "Porodične sobe",
-      "desc": "Prostrane sobe idealne za porodice i grupe."
+      "desc": "Prostrane sobe za porodice i grupe."
     },
     "airConditioning": {
       "label": "Klima uređaj",
-      "desc": "Uživajte u prijatnoj temperaturi tokom toplih dana."
+      "desc": "Uživajte u prijatnoj temperaturi u toplim danima."
     },
     "playground": {
-      "label": "Dečije igralište",
-      "desc": "Siguran i zabavan prostor za najmlađe."
+      "label": "Dječije igralište",
+      "desc": "Zabava za najmlađe."
     },
     "kitchen": {
       "label": "Kuhinja",
@@ -41,8 +41,8 @@
   
     
   "heroSection" : {
-"heroTitle" : "Odmor po vašoj meri - prilagođen vašim potrebama",
-"heroSubtitle" :"Odlicna lokacija · 300 m od plaže",
+"heroTitle" : "Odmor po Vašoj Mjeri - Prilagođen Vašim Potrebama",
+"heroSubtitle" :"Odlična lokacija · 300 m od plaže",
 "heroText" :"Raznovrsna ponuda · Mirno okruženje · Pogodno za porodice",
 "heroCta": {
    "btn1" : {"label": "Provjerite dostupnost","href": "/contact"},
@@ -52,8 +52,8 @@
 },
     
     "header" :{
-    "brandName" :"Apartmani Becici",
-    "homeLink" : {"key": "home", "label": "Pocetna", "href": "/"},
+    "brandName" :"Apartmani Bečići",
+    "homeLink" : {"key": "home", "label": "Početna", "href": "/"},
     "contactLink" : { "key": "contact","label": "Kontakt", "href": "/contact" },
     "aboutUsLink" :{ "key": "about", "label": "O nama", "href": "/about-us" },
     "houseRulesLink" :{ "key": "houseRules", "label": "Kućni red", "href": "/house-rules" },
@@ -75,7 +75,7 @@
     
     "pointsOfInterest" : {
     "heading" : "Okolina",
-    "introText":"Istražite obližnje plaže, restorane, prodavnice i atrakcije, i saznajte koliko su udaljeni od vašeg smeštaja, kako biste lakše planirali dan.",
+    "introText":"Sve što vam je potrebno za savršen odmor nalazi se nadohvat ruke. Istražite obližnje plaže, restorane, prodavnice i atrakcije, i saznajte koliko su udaljeni od vašeg smeštaja, kako biste lakše isplanirali svoj odmor.",
     "nearby":{
       "id":"nearby",
       "heading":"U blizini","icon" : "IconNearby",
@@ -86,7 +86,7 @@
         {"name" : "Splendid Spa" , "distance":"200 m"},
         {"name" : "Aqua park Mediteran" , "distance":"300 m"},
         {"name" : "Restoran Stari Hrast" ,  "distance":"50 m"},
-        {"name" :"Posta Becici" , "distance":"250 m"},
+        {"name" :"Posta Bečići" , "distance":"250 m"},
 {"name" :"Plazni bar Arena" , "distance":"300 m"},
 {"name" :"Crkva Sv. Tome" , "distance":"250 m"}
         
@@ -111,23 +111,23 @@
   {"name" : "The Old Fisherman's Pub" , "distance":"2.8 km"}
 ],
 "collapseElement" :{
- "viewAll": "Vidi vise",
+ "viewAll": "Vidi više",
           "seeLess": "Vidi manje"
 }}, 
     "beachesInTheNeighborhood" :{
       "id":"beachNearby",
-      "heading":"Obliznje plaže",
+      "heading":"Obližnje plaže",
       "icon" :"IconBeachNearby",
   "items":[
-  {"name" : "Becicka plaža" , "distance":"300 m"},
-  {"name" : "Plaza Rafailovici" , "distance":"1.1 km"},
+  {"name" : "Bečićka plaža" , "distance":"300 m"},
+  {"name" : "Plaža Rafailovici" , "distance":"1.1 km"},
   {"name" : "Slovenska plaža" , "distance":"1.6 km"},
   {"name" : "Dukley" , "distance":"1.2 km"},
   {"name" : "Kamenovo" , "distance":"1.8 km"},
   {"name" : "Mogren" , "distance":"2.9 km"}
 ],
 "collapseElement" :{
- "viewAll": "Vidi vise",
+ "viewAll": "Vidi više",
           "seeLess": "Vidi manje"
 }}, 
     "attractions" : {
@@ -148,7 +148,7 @@
        
       ],
       "collapseElement" :{
-      "viewAll": "Vidi vise",
+      "viewAll": "Vidi više",
           "seeLess": "Vidi manje"
       }
     },
@@ -159,12 +159,12 @@
       "icon" :"IconPublicTransport",
   "items":[
    {"name" : "Glavna autobuska stanica Budva" , "distance":"3.5 km"},
-  {"name" : "Lokalna autobuska stanica Becici" , "distance":"250 m"},
+  {"name" : "Lokalna autobuska stanica Bečići" , "distance":"250 m"},
   {"name" : "Zeljeznicka stanica Bar" , "distance":"29 km"},
   {"name" : "Zeljeznicka stanica Sutomore" , "distance":"22 km"}
 ],
 "collapseElement" :{
-  "viewAll": "Vidi vise",
+  "viewAll": "Vidi više",
           "seeLess": "Vidi manje"
 }},
     "closestAirports" :{
@@ -176,7 +176,7 @@
       {"name" : "Aerodrom Dubrovnik" , "distance":"71 km"}
     ],
     "collapseElement" :{
-      "viewAll": "Vidi vise",
+      "viewAll": "Vidi više",
           "seeLess": "Vidi manje"
     }},
     "shopping" : {
@@ -184,7 +184,7 @@
   "heading":"Šoping",
   "icon" :"IconShopping",
   "collapseElement" :{
-  "viewAll": "Vidi vise",
+  "viewAll": "Vidi više",
           "seeLess": "Vidi manje"
 },
   "items":[
@@ -207,7 +207,7 @@
     {"name" : "Top Hill" , "distance":"3.9 km"}
   ],
   "collapseElement" :{
-    "viewAll": "Vidi vise",
+    "viewAll": "Vidi više",
           "seeLess": "Vidi manje"
   }
 },
@@ -224,7 +224,7 @@
     {"name": "Hitna pomoć", "distance": "3 km"}
   ],
    "collapseElement" :{
-    "viewAll": "Vidi vise",
+    "viewAll": "Vidi više",
           "seeLess": "Vidi manje"
   }
 }
@@ -233,7 +233,7 @@
 
 
     "houseRules": {
-      "mainHeading":"Kucni red",
+      "mainHeading":"Kućni red",
   "checkIn": {
     "id": "checkin",
     "heading": "Prijava (Check-in)",
@@ -268,11 +268,11 @@
   },
   "childrenAndBeds": {
     "id": "childrenAndBeds",
-    "heading": "Deca i dodatni ležajevi",
+    "heading": "Djeca i dodatni ležajevi",
     "textBlock": [
       "Djeca svih uzrasta su dobrodošla.",
       "Dodatni pomoćni ležajevi nisu dostupni.",
-      "Krevetac za bebe može biti obezbeđen na zahtev."
+      "Krevetac za bebe može biti obezbijeđen na zahtev."
     ]
   },
   "cashOnly": {
@@ -357,7 +357,7 @@
     }
   },
   "footerCopyright": {
-    "copyrightInfo": "© 2023 Apartmani Bečići. Sva prava zadržana. Designed by ",
+    "copyrightInfo": "© 2026 Apartmani Bečići. Sva prava zadržana. Designed by ",
     "author": "Blanchette"
   },
   "workingHours": {
@@ -383,24 +383,24 @@
     "data2": "+382 67 556 512"
   }, "additionalText":"","formLabel":"Phone"
   },
-  "adress" :{"data":"Ivo Lola Ribara 1, Becici, Budva 85310, Crna Gora", "icon":"IconExactLocation", "additionalText":"", "formLabel":"Adress"},
+  "adress" :{"data":"Ivo Lola Ribara 1, Bečići, Budva 85310, Crna Gora", "icon":"IconExactLocation", "additionalText":"", "formLabel":"Adress"},
   "email":{"data":"apartmanibecici99@gmail.com", "icon":"IconEmail", "additionalText":"", "formLabel":"Email"}
 },
     "contactForm": {
-      "email": { "label": "Email", "error":"Unesite vasu imejl adresu.","invalid":"Unesite ispravnu imejl adresu.", "placeholder":"email@gmail.com"},
+      "email": { "label": "Email", "error":"Unesite vašu imejl adresu.","invalid":"Unesite ispravnu imejl adresu.", "placeholder":"email@gmail.com"},
       "phone": { "label": "Telefon", "placeholder":"+381 6X XXX XXX" },
-      "name": { "label": "Ime" , "error":"Unesite vase ime.", "placeholder":"Unesite vaše ime"},
+      "name": { "label": "Ime" , "error":"Unesite vaše ime.", "placeholder":"Unesite vaše ime"},
       "message": { "label": "Poruka" },
       "btn": { "label": "Pošaljite zahtjev" },
       "adultsNmbr": { "label": "Odrasli", "error":"Unesite ukupan broj odraslih." },
       "childrenNmbr": { "label": "Djeca", "error":"Unesite ukupan broj djece." },
-      "childrenAge": { "label": "Uzrast djece", "error":"Napisite uzrast djece." },
+      "childrenAge": { "label": "Uzrast djece", "error":"Napišite uzrast djece." },
       "additionalRequest": { "label": "Dodatni zahtjevi", "placeholder":"Dodatne napomene ili zahtevi" },
       "checkInDate": { "label": "Datum dolaska", "data":"Izaberite datum dolaska", "error":"Unesite datum dolaska." },
       "checkOutDate": { "label": "Datum odlaska","data":"Izaberite datum odlaska" , "error":"Unesite datum odlaska."},
       "selectedOption": { "label": "Izaberite" },
       "btnSubmit":"Pošaljite zahtjev",
-      "onSubmitHeading": "Zahtev je poslat",
+      "onSubmitHeading": "Zahtjev je poslat",
 "onSubmitText": "Hvala! Primili smo vaš zahtjev i uskoro ćemo vam se javiti.",
 "newRequestButton": "Pošaljite novi zahtjev"
     }
@@ -410,8 +410,8 @@
 "sectionHeading" :"Ocjene i utisci",
 "introText" :"Stvarna iskustva naših gostiju — utisci, ocjene i komentari o njihovom boravku kod nas, udobnosti, čistoći i sitnim detaljima koji čine svako ljetovanje posebnim.",
 "generalNote" :{"label":"Izvanredan", "note":"9.4"},
-"linkToAllReviews" :"Procitajte sve recenzije",
-"viewMore" :"Vidi vise",
+"linkToAllReviews" :"Pročitajte sve recenzije",
+"viewMore" :"Vidi više",
 "viewLess" :"Vidi manje",
 "categories" :{
   "heading":"Kategorije:",
@@ -431,7 +431,7 @@
 {"id": 4,"name" :"Dmlukic" , "country":"Austrija", "text":"Sve je bilo super.Domacini su bili na raspolaganju 00/24 sta god je potrebno. Lokacija je bila top. Predje se mostic i na plazi smo. Za decu vrhunska lokacija. Sve ima u smestaju. Apartman cist. Sve pohvale. "},
 
 {"id": 5,"name":"Snezana", "country":"Bosna i Hercegovina", "text":"Toplo bih preporučila Apartmane Bečići, izuzetna ljubaznost domaćina, lokacija blizu plaže, posebno dobar za porodicu sa manjom djecom gdje ima bašta namjenjena  djeci. Besplatan  parking. Sve pohvale."},
-{"id": 6,"name":"Esther", "country":"Holandija", "text":"Lokacija je bila odlicna, smestaj je bio dobar, terasa sa pogledom na bastu divna. Plaza i supermarket na nekoliko minuta hoda. Toplo preporucujem.","ratingValue":"10" }
+{"id": 6,"name":"Esther", "country":"Holandija", "text":"Lokacija je bila odlična, smestaj je bio dobar, terasa sa pogledom na bastu divna. Plaza i supermarket na nekoliko minuta hoda. Toplo preporucujem.","ratingValue":"10" }
 
 
   ]
@@ -452,18 +452,20 @@
  {"id"   : "", "photoURL"  :"/images/yard/entrance-view-v2.jpg", "photoAlt"  :"", "photoPosition"  :"", "order": 7},
       {"id"   : "", "photoURL"  :"/images/yard/entrance-and-hallway-v2.jpg", "photoAlt"  :"", "photoPosition"  :"", "order": 8},
       {"id"   : "", "photoURL"  :"/images/yard/parking-01-brush-v2.jpg", "photoAlt"  :"", "photoPosition"  :"", "order": 9},
-           {"id"   : "", "photoURL"  :"/images/yard/garden-roses-v2.jpg", "photoAlt"  :"", "photoPosition"  :"", "order": 10}
+        {"id"   : "", "photoURL"  :"/images/yard/garden-roses-v2.jpg", "photoAlt"  :"", "photoPosition"  :"", "order": 10},
+            {"id"   : "", "photoURL"  :"/images/yard/photo-yard-199.jpg", "photoAlt"  :"", "photoPosition"  :"", "order": 11},
+      {"id"   : "", "photoURL"  :"/images/yard/playground-with-flowers.jpg", "photoAlt"  :"", "photoPosition"  :"", "order": 12}
      
   ]},
 "pageTitles" :{
 "aboutUs":{"label":"O nama", "photoURL":""},
 "contact":{"label":"Kontakt", "photoURL":"/images/yard/playground-swings-v2.jpg", "photoPosition":"bottom", "desc":"Upit · Rezervacija"},
-"houseRules":{"label":"Kucni red", "photoURL":"/images/3_person_apartment_3rd_floor/photo114.jpg", "photoPosition":"bottom", "desc":"Pravila · Mir · Prijatan boravak"},
+"houseRules":{"label":"Kućni red", "photoURL":"/images/3_person_apartment_3rd_floor/photo114.jpg", "photoPosition":"bottom", "desc":"Pravila · Mir · Prijatan boravak"},
 "offer":{"label":"Ponuda", "photoURL":"/images/4_person_apartment_3rd_floor/photo191.jpg", "desc":"Raznovrsno · Klimatizovano · Prilagođeno porodicama"},
 "apartments":{"label":"Apartmani","photoURL":"/images/5_person_apartment_4th_floor/photo267.jpg", "desc":"Prostrani · Udobni · Potpuno opremljeni"},
 "studios":{"label":"Studiji", "photoURL":"/images/3_person_studio/photo04.jpg", "photoPosition":"", "desc":"Prakticni · Funkcionalni · Opremljeni"},
 "rooms" :{"label":"Sobe", "photoURL":"/images/3_person_room_with_external_bathroom/photo206.jpg", "desc" :"Udobne · Moderne · Povoljne"},
-"usefulInfo" :{"label":"Korisne informacije",  "photoURL":"/images/yard/becici-beach-slide.jpg", "photoPosition":"bottom", "desc":"Dolazak · Prevoz · Važne informacije"}
+"usefulInfo" :{"label":"Korisne informacije",  "photoURL":"/images/yard/sunnyday.jpg", "photoPosition":"bottom", "desc":"Dolazak · Prevoz · Važne informacije"}
 
 
 
@@ -577,7 +579,7 @@
     "directContact": "Ili nas direktno kontaktirajte:",
  "contactUs": "Kontakt",
     "contactInfo": {
-      "email": "apartmanibecici@gmail.com",
+      "email": "apartmanibecici99@gmail.com",
       "phone1": "+382 67 000 000",
       "phone2": "+382 68 000 000"
     },
@@ -585,7 +587,7 @@
     "addressSection": {
       "heading": "Adresa",
       "street": "Ivo Lola Ribara 1",
-      "city": "85310 Becici, Crna Gora"
+      "city": "85310 Bečići, Crna Gora"
     },
 
     "socialSection": {

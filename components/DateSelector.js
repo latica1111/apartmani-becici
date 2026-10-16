@@ -33,7 +33,7 @@ const isVertical = layout === "vertical";
       : { base: "column", lg: "row" }} alignItems={    layout === "vertical"
       ? "flex-start"
       : {lg:"center"}}>
-  <Text {...dataStyles.label} fontSize="sm" minW="112px">{t('checkInDate.label')}</Text>
+  <Text {...dataStyles.label} fontSize="xs" minW="112px" textTransform="uppercase" color="var(--primary)">{t('checkInDate.label')}</Text>
    <Controller
             name="checkIn"
             control={control}
@@ -81,7 +81,7 @@ const isVertical = layout === "vertical";
       : { base: "column", lg: "row" }} alignItems={ layout === "vertical"
       ? "flex-start"
       : {lg:"center"}}>
-  <Text {...dataStyles.label} fontSize="sm" minW="112px" >{t('checkOutDate.label')}</Text>
+  <Text {...dataStyles.label} fontSize="xs" minW="112px" textTransform="uppercase" color="var(--primary)" >{t('checkOutDate.label')}</Text>
 
   <Controller
             name="checkOut"

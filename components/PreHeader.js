@@ -3,7 +3,7 @@
 import React from 'react';
 
 import LanguageSwitcher from '@/components/LanguageSwitcher';
-
+import Logo2  from '@/components/Logo2';
 import { Box, Flex, } from '@chakra-ui/react';
 const PreHeader = () => {
   const phone1 = '+382 67 748 403';
@@ -14,18 +14,18 @@ const PreHeader = () => {
   return (
     <>
    
-  <Box as="section" className="preheader-wrapper secondary-bg">
+  <Box as="section" className="preheader-wrapper">
     
       <Flex
         w="full"
-        justify="flex-end"
+        justify="space-between"
         align="center"
      
       >
-       
+       <Logo2 />
 
         {/* Language Switcher */}
-        <Box display={{ base: 'flex',sm: 'none' }} justify={{ base: 'flex-start', }}>
+        <Box display={{ base: 'flex' }} justify={{ base: 'flex-start', }}>
           <LanguageSwitcher />
         </Box>
       </Flex>

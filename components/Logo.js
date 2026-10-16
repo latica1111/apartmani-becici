@@ -15,13 +15,13 @@ export default function Logo({ brandName="Apartmani Becici" }) {
      
     >
      
-      <Span style={{ lineHeight: 1 }} letterSpacing="wider"  filter="brightness(2) contrast(.6)" transition="all 0.3s ease"
+      <Span style={{ lineHeight: 1 }} letterSpacing=".1em"  filter="brightness(2) contrast(.6)" transition="all 0.3s ease"
   _hover={{
   
     filter: "brightness(1.2) contrast(.8)"
   }}>
-        <Span style={{ fontWeight: 500, color:"var(--primary)",fontSize:"lg" }} >{firstWord} </Span>
-        <Span style={{ fontWeight: 500, color:"var(--secondary)",fontSize:"lg" }}>{secondPart}</Span>
+        <Span style={{ fontWeight: 400, color:"var(--primary)",fontSize:"lg", textTransform:"uppercase" }} >{firstWord} </Span>
+        <Span style={{ fontWeight: 300, color:"var(--secondary)",fontSize:"lg", textTransform:"uppercase" }}>{secondPart}</Span>
       </Span>
      
      

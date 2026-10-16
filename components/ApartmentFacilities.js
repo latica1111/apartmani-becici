@@ -22,9 +22,9 @@ export default function ApartmentFacilities ({facilities, iconComponents}){
   fontSize="xs"
  px={{base:"2", sm:"3"}}
  py={{base:"1", sm:"2"}}
-  rounded="sm" 
+  rounded="0" 
         border="1px solid"
-        borderColor="gray.100"
+        borderColor="rgba(var(--primary-rgb), .15)"
        
         gap={2}
         _hover={{ bg:"rgba(var(--primary-rgb), .1)" }}
@@ -32,7 +32,7 @@ export default function ApartmentFacilities ({facilities, iconComponents}){
                 <Tag.StartElement><Span className="icon-wrapper">
                   {IconFunc && IconFunc({ width: 18, height: 18, fill:"var(--primary)" })}
                 </Span></Tag.StartElement>
-                 <Tag.Label fontSize={{base:"xs", sm:"sm"}} fontWeight="medium">{label}</Tag.Label>
+                 <Tag.Label fontSize={{base:"2xs", }} fontWeight="300" letterSpacing="0.14em" textTransform="uppercase">{label}</Tag.Label>
               </Tag.Root>
             );
           })}

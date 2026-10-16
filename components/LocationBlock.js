@@ -30,10 +30,8 @@ const collapseElement = section?.collapseElement || {};
   
 
 
-      <VStack className="inner-wrapper"  p={{base:"4",  sm:"3", md:"6"}} rounded="sm"  bg="white"
-  border="1px solid"
-  borderColor="gray.100"
-  shadow="sm"
+      <VStack className="inner-wrapper"  p={{base:"4",  sm:"3", md:"6"}}   bg="white"
+ 
    overflow="hidden"
     minH={{base:"auto",sm:"300px"}}
   transition="all 0.35s cubic-bezier(0.4, 0, 0.2, 1)"
@@ -46,17 +44,17 @@ const collapseElement = section?.collapseElement || {};
   }}>
         <Box className="location-block" w="full" justifyContent="space-between">
           {/* Heading */}
-          <Stack align={{base:"center",sm:'flex-start', md:"center"}} mb="5" flexDirection={{base:"row", sm:'column', md:'row'}}>
+          <Stack align={{base:"center",sm:'flex-start', md:"center"}} mb="5" flexDirection={{base:"row", sm:'column', md:"row"}}>
             {IconComponent && (
-              <Box className="icon " rounded="full" p="3"   bg="rgba(201,161,74,0.1)" border="1px solid rgba(var(--secondary-rgb), .6)" color="var(--secondary)">
-                <IconComponent width="16" height="16" fill="var(--secondary)"  />
+              <Box className="icon "   color="var(--secondary)">
+                <IconComponent width="48" height="48" fill="var(--secondary)"  />
               </Box>
             )}
 
             <Heading
-           fontSize={{base:"sm"}}
+           fontSize={{base:"md"}}
        textTransform="uppercase"
-           color="var(--primary)"  fontWeight="300"
+            fontWeight="300"
             >
               {heading}
             </Heading>
@@ -73,7 +71,7 @@ const collapseElement = section?.collapseElement || {};
       borderBottom="1px solid"
       borderColor="gray.100"
               >
-                <Text className="place-name" mb="0" fontWeight="500">{item.name}</Text>
+                <Text className="place-name" mb="0" fontWeight="400">{item.name}</Text>
                 <Text className="place-distance" mb="0" color="gray.500" fontSize="sm">
                   { item.distance}
                 </Text>
@@ -84,9 +82,9 @@ const collapseElement = section?.collapseElement || {};
           {/* Toggle */}
           {items.length > 3 && (
             <HStack as={Button}
-              variant="ghost"
-             fontSize="sm" color="var(--primary)" 
-              px={0} fontWeight="500"
+              variant="ghost" textTransform="uppercase" letterSpacing="1.2px"
+             fontSize="xs" color="var(--primary)" 
+              px={0} fontWeight="400"
               transition="all 0.3s ease" bg="none"
   _hover={{
   opacity: ".7",

@@ -41,7 +41,7 @@ return(
         </Grid>
     {visibleCount < filteredApartments.length && (
   <Box textAlign="center" mt="6">
-    <Button variant="ghost" color="var(--primary)" fontWeight="500"  transition="all .3 ease" _hover={{bg:"transparent", opacity:".7",}}
+    <Button variant="ghost" rounded="0" pb="1" height="auto" minHeight="auto" color="var(--primary)" fontWeight="500" letterSpacing="1.2px" textTransform="uppercase" fontSize="xs" borderBottom="1px solid" transition="all .3 ease" _hover={{bg:"transparent", opacity:".7",}}
       onClick={() => setVisibleCount((prev) => prev + ITEMS_PER_PAGE)}
     >
     <Span>{locale === 'sr' ? 'Prikaži više' : 'Load more'}</Span> <MdOutlineKeyboardArrowDown />

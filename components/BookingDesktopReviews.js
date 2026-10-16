@@ -27,17 +27,17 @@ export default async function BookingDesktopReviews ({reviews }){
                   md: 'repeat(2, 1fr)',
                   lg: 'repeat(3, 1fr)',
                 }}
-                 gap={{base:"6",md:"8",lg:"12"}}  py={{base:"6",md:"8",lg:"12"}} 
-              
+                 gap={{base:"6",md:"8",lg:"12"}}  pb={{base:"6",md:"8",lg:"12"}} 
+              pt={{base:"10",md:"12",lg:"20"}}
               >
                 {reviews.map((review) => (
                   <Box
                     key={review.id}
                   //bg="#F5F1E8"
-                  rounded="sm"
-                  py="5" px="8" shadow="md"border="1px solid"
+                
+                  py="5" px="8" border="1px solid"
 borderColor="rgba(0,0,0,0.05)"
-transition="all 0.2s ease"
+transition="all 0.2s ease" backgroundColor="gray.100"
 _hover={{
   transform: "translateY(-4px)",
   shadow: "lg"
@@ -52,7 +52,7 @@ _hover={{
               </Avatar.Root>
               <Stack gap="0">
                 <Text fontWeight="medium" mb="0" color="var(--primary)" letterSpacing="wide"> {review.name}</Text>
-                <Text color="fg.muted" textStyle="sm">
+                <Text color="fg.muted" textStyle="2xs" textTransform="uppercase" fontWeight="400">
                  {review.country}
                 </Text>
               </Stack>

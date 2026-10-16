@@ -85,7 +85,7 @@
 ],
 
 "heroSection": {
-  "heroTitle":"Feel at home from the moment you arrive",
+  "heroTitle":"Feel at Home from The Moment You Arrive",
   "heroTitle1": "Apartments, Rooms & Studios in Bečići",
   "heroSubtitle": "Only 300 m from the beach",
   "heroText": "Choose between studios, apartments, and rooms, carefully designed to match your needs and travel style — whether you're here to relax, explore, or simply enjoy the moment.",
@@ -97,7 +97,7 @@
 
 
 "header" :{
-"brandName" :"Apartments Becici",
+"brandName" :"Apartments Bečići",
 "homeLink" : {"key": "home", "label": "Home", "href": "/"},
 "contactLink" : { "key": "contact","label": "Contact", "href": "/contact" },
 "aboutUsLink" :{ "key": "about", "label": "About us", "href": "/about" },
@@ -166,10 +166,10 @@
 }, 
 "beachesInTheNeighborhood" :{
   "id":"beachNearby",
-  "heading":"Beaches in the Neighborhood",
+  "heading":"Nearby Beaches",
   "icon" :"IconBeachNearby",
   "items":[
-  {"name" : "Becici Beach" , "distance":"300 m"},
+  {"name" : "Bečići Beach" , "distance":"300 m"},
   {"name" : "Rafailovici Beach" , "distance":"1.1 km"},
   {"name" : "Slovenska Beach" , "distance":"1.6 km"},
   {"name" : "Dukley Beach" , "distance":"1.2 km"},
@@ -212,7 +212,7 @@
   "icon" :"IconPublicTransport",
   "items":[
   {"name" : "Budva Main Bus Station" , "distance":"3.5 km"},
-  {"name" : "Becici Local Bus Station" , "distance":"250 m"},
+  {"name" : "Bečići Local Bus Station" , "distance":"250 m"},
   {"name" : "Railway Station Bar" , "distance":"29 km"},
   {"name" : "Railway Station Sutomore" , "distance":"22 km"}
 ],
@@ -341,13 +341,13 @@
 "id":"footer",
 "contact":{
   "heading":"Contact",
-  "adress" :{"data":"Ivo Lola Ribara 1, Becici, Budva 85310, Montenegro", "icon":"iconExactLocation"},
+  "adress" :{"data":"Ivo Lola Ribara 1, Bečići, Budva 85310, Montenegro", "icon":"iconExactLocation"},
   "phones" :{"icon":"IconPhone","phonesNmbrs": {
   "data1": "+382 67 748 403",
   "data2": "+382 67 556 512"
 } 
 },
-  "email":{"data":"apartmanibecici99@gmail.com", "icon":"IconEmail"}
+  "email":{"data":"apartmaniBečići99@gmail.com", "icon":"IconEmail"}
   
 },
 "footerOffer":{
@@ -359,12 +359,12 @@
 },
 "footerSocials" :{
   "heading":"Follow Us",
-"intro":"And keep up to date with Apartmani Becici",
+"intro":"And keep up to date with Apartmani Bečići",
 "fb":{"iconFb":"FbIcon","fbLabel": "Visit our Facebook page"},
 "instagram":{"iconInstagram":"IconInstagram","instagramLabel": "Check out our Instagram" }
 },
 "footerCopyright":{
-  "copyrightInfo":"© 2023 Apartmani Becici. All Rights Reserved. Design by ",
+  "copyrightInfo":"© 2026 Apartmani Bečići. All Rights Reserved. Design by ",
   "author": "Blanchette"
 },
 "workingHours": {
@@ -391,8 +391,8 @@
     "data2": "+382 67 556 512"
   }, "additionalText":"","formLabel":"Phone"
   },
-  "adress" :{"data":"Ivo Lola Ribara 1, Becici, Budva 85310, Montenegro", "icon":"iconExactLocation", "additionalText":"", "formLabel":"Adress"},
-  "email":{"data":"apartmanibecici99@gmail.com", "icon":"iconEmail", "additionalText":"", "formLabel":"Email"}
+  "adress" :{"data":"Ivo Lola Ribara 1, Bečići, Budva 85310, Montenegro", "icon":"iconExactLocation", "additionalText":"", "formLabel":"Adress"},
+  "email":{"data":"apartmaniBečići99@gmail.com", "icon":"iconEmail", "additionalText":"", "formLabel":"Email"}
 },
 "contactForm":{
   "email":{"label":"Email", "error":"Please enter your email adress","invalid":"Please enter a valid email address.", "placeholder":"email@gmail.com" },
@@ -474,8 +474,9 @@
  {"id"   : "", "photoURL"  :"/images/yard/entrance-view-v2.jpg", "photoAlt"  :"", "photoPosition"  :"", "order": 7},
       {"id"   : "", "photoURL"  :"/images/yard/entrance-and-hallway-v2.jpg", "photoAlt"  :"", "photoPosition"  :"", "order": 8},
       {"id"   : "", "photoURL"  :"/images/yard/parking-01-brush-v2.jpg", "photoAlt"  :"", "photoPosition"  :"", "order": 9},
-           {"id"   : "", "photoURL"  :"/images/yard/garden-roses-v2.jpg", "photoAlt"  :"", "photoPosition"  :"", "order": 10}
-     
+           {"id"   : "", "photoURL"  :"/images/yard/garden-roses-v2.jpg", "photoAlt"  :"", "photoPosition"  :"", "order": 10},
+            {"id"   : "", "photoURL"  :"/images/yard/photo-yard-199.jpg", "photoAlt"  :"", "photoPosition"  :"", "order": 11},
+      {"id"   : "", "photoURL"  :"/images/yard/playground-with-flowers.jpg", "photoAlt"  :"", "photoPosition"  :"", "order": 12}
   ]},
   "pageTitles" :{
 "aboutUs":{"label":"About us", "photoURL":"", "photoPosition":""},
@@ -485,7 +486,7 @@
 "apartments":{"label":"Apartments", "photoURL":"/images/5_person_apartment_4th_floor/photo267.jpg", "desc":"Spacious · Comfortable · Fully equipped"},
 "studios":{"label":"Studios", "photoURL":"/images/3_person_studio/photo04.jpg", "photoPosition":"", "desc":"Compact · Functional · Fully equipped"},
 "rooms" :{"label":"Rooms", "photoURL":"/images/3_person_room_with_external_bathroom/photo206.jpg", "desc" :"Private · Modern · Well equipped"},
-"usefulInfo" :{"label":"Useful information", "photoURL":"/images/yard/becici-beach-slide.jpg", "photoPosition":"bottom", "desc":"Travel · Local · Info"}
+"usefulInfo" :{"label":"Useful information", "photoURL":"/images/yard/sunnyday.jpg", "photoPosition":"bottom", "desc":"Travel · Local · Info"}
 },
 "usefulInfo" :{
   "heading": "Useful Information",
@@ -505,7 +506,7 @@
     "airplane": {
       "label": "By Plane",
       "items": [
-        "The closest airports are:",
+        "The closest airports",
         "Tivat (TIV) – approx. 25 km away, about a 30-minute drive.",
         "Podgorica (PG) – approx. 65 km away, about a 1-hour drive.",
         "Dubrovnik (DBV) – approx. 75 km away, note that a border crossing is required."
@@ -535,7 +536,7 @@
         "M23 Main Road Budva – Cetinje – Podgorica."
       ],
       "borders": {
-        "intro": "The most commonly used border crossings with neighboring countries:",
+        "intro": "Border crossings with neighboring countries",
         "Serbia": ["Ranče", "Čemerno", "Dobrakovo", "Kula", "Draženovac", "Vuče", "Jabuka"],
         "Croatia": ["Debeli Brijeg", "Kobila"],
         "Bosnia and Herzegovina": ["Sitnica", "Ilino brdo", "Vraćenovići", "Krstac", "Nudo", "Šćepan Polje", "Metaljka", "Sula"],
@@ -595,7 +596,7 @@
     "directContact": "Or contact us directly:",
     "contactUs": "Contact us",
     "contactInfo": {
-      "email": "apartmanibecici@gmail.com",
+      "email": "apartmaniBečići@gmail.com",
       "phone1": "+382 67 000 000",
       "phone2": "+382 68 000 000"
     },

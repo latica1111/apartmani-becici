@@ -10,16 +10,16 @@ export default async function GeneralScore() {
   const t =  await getTranslations({ namespace: 'home.bookingScore' });
  return(
 <>
-<Box textAlign="left" w="full" mb={{base:"3",md:"4",lg:"6"}}>
+<Box textAlign="center" w="full" mb={{base:"3",md:"4",lg:"6"}}>
           <Stat.Root bg="rgba(201, 161, 74, 0.1)"
-border="1px solid rgba(201, 161, 74, 0.3)" w="fit-content" shadow="sm" p="3" rounded="sm" display="flex" flexDirection="column" gap="1">
-      <Stat.Label  fontSize="xs"
+border="1px solid rgba(201, 161, 74, 0.3)" w="fit-content" shadow="sm" p="5" rounded="sm" display="flex" flexDirection="column" gap="2">
+      <Stat.Label  fontSize="sm"
   textTransform="uppercase"
   letterSpacing="wider"
   color="var(--primary)"
   opacity=".7">   {t("generalNote.label")}</Stat.Label>
-      <Stat.ValueText fontSize="2xl"
-  fontWeight="700"
+      <Stat.ValueText fontSize="5xl"
+  fontWeight="700"  fontFamily="var(--font-cormorant)"
   color="var(--primary)">{t("generalNote.note")}</Stat.ValueText>
     </Stat.Root>
 </Box>

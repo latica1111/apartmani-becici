@@ -35,7 +35,7 @@ export default function BackToTop() {
       right={{ base: "20px", md: "30px" }}
       zIndex="999"
       size="lg"
-      borderRadius="full"
+      borderRadius="0"
       bg="rgba(var(--secondary-rgb),1)"
       color="white"
       border="1px solid"

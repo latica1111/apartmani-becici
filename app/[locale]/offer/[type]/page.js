@@ -4,13 +4,14 @@ import Breadcrumbs from '@/components/Breadcrumbs';
 
 
 import HeroImage from '@/components/HeroImage';
-import { Heading, VStack ,Text,} from '@chakra-ui/react';
+import { Heading, VStack ,Text, Box} from '@chakra-ui/react';
 import ApartmentsGrid from '@/components/ApartmentsGrid';
 
 
 import { routing } from '@/i18n/routing';
 import { setRequestLocale } from 'next-intl/server';
 import { dynamicSegments } from '@/i18n/dynamicSegments';
+import HomepagaReservation from '@/components/HomepageReservation';
 export const revalidate = 0; // full static, generiše se jednom u build-u
 
 const urlToTypeMap = {
@@ -103,13 +104,15 @@ console.log('normalizedType:', normalizedType);
 
 <VStack px={{base:"6", md:"8", lg:"12"}} py={{base:"12",md:"16",lg:"24"}} maxW="1200px" mx="auto" alignItems="flex-start">
   <Breadcrumbs />
-<Heading>
+<Heading className="section-name" mb="4">
  {t(`accommodationTypeData.${jsonKey}.heading`)}
 </Heading>
-<Text color="gray.700">  {t(`accommodationTypeData.${jsonKey}.introText`) || ''}</Text>
+<Text color="gray.700" maxW={{md:"60%"}}>  {t(`accommodationTypeData.${jsonKey}.introText`) || ''}</Text>
 
 <ApartmentsGrid filteredApartments={filteredUnits}  showDescription={true} />
-
+<Box mt="12">
+<HomepagaReservation />
+</Box>
 </VStack>
 
 

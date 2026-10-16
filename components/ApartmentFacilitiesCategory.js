@@ -23,30 +23,30 @@ export default function ApartmentFacilitiesCategory ({apartment, extraSectionDat
     return (
      
   <Box className="facility-container" id={`${sectionKey}-wrapper`} p={5} 
-      borderRadius="sm"
+    
       bg="white"
-      boxShadow="md"
+     
       _hover={{ boxShadow: "lg" }}
       transition="0.2s">
      {/* HEADER */}
-      <HStack mb={3} align="center" >
+      <HStack mb={4} align="center" >
         {sectionIcons[sectionKey] && (
-          <Box color="var(--secondary)">
-            {sectionIcons[sectionKey]({ width: 20, height: 20 })}
+          <Box color="var(--secondary)" fill="var(--secondary)">
+            {sectionIcons[sectionKey]({ width: 32, height: 32 })}
           </Box>
         )}
 
-        <Heading fontWeight="bold" fontSize="md">
+        <Heading fontWeight="300" fontSize="md" textTransform="uppercase" letterSpacing="0.3px" color="var(--secondary)">
           {t(`pageSectionNames.${sectionKey}`)}
         </Heading>
       </HStack>
         {extraInfo && (
           <HStack mb={3} gap={3}>
-            <Span className="icon-wrapper">
-              {extraInfo.icon({ width: 18, height: 18 })}
+            <Span className="icon-wrapper" color="var(--secondary)" fill="var(--secondary)">
+              {extraInfo.icon({ width: 32, height: 32 })}
             </Span>
             <Box>
-               <Text fontWeight="semibold">{extraInfo.label}</Text>
+               <Text fontWeight="300" textTransform="uppercase" letterSpacing="0.3px" fontSize="md" color="var(--secondary)">{extraInfo.label}</Text>
             <Text fontSize="sm" color="gray.600">
               {extraInfo.additionalInfo?.[locale]}
             </Text>
@@ -72,7 +72,7 @@ export default function ApartmentFacilitiesCategory ({apartment, extraSectionDat
       {sectionData?.length > 3 && (
         <HStack as={Button}
           variant="ghost"
-          size="sm"
+          size="xs" textTransform="uppercase" letterSpacing="1.2px" fontWeight="400"
           mt={3}
           color="var(--primary)"
           bg="transparent"

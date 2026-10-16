@@ -70,7 +70,7 @@ export default async function OfferPage({ params }) {
 <Box shadow="inset" px={{base:"6", md:"8", lg:"12"}} py={{base:"12",md:"16",lg:"24"}}  >
 <VStack maxW="1200px" mx="auto" alignItems="flex-start" w="full">
 <Breadcrumbs />
-<Heading className="section-name" mb={{base:"3",md:"4",lg:"6"}}>{t("accommodationTypeData.all.heading") || ''}</Heading>
+<Heading className="section-name"  mb={{base:"3",md:"4",lg:"6"}}>{t("accommodationTypeData.all.heading") || ''}</Heading>
 <Text color="gray.700">  {t("accommodationTypeData.all.introText") || ''}</Text>
 <ApartmentsGrid filteredApartments={allUnits}  showDescription={true}/>
  

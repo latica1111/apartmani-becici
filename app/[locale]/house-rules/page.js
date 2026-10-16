@@ -93,7 +93,9 @@ export default async function HouseRulesPage({params}) {
       
     <Box className="house-rules-wrapper" px={{base:"6", md:"8", lg:"12"}} py={{base:"12",md:"16",lg:"24"}}  maxW="1200px" mx="auto">
     <Breadcrumbs />
-<Box className='heading-container'><Heading>{t('houseRules.mainHeading')}</Heading></Box>
+<Box className='heading-container'><Heading className="section-name">{t('houseRules.mainHeading')}</Heading></Box>
+      
+      
       <VStack mt={{base:"6", md:"8", lg:"12"}} >
         {rulesKeys.map((key) => {
           const heading = t(`${key}.heading`);
@@ -102,20 +104,17 @@ export default async function HouseRulesPage({params}) {
           return (
 <Box
   w="full"
-  p={{sm:"5"}} pb={{smDown:"8"}} borderBottom={{smDown:"1px solid"}} borderBottomColor="gray.200 !important"
-  borderRadius={{sm:"sm"}}
-  bg="white"
-  boxShadow={{sm:"xs"}}
-  _hover={{ boxShadow: "sm" }}
+  py={{sm:"5"}} pb={{smDown:"8"}} borderBottom={{smDown:"1px solid"}} borderBottomColor="gray.200 !important"
+ 
   transition="all 0.2s" mb={{base:"8",sm:"5"}}
 >
             <Grid key={key}  templateColumns={{md:"1fr 2fr"}} w={{sm:"",md:"full"}} gap={{base:"6", md:"8", lg:"12"}}>
-              <Heading gap="2" display="flex"  alignItems="center"><Span className="icon-wrapper" display="inline-flex" alignItems="center" justifyContent="center" p={{base:"2",sm:"3"}} bg="rgba(var(--secondary-rgb), .08)"
-backdropFilter="blur(6px)"
-border="1px solid rgba(0,0,0,0.05)" shadow="sm" rounded="full" minW={{base:"36px", sm:"48px"}} minH={{base:"36px", sm:"48px"}}> {IconComponent && 
- <Span boxSize={{ base: "20px", md: "32px" }}>
+              <Heading gap="2" display="flex"  alignItems="center"><Span className="icon-wrapper" display="inline-flex" alignItems="center" justifyContent="center" 
+
+ minW={{base:"36px", sm:"48px", lg:"56px"}} minH={{base:"36px", sm:"48px", lg:'56px'}}> {IconComponent && 
+ <Span boxSize={{ base: "20px", md: "48px", lg:"56px" }}>
       <IconComponent width="100%" height="100%" fill="var(--secondary)" />
-    </Span>}</Span><Span fontSize="xl">{heading}</Span></Heading>
+    </Span>}</Span><Span fontSize="md" textTransform="uppercase" fontWeight="400" letterSpacing="0.3px">{heading}</Span></Heading>
               <VStack alignItems="flex-start" justifyContent="center">
                 {Array.isArray(textBlock)
                   ? textBlock.map((text, index) => <Text key={index}  color="gray.500" maxW="600px">{text}</Text>)

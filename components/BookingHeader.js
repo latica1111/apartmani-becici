@@ -22,10 +22,10 @@ return(
           </Heading>
         </Box>
     {/* ALL REVIEWS LINK */}
-        <Flex  fontSize="sm" color="var(--primary)" fontWeight="500" ml="auto" textAlign="end"
+        <Flex   fontSize="xs" letterSpacing="1.2px" textTransform="uppercase" borderBottom="1px solid" color="var(--primary)" fontWeight="400" ml="auto" textAlign="end"
   position="relative" alignItems={{base:"flex-end",sm:"center"}} justifyContent="center"
   _hover={{
-    opacity: .7
+    opacity: .7, borderColor:"rgba(var(--primary-rgb), 0.7)"
   }} transition="all 0.3s ease" >
           <Link
           
@@ -35,13 +35,10 @@ return(
           >
             {t("linkToAllReviews")}
           </Link>
-          <Span>
-  <svg  fill="var(--primary)" width="18px" height="18px" viewBox="0 0 24 24"><path d="M10 6 8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6-6-6z"></path></svg>
-  
-  </Span>
+         
         </Flex>
 </HStack>
-<Text color="gray.700" textAlign="left" me="auto"  maxW="lg" mb={{base:"4",md:"4",lg:"6"}}>  {t('introText')}</Text>
+<Text fontSize="lg" color="gray.700" textAlign="left" me="auto"  maxW="lg" mb={{base:"4",md:"4",lg:"6"}}>  {t('introText')}</Text>
 
 
 

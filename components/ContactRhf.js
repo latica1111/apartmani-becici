@@ -84,7 +84,7 @@ const t = useTranslations('home.contactPage.contactForm');
     border="1px solid"
     borderColor="green.200"
     p="6"
-    borderRadius="lg"
+   
   >
     <Heading size="md">{t('onSubmitHeading')} </Heading>
     <Text>
@@ -108,7 +108,7 @@ const t = useTranslations('home.contactPage.contactForm');
   
 
          <form onSubmit={handleSubmit(onSubmit)} style={{width:"100%"}}>
- <Stack gap="8" align="flex-start" w={{smDown:"full", sm:"full"}} maxW={{base:"full"}}>
+ <Stack gap="8" align="flex-start" w={{smDown:"full", sm:"full"}} maxW={{base:"full"}} px="8" py="10" mt="6" border="1px solid" borderColor="gray.100" shadow="sm">
 <DateSelector layout={layout} control={control} setValue={setValue} watch={watch} dataStyles={dataStyles}  errors={errors}/>
  
 <Stack gap="3" flexDirection={ layout === "vertical"? "column" : { base: "column", lg: "row" }} justifyContent={{lg:"space-between"}} w="full">
@@ -116,7 +116,7 @@ const t = useTranslations('home.contactPage.contactForm');
 
 <Field.Root invalid={!!errors.adultsNumber} >
   <Stack align={{md:"center"}} w="full" flexDirection={{ base: "row", sm: "row" }} flexWrap="wrap">
-    <Field.Label minW={{base:"76px",lg:"64px"}} {...dataStyles.label}>
+    <Field.Label minW={{base:"76px",lg:"64px"}} fontSize="xs" color="var(--primary)" fontWeight="500" textTransform="uppercase" {...dataStyles.label}>
       {t('adultsNmbr.label')} *  
     </Field.Label>
 
@@ -144,10 +144,10 @@ const t = useTranslations('home.contactPage.contactForm');
               {/* MINUS */}
               <NumberInput.DecrementTrigger asChild>
                 <IconButton
-                  size="sm"
+                  size="xs"
                   variant="outline"
-                  borderRadius="sm"
-                  shadow="xs"
+                  borderRadius="0"
+                 
                   _hover={{ bg: "gray.100" }}
                 >
                   <LuMinus />
@@ -157,22 +157,23 @@ const t = useTranslations('home.contactPage.contactForm');
               {/* VALUE */}
               <NumberInput.ValueText
                 textAlign="center"
-                fontSize="md"
+                fontSize="xs"
                 minW="32px"
                 px="2"
                 py="1"
-                border={errors?.adultsNumber ? "1px solid" : "none"}
+                borderBottom={errors?.adultsNumber ? "1px solid" : "none"}
                 borderColor={errors?.adultsNumber ? "red.400" : "gray.200"}
-                borderRadius="md"
+                borderRadius="none"
+                backgroundColor="transparent"
               />
 
               {/* PLUS */}
               <NumberInput.IncrementTrigger asChild>
                 <IconButton
-                  size="sm"
+                  size="xs"
                   variant="outline"
-                borderRadius="sm"
-                  shadow="xs"
+                borderRadius="0"
+                
                   _hover={{ bg: "gray.100" }}
                 >
                   <LuPlus />
@@ -196,7 +197,7 @@ const t = useTranslations('home.contactPage.contactForm');
   <Field.Root invalid={!!errors.childrenNumber}>
   
     <Stack align={{md:"center"}} w="full" flexDirection={{ base: "row", sm: "row" }} flexWrap="wrap" justifyContent={layout === "vertical"? "flex-start":{lg:"flex-end"}} >
-    <Field.Label minW="76px" {...dataStyles.label}>
+    <Field.Label minW="76px" fontSize="xs" fontWeight="500" color="var(--primary)" textTransform="uppercase" {...dataStyles.label}>
       {t('childrenNmbr.label')}
     </Field.Label>
 
@@ -223,10 +224,10 @@ const t = useTranslations('home.contactPage.contactForm');
               {/* MINUS */}
               <NumberInput.DecrementTrigger asChild>
                 <IconButton
-                  size="sm"
+                  size="xs"
                   variant="outline"
-                  borderRadius="sm"
-                  shadow="xs"
+                  borderRadius="0"
+                  
                   _hover={{ bg: "gray.100" }}
                 >
                   <LuMinus />
@@ -236,22 +237,22 @@ const t = useTranslations('home.contactPage.contactForm');
               {/* VALUE */}
               <NumberInput.ValueText
                 textAlign="center"
-                fontSize="md"
+                fontSize="xs"
                 minW="32px"
                 px="2"
                 py="1"
-                border={errors?.adultsNumber ? "1px solid" : "none"}
+                borderBottom={errors?.adultsNumber ? "1px solid" : "none"}
                 borderColor={errors?.childrenNumber ? "red.400" : "gray.200"}
-                borderRadius="md"
+                borderRadius="0"
               />
 
               {/* PLUS */}
               <NumberInput.IncrementTrigger asChild>
                 <IconButton
-                  size="sm"
+                  size="xs" 
                   variant="outline"
-                  borderRadius="sm"
-                  shadow="xs"
+                  borderRadius="0"
+                
                   _hover={{ bg: "gray.100" }}
                 >
                   <LuPlus />
@@ -274,7 +275,7 @@ const t = useTranslations('home.contactPage.contactForm');
  {childrenNumber > 0 && (    
 <Field.Root invalid={!!errors.childrenAge}   flexDirection="column" alignItems="flex-start" w="full" flexWrap="wrap">
           <Stack  w="full" flexDirection={ layout === "vertical"? "column" : { base:  "row" }} >
-          <Field.Label minW="112px" {...dataStyles.label} mb="2">{t('childrenAge.label')}{childrenNumber > 0 && "*"}</Field.Label>
+          <Field.Label minW="112px" fontSize="xs" color="var(--primary)" fontWeight="500" textTransform="uppercase" {...dataStyles.label} mb="2">{t('childrenAge.label')}{childrenNumber > 0 && "*"}</Field.Label>
         
           <Input
      placeholder={t('childrenAge.label')} px="3"  {...dataStyles.input}
@@ -303,11 +304,11 @@ const t = useTranslations('home.contactPage.contactForm');
           <Stack  w="full" flexDirection={    layout === "vertical"
       ? "column"
       :  { base: "column", lg: "row" }} >
-          <Field.Label {...dataStyles.label} minW="64px">{t('name.label')} *</Field.Label>
+          <Field.Label {...dataStyles.label} fontSize="xs" color="var(--primary)" fontWeight="500" textTransform="uppercase" minW="64px">{t('name.label')} *</Field.Label>
         
           <Input   {...register("name", {
     required: t('name.error'),
-  })} placeholder={t('name.placeholder')} px="3" {...dataStyles.input}/>
+  })} placeholder={t('name.placeholder')} px="3" backgroundColor="transparent" fontSize="xs" rounded="0" {...dataStyles.input}/>
          
           
        </Stack>
@@ -318,9 +319,9 @@ const t = useTranslations('home.contactPage.contactForm');
           <Stack w="full" flexDirection={    layout === "vertical"
       ? "column"
       : { base: "column", lg: "row" }} >
-          <Field.Label {...dataStyles.label} minW="64px">{t('phone.label')}</Field.Label>
+          <Field.Label  fontSize="xs" fontWeight="500" color="var(--primary)" textTransform="uppercase"{...dataStyles.label} minW="64px">{t('phone.label')}</Field.Label>
         
-          <Input {...register("phone")} placeholder={t('phone.placeholder')} px="3" {...dataStyles.input}/>
+          <Input {...register("phone")} placeholder={t('phone.placeholder')} fontSize="xs"  px="3" rounded="0"  {...dataStyles.input}/>
          
 
           </Stack>
@@ -331,7 +332,7 @@ const t = useTranslations('home.contactPage.contactForm');
   <Stack  w="full" flexDirection={    layout === "vertical"
       ? "column"
       : { base: "column", lg: "row" }}>
-          <Field.Label {...dataStyles.label} minW="64px">{t('email.label')}</Field.Label>
+          <Field.Label  fontSize="xs" fontWeight="500"  color="var(--primary)" textTransform="uppercase"{...dataStyles.label} minW="64px">{t('email.label')}</Field.Label>
        
           <Input {...register("email", {
   required: { value: true, message: t('email.error') },
@@ -339,7 +340,7 @@ const t = useTranslations('home.contactPage.contactForm');
     value: /^[^\s@]+@[^\s@]+\.[^\s@]+$/,
     message: t('email.invalid')
   }
-})}  px="3"
+})}  px="3" rounded="0"  fontSize="xs" 
           placeholder={t('email.placeholder')} {...dataStyles.input}/>
   
 
@@ -350,19 +351,17 @@ const t = useTranslations('home.contactPage.contactForm');
  
 
  <Field.Root invalid={!!errors.additionalRequest}>
-          <Field.Label {...dataStyles.label} mb="2">{t('additionalRequest.label')}</Field.Label>
+          <Field.Label  fontSize="xs" fontWeight="500" color="var(--primary)" textTransform="uppercase"{...dataStyles.label} mb="2">{t('additionalRequest.label')}</Field.Label>
           <Textarea
             placeholder={t('additionalRequest.placeholder')}
-            {...register("additionalRequest")} px="3" py="2" minH="6rem" {...dataStyles.input}
+            {...register("additionalRequest")} px="3" py="2" minH="6rem" rounded="0"  fontSize="xs"  {...dataStyles.input}
           />
         
           <Field.ErrorText>{errors.additionalRequest?.message}</Field.ErrorText>
         </Field.Root>
 
-        <Button type="submit" transition="all .4s ease" size="md" h="9" minWidth="220px" px="6" bg="var(--primary)" mt="3" color="#fff" {...dataStyles.button}>{t('btnSubmit')} 
-           <Icon size="sm" >
-  <RxPaperPlane />
-  </Icon></Button>
+        <Button type="submit" transition="all .4s ease" size="md" fontSize="2xs" letterSpacing="1.2px" textTransform="uppercase" px="1rem" bg="var(--primary)" mt="3" color="#fff" {...dataStyles.button}>{t('btnSubmit')} 
+          </Button>
       </Stack>
 
 

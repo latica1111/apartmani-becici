@@ -55,7 +55,7 @@ export default function LanguageSwitcher() {
             _hover={{ transform: "scale(1.01)", bg: "transparent" }}
           >
             <HStack gap="2">
-              <Text fontSize="xs" fontWeight="medium" style={{ color: "white" }} >
+              <Text fontSize="xs" fontWeight="medium" style={{ color: "var(--secondary)" }} >
                 {lang.label}
               </Text>
               <ReactCountryFlag

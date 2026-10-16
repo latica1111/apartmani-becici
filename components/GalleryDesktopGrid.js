@@ -8,7 +8,7 @@ export default function GalleryDesktopGrid ({images,setOpenIndex }){
     return(
         <>
          <Grid
-          templateColumns={{ md: 'repeat(5, 1fr)' }}
+          templateColumns={{ md: 'repeat(4, 1fr)' }}
           gap="2"  mt={{md:"8",lg:"12"}} 
           display={{ base: 'none', md: 'grid' }}
           w="100%"

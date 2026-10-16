@@ -23,7 +23,7 @@ return(
                 md: 'repeat(3, 1fr)',
               }}
               gap={{base:"6",md:"8",lg:"12"}} 
-             w="full"  mt={{base:"6", md:"8", lg:"12"}}
+             w="full"  mt={{base:"6", md:"8", lg:"8"}}
             >
               {items.map((item, index) => {
                 const percentage = parseFloat(item.note) * 10;
@@ -33,7 +33,7 @@ return(
                   <Box
                     key={index}
  p="4"
-  rounded="lg"
+  rounded="none"
   bg="#ffffff"
   border="1px solid rgba(0,0,0,0.05)"
   transition="all 0.2s"
@@ -52,7 +52,7 @@ return(
                    
     
                     <Progress.Root w="full">
-          <Progress.Label mb="2" justifyContent="space-between" w="full" color="var(--on-subtle-primary-bg)">
+          <Progress.Label mb="2" justifyContent="space-between" w="full" color="var(--on-subtle-primary-bg)" textTransform="uppercase" letterSpacing="1.2px" fontSize="xs">
             {item.label}
             <Span opacity=".6" fontWeight="700">{item.note}</Span>
           </Progress.Label>

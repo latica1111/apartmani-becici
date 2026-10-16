@@ -28,20 +28,16 @@ const formatBed = (bed) => {
     return(
 
         <>
-         <Box key={apt.id} rounded="sm" overflow="hidden" shadow="md" border="1px solid"
-  borderColor="gray.100"
-  _hover={{
-    transform: "translateY(-4px)",
-    shadow: "xl",
-    transition: "0.25s ease"
-  }}>
+         <Box key={apt.id}  overflow="hidden"
+ 
+ >
 <VStack flexBasis="0 0 auto" w="full" alignItems="flex-start">
 <Box h="3xs" overflow="hidden" className="item-photos-wrapper"  w="full" bg="bg.subtle">
     <PhotoCarousel photos={apt.photos} />
 </Box>
-<VStack w="full" justifyContent="flex-start" px={{base:"3",md:"4"}} pt={{base:"2", md:"3"}} pb={{base:"4", md:"6"}} alignItems="flex-start">
-  <Heading w="full"  fontSize="xl"
-  fontWeight="300"
+<VStack w="full" justifyContent="flex-start" px={{base:"3",md:"0"}} pt={{base:"2", md:"3"}} pb={{base:"4", md:"6"}} alignItems="flex-start">
+  <Heading w="full"  fontSize="2xl"
+  fontWeight="300" letterSpacing="1.2px" fontFamily="var(--font-cormorant)"
   lineHeight="1.3"  mb="1" >  {apt.name}</Heading>
 {showDescription && apt.introContent && (
   <Text fontSize="sm"  display="-webkit-box"
@@ -55,14 +51,14 @@ const formatBed = (bed) => {
   </Text>
 )}
 
-  <HStack flexWrap="wrap" w="full" gapX="3">
+  <HStack flexWrap="wrap" w="full" gapX="3" display="none">
     <Badge  className="free-parking "  variant="surface"
   bg="rgba(0, 51, 102, 0.08)"
   color="var(--primary)"
-  fontSize="xs"
+   fontSize="2xs" textTransform="uppercase"
   px={{base:"2", sm:"3"}}
   py={{base:"1", sm:"2"}}
-  rounded="sm">
+ >
                        
                     
         <IconFreeParkingRectangle width="12" height="12" fill="var(--primary)" />
@@ -73,10 +69,10 @@ const formatBed = (bed) => {
                         <Badge   variant="surface"
   bg="rgba(0, 51, 102, 0.08)"
   color="var(--primary)"
-  fontSize="xs"
+  fontSize="2xs" textTransform="uppercase"
  px={{base:"2", sm:"3"}}
   py={{base:"1", sm:"2"}}
-  rounded="sm" className="baby-crib " >
+  className="baby-crib " >
                         
                           
                  <IconBabyCrib width="12" height="12" fill="var(--primary)" />          
@@ -96,10 +92,10 @@ console.log("ITEM:", featuredInfoMap[key]);
                           <Badge   variant="surface"
   bg="rgba(0, 51, 102, 0.08)"
   color="var(--primary)"
-  fontSize="xs"
+  fontSize="2xs" textTransform="uppercase"
  px={{base:"2", sm:"3"}}
  py={{base:"1", sm:"2"}}
-  rounded="sm"  key={key} className="featured-item " >
+   key={key} className="featured-item " >
                           
                           <IconComponent width={12} height={12} fill="var(--primary)" />
                            
@@ -110,16 +106,16 @@ console.log("ITEM:", featuredInfoMap[key]);
   </HStack>
 <VStack  w="full" alignItems="flex-start"
  
-  my="3"
+  mb="4"
   spacing="2"
-  fontSize="xs"
+  fontSize="sm"
   color="gray.600">
  <HStack className="beds" w="full">
                       <Span className="icon-wrapper">
                        
                          <IconBeds width="14" height="14" fill="#52525b" /> 
                       </Span>
-                    <Text >{apt.beds
+                    <Text>{apt.beds
                         .filter(b => typeof b === 'string')
                         .map(formatBed)
                         .join(' + ')}</Text> 
@@ -142,11 +138,24 @@ console.log("ITEM:", featuredInfoMap[key]);
 </VStack>
 
 
-<Flex alignItems="center"  fontWeight="600" fontSize="sm" color="var(--primary)"  border="1px solid"  borderColor="var(--primary)"
- height="2.25rem" minWidth="2.25rem" px="2.5rem" rounded="sm" justifyContent="flex-start" transition="all .4 ease"
+<Flex alignItems="center"  fontWeight="400"  position="relative"
+  overflow="hidden" color="var(--primary)"  border="1px solid"  borderColor="var(--primary)"
+ height="2rem" minWidth="2rem" px="1rem"  textTransform="uppercase" fontSize="2xs" letterSpacing="1.2px" justifyContent="flex-start" transition="all .28s ease"
+ _before={{
+    content: '""',
+    position: "absolute",
+    inset: "0",
+    bg: "var(--primary)",
+    transform: "scaleX(0)",
+    transformOrigin: "left",
+    transition: "transform 0.35s ease",
+    zIndex: "-1",
+  }}
   _hover={{
-    bg: "rgba(var(--primary-rgb), .3)",
-   
+    color: "#fff",
+    _before: {
+      transform: "scaleX(1)",
+    },
   }} >
                    <Link
   href={{

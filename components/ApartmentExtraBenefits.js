@@ -1,5 +1,5 @@
 'use client'
-import { HStack, Box, Heading, VStack ,Text,} from '@chakra-ui/react';
+import { HStack, Box, Heading, VStack ,Text, Span} from '@chakra-ui/react';
 import { useTranslations } from 'next-intl';
 
 import { FaRegCheckCircle } from "react-icons/fa";
@@ -24,8 +24,8 @@ const t = useTranslations("apartmentsDescription");
                     return (
                       <HStack key={index} alignItems={{base:"flex-start", sm:"center"}}  >
                        <Box> <FaRegCheckCircle color="var(--primary)"/></Box>
-                        <Text wordBreak="break-word"><strong>{title}</strong>
-                        <span> {description}</span></Text>
+                        <Text wordBreak="break-word">   <Span textTransform="uppercase" fontWeight="400" letterSpacing="0.2px">{title}</Span>
+                        <span > {description}</span></Text>
                       </HStack>
                     );
                   })}

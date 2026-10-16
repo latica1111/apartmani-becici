@@ -21,7 +21,7 @@ export default function HeroImage({ pageKey, photoURL, photoPosition, label, }) 
       justifyContent="center"
       color="white"
       overflow="hidden"
-      height={{ base:"xs",sm:"sm" ,lg:"md" }}
+      height={{ base:"xs",sm:"sm" ,lg:"2xl" }}
     >
 {/* NAVBAR OVERLAY */}
   <Box
@@ -31,8 +31,7 @@ export default function HeroImage({ pageKey, photoURL, photoPosition, label, }) 
     w="100%"
     zIndex="3"
     px={4}
-    py={3}  backdropFilter="blur(2px)"
-  bg="rgba(0,0,0,0.2)"
+    py={3} 
   >
     <NavigationLayout />
   </Box>
@@ -40,7 +39,7 @@ export default function HeroImage({ pageKey, photoURL, photoPosition, label, }) 
   <Box
     position="absolute"
     inset={0}
-  bg= "rgba(0,0,0,0.8)"
+  bg= "rgba(0,0,0,0.6)"
     zIndex={1}
     w="full"
     h="full"
@@ -60,18 +59,20 @@ export default function HeroImage({ pageKey, photoURL, photoPosition, label, }) 
         position="relative"
         px={4}
         py={2}
-        borderRadius="md"
+      
         textAlign="center"
         zIndex="4"
       >
+         <Text textStyle="xs" letterSpacing="0.18em" color="var(--secondary)" textTransform="uppercase"> {titleData.desc}</Text>
         <Heading
-          fontWeight="500"
-          fontSize={{ base: "2xl", md: "3xl" }} mb="3"
-          letterSpacing="wide"
+          fontWeight="400"
+          fontSize={{ base: "2xl", md: "3xl", lg:"5xl" }} my="3"
+          letterSpacing="0.08em"
+           fontFamily="var(--font-cormorant)"
         >
           {titleData.label}
         </Heading>
-        <Text textStyle="xs" letterSpacing="wider"> {titleData.desc}</Text>
+       
       </Box>
     </Box>
 </>

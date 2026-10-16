@@ -15,7 +15,7 @@ return(
   templateColumns={{
     base: "1fr 1fr",   // 2 po redu na mobilnom
     sm: "repeat(3, 1fr)",
-    md: "repeat(5, 1fr)", // 4 po redu
+    md: "repeat(4, 1fr)", // 4 po redu
   }}
   gap={2}
 >
@@ -26,7 +26,7 @@ return(
         aspectRatio={16/9} // 🔥 ključ za ISTU visinu
         cursor="pointer"
         overflow="hidden"
-        borderRadius="sm"
+        borderRadius="0"
         bg="bg.subtle"
         onClick={() => {
           setCurrentIndex(index);

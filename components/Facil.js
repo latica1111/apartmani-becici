@@ -32,7 +32,7 @@ const Facil= () => {
   <Box
       as="section"
   id="facil"
-  bg="gray.100" px={{base:"6",}} py={{base:"6",sm:"12"}} 
+  bg="gray.100" px={{base:"6",}} py={{base:"6",sm:"12", lg:"20"}} 
     >
   
 
@@ -54,7 +54,7 @@ const Facil= () => {
               templateColumns={{
                 base:'repeat(2, 1fr)',
                 sm: 'repeat(4, 1fr)',
-                lg: 'repeat(8, 1fr)',
+                lg: 'repeat(4, 1fr)',
               
               }}
                 gap={{base:"3"}}   w="full"
@@ -65,21 +65,21 @@ const Facil= () => {
                 const desc = t(`facilitiesWithIcons.${key}.desc`);
                 return (
                
-                    <VStack alignItems="center" justifyContent="flex-start" key={key}  rounded="sm" transition="all .4s ease"
+                    <VStack alignItems="center" justifyContent="flex-start" key={key}  transition="all .4s ease"
                     px="2" py="4" _hover={{  transform:" translateY(-4px)",
     shadow:" 0 6px 16px rgba(0, 0, 0, 0.12)"}}  >
 
-                      <Flex className="icon-wrapper" w={{base:"48px",sm:"64px"}} h={{base:"48px",sm:"64px"}} border="1px solid" borderColor="gray.300" alignItems="center" justifyContent="center" rounded="sm">
+                      <Flex className="icon-wrapper" w={{base:"48px",sm:"64px"}} h={{base:"48px",sm:"64px"}}  alignItems="center" justifyContent="center">
                         <span className="icon" >
                           {IconComponent ? <IconComponent fill="var(--secondary)"  /> : <span>x</span>}
                         </span>
                       </Flex>
 
                     
-                        <Text mb="0" fontSize="xs" fontWeight="500" textAlign="center">
+                        <Text mb="0" fontSize="sm" fontWeight="300" letterSpacing="1.2px" textTransform="uppercase" textAlign="center">
                           {label}
                         </Text>
-                      <Text mb="0" fontSize="2xs" color="gray.600" textAlign="center">
+                      <Text mb="0" fontSize="sm" color="gray.600" textAlign="center">
                          {desc} 
                         </Text>
 

@@ -24,7 +24,7 @@ const t = useTranslations("apartmentsDescription");
                   <HStack key={index} alignItems="flex-start">
                     
                     <Text>
-                    <strong>{title.trim()}:</strong>
+                    <Span textTransform="uppercase" fontWeight="400" letterSpacing="0.2px">{title.trim()}:</Span>
                     {description && <Span color="gray.700"> {description.trim()}</Span>}
                   </Text>
                   </HStack>

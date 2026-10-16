@@ -8,7 +8,7 @@ import {routing} from '@/i18n/routing';
 import { getMessages } from 'next-intl/server';  // Uvezi getMessages funkciju
 import { notFound } from 'next/navigation';
 import { Providers } from '../providers';
-import { marcellus, inter  } from '../fonts';
+import { josefinSans,cormorant } from '../fonts';
 
 
 
@@ -48,7 +48,7 @@ export default async function LocaleLayout({ children, params }) {
     <html lang={locale} suppressHydrationWarning>
       <Providers>
          <NextIntlClientProvider locale={locale} messages={messages}>
-            <body className={inter.className}>
+            <body className={`${josefinSans.variable} ${cormorant.variable}`}>
              <PreHeader />
          {children}
           <Footer locale={locale} />
