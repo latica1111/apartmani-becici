@@ -32,7 +32,7 @@ const Facil= () => {
   <Box
       as="section"
   id="facil"
-  bg="gray.100" px={{base:"6",}} py={{base:"6",sm:"12", lg:"20"}} 
+  bg="gray.100" px={{base:"4",sm:"6",}} py={{base:"6",sm:"12", lg:"20"}} 
     >
   
 

@@ -30,7 +30,7 @@ const collapseElement = section?.collapseElement || {};
   
 
 
-      <VStack className="inner-wrapper"  p={{base:"4",  sm:"3", md:"6"}}   bg="white"
+      <VStack className="inner-wrapper"  p={{base:"4",  sm:"3", md:"6"}}   bg="white" border={{smDown:"1px solid"}} borderColor={{smDown:"gray.100"}} shadow={{smDown:"xs"}}
  
    overflow="hidden"
     minH={{base:"auto",sm:"300px"}}

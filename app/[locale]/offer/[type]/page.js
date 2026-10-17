@@ -11,7 +11,7 @@ import ApartmentsGrid from '@/components/ApartmentsGrid';
 import { routing } from '@/i18n/routing';
 import { setRequestLocale } from 'next-intl/server';
 import { dynamicSegments } from '@/i18n/dynamicSegments';
-import HomepagaReservation from '@/components/HomepageReservation';
+import HomepageReservation from '@/components/HomepageReservation';
 export const revalidate = 0; // full static, generiše se jednom u build-u
 
 const urlToTypeMap = {
@@ -111,7 +111,10 @@ console.log('normalizedType:', normalizedType);
 
 <ApartmentsGrid filteredApartments={filteredUnits}  showDescription={true} />
 <Box mt="12">
-<HomepagaReservation />
+<HomepageReservation  wrapperProps={{
+       px: { smDown:"0",sm:"6",md:"8",lg:"12" },
+   py:{smDown:"6",sm:"12", md:"16", lg:"16" }, backgroundColor:{smDown:"#fff", sm:"gray.100"}, borderTop:{smDown:"1px solid"}, borderColor:{smDown:"gray.100"}
+  }}/>
 </Box>
 </VStack>
 

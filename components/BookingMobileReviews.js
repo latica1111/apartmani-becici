@@ -58,7 +58,7 @@ const ringCss = defineStyle({
                   <Box
                                     key={review.id}
                                   //bg="#F5F1E8"
-                                  rounded="sm"
+                                  rounded="0"
                                   py="5" px="8" border="1px solid"
                 borderColor="rgba(0,0,0,0.05)"
                 transition="all 0.2s ease"

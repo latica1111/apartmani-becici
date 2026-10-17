@@ -5,6 +5,7 @@ import { Badge, HStack,Stack, Span,Box, Heading, VStack ,Text,Grid,GridItem,Flex
 import { getTranslations } from 'next-intl/server';
 import { setRequestLocale } from 'next-intl/server';
 import ApartmentsGrid from '@/components/ApartmentsGrid';
+import HomepageReservation from '@/components/HomepageReservation';
 import { routing } from '@/i18n/routing';
 export const revalidate = 0; // full static, generiše se jednom u build-u
 export async function generateStaticParams() {
@@ -73,7 +74,12 @@ export default async function OfferPage({ params }) {
 <Heading className="section-name"  mb={{base:"3",md:"4",lg:"6"}}>{t("accommodationTypeData.all.heading") || ''}</Heading>
 <Text color="gray.700">  {t("accommodationTypeData.all.introText") || ''}</Text>
 <ApartmentsGrid filteredApartments={allUnits}  showDescription={true}/>
- 
+ <Box mt="12">
+ <HomepageReservation  wrapperProps={{
+        px: { smDown:"0",sm:"6",md:"8",lg:"12" },
+    py:{smDown:"6",sm:"12", md:"16", lg:"16" }, backgroundColor:{smDown:"#fff", sm:"gray.100"}, borderTop:{smDown:"1px solid"}, borderColor:{smDown:"gray.100"}
+   }}/>
+ </Box>
 </VStack>
 </Box>
 

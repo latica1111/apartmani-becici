@@ -620,7 +620,7 @@ top: 45% !important;
   height:32px !important;
   line-height: 32px !important;
   min-width:  32px !important;
-  border-radius: 50%;
+  border-radius: 0;
 }
 .carousel.carousel-slider {
   overflow: visible !important;}
@@ -795,5 +795,26 @@ width:75%;
 max-width:24rem;
 }
 }
+.nav-list {
+  scrollbar-width: thin; /* Firefox */
+  scrollbar-color: var(--secondary) transparent;
+}
 
+/* Chrome, Edge, Safari */
+.nav-list::-webkit-scrollbar {
+  height: 3px;
+}
+
+.nav-list::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.nav-list::-webkit-scrollbar-thumb {
+  background: var(--secondary);
+  border-radius: 10px;
+}
+
+.nav-list::-webkit-scrollbar-thumb:hover {
+  background: var(--primary);
+}
 

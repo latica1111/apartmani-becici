@@ -13,7 +13,7 @@ const Hero = () => {
   return (
     <>
    
-  <Box  position="relative" h="2xl" >
+  <Box  position="relative"  height={{ base:"xl" ,lg:"2xl" }} >
  {/* IMAGE */}
   <NextImage
     src="/images/yard/becici-beach-slide.jpg"
@@ -45,10 +45,10 @@ const Hero = () => {
   bg= "rgba(0,0,0,0.7)"
     zIndex={1}
   />
-         <AbsoluteCenter zIndex={2} color="#fff" borderRadius="md"  w={{smDown:"full", sm:"75%", lg:"60%"}} >
+         <AbsoluteCenter zIndex={2} color="#fff"   w={{smDown:"full", sm:"75%", lg:"60%"}} >
               <VStack justifyContent="center" alignItems="center" gap="0" py={{base:"0", sm:"12", md:"12", lg:"24"}} pb={{smDown:"0"}} px="4" >
                 {t('heroSubtitle') && (
-              <Text fontSize={{base:"xs"}} mb="0"  textTransform="uppercase" letterSpacing="0.18em" color="var(--secondary)" fontWeight="400" >{t('heroSubtitle')}</Text>
+              <Text fontSize={{base:"xs"}} mb="0" textAlign="center" textTransform="uppercase" letterSpacing="0.18em" color="var(--secondary)" fontWeight="400" >{t('heroSubtitle')}</Text>
                )}
               
               <Heading fontSize={{ base: "3xl", sm: "4xl", md: "5xl" }} textAlign="center"   fontWeight="400" lineHeight="shorter" mb="5" mt={{base:"2", sm:"3"}}  fontFamily="var(--font-cormorant)" letterSpacing="0.03em">{t('heroTitle')}</Heading>

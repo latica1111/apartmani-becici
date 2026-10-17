@@ -63,7 +63,7 @@ export default function HeroImage({ pageKey, photoURL, photoPosition, label, }) 
         textAlign="center"
         zIndex="4"
       >
-         <Text textStyle="xs" letterSpacing="0.18em" color="var(--secondary)" textTransform="uppercase"> {titleData.desc}</Text>
+         <Text textStyle="2xs" letterSpacing="0.18em" color="var(--secondary)" textTransform="uppercase"> {titleData.desc}</Text>
         <Heading
           fontWeight="400"
           fontSize={{ base: "2xl", md: "3xl", lg:"5xl" }} my="3"

@@ -16,7 +16,7 @@ export default function ImageBanner (){
 
     return(
         <>
-       <Box maxW={{base:"7xl"}} py={{base:"16", lg:"24"}} w="full" px={{base:"4", lg:"6"}} position="relative" minH={{base:"lg"}} shadow="xs" h={{base:"100dvh", sm:"auto"}} mx="auto" display="flex" justifyContent="center">
+       <Box maxW={{base:"7xl"}} py={{base:"16", lg:"24"}} w="full" px={{base:"4", lg:"6"}} position="relative" minH={{base:"lg"}} shadow="xs" h={{base:"auto", sm:"auto"}} mx="auto" display="flex" justifyContent="center">
        {/* IMAGE */}
   <NextImage
     src="/images/yard/outdoors-view.jpg"

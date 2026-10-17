@@ -15,7 +15,7 @@ import { AiOutlineInstagram } from "react-icons/ai";
 import { MdOutlineLocationOn } from "react-icons/md";
 import { AiOutlineClockCircle } from "react-icons/ai";
 import {Link} from '@/i18n/navigation';
-export default function HomepagaReservation (){
+export default function HomepageReservation ({ wrapperProps = {} }){
 const dataStyles= {
 input:{
 bg:"transparent",
@@ -40,7 +40,7 @@ const t = useTranslations("home.contactSection");
 
     return(
         <>
-       <Box bg="gray.100" px={{base:"6",md:"8",lg:"12"}} py={{base:"12", md:"16", lg:"16"}} w="full" mx="auto" >
+       <Box bg="gray.100" px={{base:"6",sm:"6",md:"8",lg:"12"}} py={{base:"12",sm:"12", md:"16", lg:"16"}} w="full" mx="auto"   {...wrapperProps}>
        <Grid maxW="1200px" mx="auto" w="full"
                     templateColumns={{
                       md: 'repeat(2, 1fr)', }}
@@ -53,7 +53,7 @@ const t = useTranslations("home.contactSection");
 </VStack>
 
 
-<VStack w="full" alignItems="flex-start" py={{md:"8"}} color="gray.700" fontSize="md" pt={{mdDown:"10"}} borderBlockStart="1px solid" borderColor="gray.200">
+<VStack w="full" alignItems="flex-start" py={{md:"8"}} color="gray.700" fontSize="md" pt={{mdDown:"10"}} borderBlockStart={{md:"1px solid"}} borderColor={{md:"gray.200"}}>
 {t.raw("description").map((text, i) => (
   <Text key={i} >{text}</Text>
 ))}

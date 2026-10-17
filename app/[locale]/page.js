@@ -12,7 +12,7 @@ import Gallery from '@/components/Gallery';
 import { HStack,Badge, Span,Box, Heading, VStack ,Text,Grid,GridItem,Flex, Icon} from '@chakra-ui/react';
 import Facil  from '@/components/Facil';
 import ContactRhf from '@/components/ContactRhf';
-import HomepagaReservation from '@/components/HomepageReservation';
+import HomepageReservation from '@/components/HomepageReservation';
 import ImageBanner from '@/components/ImageBanner';
 import Logo2 from '@/components/Logo2';
 export const revalidate = 3000; // full static, generiše se jednom u build-u
@@ -97,7 +97,7 @@ export default async function Page({ params }) {
       <BookingScoreSection />
       <Gallery />
       <PointsOfInterest  />
-      <HomepagaReservation />
+      <HomepageReservation />
      <Box className='google-map-wrapper'>
     
       <Heading className ="section-name" display="none"> {locale === 'sr' ? 'Lokacija' : 'Location'}</Heading>

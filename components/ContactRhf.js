@@ -108,7 +108,7 @@ const t = useTranslations('home.contactPage.contactForm');
   
 
          <form onSubmit={handleSubmit(onSubmit)} style={{width:"100%"}}>
- <Stack gap="8" align="flex-start" w={{smDown:"full", sm:"full"}} maxW={{base:"full"}} px="8" py="10" mt="6" border="1px solid" borderColor="gray.100" shadow="sm">
+ <Stack gap="8" align="flex-start" w={{smDown:"full", sm:"full"}} maxW={{base:"full"}} px={{sm:"8"}} py="10" mt={{sm:"6"}} border={{sm:"1px solid"}} borderColor={{sm:"gray.100"}} shadow={{sm:"sm"}} >
 <DateSelector layout={layout} control={control} setValue={setValue} watch={watch} dataStyles={dataStyles}  errors={errors}/>
  
 <Stack gap="3" flexDirection={ layout === "vertical"? "column" : { base: "column", lg: "row" }} justifyContent={{lg:"space-between"}} w="full">
@@ -278,7 +278,7 @@ const t = useTranslations('home.contactPage.contactForm');
           <Field.Label minW="112px" fontSize="xs" color="var(--primary)" fontWeight="500" textTransform="uppercase" {...dataStyles.label} mb="2">{t('childrenAge.label')}{childrenNumber > 0 && "*"}</Field.Label>
         
           <Input
-     placeholder={t('childrenAge.label')} px="3"  {...dataStyles.input}
+     placeholder={t('childrenAge.label')} px="3" fontSize="xs"  {...dataStyles.input}
     {...register("childrenAge", {
       validate: (value) => {
         if (childrenNumber > 0 && !value) {

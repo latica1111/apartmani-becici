@@ -7,7 +7,8 @@ import {
   Button
 } from '@chakra-ui/react';
 import { useTranslations } from 'next-intl';
-
+import { MdOutlineKeyboardArrowDown } from "react-icons/md";
+import { MdOutlineKeyboardArrowUp } from "react-icons/md";
 export default function BookingCategoryScores({ categories}) {
 const [showAllCategories, setShowAllCategories] = useState(false)
 const t =  useTranslations('home.bookingScore');
@@ -64,18 +65,27 @@ return(
                 );
               })}
             </Grid>
-       <Box className="more-ratings-wrapper" display={{md:"none"}} w="full">
-              <Button
-               variant="ghost"
- 
-  color="var(--primary)" 
- 
-             
-                onClick={() => setShowAllCategories(!showAllCategories)}
-              >
-                {showAllCategories ? t('viewLess') : t('viewMore')}
-              </Button>
-            </Box>
+     <Box className="more-ratings-wrapper" display={{ md: "none" }} w="full">
+  <Button
+    variant="ghost"
+    letterSpacing="1.2px"
+    fontWeight="400"
+    textTransform="uppercase"
+    color="var(--primary)"
+    fontSize="xs"
+    onClick={() => setShowAllCategories(!showAllCategories)}
+  >
+    <Span>
+      {showAllCategories ? t("viewLess") : t("viewMore")}
+    </Span>
+
+    <Span>
+      {showAllCategories
+        ? <MdOutlineKeyboardArrowUp />
+        : <MdOutlineKeyboardArrowDown />}
+    </Span>
+  </Button>
+</Box>
     
     
     </>

@@ -24,7 +24,7 @@ export default function ApartmentFacilities ({facilities, iconComponents}){
  py={{base:"1", sm:"2"}}
   rounded="0" 
         border="1px solid"
-        borderColor="rgba(var(--primary-rgb), .15)"
+        borderColor="rgba(var(--primary-rgb), .09)"
        
         gap={2}
         _hover={{ bg:"rgba(var(--primary-rgb), .1)" }}

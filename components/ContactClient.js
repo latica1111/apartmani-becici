@@ -6,15 +6,15 @@ import HeroImage from '@/components/HeroImage';
 import React, { useState } from 'react';
 import { Box,  VStack ,} from '@chakra-ui/react';
 
-import HomepagaReservation from '@/components/HomepageReservation';
+import HomepageReservation from '@/components/HomepageReservation';
 export default function ContactClient (){
  const t = useTranslations('home.contactPage');
      return (
        <>
         <HeroImage pageKey="contact" />
        
-     <Box  bg="gray.100" >
-       <VStack maxW="1200px" mx="auto" alignItems="flex-start" py={{base:"12",md:"16",lg:"24"}}>
+     <Box  bg="gray.100" py={{base:"12",md:"16",lg:"24"}}  px={{base:"4",sm:"6",}}>
+       <VStack maxW="1200px" mx="auto" alignItems="flex-start">
        <Box>
        <Breadcrumbs />
     </Box>
@@ -24,7 +24,10 @@ export default function ContactClient (){
          
            
         
-        <HomepagaReservation />
+        <HomepageReservation wrapperProps={{
+       px: { smDown:"0" },
+   py:{smDown:"6"},
+  }}/>
           </VStack>
          </VStack> 
        

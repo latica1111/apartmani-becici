@@ -35,7 +35,7 @@ const formatBed = (bed) => {
 <Box h="3xs" overflow="hidden" className="item-photos-wrapper"  w="full" bg="bg.subtle">
     <PhotoCarousel photos={apt.photos} />
 </Box>
-<VStack w="full" justifyContent="flex-start" px={{base:"3",md:"0"}} pt={{base:"2", md:"3"}} pb={{base:"4", md:"6"}} alignItems="flex-start">
+<VStack w="full" justifyContent="flex-start" px={{base:"0"}} pt={{base:"2", md:"3"}} pb={{base:"4", md:"6"}} alignItems="flex-start">
   <Heading w="full"  fontSize="2xl"
   fontWeight="300" letterSpacing="1.2px" fontFamily="var(--font-cormorant)"
   lineHeight="1.3"  mb="1" >  {apt.name}</Heading>

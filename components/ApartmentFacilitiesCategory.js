@@ -22,7 +22,7 @@ export default function ApartmentFacilitiesCategory ({apartment, extraSectionDat
   
     return (
      
-  <Box className="facility-container" id={`${sectionKey}-wrapper`} p={5} 
+  <Box className="facility-container" id={`${sectionKey}-wrapper`} p={5} border={{base:"1px solid"}} borderColor={{base:"gray.100"}}
     
       bg="white"
      
